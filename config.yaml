@@ -88,6 +88,17 @@ sources:
     - name: UNDP procurement notices
       url: https://procurement-notices.undp.org/rss.cfm
       country: ''
+    # Asian Development Bank -- official feeds listed at adb.org/rss, terms
+    # explicitly allow non-commercial use. Verified URLs (not guessed).
+    - name: ADB invitation for bids
+      url: http://feeds.feedburner.com/adb-invitation-for-bids
+      country: ''
+    - name: ADB invitation for prequalification
+      url: http://feeds.feedburner.com/adb-invitation-for-prequalification
+      country: ''
+    - name: ADB advanced notices
+      url: http://feeds.feedburner.com/adb-advanced-notices
+      country: ''
   csv_inbox:
     enabled: true
     type: csv_inbox
@@ -255,7 +266,7 @@ sources:
     country: RW
     max_records: 20000
   liberia_ppcc:
-    enabled: false
+    enabled: true
     type: ocp_registry
     registry_id: 156
     country: LR
@@ -351,4 +362,62 @@ sources:
     type: ocp_registry
     registry_id: 3
     country: ZM
+    max_records: 20000
+
+  # Country platforms added on request -- IDs verified against the OCP
+  # Data Registry the same way as the batch above.
+  uk_contracts_finder:
+    enabled: true
+    type: ocp_registry
+    registry_id: 128
+    country: GB
+    max_records: 20000
+
+  uk_scotland:
+    enabled: true
+    type: ocp_registry
+    registry_id: 39
+    country: GB
+    max_records: 20000
+
+  uk_wales_sell2wales:
+    enabled: true
+    type: ocp_registry
+    registry_id: 119
+    country: GB
+    max_records: 20000
+
+  netherlands_tenderned:
+    enabled: true
+    type: ocp_registry
+    registry_id: 133
+    country: NL
+    max_records: 20000
+
+  germany_bmi:
+    enabled: true
+    type: ocp_registry
+    registry_id: 136
+    country: DE
+    max_records: 20000
+
+  peru_oece:
+    enabled: true
+    type: ocp_registry
+    registry_id: 135
+    country: PE
+    max_records: 20000
+
+  uganda_ppda:
+    enabled: true
+    type: ocp_registry
+    registry_id: 130
+    country: UG
+    max_records: 20000
+
+  croatia_nn:
+    enabled: true
+    type: ocp_registry
+    registry_id: 80
+    country: HR
     max_records: 20000
