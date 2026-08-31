@@ -3,7 +3,7 @@ freshness:
 
 run:
   lookback_days: 3
-  min_score: 10.0
+  min_score: 8.0
   min_days_to_deadline: 0
   request_delay: 1.0
   request_timeout: 45
@@ -307,3 +307,48 @@ sources:
     registry_id: 142
     country: GT
     max_records: 30000
+
+  # Added from the OCP Data Registry's verified publisher list -- same
+  # mechanism as guatemala/rwanda/ghana above, all actively updated as of
+  # Aug 2026 per the registry itself.
+  kosovo_pprc:
+    enabled: true
+    type: ocp_registry
+    registry_id: 115
+    country: XK
+    max_records: 10000
+
+  paraguay_dncp:
+    enabled: true
+    type: ocp_registry
+    registry_id: 63
+    country: PY
+    max_records: 20000
+
+  honduras_oncae:
+    enabled: true
+    type: ocp_registry
+    registry_id: 122
+    country: HN
+    max_records: 20000
+
+  brazil_compras:
+    enabled: true
+    type: ocp_registry
+    registry_id: 157
+    country: BR
+    max_records: 20000
+
+  dominican_republic_dgcp:
+    enabled: true
+    type: ocp_registry
+    registry_id: 22
+    country: DO
+    max_records: 20000
+
+  zambia_zppa:
+    enabled: true
+    type: ocp_registry
+    registry_id: 3
+    country: ZM
+    max_records: 20000
