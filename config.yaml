@@ -176,8 +176,17 @@ sources:
     type: boamp
     page_size: 100
     max_pages: 10
+    # Server-side search instead of pulling every French notice and relying
+    # only on local scoring (the code already supported this `query` field,
+    # it just wasn't set). NOT live-tested against the real API from here --
+    # verify with `python run.py fetch --source boamp -v --dry-run` after
+    # your first push, and adjust wording if the hit rate looks off.
+    query: >-
+      archivage OR "gestion documentaire" OR numerisation OR digitalisation
+      OR demenagement OR demenageur OR patrimoine OR "restauration du
+      patrimoine" OR musee OR "oeuvre d'art" OR "mobilier hotelier"
   kenya_ppip:
-    enabled: true
+    enabled: false   # legacy endpoint returns 422; kenya_ppip_ocds below replaces it
     type: kenya_ppip
     base_url: https://tenders.go.ke/api/ocds/tenders
     page_size: 100

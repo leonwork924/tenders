@@ -47,6 +47,19 @@ groups:
       - archivbestand*
       - aktenlagerung
       - schriftgutverwaltung
+      # Spanish
+      - archivo
+      - archivos
+      - gestion documental
+      - gestion de documentos
+      - gestion de archivos
+      - custodia documental
+      - custodia de archivos
+      - almacenamiento de documentos
+      - deposito de archivos
+      - destruccion confidencial de documentos
+      - destruccion de documentos
+      - servicio de archivo
 
   digitisation:
     weight: 4.5
@@ -81,6 +94,16 @@ groups:
       - scannen
       - mikroverfilmung
       - erfassung von dokumenten
+      # Spanish
+      - digitalizacion
+      - digitalizacion de documentos
+      - digitalizacion masiva
+      - escaneo
+      - escaneo de documentos
+      - escaneo masivo
+      - microfilmacion
+      - conversion digital
+      - captura de imagenes
 
   av_media:
     weight: 4.5
@@ -114,6 +137,13 @@ groups:
       # German
       - magnetband*
       - tontraeger
+      # Spanish
+      - archivo audiovisual
+      - archivos audiovisuales
+      - digitalizacion audiovisual
+      - preservacion audiovisual
+      - cinta de audio
+      - cinta de video
 
   heritage:
     weight: 4.5
@@ -147,6 +177,17 @@ groups:
       - collection management
       - collections management
       - preservation of collections
+      # Spanish
+      - patrimonio
+      - patrimonio cultural
+      - restauracion de patrimonio
+      - museo
+      - coleccion museistica
+      - colecciones museisticas
+      - diseno de exposicion
+      - exposicion museografica
+      - conservacion preventiva
+      - monumento historico
 
   mobility:
     weight: 5.0
@@ -174,6 +215,16 @@ groups:
       - umzug*
       - betriebsumzug
       - moebeltransport
+      # Spanish
+      - mudanza
+      - mudanzas
+      - mudanza de oficina
+      - empresa de mudanzas
+      - servicio de mudanza
+      - traslado
+      - traslado de oficina
+      - reubicacion
+      - transporte de mobiliario
 
   fine_art:
     weight: 5.0
@@ -210,6 +261,13 @@ groups:
       - museum collection transport*
       - collection transport*
       - specialist art transport*
+      # Spanish
+      - obra de arte
+      - obras de arte
+      - transporte de obras de arte
+      - embalaje de obras de arte
+      - manejo de obras de arte
+      - transporte de arte
 
   hospitality:
     weight: 4.0
@@ -230,6 +288,11 @@ groups:
       - furniture assembly
       - furniture removal
       - furniture relocation
+      # Spanish
+      - mobiliario hotelero
+      - equipamiento hotelero
+      - instalacion de mobiliario
+      - entrega e instalacion de mobiliario
 
   support:
     weight: 1.5
