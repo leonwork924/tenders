@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tender Radar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Tender Radar</h1>
+  <span class="meta">Mis à jour le <span id="generated"></span> &nbsp;·&nbsp; <span id="scope"></span></span>
+</header>
+
+<div class="toolbar">
+  <label for="q">Filtre</label>
+  <input id="q" type="search" placeholder="titre, acheteur, mot-clé…" autocomplete="off">
+  <label for="country">Pays</label>
+  <select id="country"><option value="">tous</option></select>
+  <label for="src">Source</label>
+  <select id="src"><option value="">toutes</option></select>
+  <span class="count" id="count"></span>
+</div>
+
+<main>
+  <table>
+    <thead>
+      <tr>
+        <th data-key="score">Score</th>
+        <th data-key="title">Appel d'offres</th>
+        <th data-key="buyer" class="hide-sm">Acheteur</th>
+        <th data-key="country_name">Pays</th>
+        <th data-key="deadline">Échéance</th>
+        <th data-key="value" class="hide-sm">Valeur</th>
+        <th data-key="source" class="hide-sm">Source</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <p class="empty" id="empty" style="display:none">Aucun appel d'offres pour ce filtre.</p>
+</main>
+
+<footer>
+  Généré automatiquement chaque jour par le pipeline tender-radar. Filtrez par pays
+  ci-dessus, ou cliquez sur l'entête d'une colonne pour trier. Aucun compte requis —
+  le lien de cette page suffit.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

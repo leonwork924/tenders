@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+data/*.log
+out/
+inbox/*
+!inbox/README.txt
+.env
+node_modules/

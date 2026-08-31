@@ -1,0 +1,414 @@
+# GENERATED FILE - do not edit by hand.
+#
+# Built from tools/keywords_source.xlsx + tools/keywords_manual.yaml by
+#   python tools/import_keywords.py
+#
+# Add or change terms in tools/keywords_manual.yaml (French, negatives, CPV,
+# routing, demotions) or in the spreadsheet (English), then re-run the importer.
+# Terms are stored de-accented and lower-cased; "*" is a suffix wildcard.
+groups:
+- name: records_management
+  weight: 5.0
+  terms:
+  - aktenlagerung
+  - archivage
+  - archivage electronique
+  - archivage physique
+  - archival
+  - archival services
+  - archival storage
+  - archivbestand*
+  - archive
+  - archive service*
+  - archives
+  - archives papier
+  - archivierung
+  - archiving
+  - archiving services
+  - archiviste
+  - classement d'archives
+  - cloud storage for records
+  - confidential shredding
+  - conservation des archives
+  - destruction confidentielle
+  - digital archiving
+  - digital records conversion
+  - document boxing
+  - document management
+  - document preservation
+  - document storage
+  - ecm
+  - edms
+  - electronic archiving
+  - electronic document management system
+  - electronic records management
+  - electronic records management system
+  - enterprise content management
+  - file management
+  - file storage
+  - filing system*
+  - fonds d'archives
+  - ged
+  - gestion des archives
+  - gestion documentaire
+  - gestion electronique de document*
+  - information management
+  - off-site archiving
+  - off-site storage facility
+  - off-site warehouse
+  - offsite document storage
+  - offsite storage
+  - on-site storage
+  - physical records management
+  - physical records storage
+  - recolement
+  - records center
+  - records centre
+  - records management
+  - records retrieval
+  - records storage
+  - remote storage
+  - schriftgutverwaltung
+  - secure disposal
+  - secure storage
+  - shredding
+  - tiers-archivage
+  - traitement d'archives
+  - versement* d'archives
+  - warehouse storage for records
+- name: digitisation
+  weight: 4.5
+  terms:
+  - 3d digitization
+  - born-digital
+  - bulk scanning
+  - data migration
+  - dematerialisation
+  - digital conversion
+  - digitalisation
+  - digitalisier*
+  - digitalization
+  - digitisation
+  - digitisation national library
+  - digitisation of books
+  - digitisation of frame
+  - digitisation of monument
+  - digitisation of objects
+  - digitisation of picture
+  - digitisation service*
+  - digitization
+  - digitization national library
+  - digitization of books
+  - digitization of frame
+  - digitization of monument
+  - digitization of objects
+  - digitization of picture
+  - digitization service*
+  - document digitisation
+  - document digitization
+  - document imaging
+  - document scanning
+  - document scanning services
+  - erfassung von dokumenten
+  - high resolution scanning
+  - image capture
+  - image capturing
+  - imaging services
+  - indexation documentaire
+  - mass scanning
+  - microfilm*
+  - mikroverfilmung
+  - numerisation
+  - numerisation de documents
+  - numerisation de masse
+  - paper to digital
+  - reconnaissance de caracteres
+  - records digitization
+  - saisie de donnees
+  - scan-on-demand
+  - scannen
+  - scanning
+- name: av_media
+  weight: 4.5
+  terms:
+  - archives audiovisuelles
+  - audio description
+  - audio guide
+  - audio tape
+  - audio visual
+  - audio visual heritage
+  - audio-visual archives
+  - audiovisual
+  - audiovisual archives
+  - audiovisual digitisation
+  - audiovisual digitization
+  - audiovisual preservation
+  - bande son
+  - bande video
+  - bandes magnetiques
+  - betacam
+  - digitisation of audio tape
+  - digitisation of video
+  - digitization of audio tape
+  - digitization of video
+  - film archives
+  - film reel*
+  - magnetband*
+  - migration de support*
+  - numerisation audiovisuelle
+  - oral history
+  - phonotheque
+  - photographic archives
+  - photographic collection
+  - sound archives
+  - sound tape
+  - sous-titrage
+  - subtitl*
+  - supports magnetiques
+  - tontraeger
+  - u-matic
+  - vhs transfer*
+  - video archives
+  - video tape
+  - videotape
+  - videotheque
+  - voice over
+  - voice-off
+  - voix off
+- name: heritage
+  weight: 4.5
+  terms:
+  - archival document*
+  - archive collection*
+  - collection management
+  - collections management
+  - collections museales
+  - conservation preventive
+  - conservation-restauration
+  - cultural heritage
+  - display design
+  - exhibition design
+  - exhibition planning
+  - exhibition service*
+  - gallery service*
+  - heritage collection*
+  - heritage monument
+  - historical document*
+  - library collection*
+  - manuscripts
+  - movable heritage
+  - musee
+  - museum collection*
+  - museum exhibition*
+  - museum service*
+  - numerisation 3d
+  - patrimoine
+  - permanent exhibition
+  - photogrammetrie
+  - preservation of collections
+  - releve* 3d
+  - releve* de batiment*
+  - restauration d'oeuvre*
+  - restauration du patrimoine
+  - scan to bim
+  - scanner laser
+  - temporary exhibition
+- name: mobility
+  weight: 5.0
+  terms:
+  - amenagement et transfert
+  - archive relocation
+  - betriebsumzug
+  - collection relocation
+  - commercial relocation
+  - commercial removal*
+  - corporate relocation
+  - decant
+  - decanting
+  - demenagement*
+  - demenageur*
+  - destination services
+  - employee relocation
+  - furniture removal
+  - government removals
+  - household removals
+  - industrial removals
+  - moebeltransport
+  - move management
+  - museum relocation
+  - office move
+  - office moving
+  - office relocation
+  - office removal
+  - prestation* de demenagement
+  - relocation
+  - relocation service*
+  - removals
+  - specialist relocation
+  - speciality removals
+  - staff mobility
+  - talent mobility
+  - transfert de mobilier
+  - transfert de site
+  - transfert des services
+  - umzug*
+  - work force mobility
+- name: fine_art
+  weight: 5.0
+  terms:
+  - art collection*
+  - art handling
+  - art packing
+  - art storage
+  - art transport*
+  - artefacts
+  - artwork transport*
+  - artwork*
+  - collection transport*
+  - constat d'etat
+  - convoiement
+  - courier* of artwork*
+  - crating
+  - emballage d'oeuvre*
+  - fine art
+  - fine art handling
+  - fine art transport*
+  - manipulation d'oeuvre*
+  - museum collection transport*
+  - museum transport*
+  - oeuvre* d'art
+  - regie d'oeuvre*
+  - soclage
+  - specialist art transport*
+  - transport d'oeuvre*
+  - works of art
+- name: hospitality
+  weight: 4.0
+  terms:
+  - amenagement hotelier
+  - custom furniture for hotels
+  - delivery and installation
+  - equipement hotelier
+  - ff&e
+  - fixtures and equipment
+  - furniture assembly
+  - furniture delivery
+  - furniture installation
+  - furniture logistics
+  - furniture relocation
+  - hospitality equipment
+  - hospitality furniture
+  - hotel equipment
+  - hotel fit-out
+  - hotel furnishing*
+  - hotel furniture
+  - hotel furniture supply
+  - hotel refurbishment
+  - installation de mobilier
+  - interior furnishing
+  - livraison et montage de mobilier
+  - luxury hospitality furniture
+  - mobilier hotelier
+  - on-site assembly
+  - project coordination for ff&e
+  - turnkey ff&e services
+  - warehousing and staging
+- name: support
+  weight: 1.5
+  terms:
+  - assignment management
+  - cargo handling
+  - cargo storage
+  - chain of custody
+  - climate-controlled
+  - conditionnement
+  - emballage
+  - entreposage
+  - freight forwarding
+  - garde-meuble*
+  - goods transport
+  - home search
+  - immigration
+  - indexing
+  - installation
+  - inventaire
+  - logistics
+  - logistique
+  - magasinage
+  - manutention
+  - metadata
+  - mobile shelving
+  - mobility
+  - moving
+  - packing
+  - palletis*
+  - preservation
+  - rayonnage*
+  - retrieval
+  - scanner
+  - storage
+  - transport de mobilier
+  - transportation
+  - travel management
+  - visa
+  - warehousing
+  - work permit
+negative:
+  weight: -7.0
+  terms:
+  - abandoned vehicle*
+  - abattage d'arbre*
+  - ambulance
+  - asbestos removal
+  - battery storage
+  - catering service*
+  - clinical waste
+  - cloud hosting
+  - collecte des dechets
+  - curage
+  - deneigement
+  - desamiantage
+  - electric mobility
+  - energy storage
+  - enlevement d'epave*
+  - enlevement des dechets
+  - fuel storage
+  - graffiti removal
+  - licences logiciel*
+  - mobilite urbaine
+  - mobility scooter*
+  - patient transport
+  - plan de mobilite
+  - refuse collection
+  - removal of asbestos
+  - removal of graffiti
+  - removal of vehicle*
+  - removal of waste
+  - restauration collective
+  - restauration scolaire
+  - school transport
+  - scrap metal
+  - service* de restauration
+  - sludge removal
+  - snow removal
+  - software licence*
+  - software license*
+  - stockage d'energie
+  - transport scolaire
+  - tree removal
+  - urban mobility
+  - vehicle removal
+  - waste removal
+cpv_boost:
+  '98392000': 12.0
+  '79995100': 12.0
+  '79999100': 10.0
+  '92522': 8.0
+  '92521': 8.0
+  '79995000': 6.0
+  '45454100': 6.0
+  '63120000': 5.0
+  '39000000': 4.0
+  '63100000': 4.0
+  '72312000': 4.0
+  '60000000': 2.0

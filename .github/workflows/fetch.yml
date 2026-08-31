@@ -1,0 +1,35 @@
+name: fetch tenders
+
+on:
+  schedule:
+    # 06:15 UTC every day. Change the cron below to shift the time
+    # (cron is UTC, not local time). https://crontab.guru helps.
+    - cron: "15 6 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write   # needed to commit data/tenders.sqlite3 and site/data.json back
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch, score, export
+        run: python run.py fetch
+
+      - name: Commit updated data
+        run: |
+          git config user.name "tender-radar-bot"
+          git config user.email "tender-radar-bot@users.noreply.github.com"
+          git add data/tenders.sqlite3 site/data.json
+          git diff --staged --quiet || git commit -m "Daily fetch: $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,300 @@
+freshness:
+  snapshot_max_age_days: 7
+
+run:
+  lookback_days: 3
+  min_score: 10.0
+  min_days_to_deadline: 0
+  request_delay: 1.0
+  request_timeout: 45
+  ssl_verify: false
+  user_agent: 'tender-radar/1.0 (private in-house bid monitor; contact: you@example.com)'
+filters:
+  countries_include: []
+  countries_exclude: []
+scoring:
+  title_multiplier: 2.5
+  repeat_factor: 0.25
+  group_cap: 12.0
+keywords_file: keywords.yaml
+keywords_extra:
+  groups: []
+  negative:
+    terms: []
+  cpv_boost: {}
+dedupe:
+  title_threshold: 90
+  buyer_threshold: 80
+output:
+  csv_path: out/shortlist.csv
+  html_path: out/shortlist.html
+  limit: 200
+database:
+  path: data/tenders.sqlite3
+sources:
+  ted:
+    enabled: true
+    type: ted
+    expert_query: (FT~("records management" OR "document management" OR "archiving"
+      OR "archives" OR "digitisation" OR "digitization" OR "scanning" OR "document
+      storage" OR "relocation" OR "removals" OR "removal services" OR "moving services"
+      OR "fine art" OR "works of art" OR "heritage" OR "conservation" OR "audiovisual"
+      OR "furniture" OR "archivage" OR "numerisation" OR "demenagement" OR "oeuvres
+      d'art" OR "patrimoine" OR "archives audiovisuelles" OR "archivierung" OR "digitalisierung"
+      OR "umzug") OR classification-cpv IN (98392000 79995100 79999100 92522000 92521000
+      79995000 45454100 63120000))
+    notice_types:
+    - cn-standard
+    - cn-social
+    - pin-tender
+    - pin-only
+    - pin-buyer
+    page_size: 100
+    max_pages: 20
+  uk_find_a_tender:
+    enabled: true
+    type: ocds_fts
+    base_url: https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages
+    limit: 100
+    max_pages: 20
+  za_etenders:
+    enabled: true
+    type: ocds_za
+    base_url: https://ocds-api.etenders.gov.za/api/OCDSReleases
+    page_size: 50
+    max_pages: 20
+  world_bank:
+    enabled: true
+    type: world_bank
+    page_size: 100
+    max_pages: 10
+    notice_types:
+    - Invitation for Bids
+    - Invitation for Prequalification
+    - Request for Expression of Interest
+  ungm:
+    enabled: false
+    type: ungm
+    access_token_env: UNGM_ACCESS_TOKEN
+    page_size: 100
+    max_pages: 10
+  rss_feeds:
+    enabled: true
+    type: rss
+    feeds:
+    - name: AfDB procurement
+      url: https://www.afdb.org/en/rss/procurement
+      country: ''
+    - name: UNDP procurement notices
+      url: https://procurement-notices.undp.org/rss.cfm
+      country: ''
+  csv_inbox:
+    enabled: true
+    type: csv_inbox
+    folder: inbox
+    column_map:
+      title:
+      - title
+      - Tender Title
+      - tender_title
+      - subject
+      buyer:
+      - buyer
+      - Organisation
+      - organization
+      - authority
+      - department
+      country:
+      - country
+      - Country
+      - location
+      deadline:
+      - deadline
+      - Closing Date
+      - closing_date
+      - due_date
+      value:
+      - value
+      - Estimated Value
+      - budget
+      - amount
+      currency:
+      - currency
+      - Currency
+      url:
+      - url
+      - URL
+      - link
+      - Link
+      - Tender URL
+      description:
+      - description
+      - Description
+      - summary
+      - details
+      published:
+      - published
+      - Published Date
+      - publication_date
+      - date
+      reference:
+      - reference
+      - Reference
+      - tender_id
+      - notice_id
+  vendor_api:
+    enabled: false
+    type: vendor_api
+    name: GlobalTenders
+    base_url: ''
+    api_key_env: VENDOR_API_KEY
+    auth_style: bearer
+    records_path: data
+    column_map:
+      title:
+      - title
+      buyer:
+      - organisation
+      country:
+      - country
+      deadline:
+      - deadline
+      value:
+      - value
+      currency:
+      - currency
+      url:
+      - url
+      description:
+      - description
+      published:
+      - published
+      reference:
+      - id
+  boamp:
+    enabled: true
+    type: boamp
+    page_size: 100
+    max_pages: 10
+  kenya_ppip:
+    enabled: true
+    type: kenya_ppip
+    base_url: https://tenders.go.ke/api/ocds/tenders
+    page_size: 100
+    max_pages: 10
+    financial_year: ''
+  koneps:
+    enabled: false
+    type: koneps
+    base_url: https://apis.data.go.kr/1230000/ad/BidPublicInfoService
+    operation: getBidPblancListInfoServc
+    api_key_env: KONEPS_SERVICE_KEY
+    page_size: 100
+  austender:
+    enabled: false
+    type: austender
+    base_url: https://api.tenders.gov.au/ocds/api
+    published_path: /releases/published/{start}/{end}
+  secop_colombia:
+    request_timeout: 90
+    enabled: true
+    type: secop_colombia
+    base_url: https://api.colombiacompra.gov.co
+    path: /releases/
+  anac_italy:
+    enabled: true
+    type: anac_italy
+    months_back: 2
+  prozorro:
+    enabled: true
+    type: prozorro
+    base_url: https://public-api.prozorro.gov.ua/api/2.5/tenders
+    page_size: 100
+    max_pages: 3
+  ecuador_ocds:
+    request_timeout: 90
+    enabled: true
+    type: ecuador_ocds
+    year: ''
+    search_terms:
+    - archivo
+    - archivacion
+    - gestion documental
+    - digitalizacion
+    - museo
+    - patrimonio
+    - mudanza
+    - arte
+    max_pages: 3
+    max_records: 200
+  ghana_ghaneps:
+    enabled: true
+    type: ocp_registry
+    registry_id: 85
+    country: GH
+    max_records: 10000
+  nigeria_nocopo:
+    enabled: true
+    type: ocp_registry
+    registry_id: 64
+    country: NG
+    max_records: 0
+  rwanda_umucyo:
+    enabled: true
+    type: ocp_registry
+    registry_id: 145
+    country: RW
+    max_records: 20000
+  liberia_ppcc:
+    enabled: false
+    type: ocp_registry
+    registry_id: 156
+    country: LR
+    max_records: 10000
+  kenya_ppip_ocds:
+    enabled: true
+    type: ocp_registry
+    registry_id: 147
+    country: KE
+    max_records: 20000
+  thailand_bma:
+    enabled: true
+    type: ocp_registry
+    registry_id: 158
+    country: TH
+    max_records: 10000
+  taiwan_gpip:
+    enabled: true
+    type: ocp_registry
+    registry_id: 160
+    country: TW
+    max_records: 10000
+  mtender:
+    enabled: false
+    type: mtender
+    pages: 3
+    max_items: 100
+    offset: '0'
+  chile_mercadopublico:
+    enabled: true
+    type: ocp_registry
+    registry_id: 144
+    country: CL
+    max_records: 0
+  uruguay_arce:
+    enabled: true
+    type: ocp_registry
+    registry_id: 43
+    country: UY
+    max_records: 30000
+  tanzania_ppra:
+    enabled: true
+    type: tanzania_nest_live
+    base_url: https://nest.go.tz/gateway/nest-data-portal-api/api/releases
+    max_pages: 10
+  guatemala_guatecompras:
+    enabled: true
+    type: ocp_registry
+    registry_id: 142
+    country: GT
+    max_records: 30000

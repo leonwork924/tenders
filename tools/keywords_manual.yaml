@@ -1,0 +1,394 @@
+# Hand-maintained keyword layer.
+#
+# import_keywords.py merges this with the spreadsheet and writes keywords.yaml.
+# The spreadsheet is English (plus a little German); everything French lives
+# here, along with the negative list, the CPV boosts, and the rules that decide
+# which group a spreadsheet term lands in.
+#
+# Write terms WITHOUT accents. Text is de-accented before matching, so
+# "numerisation" catches "numérisation". "*" is a suffix wildcard.
+
+groups:
+  records_management:
+    weight: 5.0
+    terms:
+      - archivage
+      - archivage physique
+      - archivage electronique
+      - tiers-archivage
+      - gestion des archives
+      - gestion documentaire
+      - gestion electronique de document*
+      - ged
+      - traitement d'archives
+      - versement* d'archives
+      - classement d'archives
+      - conservation des archives
+      - fonds d'archives
+      - archives papier
+      - recolement
+      - destruction confidentielle
+      - archiviste
+      - archive
+      - archives
+      - archival
+      - archiving
+      - records management
+      - document management
+      - document storage
+      - records storage
+      - file storage
+      - document preservation
+      - archival storage
+      - records centre
+      - records center
+      # German
+      - archivierung
+      - archivbestand*
+      - aktenlagerung
+      - schriftgutverwaltung
+
+  digitisation:
+    weight: 4.5
+    terms:
+      - numerisation
+      - numerisation de documents
+      - numerisation de masse
+      - dematerialisation
+      - saisie de donnees
+      - indexation documentaire
+      - reconnaissance de caracteres
+      - microfilm*
+      - born-digital
+      - digitisation
+      - digitization
+      - digitalisation
+      - digitalization
+      - scanning
+      - document scanning
+      - mass scanning
+      - bulk scanning
+      - high resolution scanning
+      - digitisation service*
+      - digitization service*
+      - digital conversion
+      - document imaging
+      - image capture
+      # German. The spreadsheet had two German words (digitalisieren,
+      # digitalisierung), so these round out the same vocabulary. Drop this
+      # block if you never bid in DE/AT/CH.
+      - digitalisier*
+      - scannen
+      - mikroverfilmung
+      - erfassung von dokumenten
+
+  av_media:
+    weight: 4.5
+    terms:
+      - bandes magnetiques
+      - supports magnetiques
+      - bande son
+      - archives audiovisuelles
+      - numerisation audiovisuelle
+      - migration de support*
+      - phonotheque
+      - videotheque
+      - sous-titrage
+      - voix off
+      - betacam
+      - u-matic
+      - vhs transfer*
+      - film reel*
+      - audiovisual
+      - audio visual
+      - audiovisual archives
+      - audio-visual archives
+      - film archives
+      - video archives
+      - photographic archives
+      - photographic collection
+      - sound archives
+      - audiovisual preservation
+      - audiovisual digitisation
+      - audiovisual digitization
+      # German
+      - magnetband*
+      - tontraeger
+
+  heritage:
+    weight: 4.5
+    terms:
+      - patrimoine
+      - conservation preventive
+      - conservation-restauration
+      - restauration du patrimoine
+      - restauration d'oeuvre*
+      - collections museales
+      - musee
+      - numerisation 3d
+      - releve* 3d
+      - photogrammetrie
+      - scanner laser
+      - releve* de batiment*
+      - scan to bim
+      - cultural heritage
+      - movable heritage
+      - heritage collection*
+      - museum collection*
+      - museum service*
+      - museum exhibition*
+      - exhibition service*
+      - exhibition design
+      - exhibition planning
+      - permanent exhibition
+      - temporary exhibition
+      - display design
+      - gallery service*
+      - collection management
+      - collections management
+      - preservation of collections
+
+  mobility:
+    weight: 5.0
+    terms:
+      - demenagement*
+      - demenageur*
+      - transfert de site
+      - transfert des services
+      - transfert de mobilier
+      - prestation* de demenagement
+      - amenagement et transfert
+      - decant
+      - decanting
+      - relocation
+      - relocation service*
+      - commercial relocation
+      - commercial removal*
+      - office relocation
+      - office moving
+      - specialist relocation
+      - archive relocation
+      - museum relocation
+      - collection relocation
+      # German
+      - umzug*
+      - betriebsumzug
+      - moebeltransport
+
+  fine_art:
+    weight: 5.0
+    terms:
+      - fine art handling
+      - fine art transport*
+      - art handling
+      - art transport*
+      - artwork transport*
+      - artwork handling
+      - art packing
+      - crating
+      - museum transport*
+      - courier* of artwork*
+      - oeuvre* d'art
+      - transport d'oeuvre*
+      - emballage d'oeuvre*
+      - regie d'oeuvre*
+      - manipulation d'oeuvre*
+      - convoiement
+      - soclage
+      - constat d'etat
+      - artwork*
+      - works of art
+      - art collection*
+      - art handling
+      - art storage
+      - art transport*
+      - artwork transport*
+      - artwork handling
+      - artwork packing
+      - art packing
+      - museum transport*
+      - museum collection transport*
+      - collection transport*
+      - specialist art transport*
+
+  hospitality:
+    weight: 4.0
+    terms:
+      - mobilier hotelier
+      - amenagement hotelier
+      - installation de mobilier
+      - livraison et montage de mobilier
+      - equipement hotelier
+      - hotel furniture
+      - hotel furnishing*
+      - hotel fit-out
+      - hospitality furniture
+      - hospitality equipment
+      - hotel equipment
+      - furniture installation
+      - furniture delivery
+      - furniture assembly
+      - furniture removal
+      - furniture relocation
+
+  support:
+    weight: 1.5
+    terms:
+      - entreposage
+      - garde-meuble*
+      - manutention
+      - emballage
+      - logistique
+      - inventaire
+      - conditionnement
+      - rayonnage*
+      - magasinage
+      - transport de mobilier
+      - chain of custody
+      - climate-controlled
+      - mobile shelving
+      - palletis*
+
+# ---------------------------------------------------------------------------
+# Routing. A spreadsheet term matching one of these patterns goes to the named
+# group regardless of which column it sat in, because the sheet's columns mix
+# subjects (digitisation terms appear under both Records Management and
+# Heritage). First match wins; anything unmatched stays in its column's group.
+# ---------------------------------------------------------------------------
+routing:
+  - group: av_media
+    match: ["audio", "video", "tape", "subtitl", "voice", "oral history", "band"]
+  - group: digitisation
+    match: ["digiti", "digitali", "scan", "imaging", "image captur", "ocr",
+            "paper to digital", "digital conversion", "data migration",
+            "metadata", "indexing"]
+  - group: fine_art
+    match: ["fine art", "artefact", "artwork"]
+  - group: heritage
+    match: ["heritage", "monument", "museum", "musem", "manuscript",
+            "conservation", "preservation", "restoration", "historical document"]
+
+# ---------------------------------------------------------------------------
+# Demotions. These spreadsheet terms are real but far too common in tender text
+# to carry a full group weight on their own: "installation", "logistics" and
+# "storage" appear in tens of thousands of unrelated notices. They move to the
+# support group, where they add a little corroborating weight to a notice that
+# already matched something specific, and can't push a notice over the
+# threshold by themselves.
+# ---------------------------------------------------------------------------
+demote:
+  - installation
+  - logistics
+  - storage
+  - warehousing
+  - packing
+  - filing
+  - indexing
+  - metadata
+  - retrieval
+  - scanner
+  - preservation
+  - mobility
+  - moving
+  - immigration
+  - visa
+  - work permit
+  - travel management
+  - assignment management
+  - home search
+  - freight forwarding
+  - cargo handling
+  - cargo storage
+  - transportation
+  - goods transport
+  - restauration          # French for catering; see the negative list below
+
+# Terms in the sheet that are typos, ambiguous, or that expand into several
+# usable phrases. Left side is what the sheet says, right side is what goes
+# into keywords.yaml. An empty list drops the term entirely.
+rewrite:
+  "mome search": ["home search"]
+  "Historial Documents": ["historical document*", "archival document*"]
+  "Digitiztion Services": ["digitisation service*", "digitization service*"]
+  "Commerical Removals": ["commercial removal*"]
+  "Musems,Libraries Archives": ["museum collection*", "library collection*",
+                                "archive collection*"]
+  "ton band": ["audio tape", "sound tape", "bande son"]
+  "video band": ["video tape", "videotape", "bande video"]
+  "voice off": ["voice-off", "voix off"]
+  "restauration": []      # dropped: French "restauration" means catering
+  "subtitle": ["subtitl*"]
+  "scanning": ["scanning", "high resolution scanning", "bulk scanning"]
+  "filing": ["filing system*", "file management"]
+  "Archives": ["archives", "archive service*"]
+  "Archiving": ["archiving", "archival storage"]
+  "EDMS (Electronic Document Management System)":
+    ["edms", "electronic document management"]
+  "enterprise content management (ECM)": ["enterprise content management", "ecm"]
+
+# ---------------------------------------------------------------------------
+negative:
+  weight: -7.0
+  terms:
+    # "removal" is the worst offender in this sector
+    - asbestos removal
+    - removal of asbestos
+    - waste removal
+    - removal of waste
+    - snow removal
+    - refuse collection
+    - graffiti removal
+    - removal of graffiti
+    - tree removal
+    - abattage d'arbre*
+    - vehicle removal
+    - removal of vehicle*
+    - abandoned vehicle*
+    - sludge removal
+    - clinical waste
+    - scrap metal
+    - desamiantage
+    - enlevement des dechets
+    - collecte des dechets
+    - deneigement
+    - enlevement d'epave*
+    - curage
+    # "transport" and "mobility" false friends
+    - patient transport
+    - school transport
+    - transport scolaire
+    - ambulance
+    - urban mobility
+    - mobilite urbaine
+    - plan de mobilite
+    - electric mobility
+    - mobility scooter*
+    # "restauration" false friend, and the catering family generally
+    - restauration collective
+    - restauration scolaire
+    - service* de restauration
+    - catering service*
+    # "storage" false friends
+    - energy storage
+    - battery storage
+    - stockage d'energie
+    - fuel storage
+    # generic IT that "data migration" and "cloud storage" drag in
+    - cloud hosting
+    - software licence*
+    - software license*
+    - licences logiciel*
+
+cpv_boost:
+  "98392000": 12.0   # Relocation services
+  "79995100": 12.0   # Archiving services
+  "79999100": 10.0   # Scanning services
+  "92522": 8.0       # Preservation of exhibits / historical sites
+  "92521": 8.0       # Museum services
+  "79995000": 6.0    # Library management
+  "45454100": 6.0    # Restoration work
+  "63120000": 5.0    # Storage and warehousing
+  "39000000": 4.0    # Furniture, furnishings
+  "63100000": 4.0    # Cargo handling and storage
+  "72312000": 4.0    # Data entry services
+  "60000000": 2.0    # Transport services (weak on its own)

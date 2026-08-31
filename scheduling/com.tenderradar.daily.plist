@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  macOS daily run.
+  1. Edit the three paths below to match your machine (use full paths, launchd
+     does not expand ~ inside ProgramArguments).
+  2. cp scheduling/com.tenderradar.daily.plist ~/Library/LaunchAgents/
+  3. launchctl load  ~/Library/LaunchAgents/com.tenderradar.daily.plist
+     launchctl start com.tenderradar.daily      # run it once now
+     launchctl list | grep tenderradar          # check it is registered
+     launchctl unload ~/Library/LaunchAgents/com.tenderradar.daily.plist  # remove
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.tenderradar.daily</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/YOURNAME/tender-radar/.venv/bin/python</string>
+    <string>run.py</string>
+    <string>fetch</string>
+    <string>--mark-seen</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/YOURNAME/tender-radar</string>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>7</integer>
+    <key>Minute</key><integer>15</integer>
+  </dict>
+
+  <!-- Fire on wake if the laptop was asleep at 07:15 -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/YOURNAME/tender-radar/data/run.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/YOURNAME/tender-radar/data/run.log</string>
+</dict>
+</plist>
