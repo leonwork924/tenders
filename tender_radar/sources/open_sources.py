@@ -145,12 +145,8 @@ class OcpRegistrySource(Source):
 
     def fetch(self) -> list[Tender]:
         registry_id = int(self.settings["registry_id"])
-        year = int(self.settings.get("year") or date.today().year)
-        download_name = self.settings.get("download_name", f"{year}.jsonl.gz")
-        url = self.settings.get(
-            "download_url",
-            f"https://data.open-contracting.org/en/publication/{registry_id}/download?name={download_name}",
-        )
+        default_download_name = self.settings.get("download_name")
+        explicit_url = self.settings.get("download_url")
         country = self.settings.get("country", "")
         max_records = int(self.settings.get("max_records", 0))
         tenders: list[Tender] = []
@@ -166,12 +162,36 @@ class OcpRegistrySource(Source):
             "converted": 0,
         }
 
+        # Not every publisher's snapshot is refreshed for the current year yet
+        # (e.g. a registry can lag and only go up to last year) -- try this
+        # year, then fall back a couple of years rather than failing outright
+        # on a 404. An explicit download_url/download_name in config always
+        # wins and skips this fallback.
+        this_year = date.today().year
+        years_to_try = [this_year, this_year - 1, this_year - 2]
+        resp = None
+        url = ""
         self._wait()
-        log.debug("GET %s", url)
-        with self.session.get(
-            url, timeout=self.timeout, verify=self.ssl_verify, stream=True
-        ) as resp:
-            resp.raise_for_status()
+        for i, year in enumerate(years_to_try):
+            download_name = default_download_name or f"{year}.jsonl.gz"
+            url = explicit_url or (
+                f"https://data.open-contracting.org/en/publication/{registry_id}"
+                f"/download?name={download_name}"
+            )
+            try:
+                candidate = self.session.get(
+                    url, timeout=self.timeout, verify=self.ssl_verify, stream=True
+                )
+                candidate.raise_for_status()
+                resp = candidate
+                break
+            except Exception as exc:
+                status = getattr(getattr(exc, "response", None), "status_code", None)
+                if explicit_url or status != 404 or i == len(years_to_try) - 1:
+                    raise
+                log.info("%s: no %s snapshot yet (404), trying %s", self.name, year, year - 1)
+        try:
+            log.debug("GET %s", url)
             raw = gzip.GzipFile(fileobj=resp.raw)
             for line_no, line in enumerate(raw, 1):
                 stats["lines"] += 1
@@ -222,6 +242,8 @@ class OcpRegistrySource(Source):
                         seen.add(t.uid())
                         tenders.append(t)
                         stats["converted"] += 1
+        finally:
+            resp.close()
 
         log.info(
             "%s OCDS diagnostics: lines=%s parsed=%s releases=%s tender=%s "

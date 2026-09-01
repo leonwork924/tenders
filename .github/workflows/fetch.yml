@@ -33,5 +33,26 @@ jobs:
           git config user.name "tender-radar-bot"
           git config user.email "tender-radar-bot@users.noreply.github.com"
           git add data/tenders.sqlite3 site/data.json
-          git diff --staged --quiet || git commit -m "Daily fetch: $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Daily fetch: $(date -u +%Y-%m-%d)"
+
+          # The remote can move between checkout and this step (a manual
+          # push, or the other scheduled run landing first) -- these two
+          # files are always a full regenerated snapshot, so on conflict
+          # this run's version is the correct one to keep. Retry a few
+          # times rather than failing the whole job over a race.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) -- fetching and rebasing."
+            git fetch origin main
+            git rebase origin/main -X ours
+            sleep 5
+          done
+          echo "Still couldn't push after 5 attempts."
+          exit 1

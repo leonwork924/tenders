@@ -224,6 +224,7 @@ def build(xlsx: Path, manual_path: Path) -> tuple[dict, dict]:
                            "terms": sorted(set(final[name]))})
 
     negative = manual.get("negative") or {}
+    buyer_boost = manual.get("buyer_boost") or {}
     document = {
         "groups": out_groups,
         "negative": {
@@ -231,6 +232,7 @@ def build(xlsx: Path, manual_path: Path) -> tuple[dict, dict]:
             "terms": sorted({norm(t) for t in negative.get("terms", [])}),
         },
         "cpv_boost": manual.get("cpv_boost") or {},
+        "buyer_boost": {norm(k): float(v) for k, v in buyer_boost.items()},
     }
     return document, stats
 

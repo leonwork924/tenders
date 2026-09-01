@@ -217,7 +217,12 @@ sources:
     published_path: /releases/published/{start}/{end}
   secop_colombia:
     request_timeout: 90
-    enabled: true
+    # Disabled: timed out from two independent networks (my sandbox, and now
+    # the GitHub Actions runner) -- looks like the endpoint itself is slow
+    # or blocking rather than a one-off network hiccup. Costs ~90s of CI
+    # time every run for zero result as-is. Safe to flip back to true to
+    # retest later; nothing else needs to change if it starts working again.
+    enabled: false
     type: secop_colombia
     base_url: https://api.colombiacompra.gov.co
     path: /releases/

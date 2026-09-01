@@ -51,6 +51,11 @@ class Scorer:
         self.negative_weight = float(neg.get("weight", -5.0))
         self.negative_patterns = compile_terms(neg.get("terms", []))
         self.cpv_boost = {str(k): float(v) for k, v in (kw.get("cpv_boost", {}) or {}).items()}
+        # Buyer-name boost: some buyer types (foreign ministries, embassies)
+        # are worth flagging on identity alone, in whatever language they
+        # publish in -- terms are pre-normalised (lower-case, de-accented)
+        # by the importer, matching normalise_text(tender.buyer).
+        self.buyer_boost = {str(k): float(v) for k, v in (kw.get("buyer_boost", {}) or {}).items()}
 
     # -- internals ---------------------------------------------------------
     def _count(self, pattern, text: str) -> int:
@@ -93,6 +98,17 @@ class Scorer:
                     best, hits = weight, [f"cpv:{code}"]
         return best, hits
 
+    def _buyer_score(self, buyer: str):
+        if not buyer or not self.buyer_boost:
+            return 0.0, []
+        text = normalise_text(buyer)
+        best = 0.0
+        hits = []
+        for phrase, weight in self.buyer_boost.items():
+            if phrase and phrase in text and weight > best:
+                best, hits = weight, [f"buyer:{phrase}"]
+        return best, hits
+
     # -- public ------------------------------------------------------------
     def score(self, tender: Tender) -> tuple[float, str]:
         raw_title, raw_body = tender.searchable()
@@ -123,6 +139,16 @@ class Scorer:
             # any source whose narrative text isn't covered by the taxonomy
             # yet, but that still tags CPV correctly).
             if cs >= 6.0:
+                strong_match = True
+
+        bs, bhits = self._buyer_score(tender.buyer)
+        if bs:
+            total += bs
+            matched.append(f"buyer(+{bs:.1f}): " + ", ".join(bhits))
+            # Same logic as CPV: a known buyer type (foreign ministry,
+            # embassy...) is strong evidence in its own right, regardless of
+            # what language the notice text is in.
+            if bs >= 6.0:
                 strong_match = True
 
         neg_hits = [t for t, p in self.negative_patterns

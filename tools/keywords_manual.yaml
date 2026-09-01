@@ -61,6 +61,13 @@ groups:
       - destruccion de documentos
       - servicio de archivo
 
+      # Diplomatic archives
+      - diplomatic archive*
+      - archives diplomatiques
+      - chancery archive*
+      - chancellerie
+      - archivo diplomatico
+
       # Italian
       - archivio
       - archivi
@@ -261,6 +268,15 @@ groups:
       - reubicacion
       - transporte de mobiliario
 
+      # Diplomatic / embassy relocations
+      - embassy relocation*
+      - relocation of diplomatic staff
+      - demenagement d'ambassade
+      - demenagement de l'ambassade
+      - diplomatic pouch
+      - valise diplomatique
+      - mudanza de la embajada
+
       # Italian
       - trasloco
       - traslochi
@@ -343,6 +359,13 @@ groups:
       - equipamiento hotelero
       - instalacion de mobiliario
       - entrega e instalacion de mobiliario
+
+      # Ambassador's / official residence
+      - ambassador's residence
+      - official residence furnishing
+      - residence de l'ambassadeur
+      - amenagement de la residence diplomatique
+      - residencia del embajador
 
       # Italian
       - arredi alberghieri
@@ -519,3 +542,44 @@ cpv_boost:
   "39150000": 5.0    # Miscellaneous furniture and equipment (hotel/office fit-out tenders)
   "39100000": 3.0    # Furniture (general -- weak on its own like 39000000)
   "92311000": 6.0    # Works of art and antiques
+
+# ---------------------------------------------------------------------------
+# Buyer-name boost. Foreign ministries and embassies buy exactly the kind of
+# work this business does (embassy relocations, diplomatic archives,
+# residence furnishing, art in official buildings), so a notice from one of
+# these buyers is worth flagging on identity alone -- in whatever language
+# it was published in. Terms are matched against the buyer field only, not
+# the notice text, and de-accented/lower-cased like everything else.
+# ---------------------------------------------------------------------------
+buyer_boost:
+  # English
+  "ministry of foreign affairs": 10.0
+  "foreign commonwealth": 10.0
+  "foreign office": 8.0
+  "department of state": 8.0
+  "diplomatic service": 8.0
+  "embassy of": 8.0
+  "consulate general": 7.0
+  "high commission": 7.0
+  # French
+  "ministere des affaires etrangeres": 10.0
+  "ministere de l'europe et des affaires etrangeres": 10.0
+  "ambassade de": 8.0
+  "ambassade du": 8.0
+  "consulat general": 7.0
+  # German
+  "auswartiges amt": 10.0
+  "aussenministerium": 10.0
+  "botschaft": 8.0
+  # Spanish
+  "ministerio de asuntos exteriores": 10.0
+  "ministerio de relaciones exteriores": 10.0
+  "embajada de": 8.0
+  # Italian
+  "ministero degli affari esteri": 10.0
+  "ambasciata d'italia": 8.0
+  "ambasciata italiana": 8.0
+  # Portuguese
+  "ministerio das relacoes exteriores": 10.0
+  "ministerio dos negocios estrangeiros": 10.0
+  "embaixada": 8.0
