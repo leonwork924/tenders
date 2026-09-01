@@ -253,42 +253,49 @@ sources:
     registry_id: 85
     country: GH
     max_records: 10000
+    default_currency: GHS
   nigeria_nocopo:
     enabled: true
     type: ocp_registry
     registry_id: 64
     country: NG
     max_records: 0
+    default_currency: NGN
   rwanda_umucyo:
     enabled: true
     type: ocp_registry
     registry_id: 145
     country: RW
     max_records: 20000
+    default_currency: RWF
   liberia_ppcc:
     enabled: true
     type: ocp_registry
     registry_id: 156
     country: LR
     max_records: 10000
+    default_currency: LRD
   kenya_ppip_ocds:
     enabled: true
     type: ocp_registry
     registry_id: 147
     country: KE
     max_records: 20000
+    default_currency: KES
   thailand_bma:
     enabled: true
     type: ocp_registry
     registry_id: 158
     country: TH
     max_records: 10000
+    default_currency: THB
   taiwan_gpip:
     enabled: true
     type: ocp_registry
     registry_id: 160
     country: TW
     max_records: 10000
+    default_currency: TWD
   mtender:
     enabled: false
     type: mtender
@@ -301,12 +308,14 @@ sources:
     registry_id: 144
     country: CL
     max_records: 0
+    default_currency: CLP
   uruguay_arce:
     enabled: true
     type: ocp_registry
     registry_id: 43
     country: UY
     max_records: 30000
+    default_currency: UYU
   tanzania_ppra:
     enabled: true
     type: tanzania_nest_live
@@ -318,6 +327,7 @@ sources:
     registry_id: 142
     country: GT
     max_records: 30000
+    default_currency: GTQ
 
   # Added from the OCP Data Registry's verified publisher list -- same
   # mechanism as guatemala/rwanda/ghana above, all actively updated as of
@@ -328,6 +338,7 @@ sources:
     registry_id: 115
     country: XK
     max_records: 10000
+    default_currency: EUR
 
   paraguay_dncp:
     enabled: true
@@ -335,6 +346,7 @@ sources:
     registry_id: 63
     country: PY
     max_records: 20000
+    default_currency: PYG
 
   honduras_oncae:
     enabled: true
@@ -342,6 +354,7 @@ sources:
     registry_id: 122
     country: HN
     max_records: 20000
+    default_currency: HNL
 
   brazil_compras:
     enabled: true
@@ -349,6 +362,7 @@ sources:
     registry_id: 157
     country: BR
     max_records: 20000
+    default_currency: BRL
 
   dominican_republic_dgcp:
     enabled: true
@@ -356,6 +370,7 @@ sources:
     registry_id: 22
     country: DO
     max_records: 20000
+    default_currency: DOP
 
   zambia_zppa:
     enabled: true
@@ -363,6 +378,7 @@ sources:
     registry_id: 3
     country: ZM
     max_records: 20000
+    default_currency: ZMW
 
   # Country platforms added on request -- IDs verified against the OCP
   # Data Registry the same way as the batch above.
@@ -372,6 +388,7 @@ sources:
     registry_id: 128
     country: GB
     max_records: 20000
+    default_currency: GBP
 
   uk_scotland:
     enabled: true
@@ -379,6 +396,7 @@ sources:
     registry_id: 39
     country: GB
     max_records: 20000
+    default_currency: GBP
 
   uk_wales_sell2wales:
     enabled: true
@@ -386,6 +404,7 @@ sources:
     registry_id: 119
     country: GB
     max_records: 20000
+    default_currency: GBP
 
   netherlands_tenderned:
     enabled: true
@@ -393,6 +412,7 @@ sources:
     registry_id: 133
     country: NL
     max_records: 20000
+    default_currency: EUR
 
   germany_bmi:
     enabled: true
@@ -400,6 +420,7 @@ sources:
     registry_id: 136
     country: DE
     max_records: 20000
+    default_currency: EUR
 
   peru_oece:
     enabled: true
@@ -407,6 +428,7 @@ sources:
     registry_id: 135
     country: PE
     max_records: 20000
+    default_currency: PEN
 
   uganda_ppda:
     enabled: true
@@ -414,6 +436,7 @@ sources:
     registry_id: 130
     country: UG
     max_records: 20000
+    default_currency: UGX
 
   croatia_nn:
     enabled: true
@@ -421,3 +444,4 @@ sources:
     registry_id: 80
     country: HR
     max_records: 20000
+    default_currency: EUR

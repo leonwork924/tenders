@@ -61,6 +61,16 @@ groups:
       - destruccion de documentos
       - servicio de archivo
 
+      # Italian
+      - archivio
+      - archivi
+      - archiviazione
+      - gestione documentale
+      - conservazione documentale
+      - conservazione degli archivi
+      - distruzione documenti riservati
+      - deposito archivistico
+
   digitisation:
     weight: 4.5
     terms:
@@ -105,6 +115,14 @@ groups:
       - conversion digital
       - captura de imagenes
 
+      # Italian
+      - digitalizzazione
+      - digitalizzazione documenti
+      - scansione
+      - scansione documenti
+      - microfilmatura
+      - acquisizione digitale
+
   av_media:
     weight: 4.5
     terms:
@@ -144,6 +162,13 @@ groups:
       - preservacion audiovisual
       - cinta de audio
       - cinta de video
+
+      # Italian
+      - archivio audiovisivo
+      - digitalizzazione audiovisiva
+      - conservazione audiovisiva
+      - nastro audio
+      - nastro video
 
   heritage:
     weight: 4.5
@@ -189,6 +214,16 @@ groups:
       - conservacion preventiva
       - monumento historico
 
+      # Italian
+      - patrimonio culturale
+      - restauro del patrimonio
+      - museo
+      - collezione museale
+      - allestimento museale
+      - progettazione di mostre
+      - conservazione preventiva
+      - monumento storico
+
   mobility:
     weight: 5.0
     terms:
@@ -225,6 +260,14 @@ groups:
       - traslado de oficina
       - reubicacion
       - transporte de mobiliario
+
+      # Italian
+      - trasloco
+      - traslochi
+      - trasloco ufficio
+      - impresa di traslochi
+      - servizio di trasloco
+      - trasferimento sede
 
   fine_art:
     weight: 5.0
@@ -269,6 +312,13 @@ groups:
       - manejo de obras de arte
       - transporte de arte
 
+      # Italian
+      - opera d'arte
+      - opere d'arte
+      - trasporto di opere d'arte
+      - imballaggio di opere d'arte
+      - movimentazione opere d'arte
+
   hospitality:
     weight: 4.0
     terms:
@@ -293,6 +343,11 @@ groups:
       - equipamiento hotelero
       - instalacion de mobiliario
       - entrega e instalacion de mobiliario
+
+      # Italian
+      - arredi alberghieri
+      - forniture alberghiere
+      - fornitura e installazione di arredi
 
   support:
     weight: 1.5
@@ -455,3 +510,12 @@ cpv_boost:
   "63100000": 4.0    # Cargo handling and storage
   "72312000": 4.0    # Data entry services
   "60000000": 2.0    # Transport services (weak on its own)
+  # Added: broader/adjacent codes, useful mainly as a language-independent
+  # net for sources whose narrative text isn't in a language the keyword
+  # taxonomy covers yet (e.g. Dutch, Croatian) but that still tag CPV
+  # correctly, since CPV codes are the same in every language.
+  "92512000": 10.0   # Archive services (distinct EU CPV code from 79995100 above)
+  "92500000": 5.0    # Library, archive, museum and other cultural services (broad parent)
+  "39150000": 5.0    # Miscellaneous furniture and equipment (hotel/office fit-out tenders)
+  "39100000": 3.0    # Furniture (general -- weak on its own like 39000000)
+  "92311000": 6.0    # Works of art and antiques

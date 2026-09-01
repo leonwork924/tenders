@@ -116,6 +116,14 @@ class Scorer:
         if cs:
             total += cs
             matched.append(f"cpv(+{cs:.1f}): " + ", ".join(chits))
+            # A precise CPV code is real evidence on its own -- unlike a lone
+            # weak keyword, it shouldn't need a matching keyword in the same
+            # language to clear the threshold. This is what makes CPV a
+            # genuinely language-independent safety net (Dutch, Croatian...
+            # any source whose narrative text isn't covered by the taxonomy
+            # yet, but that still tags CPV correctly).
+            if cs >= 6.0:
+                strong_match = True
 
         neg_hits = [t for t, p in self.negative_patterns
                     if self._count(p, title) or self._count(p, body)]

@@ -2,9 +2,11 @@ name: fetch tenders
 
 on:
   schedule:
-    # 06:15 UTC every day. Change the cron below to shift the time
-    # (cron is UTC, not local time). https://crontab.guru helps.
-    - cron: "15 6 * * *"
+    # GitHub explicitly warns that round times (:00, :15, :30, :45) are the
+    # most likely to be delayed or dropped under load -- these two odd
+    # minutes, ~8h apart, make a full silent miss much less likely.
+    - cron: "37 6 * * *"
+    - cron: "22 14 * * *"
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
 
 permissions:

@@ -19,7 +19,16 @@
   <select id="country"><option value="">tous</option></select>
   <label for="src">Source</label>
   <select id="src"><option value="">toutes</option></select>
+  <label class="check"><input type="checkbox" id="urgent-only"> Clôture ≤ 7 jours</label>
   <span class="count" id="count"></span>
+  <button id="health-toggle" type="button">État des sources</button>
+</div>
+
+<div id="health-panel" class="health-panel" style="display:none">
+  <table>
+    <thead><tr><th>Source</th><th>Dernier passage</th><th>Statut</th><th>AO actifs</th></tr></thead>
+    <tbody id="health-tbody"></tbody>
+  </table>
 </div>
 
 <main>

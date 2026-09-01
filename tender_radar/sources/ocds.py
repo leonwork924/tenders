@@ -23,7 +23,8 @@ from .base import Source
 log = logging.getLogger(__name__)
 
 
-def release_to_tender(release: dict, source: str, default_country: str = "") -> Tender | None:
+def release_to_tender(release: dict, source: str, default_country: str = "",
+                       default_currency: str = "") -> Tender | None:
     tender = release.get("tender") or {}
     title = clean_html(tender.get("title") or release.get("title") or "")
     if not title:
@@ -55,6 +56,12 @@ def release_to_tender(release: dict, source: str, default_country: str = "") -> 
     value_block = tender.get("value") or tender.get("minValue") or {}
     value = parse_value(value_block.get("amount"))
     currency = value_block.get("currency") or ""
+    # Many national OCDS publishers report an amount without a currency
+    # code (their own currency is implied). Never invent a currency when
+    # there is no amount to attach it to; only fill the gap when we
+    # actually have a number and the publisher left the field blank.
+    if value is not None and not currency and default_currency:
+        currency = default_currency
 
     cpv = ""
     classification = tender.get("classification") or {}
@@ -114,7 +121,7 @@ class UkFtsSource(Source):
             data = self.get(base, params=params).json()
             releases = data.get("releases") or []
             for r in releases:
-                t = release_to_tender(r, "uk_fts", default_country="GB")
+                t = release_to_tender(r, "uk_fts", default_country="GB", default_currency="GBP")
                 if t:
                     if not t.url:
                         t.url = ("https://www.find-tender.service.gov.uk/Notice/"
@@ -150,7 +157,7 @@ class ZaEtendersSource(Source):
             data = self.get(base, params=params).json()
             releases = data.get("releases") or data.get("Releases") or []
             for r in releases:
-                t = release_to_tender(r, "za_etenders", default_country="ZA")
+                t = release_to_tender(r, "za_etenders", default_country="ZA", default_currency="ZAR")
                 if t:
                     if not t.url:
                         t.url = "https://www.etenders.gov.za/Home/opportunities?id=1"

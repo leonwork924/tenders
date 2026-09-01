@@ -78,7 +78,16 @@ def cmd_export(args, config):
             "scope": f"{len(site_rows)} active tenders above score "
                      f"{config['run']['min_score']:g}",
         }
-        json_path = write_json(site_rows, config["output"]["json_path"], json_meta)
+        source_health = db.source_health(
+            min_score=float(config["run"]["min_score"]),
+            min_days=int(config["run"].get("min_days_to_deadline", 0)),
+        )
+        # Drop stale rows left over from sources that used to be in
+        # config.yaml but were removed or renamed since -- the health panel
+        # should reflect what's actually configured today, not history.
+        configured = set(config["sources"].keys())
+        source_health = [s for s in source_health if s["source"] in configured]
+        json_path = write_json(site_rows, config["output"]["json_path"], json_meta, source_health)
 
         if getattr(args, "mark_seen", False):
             db.mark_seen([r["uid"] for r in rows])

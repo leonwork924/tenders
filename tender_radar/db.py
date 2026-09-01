@@ -191,6 +191,29 @@ class Database:
             args.append(limit)
         return self.conn.execute(" ".join(sql), args).fetchall()
 
+    def source_health(self, min_score: float, min_days: int = 0) -> list[dict]:
+        """Per-source status for the site's health panel: last run outcome
+        (from source_state) plus how many currently-active tenders that
+        source is contributing to the shortlist right now.
+        """
+        c = self.conn
+        sql = ["SELECT source, COUNT(*) n FROM tenders",
+               "WHERE score >= ? AND duplicate_of IS NULL"]
+        args: list = [min_score]
+        if min_days:
+            sql.append("AND (deadline IS NULL OR deadline >= date('now', ?))")
+            args.append(f"+{int(min_days)} day")
+        sql.append("GROUP BY source")
+        counts = {r["source"]: r["n"] for r in c.execute(" ".join(sql), args).fetchall()}
+
+        out = []
+        for r in c.execute("SELECT * FROM source_state ORDER BY source").fetchall():
+            d = dict(r)
+            d["active_count"] = counts.get(d["source"], 0)
+            d["ok"] = bool(d["last_run"]) and d["last_ok"] == d["last_run"]
+            out.append(d)
+        return out
+
     def stats(self) -> dict:
         c = self.conn
         row = c.execute(

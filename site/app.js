@@ -3,7 +3,7 @@
 // on every push, so this file just has to render whatever is in data.json
 // today.
 
-const state = { q: '', src: '', country: '', sortKey: 'score', sortAsc: false };
+const state = { q: '', src: '', country: '', urgentOnly: false, sortKey: 'score', sortAsc: false };
 
 function esc(v) {
   return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -61,6 +61,7 @@ async function main() {
   document.getElementById('q').addEventListener('input', e => { state.q = e.target.value.toLowerCase(); refresh(); });
   srcSel.addEventListener('change', e => { state.src = e.target.value; refresh(); });
   countrySel.addEventListener('change', e => { state.country = e.target.value; refresh(); });
+  document.getElementById('urgent-only').addEventListener('change', e => { state.urgentOnly = e.target.checked; refresh(); });
   document.querySelectorAll('thead th[data-key]').forEach(th => {
     th.addEventListener('click', () => {
       const key = th.dataset.key;
@@ -70,10 +71,26 @@ async function main() {
     });
   });
 
+  // Source health panel -- built once, toggled on demand.
+  const healthPanel = document.getElementById('health-panel');
+  const healthTbody = document.getElementById('health-tbody');
+  const health = (data.source_health || []).slice().sort((a, b) => a.source.localeCompare(b.source));
+  healthTbody.innerHTML = health.map(s => `
+    <tr>
+      <td>${esc(s.source)}</td>
+      <td>${esc((s.last_run || '').replace('T', ' ').slice(0, 16))}</td>
+      <td class="${s.ok ? 'ok' : 'soon'}">${s.ok ? 'OK' : (s.last_run ? 'echec' : 'jamais lance')}</td>
+      <td class="num">${s.active_count}</td>
+    </tr>`).join('') || '<tr><td colspan="4">Pas encore de donnees.</td></tr>';
+  document.getElementById('health-toggle').addEventListener('click', () => {
+    healthPanel.style.display = healthPanel.style.display === 'none' ? 'block' : 'none';
+  });
+
   function refresh() {
     let items = data.items || [];
     if (state.country) items = items.filter(it => it.country === state.country);
     if (state.src) items = items.filter(it => it.source === state.src);
+    if (state.urgentOnly) items = items.filter(it => it.days_left !== '' && it.days_left !== null && parseInt(it.days_left, 10) <= 7);
     if (state.q) {
       items = items.filter(it => [it.title, it.buyer, it.country_name, it.matched, it.source]
         .join(' ').toLowerCase().includes(state.q));
@@ -109,6 +126,7 @@ async function main() {
         </td>
         <td>
           <a class="title" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
+          ${it.is_new ? '<span class="new-badge">Nouveau</span>' : ''}
           <span class="why">${esc((it.matched || '').slice(0, 180))}</span>
         </td>
         <td class="hide-sm">${esc(it.buyer)}</td>

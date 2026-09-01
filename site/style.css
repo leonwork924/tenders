@@ -38,6 +38,20 @@ nav.branches { display: none; }
 .toolbar label { font-size: 12px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .08em; }
 .count { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--ink-soft); }
 
+.toolbar label.check { display: flex; align-items: center; gap: 5px; cursor: pointer; text-transform: none; letter-spacing: normal; color: var(--ink); }
+#health-toggle {
+  font: inherit; font-size: 12px; padding: 6px 12px; border: 1px solid var(--rule);
+  border-radius: 3px; background: #fff; color: var(--ink-soft); cursor: pointer;
+}
+#health-toggle:hover { background: #f7f9fb; }
+.health-panel { padding: 0 24px 12px; background: var(--card); border-bottom: 1px solid var(--rule); }
+.health-panel table { font-size: 12px; }
+.health-panel th { position: static; }
+.new-badge {
+  display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 9px;
+  background: var(--green); color: #fff; font-size: 10px; font-family: var(--sans);
+  letter-spacing: .04em; vertical-align: middle;
+}
 main { padding: 0 24px 48px; }
 table { width: 100%; border-collapse: collapse; background: var(--card); }
 thead th {

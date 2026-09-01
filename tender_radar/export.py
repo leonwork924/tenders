@@ -67,7 +67,7 @@ def _country_name(code: str) -> str:
     return code
 
 
-def write_json(rows, path: str | Path, meta: dict) -> Path:
+def write_json(rows, path: str | Path, meta: dict, source_health: list[dict] | None = None) -> Path:
     """Write the shared-site JSON: every active, above-threshold tender.
     This is what the static site on Vercel reads, and it always reflects the
     *full* current shortlist (not just today's new items) so anyone checking
@@ -82,6 +82,14 @@ def write_json(rows, path: str | Path, meta: dict) -> Path:
 
     items = []
     for d in data:
+        first_seen = (d.get("first_seen") or "")[:10]
+        is_new = False
+        if first_seen:
+            try:
+                age_days = (date.today() - datetime.fromisoformat(first_seen).date()).days
+                is_new = age_days <= 2
+            except ValueError:
+                pass
         items.append({
             "uid": d.get("uid"),
             "score": round(float(d.get("score") or 0), 1),
@@ -97,6 +105,7 @@ def write_json(rows, path: str | Path, meta: dict) -> Path:
             "published": d.get("published"),
             "url": d.get("url"),
             "matched": d.get("matched"),
+            "is_new": is_new,
         })
 
     payload = {
@@ -104,6 +113,7 @@ def write_json(rows, path: str | Path, meta: dict) -> Path:
         "scope": meta.get("scope"),
         "count": len(items),
         "items": items,
+        "source_health": source_health or [],
     }
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=None), encoding="utf-8")
     return path

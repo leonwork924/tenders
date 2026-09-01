@@ -23,9 +23,12 @@ groups:
   - archive service*
   - archives
   - archives papier
+  - archivi
+  - archiviazione
   - archivierung
   - archiving
   - archiving services
+  - archivio
   - archiviste
   - archivo
   - archivos
@@ -33,14 +36,18 @@ groups:
   - cloud storage for records
   - confidential shredding
   - conservation des archives
+  - conservazione degli archivi
+  - conservazione documentale
   - custodia de archivos
   - custodia documental
+  - deposito archivistico
   - deposito de archivos
   - destruccion confidencial de documentos
   - destruccion de documentos
   - destruction confidentielle
   - digital archiving
   - digital records conversion
+  - distruzione documenti riservati
   - document boxing
   - document management
   - document preservation
@@ -63,6 +70,7 @@ groups:
   - gestion documentaire
   - gestion documental
   - gestion electronique de document*
+  - gestione documentale
   - information management
   - off-site archiving
   - off-site storage facility
@@ -92,6 +100,7 @@ groups:
   weight: 4.5
   terms:
   - 3d digitization
+  - acquisizione digitale
   - born-digital
   - bulk scanning
   - captura de imagenes
@@ -105,6 +114,8 @@ groups:
   - digitalizacion de documentos
   - digitalizacion masiva
   - digitalization
+  - digitalizzazione
+  - digitalizzazione documenti
   - digitisation
   - digitisation national library
   - digitisation of books
@@ -148,10 +159,13 @@ groups:
   - scan-on-demand
   - scannen
   - scanning
+  - scansione
+  - scansione documenti
 - name: av_media
   weight: 4.5
   terms:
   - archives audiovisuelles
+  - archivio audiovisivo
   - archivo audiovisual
   - archivos audiovisuales
   - audio description
@@ -171,7 +185,9 @@ groups:
   - betacam
   - cinta de audio
   - cinta de video
+  - conservazione audiovisiva
   - digitalizacion audiovisual
+  - digitalizzazione audiovisiva
   - digitisation of audio tape
   - digitisation of video
   - digitization of audio tape
@@ -180,6 +196,8 @@ groups:
   - film reel*
   - magnetband*
   - migration de support*
+  - nastro audio
+  - nastro video
   - numerisation audiovisuelle
   - oral history
   - phonotheque
@@ -204,6 +222,7 @@ groups:
 - name: heritage
   weight: 4.5
   terms:
+  - allestimento museale
   - archival document*
   - archive collection*
   - coleccion museistica
@@ -211,9 +230,11 @@ groups:
   - collection management
   - collections management
   - collections museales
+  - collezione museale
   - conservacion preventiva
   - conservation preventive
   - conservation-restauration
+  - conservazione preventiva
   - cultural heritage
   - diseno de exposicion
   - display design
@@ -228,6 +249,7 @@ groups:
   - library collection*
   - manuscripts
   - monumento historico
+  - monumento storico
   - movable heritage
   - musee
   - museo
@@ -238,14 +260,17 @@ groups:
   - patrimoine
   - patrimonio
   - patrimonio cultural
+  - patrimonio culturale
   - permanent exhibition
   - photogrammetrie
   - preservation of collections
+  - progettazione di mostre
   - releve* 3d
   - releve* de batiment*
   - restauracion de patrimonio
   - restauration d'oeuvre*
   - restauration du patrimoine
+  - restauro del patrimonio
   - scan to bim
   - scanner laser
   - temporary exhibition
@@ -269,6 +294,7 @@ groups:
   - furniture removal
   - government removals
   - household removals
+  - impresa di traslochi
   - industrial removals
   - moebeltransport
   - move management
@@ -286,6 +312,7 @@ groups:
   - removals
   - reubicacion
   - servicio de mudanza
+  - servizio di trasloco
   - specialist relocation
   - speciality removals
   - staff mobility
@@ -294,8 +321,12 @@ groups:
   - transfert de site
   - transfert des services
   - transporte de mobiliario
+  - trasferimento sede
   - traslado
   - traslado de oficina
+  - traslochi
+  - trasloco
+  - trasloco ufficio
   - umzug*
   - work force mobility
 - name: fine_art
@@ -319,24 +350,30 @@ groups:
   - fine art
   - fine art handling
   - fine art transport*
+  - imballaggio di opere d'arte
   - manejo de obras de arte
   - manipulation d'oeuvre*
+  - movimentazione opere d'arte
   - museum collection transport*
   - museum transport*
   - obra de arte
   - obras de arte
   - oeuvre* d'art
+  - opera d'arte
+  - opere d'arte
   - regie d'oeuvre*
   - soclage
   - specialist art transport*
   - transport d'oeuvre*
   - transporte de arte
   - transporte de obras de arte
+  - trasporto di opere d'arte
   - works of art
 - name: hospitality
   weight: 4.0
   terms:
   - amenagement hotelier
+  - arredi alberghieri
   - custom furniture for hotels
   - delivery and installation
   - entrega e instalacion de mobiliario
@@ -344,6 +381,8 @@ groups:
   - equipement hotelier
   - ff&e
   - fixtures and equipment
+  - fornitura e installazione di arredi
+  - forniture alberghiere
   - furniture assembly
   - furniture delivery
   - furniture installation
@@ -467,3 +506,8 @@ cpv_boost:
   '63100000': 4.0
   '72312000': 4.0
   '60000000': 2.0
+  '92512000': 10.0
+  '92500000': 5.0
+  '39150000': 5.0
+  '39100000': 3.0
+  '92311000': 6.0

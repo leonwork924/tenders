@@ -215,7 +215,8 @@ class OcpRegistrySource(Source):
                     stats["in_lookback"] += 1
 
                     t = release_to_tender(
-                        release, self.name, default_country=country
+                        release, self.name, default_country=country,
+                        default_currency=self.settings.get("default_currency", ""),
                     )
                     if t and t.uid() not in seen:
                         seen.add(t.uid())
@@ -282,7 +283,7 @@ class MtenderSource(Source):
                 published = parse_date(release.get("date"))
                 if published and published < self.since():
                     continue
-                t = release_to_tender(release, self.name, default_country="MD")
+                t = release_to_tender(release, self.name, default_country="MD", default_currency="MDL")
                 if t:
                     # MTender's public portal is a better landing page than the OCDS API.
                     t.url = f"https://mtender.gov.md/en/tenders/{ocid}"
@@ -426,7 +427,7 @@ class TanzaniaNestLiveSource(Source):
                 deadline = parse_date(period.get("endDate"))
                 if deadline and deadline < date.today():
                     continue
-                t = release_to_tender(release, self.name, default_country="TZ")
+                t = release_to_tender(release, self.name, default_country="TZ", default_currency="TZS")
                 if t and t.uid() not in seen:
                     seen.add(t.uid())
                     tenders.append(t)
