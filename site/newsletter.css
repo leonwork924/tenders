@@ -58,20 +58,6 @@ table.nl-table td.contact { color: var(--ink-soft); font-size: 12px; }
 .nl-elig.elig-yes { background: #e2f3e7; color: var(--green); border: 1px solid #b6ddc0; }
 .nl-elig.elig-no { background: #eef1f4; color: var(--ink-soft); border: 1px solid var(--rule); }
 
-.btn-toggle {
-  font: inherit; font-size: 13px; padding: 8px 16px; margin: 20px 0 10px;
-  border: 1px solid var(--rule); border-radius: 20px; background: #fff; color: var(--ink);
-  cursor: pointer;
-}
-.btn-toggle:hover { border-color: var(--navy); }
-.notes-list { margin: 8px 0 16px 18px; font-size: 13px; color: var(--ink-soft); }
-.notes-list li { margin-bottom: 8px; }
-.term-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 20px; }
-.term-chip {
-  font-size: 11.5px; padding: 3px 10px; border-radius: 12px; background: #eef1f4;
-  color: var(--ink-soft);
-}
-
 .nl-empty-region { color: var(--ink-soft); font-size: 12.5px; font-style: italic; margin: 0 0 12px; }
 
 .related-tender {
