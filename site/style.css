@@ -22,6 +22,11 @@ header {
 }
 header h1 { margin: 0; font-size: 17px; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; }
 header .meta { font-family: var(--mono); font-size: 12px; color: #a9c0d6; }
+header .back-link {
+  margin-left: auto; color: #a9c0d6; font-size: 13px; text-decoration: none;
+  border: 1px solid #33547a; padding: 6px 12px; border-radius: 20px;
+}
+header .back-link:hover { background: #21456b; }
 
 nav.branches { display: none; }
 

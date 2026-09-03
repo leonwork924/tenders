@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newsletter — Tender Radar</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="newsletter.css">
+</head>
+<body>
+<header>
+  <h1>Newsletter</h1>
+  <span class="meta">Édition <span id="edition"></span> &nbsp;·&nbsp; générée le <span id="generated"></span></span>
+  <a class="back-link" href="index.html">&larr; Retour aux tenders</a>
+</header>
+
+<div class="nl-disclaimer">
+  <b>Sur les contacts :</b> compilé à partir de sources publiques (presse spécialisée, sites d'entreprises,
+  communiqués). Les personnes citées le sont parce qu'elles sont nommées dans un article public — pas
+  d'email ou de coordonnées personnelles récupérés, et aucune donnée LinkedIn. Pour un contact direct,
+  cherchez le nom + l'entreprise sur LinkedIn manuellement.
+</div>
+
+<nav class="nl-nav" id="nl-nav">
+  <a href="#newsigned">🆕 Deals récents</a>
+  <a href="#hospitality">🏨 Hôtellerie &amp; resorts</a>
+  <a href="#investments">🤝 Investissements &amp; M&amp;A</a>
+  <a href="#arts">🎨 Arts &amp; expositions</a>
+</nav>
+
+<main class="nl-main">
+
+  <section id="newsigned">
+    <h2>Deals récemment signés</h2>
+    <p class="nl-sub">Accords, MOU, contrats de gestion et financements des ~4 dernières semaines</p>
+    <table class="nl-table" id="tbl-newsigned">
+      <thead><tr><th>Date</th><th>Statut</th><th>Deal</th><th>Parties</th><th>Type</th><th>Détails</th><th>Source</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section id="hospitality">
+    <h2>Développement hôtelier &amp; resorts</h2>
+    <p class="nl-sub">Par région — qui est derrière chaque projet, résumé, contact identifié</p>
+    <div id="hospitality-regions"></div>
+  </section>
+
+  <section id="investments">
+    <h2>Investissements, partenariats &amp; M&amp;A</h2>
+    <p class="nl-sub">Flux cross-border Europe / Afrique / Asie / Amériques</p>
+    <table class="nl-table" id="tbl-investments">
+      <thead><tr><th>Deal</th><th>Statut</th><th>Parties</th><th>Type</th><th>Montant</th><th>Objet</th><th>Source</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section id="arts">
+    <h2>Arts &amp; expositions</h2>
+    <p class="nl-sub">Projets, organisations et personnes clés</p>
+    <table class="nl-table" id="tbl-arts">
+      <thead><tr><th>Événement</th><th>Statut</th><th>Organisation</th><th>Personnes clés</th><th>Région</th><th>Résumé</th><th>Source</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+</main>
+
+<footer>
+  Mis à jour manuellement, environ chaque semaine — pas d'automatisation IA en continu ici
+  (contrairement au fetch quotidien des tenders).
+</footer>
+
+<script src="newsletter.js"></script>
+</body>
+</html>
