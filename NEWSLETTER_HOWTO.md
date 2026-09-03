@@ -31,11 +31,11 @@ texte avant/apres, pas de blocs markdown) suivant EXACTEMENT ce schema :
   "edition": "Mois AAAA",
   "newly_signed": [
     {"date_signed": "", "status": "", "deal": "", "parties": "", "type": "",
-     "details": "", "source": {"label": "", "url": ""}}
+     "details": "", "source": {"label": "", "url": ""}, "related_tender": null}
   ],
   "hospitality": {
     "Africa": [ {"project": "", "status": "", "group": "", "summary": "",
-                 "contact": "", "source": {"label": "", "url": ""}} ],
+                 "contact": "", "source": {"label": "", "url": ""}, "related_tender": null} ],
     "Middle East": [ ... meme structure ... ],
     "Asia": [ ... meme structure ... ],
     "Europe": [ ... meme structure ... ],
@@ -43,11 +43,11 @@ texte avant/apres, pas de blocs markdown) suivant EXACTEMENT ce schema :
   },
   "investments": [
     {"deal": "", "status": "", "parties": "", "type": "", "amount": "",
-     "scope": "", "source": {"label": "", "url": ""}}
+     "scope": "", "source": {"label": "", "url": ""}, "related_tender": null}
   ],
   "arts": [
     {"event": "", "status": "", "organization": "", "people": "",
-     "region": "", "summary": "", "source": {"label": "", "url": ""}}
+     "region": "", "summary": "", "source": {"label": "", "url": ""}, "related_tender": null}
   ]
 }
 
@@ -66,6 +66,14 @@ Contenu attendu par section :
    objet/portee.
 4. arts : projets et expositions d'art majeurs -- organisation, personnes
    cles nommees publiquement, region, resume.
+5. related_tender : AVANT de finaliser, recupere le contenu de
+   https://tenders-rho.vercel.app/data.json (nos appels d'offres publics
+   actifs). Pour chaque actualite, verifie s'il s'agit REELEMENT du meme
+   projet ou de la meme organisation qu'un de ces appels d'offres -- pas
+   juste le meme pays ou du vocabulaire generique ("hotel", "services"...).
+   Si oui seulement, remplis "related_tender": {"title": "titre exact de
+   l'AO", "why": "raison precise en une phrase"}. Sinon, laisse a null.
+   Sois strict : mieux vaut null que suggerer un lien qui n'existe pas.
 
 Regles strictes :
 - Chaque ligne doit avoir une source reelle et verifiable (url cliquable).
