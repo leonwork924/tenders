@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Tender Radar</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="newsletter.css">
+</head>
+<body>
+<header>
+  <h1>Contact</h1>
+  <span class="meta">Sources diplomatiques officielles &nbsp;·&nbsp; mis à jour le <span id="generated"></span></span>
+</header>
+<nav class="site-tabs">
+  <a href="index.html">📋 Tenders</a>
+  <a href="newsletter.html">📰 Business Newsletter</a>
+  <a href="contact.html" class="active">🌍 Contact</a>
+  <a href="prospection.html">🕸️ Prospection</a>
+</nav>
+
+<div class="nl-disclaimer">
+  <b>Ce que c'est :</b> des points de départ officiels pour identifier le corps diplomatique
+  par pays (ministères des Affaires étrangères, listes diplomatiques, protocoles d'État) —
+  pas une base de contacts individuels. Aucune donnée personnelle de diplomate n'a été
+  collectée ici, uniquement des sources à consulter manuellement.
+</div>
+
+<div class="toolbar">
+  <label for="q">Filtre</label>
+  <input id="q" type="search" placeholder="pays, organisme…" autocomplete="off">
+  <span class="count" id="count"></span>
+</div>
+
+<main class="nl-main" id="regions"></main>
+
+<section class="nl-main" id="methodo-section">
+  <button id="methodo-toggle" class="btn-toggle">▸ Méthodologie &amp; termes de recherche</button>
+  <div id="methodo-body" style="display:none">
+    <p class="nl-sub" id="methodo-text"></p>
+    <div class="region-heading">Notes</div>
+    <ul id="notes-list" class="notes-list"></ul>
+    <div class="region-heading">Termes de recherche utiles</div>
+    <div id="search-terms" class="term-chips"></div>
+  </div>
+</section>
+
+<footer>
+  Mis à jour manuellement, pas d'automatisation ici — la plupart des sites gouvernementaux
+  bloquent le fetch automatique (robots.txt), et une bonne partie du contenu est en PDF.
+  Consultation manuelle des liens recommandée.
+</footer>
+
+<script src="contact.js"></script>
+</body>
+</html>
