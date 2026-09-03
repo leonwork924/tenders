@@ -73,7 +73,17 @@ class Database:
         self.conn = sqlite3.connect(self.path)
         self.conn.row_factory = sqlite3.Row
         self.conn.executescript(SCHEMA)
+        self._migrate()
         self.conn.commit()
+
+    def _migrate(self):
+        """Add columns that didn't exist in older committed databases.
+        CREATE TABLE IF NOT EXISTS in SCHEMA only helps on a brand new file --
+        this covers everyone already running the committed data/tenders.sqlite3.
+        """
+        cols = {row["name"] for row in self.conn.execute("PRAGMA table_info(tenders)")}
+        if "contract_end" not in cols:
+            self.conn.execute("ALTER TABLE tenders ADD COLUMN contract_end TEXT")
 
     def close(self):
         self.conn.close()
@@ -88,22 +98,23 @@ class Database:
         if exists:
             self.conn.execute(
                 """UPDATE tenders SET last_seen = ?, score = ?, matched = ?,
-                       deadline = ?, value = ?, duplicate_of = ?
+                       deadline = ?, value = ?, duplicate_of = ?, contract_end = ?
                    WHERE uid = ?""",
                 (now, tender.score, tender.matched, _iso(tender.deadline),
-                 tender.value, tender.duplicate_of, tender.uid()),
+                 tender.value, tender.duplicate_of, _iso(tender.contract_end), tender.uid()),
             )
             return False
 
         self.conn.execute(
             """INSERT INTO tenders (uid, source, source_id, title, buyer, country,
-                   description, cpv, url, published, deadline, value, currency,
+                   description, cpv, url, published, deadline, contract_end, value, currency,
                    language, raw_ref, score, matched, fingerprint, duplicate_of,
                    first_seen, last_seen, status)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'new')""",
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'new')""",
             (tender.uid(), tender.source, tender.source_id, tender.title, tender.buyer,
              tender.country, tender.description[:8000], tender.cpv, tender.url,
-             _iso(tender.published), _iso(tender.deadline), tender.value, tender.currency,
+             _iso(tender.published), _iso(tender.deadline), _iso(tender.contract_end),
+             tender.value, tender.currency,
              tender.language, tender.raw_ref, tender.score, tender.matched,
              tender.fingerprint, tender.duplicate_of, now, now),
         )
@@ -172,6 +183,32 @@ class Database:
             sql.append("LIMIT ?")
             args.append(limit)
         return self.conn.execute(" ".join(sql), args).fetchall()
+
+    def expired(self, min_score: float, limit: int = 2000) -> list[sqlite3.Row]:
+        """Tenders whose bid deadline has passed -- the Historique tab on the
+        site. Needs an actual deadline to qualify (a NULL deadline can't be
+        judged expired or not, so it's excluded here just like it's always
+        treated as 'still open' in shortlist()).
+        """
+        sql = ("SELECT * FROM tenders WHERE score >= ? AND duplicate_of IS NULL "
+               "AND deadline IS NOT NULL AND deadline < date('now') "
+               "ORDER BY deadline DESC LIMIT ?")
+        return self.conn.execute(sql, (min_score, limit)).fetchall()
+
+    def contract_renewals(self, min_score: float, within_days: int = 180,
+                           limit: int = 500) -> list[sqlite3.Row]:
+        """Expired tenders whose stated contract end date falls within the
+        next `within_days` -- these are worth watching, since the buyer will
+        likely re-tender around then. Only populated for tenders where the
+        source actually stated a contract period (currently OCDS-based
+        sources, and TED on a best-effort basis) -- see contract_end in
+        models.py for the honest caveat on coverage.
+        """
+        sql = ("SELECT * FROM tenders WHERE score >= ? AND duplicate_of IS NULL "
+               "AND contract_end IS NOT NULL "
+               "AND contract_end BETWEEN date('now') AND date('now', ?) "
+               "ORDER BY contract_end ASC LIMIT ?")
+        return self.conn.execute(sql, (min_score, f"+{int(within_days)} day", limit)).fetchall()
 
     def since(self, min_score: float, since_iso: str, min_days: int = 0,
                limit: int = 5000) -> list[sqlite3.Row]:

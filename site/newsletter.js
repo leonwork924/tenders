@@ -59,17 +59,31 @@ async function main() {
   document.getElementById('edition').textContent = data.edition || '';
   document.getElementById('generated').textContent = data.generated || '';
 
-  // Newly signed
-  document.querySelector('#tbl-newsigned tbody').innerHTML = (data.newly_signed || []).map(it => `
-    <tr>
-      <td>${esc(it.date_signed)}</td>
-      <td>${statusBadge(it.status)}</td>
-      <td><b>${esc(it.deal)}</b></td>
-      <td>${esc(it.parties)}</td>
-      <td>${esc(it.type)}</td>
-      <td>${esc(it.details)}${relatedTenderBadge(it.related_tender)}</td>
-      <td>${sourceLink(it.source)}</td>
-    </tr>`).join('');
+  // Newly signed, grouped by sector
+  const sectorsEl = document.getElementById('newsigned-sectors');
+  const sectors = data.newly_signed || {};
+  sectorsEl.innerHTML = Object.keys(sectors).map(sector => {
+    const items = sectors[sector];
+    if (!items.length) return '';
+    return `
+    <div class="region-heading">${esc(sector)}</div>
+    <table class="nl-table">
+      <thead><tr><th>Date</th><th>Statut</th><th>Deal</th><th>Parties</th><th>Type</th><th>Pays</th><th>Détails</th><th>Source</th></tr></thead>
+      <tbody>
+        ${items.map(it => `
+          <tr>
+            <td>${esc(it.date_signed)}</td>
+            <td>${statusBadge(it.status)}</td>
+            <td><b>${esc(it.deal)}</b></td>
+            <td>${esc(it.parties)}</td>
+            <td>${esc(it.type)}</td>
+            <td>${esc(it.pays)}</td>
+            <td>${esc(it.details)}${relatedTenderBadge(it.related_tender)}</td>
+            <td>${sourceLink(it.source)}</td>
+          </tr>`).join('')}
+      </tbody>
+    </table>`;
+  }).join('') || '<p class="nl-empty-region">Aucun deal identifié pour cette édition.</p>';
 
   // Financing & grants
   document.querySelector('#tbl-financing tbody').innerHTML = (data.financing || []).map(it => `
@@ -78,6 +92,7 @@ async function main() {
       <td>${statusBadge(it.status)}</td>
       <td>${eligibilityBadge(it.eligibility)}</td>
       <td>${esc(it.org)}</td>
+      <td>${esc(it.pays)}</td>
       <td class="nl-amount">${esc(it.amount)}</td>
       <td>${esc(it.deadline)}</td>
       <td>${esc(it.summary)}${relatedTenderBadge(it.related_tender)}</td>
@@ -91,13 +106,14 @@ async function main() {
     <div class="region-heading">${esc(region)}</div>
     ${!regions[region].length ? '<p class="nl-empty-region">Rien identifie pour cette region dans cette edition.</p>' : `
     <table class="nl-table">
-      <thead><tr><th>Projet</th><th>Statut</th><th>Groupe(s)</th><th>Résumé</th><th>Contact clé</th><th>Source</th></tr></thead>
+      <thead><tr><th>Projet</th><th>Statut</th><th>Groupe(s)</th><th>Pays</th><th>Résumé</th><th>Contact clé</th><th>Source</th></tr></thead>
       <tbody>
         ${regions[region].map(it => `
           <tr>
             <td><b>${esc(it.project)}</b></td>
             <td>${statusBadge(it.status)}</td>
             <td>${esc(it.group)}</td>
+            <td>${esc(it.pays || region)}</td>
             <td>${esc(it.summary)}${relatedTenderBadge(it.related_tender)}</td>
             <td class="contact">${esc(it.contact)}</td>
             <td>${sourceLink(it.source)}</td>
@@ -112,6 +128,7 @@ async function main() {
       <td>${statusBadge(it.status)}</td>
       <td>${esc(it.parties)}</td>
       <td>${esc(it.type)}</td>
+      <td>${esc(it.pays)}</td>
       <td class="nl-amount">${esc(it.amount)}</td>
       <td>${esc(it.scope)}${relatedTenderBadge(it.related_tender)}</td>
       <td>${sourceLink(it.source)}</td>
@@ -124,7 +141,7 @@ async function main() {
       <td>${statusBadge(it.status)}</td>
       <td>${esc(it.organization)}</td>
       <td class="contact">${esc(it.people)}</td>
-      <td>${esc(it.region)}</td>
+      <td>${esc(it.pays || it.region)}</td>
       <td>${esc(it.summary)}${relatedTenderBadge(it.related_tender)}</td>
       <td>${sourceLink(it.source)}</td>
     </tr>`).join('');

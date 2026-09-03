@@ -20,6 +20,7 @@ class Tender:
     cpv: str = ""                    # space-separated codes, EU only
     published: Optional[date] = None
     deadline: Optional[date] = None
+    contract_end: Optional[date] = None   # estimated end of the awarded contract, when the source states it
     value: Optional[float] = None
     currency: str = ""
     language: str = ""
@@ -50,5 +51,6 @@ class Tender:
         d = asdict(self)
         d["published"] = self.published.isoformat() if self.published else None
         d["deadline"] = self.deadline.isoformat() if self.deadline else None
+        d["contract_end"] = self.contract_end.isoformat() if self.contract_end else None
         d["uid"] = self.uid()
         return d

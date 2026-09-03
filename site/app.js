@@ -146,6 +146,61 @@ async function main() {
   }
 
   refresh();
+  loadHistory();
+}
+
+// --- Historique / renouvellements -------------------------------------
+function showSubtab(which) {
+  document.getElementById('subtab-active').classList.toggle('on', which === 'active');
+  document.getElementById('subtab-history').classList.toggle('on', which === 'history');
+  document.getElementById('view-active').style.display = which === 'active' ? '' : 'none';
+  document.getElementById('view-history').style.display = which === 'history' ? '' : 'none';
+  document.getElementById('active-toolbar').style.display = which === 'active' ? '' : 'none';
+  const panel = document.getElementById('health-panel');
+  if (which === 'history' && panel) panel.style.display = 'none';
+}
+
+async function loadHistory() {
+  let hist;
+  try {
+    const res = await fetch('history.json', {cache: 'no-store'});
+    hist = await res.json();
+  } catch (e) {
+    document.getElementById('history-empty').style.display = 'block';
+    document.getElementById('history-empty').textContent = "Impossible de charger history.json.";
+    return;
+  }
+
+  const alertBox = document.getElementById('renewal-alert');
+  if ((hist.renewals || []).length) {
+    alertBox.style.display = 'block';
+    alertBox.innerHTML = `<b>⏰ ${hist.renewals.length} contrat(s) arrivent à échéance dans les 6 prochains mois</b>
+      — le marché revient probablement en jeu, à surveiller pour repostuler :
+      <ul>${hist.renewals.map(r => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
+        — ${esc(r.country_name || r.country)} — fin de contrat estimée ${esc((r.contract_end || '').slice(0,10))}</li>`).join('')}</ul>`;
+  } else {
+    alertBox.style.display = 'none';
+  }
+
+  const tbody = document.getElementById('history-tbody');
+  const empty = document.getElementById('history-empty');
+  const items = hist.expired || [];
+  if (!items.length) {
+    tbody.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+  tbody.innerHTML = items.map(it => `
+    <tr>
+      <td class="num">${(it.score || 0).toFixed(0)}</td>
+      <td><a class="title" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></td>
+      <td class="hide-sm">${esc(it.buyer)}</td>
+      <td>${esc(it.country_name || it.country)}</td>
+      <td class="date">${esc((it.deadline || '').slice(0, 10))}</td>
+      <td class="date">${it.contract_end ? esc(it.contract_end.slice(0, 10)) : '—'}</td>
+      <td class="src hide-sm"><span class="src-chip">${esc(it.source)}</span></td>
+    </tr>`).join('');
 }
 
 main().catch(err => {

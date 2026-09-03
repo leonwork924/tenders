@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Newsletter — Tender Radar</title>
+<title>Business Newsletter — Tender Radar</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="newsletter.css">
 </head>
 <body>
 <header>
-  <h1>Newsletter</h1>
+  <h1>Business Newsletter</h1>
   <span class="meta">Édition <span id="edition"></span> &nbsp;·&nbsp; générée le <span id="generated"></span></span>
 </header>
 <nav class="site-tabs">
   <a href="index.html">📋 Tenders</a>
-  <a href="newsletter.html" class="active">📰 Newsletter</a>
+  <a href="newsletter.html" class="active">📰 Business Newsletter</a>
   <a href="prospection.html">🕸️ Prospection</a>
 </nav>
 
@@ -37,18 +37,15 @@
 
   <section id="newsigned">
     <h2>Deals récemment signés</h2>
-    <p class="nl-sub">Accords, MOU, contrats de gestion et financements des ~4 dernières semaines</p>
-    <table class="nl-table" id="tbl-newsigned">
-      <thead><tr><th>Date</th><th>Statut</th><th>Deal</th><th>Parties</th><th>Type</th><th>Détails</th><th>Source</th></tr></thead>
-      <tbody></tbody>
-    </table>
+    <p class="nl-sub">Accords, MOU, contrats de gestion et financements des ~4 dernières semaines, par secteur</p>
+    <div id="newsigned-sectors"></div>
   </section>
 
   <section id="financing">
     <h2>Subventions &amp; financements</h2>
     <p class="nl-sub">Appels à candidature ouverts, et institutions ayant récemment obtenu une subvention (= prospects avec budget)</p>
     <table class="nl-table" id="tbl-financing">
-      <thead><tr><th>Programme</th><th>Statut</th><th>Éligibilité</th><th>Organisme</th><th>Montant</th><th>Échéance</th><th>Résumé</th><th>Source</th></tr></thead>
+      <thead><tr><th>Programme</th><th>Statut</th><th>Éligibilité</th><th>Organisme</th><th>Pays</th><th>Montant</th><th>Échéance</th><th>Résumé</th><th>Source</th></tr></thead>
       <tbody></tbody>
     </table>
   </section>
@@ -63,7 +60,7 @@
     <h2>Investissements, partenariats &amp; M&amp;A</h2>
     <p class="nl-sub">Flux cross-border Europe / Afrique / Asie / Amériques</p>
     <table class="nl-table" id="tbl-investments">
-      <thead><tr><th>Deal</th><th>Statut</th><th>Parties</th><th>Type</th><th>Montant</th><th>Objet</th><th>Source</th></tr></thead>
+      <thead><tr><th>Deal</th><th>Statut</th><th>Parties</th><th>Type</th><th>Pays</th><th>Montant</th><th>Objet</th><th>Source</th></tr></thead>
       <tbody></tbody>
     </table>
   </section>
@@ -72,7 +69,7 @@
     <h2>Arts &amp; expositions</h2>
     <p class="nl-sub">Projets, organisations et personnes clés</p>
     <table class="nl-table" id="tbl-arts">
-      <thead><tr><th>Événement</th><th>Statut</th><th>Organisation</th><th>Personnes clés</th><th>Région</th><th>Résumé</th><th>Source</th></tr></thead>
+      <thead><tr><th>Événement</th><th>Statut</th><th>Organisation</th><th>Personnes clés</th><th>Pays</th><th>Résumé</th><th>Source</th></tr></thead>
       <tbody></tbody>
     </table>
   </section>

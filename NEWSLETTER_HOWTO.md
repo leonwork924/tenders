@@ -29,16 +29,26 @@ texte avant/apres, pas de blocs markdown) suivant EXACTEMENT ce schema :
 {
   "generated": "AAAA-MM-JJ",
   "edition": "Mois AAAA",
-  "newly_signed": [
-    {"date_signed": "", "status": "", "deal": "", "parties": "", "type": "",
-     "details": "", "source": {"label": "", "url": ""}, "related_tender": null}
-  ],
+  "newly_signed": {
+    "BTP & Infrastructure": [
+      {"date_signed": "", "status": "", "deal": "", "parties": "", "type": "",
+       "pays": "", "details": "", "source": {"label": "", "url": ""}, "related_tender": null}
+    ],
+    "Banques & Finance": [ ... meme structure ... ],
+    "Politique & Gouvernement": [ ... meme structure ... ],
+    "Ambassade & Diplomatie": [ ... meme structure ... ],
+    "Hôtellerie": [ ... meme structure ... ],
+    "Assurance": [ ... meme structure ... ],
+    "Art & Culture": [ ... meme structure ... ],
+    "Convention & Partenariat institutionnel": [ ... meme structure ... ],
+    "Autre": [ ... meme structure ... ]
+  },
   "financing": [
-    {"program": "", "status": "", "eligibility": "", "org": "", "amount": "",
+    {"program": "", "status": "", "eligibility": "", "org": "", "pays": "", "amount": "",
      "deadline": "", "summary": "", "source": {"label": "", "url": ""}, "related_tender": null}
   ],
   "hospitality": {
-    "Africa": [ {"project": "", "status": "", "group": "", "summary": "",
+    "Africa": [ {"project": "", "status": "", "group": "", "pays": "", "summary": "",
                  "contact": "", "source": {"label": "", "url": ""}, "related_tender": null} ],
     "Middle East": [ ... meme structure ... ],
     "Asia": [ ... meme structure ... ],
@@ -46,19 +56,28 @@ texte avant/apres, pas de blocs markdown) suivant EXACTEMENT ce schema :
     "Caribbean": [ ... meme structure ... ]
   },
   "investments": [
-    {"deal": "", "status": "", "parties": "", "type": "", "amount": "",
+    {"deal": "", "status": "", "parties": "", "type": "", "pays": "", "amount": "",
      "scope": "", "source": {"label": "", "url": ""}, "related_tender": null}
   ],
   "arts": [
-    {"event": "", "status": "", "organization": "", "people": "",
+    {"event": "", "status": "", "organization": "", "people": "", "pays": "",
      "region": "", "summary": "", "source": {"label": "", "url": ""}, "related_tender": null}
   ]
 }
 
 Contenu attendu par section :
+0. pays : sur CHAQUE ligne de CHAQUE section, indique le pays principal
+   concerne (nom complet, ex. "Kenya", pas "KE"). Si plusieurs pays sont
+   concernes, mets le principal ou "Multi-pays (region)". Si vraiment non
+   identifiable dans la source, laisse vide plutot que de deviner.
 1. newly_signed : accords/MOU/contrats de gestion/financements signes dans
-   les ~4 dernieres semaines, toutes categories confondues, les plus recents
-   d'abord.
+   les ~4 dernieres semaines, groupes par secteur (les cles fixes du JSON
+   ci-dessus : BTP & Infrastructure, Banques & Finance, Politique &
+   Gouvernement, Ambassade & Diplomatie, Hôtellerie, Assurance, Art &
+   Culture, Convention & Partenariat institutionnel, Autre). Garde TOUTES
+   ces cles meme vides (tableau []) -- le site n'affiche que celles qui ont
+   du contenu, mais la structure doit rester complete pour que le site sache
+   les reconnaitre.
 2. financing : subventions et financements pertinents pour Records
    Management et Heritage (numerisation d'archives, conservation-
    restauration, technologies patrimoniales). Deux types de lignes,

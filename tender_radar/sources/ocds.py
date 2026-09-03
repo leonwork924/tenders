@@ -53,6 +53,19 @@ def release_to_tender(release: dict, source: str, default_country: str = "",
     period = tender.get("tenderPeriod") or {}
     deadline = parse_date(period.get("endDate"))
 
+    # Estimated contract duration, when the buyer states it upfront (a
+    # standard OCDS field, not something every publisher fills in). Powers
+    # the "contract ends soon, expect a re-tender" alert on the site.
+    contract_period = tender.get("contractPeriod") or {}
+    contract_end = parse_date(contract_period.get("endDate"))
+    if not contract_end and contract_period.get("startDate") and contract_period.get("durationInDays"):
+        try:
+            start = parse_date(contract_period["startDate"])
+            if start:
+                contract_end = start + timedelta(days=int(contract_period["durationInDays"]))
+        except (TypeError, ValueError):
+            pass
+
     value_block = tender.get("value") or tender.get("minValue") or {}
     value = parse_value(value_block.get("amount"))
     currency = value_block.get("currency") or ""
@@ -91,6 +104,7 @@ def release_to_tender(release: dict, source: str, default_country: str = "",
         cpv=cpv,
         published=parse_date(release.get("date")),
         deadline=deadline,
+        contract_end=contract_end,
         value=value,
         currency=currency,
         raw_ref=str(tender.get("id") or ""),

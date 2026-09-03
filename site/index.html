@@ -13,11 +13,18 @@
 </header>
 <nav class="site-tabs">
   <a href="index.html" class="active">📋 Tenders</a>
-  <a href="newsletter.html">📰 Newsletter</a>
+  <a href="newsletter.html">📰 Business Newsletter</a>
   <a href="prospection.html">🕸️ Prospection</a>
 </nav>
 
-<div class="toolbar">
+<nav class="sub-tabs">
+  <button id="subtab-active" class="on" onclick="showSubtab('active')">Actifs</button>
+  <button id="subtab-history" onclick="showSubtab('history')">Historique</button>
+</nav>
+
+<div id="renewal-alert" class="renewal-alert" style="display:none"></div>
+
+<div id="active-toolbar" class="toolbar">
   <label for="q">Filtre</label>
   <input id="q" type="search" placeholder="titre, acheteur, mot-clé…" autocomplete="off">
   <label for="country">Pays</label>
@@ -36,7 +43,7 @@
   </table>
 </div>
 
-<main>
+<main id="view-active">
   <table>
     <thead>
       <tr>
@@ -52,6 +59,27 @@
     <tbody id="tbody"></tbody>
   </table>
   <p class="empty" id="empty" style="display:none">Aucun appel d'offres pour ce filtre.</p>
+</main>
+
+<main id="view-history" style="display:none">
+  <p class="nl-sub" style="padding:14px 24px 0">Appels d'offres dont la date limite est passée. La section
+  "renouvellement à prévoir" ci-dessus liste ceux dont la durée de contrat annoncée se termine dans les
+  6 prochains mois — le marché reviendra probablement en jeu à ce moment-là.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Score</th>
+        <th>Appel d'offres</th>
+        <th>Acheteur</th>
+        <th>Pays</th>
+        <th>Échéance dépassée le</th>
+        <th>Fin de contrat estimée</th>
+        <th>Source</th>
+      </tr>
+    </thead>
+    <tbody id="history-tbody"></tbody>
+  </table>
+  <p class="empty" id="history-empty" style="display:none">Aucun historique pour l'instant.</p>
 </main>
 
 <footer>

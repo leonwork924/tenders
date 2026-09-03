@@ -11,7 +11,7 @@ from pathlib import Path
 
 from .config import load_config
 from .db import Database
-from .export import write_csv, write_html, write_filtered_html, write_json
+from .export import write_csv, write_html, write_filtered_html, write_json, write_history_json
 from .models import Tender
 from .pipeline import run as run_pipeline
 from .scoring import Scorer
@@ -89,6 +89,13 @@ def cmd_export(args, config):
         source_health = [s for s in source_health if s["source"] in configured]
         json_path = write_json(site_rows, config["output"]["json_path"], json_meta, source_health)
 
+        expired_rows = db.expired(min_score=float(config["run"]["min_score"]))
+        renewal_rows = db.contract_renewals(min_score=float(config["run"]["min_score"]), within_days=180)
+        history_path = write_history_json(
+            expired_rows, renewal_rows, config["output"]["history_json_path"],
+            {"generated": meta["generated"]},
+        )
+
         if getattr(args, "mark_seen", False):
             db.mark_seen([r["uid"] for r in rows])
     finally:
@@ -98,6 +105,7 @@ def cmd_export(args, config):
     print(f"  CSV  {csv_path}")
     print(f"  HTML {html_path}")
     print(f"  JSON {json_path}  ({len(site_rows)} active tenders, for the site)")
+    print(f"  HIST {history_path}  ({len(expired_rows)} expired, {len(renewal_rows)} contract renewals ahead)")
     if getattr(args, "open", False):
         webbrowser.open(html_path.as_uri())
     return 0

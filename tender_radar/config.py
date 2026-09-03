@@ -25,6 +25,7 @@ def load_config(path: str | Path | None = None) -> dict:
     out["csv_path"] = str(resolve(out.get("csv_path", "out/shortlist.csv")))
     out["html_path"] = str(resolve(out.get("html_path", "out/shortlist.html")))
     out["json_path"] = str(resolve(out.get("json_path", "site/data.json")))
+    out["history_json_path"] = str(resolve(out.get("history_json_path", "site/history.json")))
 
     inbox = (config.get("sources") or {}).get("csv_inbox")
     if inbox:

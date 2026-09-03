@@ -67,6 +67,44 @@ def _country_name(code: str) -> str:
     return code
 
 
+def write_history_json(expired_rows, renewal_rows, path: str | Path, meta: dict) -> Path:
+    """The Historique tab: every expired tender above threshold, plus a
+    'renouvellement a prevoir' shortlist of the ones whose stated contract
+    ends within the next 6 months. That second list will start sparse (or
+    empty) and grow over time -- it only has data where the source actually
+    published a contract duration, which most sources don't reliably do.
+    See models.py Tender.contract_end for the honest coverage caveat.
+    """
+    import json
+
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    def slim(d):
+        return {
+            "uid": d.get("uid"),
+            "score": round(float(d.get("score") or 0), 1),
+            "title": d.get("title"),
+            "buyer": d.get("buyer"),
+            "country": d.get("country"),
+            "country_name": _country_name(d.get("country") or ""),
+            "deadline": d.get("deadline"),
+            "contract_end": d.get("contract_end"),
+            "value": d.get("value"),
+            "currency": d.get("currency"),
+            "source": d.get("source"),
+            "url": d.get("url"),
+        }
+
+    payload = {
+        "generated": meta.get("generated"),
+        "expired": [slim(d) for d in rows_to_dicts(expired_rows)],
+        "renewals": [slim(d) for d in rows_to_dicts(renewal_rows)],
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=None), encoding="utf-8")
+    return path
+
+
 def write_json(rows, path: str | Path, meta: dict, source_health: list[dict] | None = None) -> Path:
     """Write the shared-site JSON: every active, above-threshold tender.
     This is what the static site on Vercel reads, and it always reflects the

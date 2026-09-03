@@ -33,6 +33,20 @@ nav.site-tabs a {
 nav.site-tabs a:hover { color: #fff; background: rgba(255,255,255,.04); }
 nav.site-tabs a.active { color: #fff; border-bottom-color: var(--amber); background: rgba(255,255,255,.06); }
 
+nav.sub-tabs { display: flex; gap: 8px; padding: 12px 24px 0; background: var(--paper); }
+nav.sub-tabs button {
+  font: inherit; font-size: 13px; padding: 6px 16px; border-radius: 20px;
+  border: 1px solid var(--rule); background: #fff; color: var(--ink-soft); cursor: pointer;
+}
+nav.sub-tabs button.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+
+.renewal-alert {
+  margin: 12px 24px 0; padding: 12px 16px; border-left: 3px solid var(--amber);
+  background: #fbf3e7; border-radius: 4px; font-size: 13px; color: var(--ink);
+}
+.renewal-alert ul { margin: 8px 0 0 18px; }
+.renewal-alert li { margin-bottom: 3px; }
+
 nav.branches { display: none; }
 
 .toolbar {

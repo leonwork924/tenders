@@ -38,9 +38,54 @@ FIELDS = [
     "estimated-value-cur-proc",
     "total-value",
     "total-value-cur",
+    # Best-effort: contract/framework duration, following the same lot/proc
+    # pairing as the value fields above. NOT verified against a live
+    # response from here (network-restricted sandbox) -- if these field
+    # names are wrong, TED just won't return them and contract_end stays
+    # empty for TED, same as today. Check after the first real fetch.
+    "duration-lot",
+    "duration-proc",
     "notice-type",
     "links",
 ]
+
+
+def _parse_duration_to_end_date(raw, deadline):
+    """Best-effort: turn whatever TED returns for duration-lot/-proc into a
+    contract end date, counted from the bid deadline. Unverified field
+    format -- handles a plain number of months (most likely), an ISO 8601
+    duration like 'P36M', or gives up cleanly to None on anything else.
+    Never raises: a wrong guess here should just mean no contract_end, not
+    a broken fetch.
+    """
+    if not raw or not deadline:
+        return None
+    from datetime import timedelta
+    import re as _re
+
+    text = str(raw).strip()
+    months = None
+    m = _re.match(r"^P(?:(\d+)Y)?(?:(\d+)M)?(?:(\d+)D)?$", text, _re.IGNORECASE)
+    if m:
+        years, mo, days = (int(g) if g else 0 for g in m.groups())
+        months = years * 12 + mo
+        if days and not months:
+            return deadline + timedelta(days=days)
+    elif _re.match(r"^\d+(\.\d+)?$", text):
+        months = round(float(text))
+    if months:
+        # Simple month math without a calendar dependency: good enough for
+        # a "roughly 6 months out" alert, not a legal deadline.
+        total = deadline.month - 1 + months
+        year = deadline.year + total // 12
+        month = total % 12 + 1
+        day = min(deadline.day, 28)
+        try:
+            from datetime import date as _date
+            return _date(year, month, day)
+        except ValueError:
+            return None
+    return None
 
 
 def _first(value):
@@ -233,6 +278,10 @@ class TedSource(Source):
         if text_currency:
             currency = text_currency
 
+        contract_end = _parse_duration_to_end_date(
+            _first(record.get("duration-proc")) or _first(record.get("duration-lot")), deadline
+        )
+
         return Tender(
             source="ted",
             source_id=pubnum,
@@ -246,6 +295,7 @@ class TedSource(Source):
                 else _join(record.get("classification-cpv")),
             published=parse_date(_first(record.get("publication-date"))),
             deadline=deadline,
+            contract_end=contract_end,
             value=value,
             currency=currency or "",
             raw_ref=pubnum,
