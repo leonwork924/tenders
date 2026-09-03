@@ -36,6 +36,7 @@ texte avant/apres, pas de blocs markdown) suivant EXACTEMENT ce schema :
   "hospitality": {
     "Africa": [ {"project": "", "status": "", "group": "", "summary": "",
                  "contact": "", "source": {"label": "", "url": ""}} ],
+    "Middle East": [ ... meme structure ... ],
     "Asia": [ ... meme structure ... ],
     "Europe": [ ... meme structure ... ],
     "Caribbean": [ ... meme structure ... ]
@@ -55,9 +56,10 @@ Contenu attendu par section :
    les ~4 dernieres semaines, toutes categories confondues, les plus recents
    d'abord.
 2. hospitality : projets de developpement hotelier et de resorts, par
-   region (Afrique, Asie, Europe, Caraibes) -- qui est derriere le projet
-   (groupe hotelier, developpeur), un resume, et si une personne est citee
-   nommement dans un article public, son nom + role + organisation.
+   region (Afrique, Moyen-Orient, Asie, Europe, Caraibes) -- qui est
+   derriere le projet (groupe hotelier, developpeur), un resume, et si une
+   personne est citee nommement dans un article public, son nom + role +
+   organisation.
 3. investments : investissements, partenariats et fusions-acquisitions
    cross-border entre Europe / Afrique / Asie / Ameriques -- type
    d'operation (JV, acquisition, usine, financement...), montant si connu,

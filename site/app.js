@@ -57,6 +57,11 @@ async function main() {
     state.country = initialCountry;
     countrySel.value = initialCountry;
   }
+  const initialQuery = new URLSearchParams(location.search).get('q');
+  if (initialQuery) {
+    state.q = initialQuery.toLowerCase();
+    document.getElementById('q').value = initialQuery;
+  }
 
   document.getElementById('q').addEventListener('input', e => { state.q = e.target.value.toLowerCase(); refresh(); });
   srcSel.addEventListener('change', e => { state.src = e.target.value; refresh(); });
