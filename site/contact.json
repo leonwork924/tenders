@@ -1,1 +1,617 @@
-{"generated": "2026-09-03", "regions": {"Europe": [{"country": "Albanie", "org": "Ministry for Europe and Foreign Affairs", "url": "https://punetejashtme.gov.al/", "status": "verified", "note": "Liste diplomatique directe trouvée (rubrique \"Përfaqësitë e Huaja në Shqipëri\", PDF, mise à jour régulièrement)"}, {"country": "Autriche", "org": "BMEIA Diplomatic List", "url": "https://www.bmeia.gv.at/en/reports/diplomatic-list", "status": "verified", "note": "Domaine officiel confirmé -- fetch automatique bloqué par robots.txt, consultation manuelle nécessaire"}, {"country": "Belgique", "org": "FPS Foreign Affairs, Diplomatic & Consular Corps", "url": "https://diplomatie.belgium.be/fr/protocole/coordonnees-du-corps-diplomatique-et-consulaire", "status": "", "note": ""}, {"country": "Bosnie-Herzégovine", "org": "Ministry of Foreign Affairs", "url": "https://mvp.gov.ba/", "status": "", "note": ""}, {"country": "Bulgarie", "org": "Ministry of Foreign Affairs", "url": "https://www.mfa.bg/", "status": "", "note": ""}, {"country": "Croatie", "org": "Ministry of Foreign and European Affairs", "url": "https://mvep.gov.hr/", "status": "", "note": ""}, {"country": "République tchèque", "org": "Diplomatic List", "url": "https://mzv.gov.cz/jnp/en/diplomatic_missions/diplomatic_list.mobi", "status": "", "note": ""}, {"country": "France", "org": "France Diplomatie", "url": "https://www.diplomatie.gouv.fr/", "status": "", "note": ""}, {"country": "Allemagne", "org": "Federal Foreign Office", "url": "https://www.auswaertiges-amt.de/", "status": "", "note": ""}, {"country": "Hongrie", "org": "Ministry of Foreign Affairs and Trade", "url": "https://mfa.gov.hu/", "status": "", "note": ""}, {"country": "Kosovo", "org": "Ministry of Foreign Affairs and Diaspora", "url": "https://mfa-ks.net/", "status": "verified", "note": ""}, {"country": "Monténégro", "org": "Ministry of Foreign Affairs", "url": "https://www.gov.me/en/mfa", "status": "", "note": ""}, {"country": "Macédoine du Nord", "org": "Ministry of Foreign Affairs", "url": "https://mfa.gov.mk/", "status": "", "note": ""}, {"country": "Pays-Bas", "org": "Ministry of Foreign Affairs", "url": "https://www.government.nl/ministries/ministry-of-foreign-affairs", "status": "", "note": ""}, {"country": "Pologne", "org": "Ministry of Foreign Affairs", "url": "https://www.gov.pl/web/diplomacy", "status": "", "note": ""}, {"country": "Portugal", "org": "Ministry of Foreign Affairs / Diplomatic Portal", "url": "https://www.portaldiplomatico.mne.gov.pt/", "status": "", "note": ""}, {"country": "Roumanie", "org": "Ministry of Foreign Affairs", "url": "https://www.mae.ro/", "status": "", "note": ""}, {"country": "Russie", "org": "Ministry of Foreign Affairs", "url": "https://mid.ru/", "status": "", "note": ""}, {"country": "Serbie", "org": "Diplomatic List", "url": "https://www.mfa.gov.rs/en/ministry/diplomatic-protocol/diplomatic-list", "status": "", "note": ""}, {"country": "Slovaquie", "org": "Ministry of Foreign and European Affairs", "url": "https://www.mzv.sk/", "status": "", "note": ""}, {"country": "Slovénie", "org": "Diplomatic Protocol", "url": "https://www.gov.si/en/state-authorities/ministries/ministry-of-foreign-and-european-affairs/about-the-ministry/directorate-for-international-law-and-multilateral-affairs/diplomatic-protocol/", "status": "", "note": ""}, {"country": "Espagne", "org": "Ministry of Foreign Affairs", "url": "https://www.exteriores.gob.es/", "status": "", "note": ""}, {"country": "Suisse", "org": "Federal Department of Foreign Affairs", "url": "https://www.dfae.admin.ch/", "status": "", "note": ""}, {"country": "Ukraine", "org": "Ministry of Foreign Affairs", "url": "https://mfa.gov.ua/", "status": "", "note": ""}, {"country": "Royaume-Uni", "org": "FCDO / London Diplomatic List", "url": "https://www.gov.uk/government/publications/foreign-embassies-in-the-uk", "status": "", "note": ""}], "Afrique": [{"country": "Algérie", "org": "Ministère des Affaires étrangères", "url": "https://www.mfa.gov.dz/", "status": "", "note": ""}, {"country": "Angola", "org": "MIREX", "url": "https://mirex.gov.ao/", "status": "verified", "note": "Redirige vers /PortalMIREX/, fonctionnel"}, {"country": "Bénin", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gouv.bj/", "status": "verified", "note": ""}, {"country": "Botswana", "org": "Gouvernement du Botswana", "url": "https://www.gov.bw/", "status": "", "note": ""}, {"country": "Burkina Faso", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gov.bf/", "status": "", "note": ""}, {"country": "Burundi", "org": "Ministère des Affaires étrangères", "url": "https://www.mae.gov.bi/", "status": "", "note": ""}, {"country": "Cameroun", "org": "DIPLOCAM", "url": "https://www.diplocam.cm/", "status": "", "note": ""}, {"country": "Cap-Vert", "org": "MNEC", "url": "https://mnec.gov.cv/", "status": "", "note": ""}, {"country": "République centrafricaine", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gouv.cf/", "status": "verified", "note": ""}, {"country": "Tchad", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gouv.td/", "status": "", "note": ""}, {"country": "Comores", "org": "Ministère des Affaires étrangères", "url": "https://diplomatie.gouv.km/", "status": "", "note": ""}, {"country": "Congo (République)", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gouv.cg/", "status": "", "note": ""}, {"country": "RD Congo", "org": "Ministère des Affaires étrangères", "url": "https://www.minaffet.gouv.cd/", "status": "", "note": ""}, {"country": "Djibouti", "org": "Ministère des Affaires étrangères", "url": "https://diplomatie.gouv.dj/", "status": "", "note": ""}, {"country": "Égypte", "org": "Ministry of Foreign Affairs", "url": "https://www.mfa.gov.eg/", "status": "", "note": ""}, {"country": "Guinée équatoriale", "org": "Ministère des Affaires extérieures", "url": "https://minexteriores.gob.gq/", "status": "", "note": ""}, {"country": "Érythrée", "org": "Portail d'information gouvernemental", "url": "https://www.shabait.com/", "status": "warning", "note": "Source secondaire uniquement (ministère de l'Information, PAS le MAE) -- l'Érythrée n'a pas de site MAE dédié fiable et à jour. Traiter avec prudence."}, {"country": "Eswatini", "org": "Gouvernement d'Eswatini", "url": "https://www.gov.sz/", "status": "", "note": ""}, {"country": "Éthiopie", "org": "Ministry of Foreign Affairs", "url": "https://mfa.gov.et/", "status": "", "note": ""}, {"country": "Gabon", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gouv.ga/", "status": "", "note": ""}, {"country": "Gambie", "org": "Ministry of Foreign Affairs", "url": "https://mofa.gov.gm/", "status": "", "note": ""}, {"country": "Ghana", "org": "Ministry of Foreign Affairs", "url": "https://mfa.gov.gh/", "status": "", "note": ""}, {"country": "Guinée", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gov.gn/", "status": "", "note": ""}, {"country": "Guinée-Bissau", "org": "MNEC", "url": "https://www.mnec.gov.gw/", "status": "", "note": ""}, {"country": "Côte d'Ivoire", "org": "Ministère des Affaires étrangères", "url": "https://diplomatie.gouv.ci/", "status": "", "note": ""}, {"country": "Kenya", "org": "Ministry of Foreign Affairs", "url": "https://mfa.go.ke/", "status": "", "note": ""}, {"country": "Lesotho", "org": "Ministry of Foreign Affairs", "url": "https://www.foreignaffairs.gov.ls/Home/Diplomatic", "status": "", "note": ""}, {"country": "Liberia", "org": "Ministry of Foreign Affairs", "url": "https://www.mofa.gov.lr/", "status": "", "note": ""}, {"country": "Libye", "org": "Ministry of Foreign Affairs", "url": "https://foreign.gov.ly/", "status": "", "note": ""}, {"country": "Madagascar", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gov.mg/", "status": "", "note": ""}, {"country": "Malawi", "org": "Ministry of Foreign Affairs", "url": "https://www.foreignaffairs.gov.mw/", "status": "", "note": ""}, {"country": "Mali", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatiemali.com/", "status": "", "note": ""}, {"country": "Mauritanie", "org": "Ministère des Affaires étrangères", "url": "https://diplomatie.gov.mr/", "status": "", "note": ""}, {"country": "Maurice", "org": "Ministry of Foreign Affairs", "url": "https://foreign.govmu.org/", "status": "", "note": ""}, {"country": "Maroc", "org": "Ministère des Affaires étrangères", "url": "https://diplomatie.ma/", "status": "", "note": ""}, {"country": "Mozambique", "org": "MINEC", "url": "https://www.minec.gov.mz/", "status": "", "note": ""}, {"country": "Namibie", "org": "MIREX", "url": "https://mirex.gov.na/", "status": "", "note": ""}, {"country": "Niger", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gouv.ne/", "status": "", "note": ""}, {"country": "Nigeria", "org": "Ministry of Foreign Affairs", "url": "https://foreignaffairs.gov.ng/", "status": "", "note": ""}, {"country": "Rwanda", "org": "Ministère des Affaires étrangères", "url": "https://www.minaffet.gov.rw/", "status": "verified", "note": "Seul site officiel confirmé. ATTENTION : \"Rwanda Diplomatic Services Portal\" (rwdiplomatic.online) est un domaine usurpateur sans lien avec le gouvernement rwandais (qui utilise exclusivement .gov.rw) -- retiré de cette liste, à ne pas utiliser."}, {"country": "Sao Tomé-et-Principe", "org": "MNE", "url": "https://mne.gov.st/", "status": "", "note": ""}, {"country": "Sénégal", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gouv.sn/", "status": "", "note": ""}, {"country": "Seychelles", "org": "Ministry of Foreign Affairs", "url": "https://mfa.gov.sc/", "status": "", "note": ""}, {"country": "Sierra Leone", "org": "MOFAIC", "url": "https://mofaic.gov.sl/", "status": "", "note": ""}, {"country": "Somalie", "org": "Ministry of Foreign Affairs", "url": "https://mfa.gov.so/", "status": "", "note": ""}, {"country": "Afrique du Sud", "org": "DIRCO -- Foreign Representation", "url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/", "status": "", "note": ""}, {"country": "Soudan du Sud", "org": "MOFAIC", "url": "https://mofaic.gov.ss/", "status": "", "note": ""}, {"country": "Soudan", "org": "Ministry of Foreign Affairs", "url": "https://mofa.gov.sd/", "status": "", "note": ""}, {"country": "Tanzanie", "org": "Protocol Department", "url": "https://www.foreign.go.tz/about/protocol-department/1000", "status": "", "note": ""}, {"country": "Togo", "org": "Ministère des Affaires étrangères", "url": "https://diplomatie.gouv.tg/", "status": "", "note": ""}, {"country": "Tunisie", "org": "Ministère des Affaires étrangères", "url": "https://www.diplomatie.gov.tn/", "status": "", "note": ""}, {"country": "Ouganda", "org": "Ministry of Foreign Affairs", "url": "https://www.mofa.go.ug/", "status": "", "note": ""}, {"country": "Zambie", "org": "Ministry of Foreign Affairs", "url": "https://www.mofa.gov.zm/", "status": "", "note": ""}, {"country": "Zimbabwe", "org": "Ministry of Foreign Affairs", "url": "https://www.mfa.gov.zw/", "status": "", "note": ""}], "Asie": [{"country": "Cambodge", "org": "MFAIC", "url": "https://www.mfaic.gov.kh/", "status": "", "note": ""}, {"country": "Chine", "org": "Ministry of Foreign Affairs", "url": "https://www.mfa.gov.cn/", "status": "", "note": ""}, {"country": "Hong Kong", "org": "Protocol Division", "url": "https://www.protocol.gov.hk/", "status": "", "note": ""}, {"country": "Inde", "org": "Ministry of External Affairs", "url": "https://www.mea.gov.in/", "status": "", "note": ""}, {"country": "Indonésie", "org": "Diplomatic & Consular List", "url": "https://layanandiplomatik.kemlu.go.id/guest/diplist", "status": "", "note": ""}, {"country": "Japon", "org": "Foreign Missions in Japan", "url": "https://www.mofa.go.jp/about/emb_cons/protocol/a-h.html", "status": "", "note": ""}, {"country": "Laos", "org": "Ministry of Foreign Affairs", "url": "https://www.mofa.gov.la/", "status": "", "note": ""}, {"country": "Macao", "org": "Gouvernement de Macao", "url": "https://www.gov.mo/", "status": "", "note": ""}, {"country": "Malaisie", "org": "KLN", "url": "https://www.kln.gov.my/", "status": "", "note": ""}, {"country": "Myanmar", "org": "Ministry of Foreign Affairs", "url": "https://www.mofa.gov.mm/", "status": "warning", "note": "Site du gouvernement militaire (junte) depuis 2021 -- légitimité internationale contestée par plusieurs États. À mentionner si le contexte d'usage l'exige."}, {"country": "Philippines", "org": "DFA", "url": "https://dfa.gov.ph/", "status": "", "note": ""}, {"country": "Singapour", "org": "Foreign Representatives / Diplomatic & Consular List", "url": "https://www.mfa.gov.sg/visiting-singapore/foreign-representatives-to-singapore/", "status": "", "note": ""}, {"country": "Corée du Sud", "org": "Diplomatic List", "url": "https://www.mofa.go.kr/eng/brd/m_5795/list.do", "status": "", "note": ""}, {"country": "Taïwan", "org": "Ministry of Foreign Affairs", "url": "https://www.mofa.gov.tw/", "status": "", "note": ""}, {"country": "Thaïlande", "org": "Ministry of Foreign Affairs", "url": "https://www.mfa.go.th/", "status": "", "note": ""}, {"country": "Vietnam", "org": "State Protocol / Diplomatic Missions", "url": "https://stateprotocol.mofa.gov.vn/", "status": "", "note": ""}], "Moyen-Orient": [{"country": "Bahreïn", "org": "Ministry of Foreign Affairs", "url": "https://www.mofa.gov.bh/", "status": "", "note": ""}, {"country": "Koweït", "org": "Foreign Diplomatic Missions", "url": "https://www.mofa.gov.kw/en/kuwait-missions/foreign-diplomatic-missions/", "status": "", "note": ""}, {"country": "Oman", "org": "Ministry of Foreign Affairs", "url": "https://www.fm.gov.om/", "status": "", "note": ""}, {"country": "Qatar", "org": "Ministry of Foreign Affairs", "url": "https://mofa.gov.qa/", "status": "", "note": ""}, {"country": "Émirats arabes unis", "org": "Ministry of Foreign Affairs", "url": "https://www.mofa.gov.ae/", "status": "", "note": ""}], "Caraïbes & territoires": [{"country": "Aruba", "org": "Gouvernement d'Aruba", "url": "https://www.government.aw/", "status": "", "note": ""}, {"country": "Bonaire", "org": "Gouvernement de Bonaire", "url": "https://www.bonairegov.com/", "status": "", "note": ""}, {"country": "Curaçao", "org": "Gouvernement de Curaçao", "url": "https://www.gobiernu.cw/", "status": "", "note": ""}, {"country": "Guadeloupe", "org": "France Diplomatie", "url": "https://www.diplomatie.gouv.fr/", "status": "", "note": "Territoire français, pas de MAE propre -- voir note ci-dessous"}, {"country": "Haïti", "org": "Ministère des Affaires étrangères", "url": "https://www.mae.gouv.ht/", "status": "", "note": ""}, {"country": "Martinique", "org": "France Diplomatie", "url": "https://www.diplomatie.gouv.fr/", "status": "", "note": "Territoire français, pas de MAE propre -- voir note ci-dessous"}, {"country": "Saint-Martin", "org": "France Diplomatie", "url": "https://www.diplomatie.gouv.fr/", "status": "", "note": "Territoire français, pas de MAE propre -- voir note ci-dessous"}], "International & sources complémentaires": [{"country": "Australie", "org": "DFAT / Diplomatic List", "url": "https://protocol.dfat.gov.au/", "status": "", "note": ""}, {"country": "Canada", "org": "Global Affairs Canada / Diplomatic Representatives", "url": "https://www.international.gc.ca/protocol-protocole/reps.aspx?lang=eng", "status": "", "note": ""}, {"country": "Lettonie", "org": "Diplomatic Missions / Diplomatic List", "url": "https://www.mfa.gov.lv/en/diplomatic-missions-latvia", "status": "", "note": ""}, {"country": "République dominicaine", "org": "Diplomatic List", "url": "https://mirex.gob.do/lista-diplomatica-y-de-organismos-internacionales/", "status": "", "note": ""}, {"country": "Royaume-Uni", "org": "London Diplomatic List -- dataset data.gov.uk", "url": "https://www.data.gov.uk/dataset/ac361893-3037-461e-8545-a7004f63ab42/https-www-gov-uk-government-publications-foreign-embassies-in-the-uk", "status": "", "note": ""}, {"country": "ONU", "org": "UN Protocol and Liaison Service -- \"Blue Book\"", "url": "https://www.un.int/protocol/bluebook", "status": "", "note": "Liste officielle des Missions permanentes auprès de l'ONU à New York, avec noms des Représentants permanents, adjoints et personnel accrédité. Source primaire de très haute qualité, couvre quasiment tous les pays membres."}, {"country": "États-Unis", "org": "Dept. of State -- Diplomatic List (\"Blue List\")", "url": "https://www.state.gov/diplomatic-list/", "status": "", "note": ""}, {"country": "États-Unis", "org": "Dept. of State -- Foreign Consular Offices in the US", "url": "https://www.state.gov/foreign-consular-offices-in-the-united-states/", "status": "", "note": ""}, {"country": "OSCE", "org": "Permanent Council delegations (Vienne)", "url": "https://www.osce.org/permanent-council", "status": "", "note": ""}, {"country": "Union européenne", "org": "Permanent Representations to the EU", "url": "https://www.consilium.europa.eu/en/documents-publications/library/permanent-representations/", "status": "", "note": ""}]}, "search_terms": ["Diplomatic List", "Diplomatic Corps", "Diplomatic Directory", "Foreign Representatives", "Foreign Missions", "Foreign Diplomatic Missions", "Diplomatic and Consular List", "Diplomatic & Consular Corps", "Diplomatic Protocol", "State Protocol", "Protocol Department", "List of Foreign Missions", "List of Accredited Diplomats", "Corps diplomatique", "Liste diplomatique", "Annuaire diplomatique", "Annuaire du corps diplomatique", "Blue Book (ONU)", "Diplomatic List / Blue List (US State Dept)"], "notes": ["Guadeloupe / Martinique / Saint-Martin sont des territoires français sans corps diplomatique propre -- leurs \"diplomates\" relèvent en réalité du corps consulaire/préfectoral local, pas du MAE parisien pour ce qui concerne le personnel accrédité localement sur place."], "methodology": "Vérification directe (fetch ou recherche croisée) effectuée sur : Albanie, Autriche, Rwanda, Angola, Bénin, RCA, Kosovo, Érythrée. 1 entrée supprimée car frauduleuse (Rwanda). 1 entrée reclassée en source secondaire avec avertissement (Érythrée). Les ~90 entrées restantes n'ont pas toutes été re-testées individuellement (nombreux sites gouvernementaux bloquent le fetch automatisé via robots.txt) -- conservées car leur schéma de domaine correspond aux conventions officielles connues. Vérification manuelle ponctuelle recommandée avant usage, en particulier pour les pays à gouvernance instable (Libye, Somalie, Soudan, Soudan du Sud, Mali, Guinée-Bissau)."}
+{
+  "generated": "2026-09-03",
+  "regions": {
+    "Europe": [
+      {
+        "country": "Albania",
+        "url": "https://punetejashtme.gov.al/",
+        "diplomats": []
+      },
+      {
+        "country": "Austria",
+        "url": "https://www.bmeia.gv.at/en/reports/diplomatic-list",
+        "diplomats": []
+      },
+      {
+        "country": "Belgium",
+        "url": "https://diplomatie.belgium.be/fr/protocole/coordonnees-du-corps-diplomatique-et-consulaire",
+        "diplomats": []
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "url": "https://mvp.gov.ba/",
+        "diplomats": []
+      },
+      {
+        "country": "Bulgaria",
+        "url": "https://www.mfa.bg/",
+        "diplomats": []
+      },
+      {
+        "country": "Croatia",
+        "url": "https://mvep.gov.hr/",
+        "diplomats": []
+      },
+      {
+        "country": "Czech Republic",
+        "url": "https://mzv.gov.cz/jnp/en/diplomatic_missions/diplomatic_list.mobi",
+        "diplomats": []
+      },
+      {
+        "country": "France",
+        "url": "https://www.diplomatie.gouv.fr/",
+        "diplomats": []
+      },
+      {
+        "country": "Germany",
+        "url": "https://www.auswaertiges-amt.de/",
+        "diplomats": []
+      },
+      {
+        "country": "Hungary",
+        "url": "https://mfa.gov.hu/",
+        "diplomats": []
+      },
+      {
+        "country": "Kosovo",
+        "url": "https://mfa-ks.net/",
+        "diplomats": []
+      },
+      {
+        "country": "Montenegro",
+        "url": "https://www.gov.me/en/mfa",
+        "diplomats": []
+      },
+      {
+        "country": "North Macedonia",
+        "url": "https://mfa.gov.mk/",
+        "diplomats": []
+      },
+      {
+        "country": "Netherlands",
+        "url": "https://www.government.nl/ministries/ministry-of-foreign-affairs",
+        "diplomats": []
+      },
+      {
+        "country": "Poland",
+        "url": "https://www.gov.pl/web/diplomacy",
+        "diplomats": []
+      },
+      {
+        "country": "Portugal",
+        "url": "https://www.portaldiplomatico.mne.gov.pt/",
+        "diplomats": []
+      },
+      {
+        "country": "Romania",
+        "url": "https://www.mae.ro/",
+        "diplomats": []
+      },
+      {
+        "country": "Russia",
+        "url": "https://mid.ru/",
+        "diplomats": []
+      },
+      {
+        "country": "Serbia",
+        "url": "https://www.mfa.gov.rs/en/ministry/diplomatic-protocol/diplomatic-list",
+        "diplomats": []
+      },
+      {
+        "country": "Slovakia",
+        "url": "https://www.mzv.sk/",
+        "diplomats": []
+      },
+      {
+        "country": "Slovenia",
+        "url": "https://www.gov.si/en/state-authorities/ministries/ministry-of-foreign-and-european-affairs/about-the-ministry/directorate-for-international-law-and-multilateral-affairs/diplomatic-protocol/",
+        "diplomats": []
+      },
+      {
+        "country": "Spain",
+        "url": "https://www.exteriores.gob.es/",
+        "diplomats": []
+      },
+      {
+        "country": "Switzerland",
+        "url": "https://www.dfae.admin.ch/",
+        "diplomats": []
+      },
+      {
+        "country": "Ukraine",
+        "url": "https://mfa.gov.ua/",
+        "diplomats": []
+      },
+      {
+        "country": "United Kingdom",
+        "url": "https://www.gov.uk/government/publications/foreign-embassies-in-the-uk",
+        "diplomats": []
+      },
+      {
+        "country": "European Union",
+        "url": "https://www.consilium.europa.eu/en/documents-publications/library/permanent-representations/",
+        "diplomats": []
+      }
+    ],
+    "Afrique": [
+      {
+        "country": "Algeria",
+        "url": "https://www.mfa.gov.dz/",
+        "diplomats": []
+      },
+      {
+        "country": "Angola",
+        "url": "https://mirex.gov.ao/",
+        "diplomats": []
+      },
+      {
+        "country": "Benin",
+        "url": "https://www.diplomatie.gouv.bj/",
+        "diplomats": []
+      },
+      {
+        "country": "Botswana",
+        "url": "https://www.gov.bw/",
+        "diplomats": []
+      },
+      {
+        "country": "Burkina Faso",
+        "url": "https://www.diplomatie.gov.bf/",
+        "diplomats": []
+      },
+      {
+        "country": "Burundi",
+        "url": "https://www.mae.gov.bi/",
+        "diplomats": []
+      },
+      {
+        "country": "Cameroon",
+        "url": "https://www.diplocam.cm/",
+        "diplomats": []
+      },
+      {
+        "country": "Cabo Verde",
+        "url": "https://mnec.gov.cv/",
+        "diplomats": []
+      },
+      {
+        "country": "Central African Republic",
+        "url": "https://www.diplomatie.gouv.cf/",
+        "diplomats": []
+      },
+      {
+        "country": "Chad",
+        "url": "https://www.diplomatie.gouv.td/",
+        "diplomats": []
+      },
+      {
+        "country": "Comoros",
+        "url": "https://diplomatie.gouv.km/",
+        "diplomats": []
+      },
+      {
+        "country": "Congo (Republic)",
+        "url": "https://www.diplomatie.gouv.cg/",
+        "diplomats": []
+      },
+      {
+        "country": "DR Congo",
+        "url": "https://www.minaffet.gouv.cd/",
+        "diplomats": []
+      },
+      {
+        "country": "Djibouti",
+        "url": "https://diplomatie.gouv.dj/",
+        "diplomats": []
+      },
+      {
+        "country": "Egypt",
+        "url": "https://www.mfa.gov.eg/",
+        "diplomats": []
+      },
+      {
+        "country": "Equatorial Guinea",
+        "url": "https://minexteriores.gob.gq/",
+        "diplomats": []
+      },
+      {
+        "country": "Eritrea",
+        "url": "https://www.shabait.com/",
+        "diplomats": []
+      },
+      {
+        "country": "Eswatini",
+        "url": "https://www.gov.sz/",
+        "diplomats": []
+      },
+      {
+        "country": "Ethiopia",
+        "url": "https://mfa.gov.et/",
+        "diplomats": []
+      },
+      {
+        "country": "Gabon",
+        "url": "https://www.diplomatie.gouv.ga/",
+        "diplomats": []
+      },
+      {
+        "country": "Gambia",
+        "url": "https://mofa.gov.gm/",
+        "diplomats": []
+      },
+      {
+        "country": "Ghana",
+        "url": "https://mfa.gov.gh/",
+        "diplomats": []
+      },
+      {
+        "country": "Guinea",
+        "url": "https://www.diplomatie.gov.gn/",
+        "diplomats": []
+      },
+      {
+        "country": "Guinea-Bissau",
+        "url": "https://www.mnec.gov.gw/",
+        "diplomats": []
+      },
+      {
+        "country": "Ivory Coast",
+        "url": "https://diplomatie.gouv.ci/",
+        "diplomats": []
+      },
+      {
+        "country": "Kenya",
+        "url": "https://mfa.go.ke/",
+        "diplomats": []
+      },
+      {
+        "country": "Lesotho",
+        "url": "https://www.foreignaffairs.gov.ls/Home/Diplomatic",
+        "diplomats": []
+      },
+      {
+        "country": "Liberia",
+        "url": "https://www.mofa.gov.lr/",
+        "diplomats": []
+      },
+      {
+        "country": "Libya",
+        "url": "https://foreign.gov.ly/",
+        "diplomats": []
+      },
+      {
+        "country": "Madagascar",
+        "url": "https://www.diplomatie.gov.mg/",
+        "diplomats": []
+      },
+      {
+        "country": "Malawi",
+        "url": "https://www.foreignaffairs.gov.mw/",
+        "diplomats": []
+      },
+      {
+        "country": "Mali",
+        "url": "https://www.diplomatiemali.com/",
+        "diplomats": []
+      },
+      {
+        "country": "Mauritania",
+        "url": "https://diplomatie.gov.mr/",
+        "diplomats": []
+      },
+      {
+        "country": "Mauritius",
+        "url": "https://foreign.govmu.org/",
+        "diplomats": []
+      },
+      {
+        "country": "Morocco",
+        "url": "https://diplomatie.ma/",
+        "diplomats": []
+      },
+      {
+        "country": "Mozambique",
+        "url": "https://www.minec.gov.mz/",
+        "diplomats": []
+      },
+      {
+        "country": "Namibia",
+        "url": "https://mirex.gov.na/",
+        "diplomats": []
+      },
+      {
+        "country": "Niger",
+        "url": "https://www.diplomatie.gouv.ne/",
+        "diplomats": []
+      },
+      {
+        "country": "Nigeria",
+        "url": "https://foreignaffairs.gov.ng/",
+        "diplomats": []
+      },
+      {
+        "country": "Rwanda",
+        "url": "https://www.minaffet.gov.rw/",
+        "diplomats": []
+      },
+      {
+        "country": "Sao Tome and Principe",
+        "url": "https://mne.gov.st/",
+        "diplomats": []
+      },
+      {
+        "country": "Senegal",
+        "url": "https://www.diplomatie.gouv.sn/",
+        "diplomats": []
+      },
+      {
+        "country": "Seychelles",
+        "url": "https://mfa.gov.sc/",
+        "diplomats": []
+      },
+      {
+        "country": "Sierra Leone",
+        "url": "https://mofaic.gov.sl/",
+        "diplomats": []
+      },
+      {
+        "country": "Somalia",
+        "url": "https://mfa.gov.so/",
+        "diplomats": []
+      },
+      {
+        "country": "South Africa",
+        "url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+        "diplomats": []
+      },
+      {
+        "country": "South Sudan",
+        "url": "https://mofaic.gov.ss/",
+        "diplomats": []
+      },
+      {
+        "country": "Sudan",
+        "url": "https://mofa.gov.sd/",
+        "diplomats": []
+      },
+      {
+        "country": "Tanzania",
+        "url": "https://www.foreign.go.tz/about/protocol-department/1000",
+        "diplomats": []
+      },
+      {
+        "country": "Togo",
+        "url": "https://diplomatie.gouv.tg/",
+        "diplomats": []
+      },
+      {
+        "country": "Tunisia",
+        "url": "https://www.diplomatie.gov.tn/",
+        "diplomats": []
+      },
+      {
+        "country": "Uganda",
+        "url": "https://www.mofa.go.ug/",
+        "diplomats": []
+      },
+      {
+        "country": "Zambia",
+        "url": "https://www.mofa.gov.zm/",
+        "diplomats": []
+      },
+      {
+        "country": "Zimbabwe",
+        "url": "https://www.mfa.gov.zw/",
+        "diplomats": []
+      }
+    ],
+    "Asie": [
+      {
+        "country": "Cambodia",
+        "url": "https://www.mfaic.gov.kh/",
+        "diplomats": []
+      },
+      {
+        "country": "China",
+        "url": "https://www.mfa.gov.cn/",
+        "diplomats": []
+      },
+      {
+        "country": "Hong Kong",
+        "url": "https://www.protocol.gov.hk/",
+        "diplomats": []
+      },
+      {
+        "country": "India",
+        "url": "https://www.mea.gov.in/",
+        "diplomats": []
+      },
+      {
+        "country": "Indonesia",
+        "url": "https://layanandiplomatik.kemlu.go.id/guest/diplist",
+        "diplomats": []
+      },
+      {
+        "country": "Japan",
+        "url": "https://www.mofa.go.jp/about/emb_cons/protocol/a-h.html",
+        "diplomats": []
+      },
+      {
+        "country": "Laos",
+        "url": "https://www.mofa.gov.la/",
+        "diplomats": []
+      },
+      {
+        "country": "Macau",
+        "url": "https://www.gov.mo/",
+        "diplomats": []
+      },
+      {
+        "country": "Malaysia",
+        "url": "https://www.kln.gov.my/",
+        "diplomats": []
+      },
+      {
+        "country": "Myanmar",
+        "url": "https://www.mofa.gov.mm/",
+        "diplomats": []
+      },
+      {
+        "country": "Philippines",
+        "url": "https://dfa.gov.ph/",
+        "diplomats": []
+      },
+      {
+        "country": "Singapore",
+        "url": "https://www.mfa.gov.sg/visiting-singapore/foreign-representatives-to-singapore/",
+        "diplomats": []
+      },
+      {
+        "country": "South Korea",
+        "url": "https://www.mofa.go.kr/eng/brd/m_5795/list.do",
+        "diplomats": []
+      },
+      {
+        "country": "Taiwan",
+        "url": "https://www.mofa.gov.tw/",
+        "diplomats": []
+      },
+      {
+        "country": "Thailand",
+        "url": "https://www.mfa.go.th/",
+        "diplomats": []
+      },
+      {
+        "country": "Vietnam",
+        "url": "https://stateprotocol.mofa.gov.vn/",
+        "diplomats": []
+      }
+    ],
+    "Moyen-Orient": [
+      {
+        "country": "Bahrain",
+        "url": "https://www.mofa.gov.bh/",
+        "diplomats": []
+      },
+      {
+        "country": "Kuwait",
+        "url": "https://www.mofa.gov.kw/en/kuwait-missions/foreign-diplomatic-missions/",
+        "diplomats": []
+      },
+      {
+        "country": "Oman",
+        "url": "https://www.fm.gov.om/",
+        "diplomats": []
+      },
+      {
+        "country": "Qatar",
+        "url": "https://mofa.gov.qa/",
+        "diplomats": []
+      },
+      {
+        "country": "United Arab Emirates",
+        "url": "https://www.mofa.gov.ae/",
+        "diplomats": []
+      }
+    ],
+    "Caraïbes / Territoires d'outre-mer": [
+      {
+        "country": "Aruba",
+        "url": "https://www.government.aw/",
+        "diplomats": []
+      },
+      {
+        "country": "Bonaire",
+        "url": "https://www.bonairegov.com/",
+        "diplomats": []
+      },
+      {
+        "country": "Curacao",
+        "url": "https://www.gobiernu.cw/",
+        "diplomats": []
+      },
+      {
+        "country": "Guadeloupe",
+        "url": "https://www.diplomatie.gouv.fr/",
+        "diplomats": []
+      },
+      {
+        "country": "Haiti",
+        "url": "https://www.mae.gouv.ht/",
+        "diplomats": []
+      },
+      {
+        "country": "Martinique",
+        "url": "https://www.diplomatie.gouv.fr/",
+        "diplomats": []
+      },
+      {
+        "country": "Saint Martin",
+        "url": "https://www.diplomatie.gouv.fr/",
+        "diplomats": []
+      }
+    ],
+    "Sources complémentaires": [
+      {
+        "country": "Australia",
+        "url": "https://protocol.dfat.gov.au/",
+        "diplomats": []
+      },
+      {
+        "country": "Canada",
+        "url": "https://www.international.gc.ca/protocol-protocole/reps.aspx?lang=eng",
+        "diplomats": []
+      },
+      {
+        "country": "Latvia",
+        "url": "https://www.mfa.gov.lv/en/diplomatic-missions-latvia",
+        "diplomats": []
+      },
+      {
+        "country": "Dominican Republic",
+        "url": "https://mirex.gob.do/lista-diplomatica-y-de-organismos-internacionales/",
+        "diplomats": []
+      },
+      {
+        "country": "UK",
+        "url": "https://www.data.gov.uk/dataset/ac361893-3037-461e-8545-a7004f63ab42/https-www-gov-uk-government-publications-foreign-embassies-in-the-uk",
+        "diplomats": []
+      },
+      {
+        "country": "United Nations",
+        "url": "https://www.un.int/protocol/bluebook",
+        "diplomats": []
+      },
+      {
+        "country": "United States",
+        "url": "https://www.state.gov/diplomatic-list/",
+        "diplomats": []
+      },
+      {
+        "country": "United States",
+        "url": "https://www.state.gov/foreign-consular-offices-in-the-united-states/",
+        "diplomats": []
+      },
+      {
+        "country": "OSCE",
+        "url": "https://www.osce.org/permanent-council",
+        "diplomats": []
+      }
+    ]
+  },
+  "methodology": "Chaque semaine, un agent automatisé consulte le site du ministère des Affaires étrangères de chaque pays listé ci-dessous et tente d'y repérer la liste diplomatique officielle (souvent un PDF), dont il extrait les noms et titres par reconnaissance de motifs (« S.E. M./Mme », « H.E. Mr./Mrs », « Ambassadeur », etc.). Ces données sont recoupées, quand c'est possible, avec Wikidata (licence CC0) pour retrouver une date de prise de fonction. Le robots.txt de chaque site est respecté : si l'accès automatisé y est interdit, la source est ignorée et seul le lien officiel reste affiché. L'extraction est une heuristique — elle échoue sur les listes publiées en image scannée, chargées en JavaScript, ou rédigées dans un alphabet non-latin ; dans ces cas, seul le lien officiel est affiché pour consultation manuelle.",
+  "notes": [
+    "Toutes les données proviennent de publications officielles des États (protocole diplomatique) et/ou de Wikidata (licence CC0) — rien n'est collecté depuis une source privée ou non publique.",
+    "Chaque entrée indique sa provenance (site officiel ou Wikidata) et, quand connue, sa date de prise de fonction.",
+    "Ces données sont réactualisées automatiquement chaque semaine — une entrée obsolète est remplacée ou retirée au prochain passage.",
+    "Pour toute demande de retrait ou de correction : tenders@overseasam.com."
+  ],
+  "search_terms": [
+    "diplomatic list",
+    "corps diplomatique",
+    "liste diplomatique",
+    "foreign missions",
+    "heads of mission",
+    "ambassadeur"
+  ]
+}

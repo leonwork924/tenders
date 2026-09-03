@@ -1,0 +1,587 @@
+[
+  {
+    "country": "Albania",
+    "region": "Europe",
+    "url": "https://punetejashtme.gov.al/"
+  },
+  {
+    "country": "Austria",
+    "region": "Europe",
+    "url": "https://www.bmeia.gv.at/en/reports/diplomatic-list"
+  },
+  {
+    "country": "Belgium",
+    "region": "Europe",
+    "url": "https://diplomatie.belgium.be/fr/protocole/coordonnees-du-corps-diplomatique-et-consulaire"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "url": "https://mvp.gov.ba/"
+  },
+  {
+    "country": "Bulgaria",
+    "region": "Europe",
+    "url": "https://www.mfa.bg/"
+  },
+  {
+    "country": "Croatia",
+    "region": "Europe",
+    "url": "https://mvep.gov.hr/"
+  },
+  {
+    "country": "Czech Republic",
+    "region": "Europe",
+    "url": "https://mzv.gov.cz/jnp/en/diplomatic_missions/diplomatic_list.mobi"
+  },
+  {
+    "country": "France",
+    "region": "Europe",
+    "url": "https://www.diplomatie.gouv.fr/"
+  },
+  {
+    "country": "Germany",
+    "region": "Europe",
+    "url": "https://www.auswaertiges-amt.de/"
+  },
+  {
+    "country": "Hungary",
+    "region": "Europe",
+    "url": "https://mfa.gov.hu/"
+  },
+  {
+    "country": "Kosovo",
+    "region": "Europe",
+    "url": "https://mfa-ks.net/"
+  },
+  {
+    "country": "Montenegro",
+    "region": "Europe",
+    "url": "https://www.gov.me/en/mfa"
+  },
+  {
+    "country": "North Macedonia",
+    "region": "Europe",
+    "url": "https://mfa.gov.mk/"
+  },
+  {
+    "country": "Netherlands",
+    "region": "Europe",
+    "url": "https://www.government.nl/ministries/ministry-of-foreign-affairs"
+  },
+  {
+    "country": "Poland",
+    "region": "Europe",
+    "url": "https://www.gov.pl/web/diplomacy"
+  },
+  {
+    "country": "Portugal",
+    "region": "Europe",
+    "url": "https://www.portaldiplomatico.mne.gov.pt/"
+  },
+  {
+    "country": "Romania",
+    "region": "Europe",
+    "url": "https://www.mae.ro/"
+  },
+  {
+    "country": "Russia",
+    "region": "Europe",
+    "url": "https://mid.ru/"
+  },
+  {
+    "country": "Serbia",
+    "region": "Europe",
+    "url": "https://www.mfa.gov.rs/en/ministry/diplomatic-protocol/diplomatic-list"
+  },
+  {
+    "country": "Slovakia",
+    "region": "Europe",
+    "url": "https://www.mzv.sk/"
+  },
+  {
+    "country": "Slovenia",
+    "region": "Europe",
+    "url": "https://www.gov.si/en/state-authorities/ministries/ministry-of-foreign-and-european-affairs/about-the-ministry/directorate-for-international-law-and-multilateral-affairs/diplomatic-protocol/"
+  },
+  {
+    "country": "Spain",
+    "region": "Europe",
+    "url": "https://www.exteriores.gob.es/"
+  },
+  {
+    "country": "Switzerland",
+    "region": "Europe",
+    "url": "https://www.dfae.admin.ch/"
+  },
+  {
+    "country": "Ukraine",
+    "region": "Europe",
+    "url": "https://mfa.gov.ua/"
+  },
+  {
+    "country": "United Kingdom",
+    "region": "Europe",
+    "url": "https://www.gov.uk/government/publications/foreign-embassies-in-the-uk"
+  },
+  {
+    "country": "Algeria",
+    "region": "Afrique",
+    "url": "https://www.mfa.gov.dz/"
+  },
+  {
+    "country": "Angola",
+    "region": "Afrique",
+    "url": "https://mirex.gov.ao/"
+  },
+  {
+    "country": "Benin",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gouv.bj/"
+  },
+  {
+    "country": "Botswana",
+    "region": "Afrique",
+    "url": "https://www.gov.bw/"
+  },
+  {
+    "country": "Burkina Faso",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gov.bf/"
+  },
+  {
+    "country": "Burundi",
+    "region": "Afrique",
+    "url": "https://www.mae.gov.bi/"
+  },
+  {
+    "country": "Cameroon",
+    "region": "Afrique",
+    "url": "https://www.diplocam.cm/"
+  },
+  {
+    "country": "Cabo Verde",
+    "region": "Afrique",
+    "url": "https://mnec.gov.cv/"
+  },
+  {
+    "country": "Central African Republic",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gouv.cf/"
+  },
+  {
+    "country": "Chad",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gouv.td/"
+  },
+  {
+    "country": "Comoros",
+    "region": "Afrique",
+    "url": "https://diplomatie.gouv.km/"
+  },
+  {
+    "country": "Congo (Republic)",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gouv.cg/"
+  },
+  {
+    "country": "DR Congo",
+    "region": "Afrique",
+    "url": "https://www.minaffet.gouv.cd/"
+  },
+  {
+    "country": "Djibouti",
+    "region": "Afrique",
+    "url": "https://diplomatie.gouv.dj/"
+  },
+  {
+    "country": "Egypt",
+    "region": "Afrique",
+    "url": "https://www.mfa.gov.eg/"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "region": "Afrique",
+    "url": "https://minexteriores.gob.gq/"
+  },
+  {
+    "country": "Eritrea",
+    "region": "Afrique",
+    "url": "https://www.shabait.com/"
+  },
+  {
+    "country": "Eswatini",
+    "region": "Afrique",
+    "url": "https://www.gov.sz/"
+  },
+  {
+    "country": "Ethiopia",
+    "region": "Afrique",
+    "url": "https://mfa.gov.et/"
+  },
+  {
+    "country": "Gabon",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gouv.ga/"
+  },
+  {
+    "country": "Gambia",
+    "region": "Afrique",
+    "url": "https://mofa.gov.gm/"
+  },
+  {
+    "country": "Ghana",
+    "region": "Afrique",
+    "url": "https://mfa.gov.gh/"
+  },
+  {
+    "country": "Guinea",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gov.gn/"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "region": "Afrique",
+    "url": "https://www.mnec.gov.gw/"
+  },
+  {
+    "country": "Ivory Coast",
+    "region": "Afrique",
+    "url": "https://diplomatie.gouv.ci/"
+  },
+  {
+    "country": "Kenya",
+    "region": "Afrique",
+    "url": "https://mfa.go.ke/"
+  },
+  {
+    "country": "Lesotho",
+    "region": "Afrique",
+    "url": "https://www.foreignaffairs.gov.ls/Home/Diplomatic"
+  },
+  {
+    "country": "Liberia",
+    "region": "Afrique",
+    "url": "https://www.mofa.gov.lr/"
+  },
+  {
+    "country": "Libya",
+    "region": "Afrique",
+    "url": "https://foreign.gov.ly/"
+  },
+  {
+    "country": "Madagascar",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gov.mg/"
+  },
+  {
+    "country": "Malawi",
+    "region": "Afrique",
+    "url": "https://www.foreignaffairs.gov.mw/"
+  },
+  {
+    "country": "Mali",
+    "region": "Afrique",
+    "url": "https://www.diplomatiemali.com/"
+  },
+  {
+    "country": "Mauritania",
+    "region": "Afrique",
+    "url": "https://diplomatie.gov.mr/"
+  },
+  {
+    "country": "Mauritius",
+    "region": "Afrique",
+    "url": "https://foreign.govmu.org/"
+  },
+  {
+    "country": "Morocco",
+    "region": "Afrique",
+    "url": "https://diplomatie.ma/"
+  },
+  {
+    "country": "Mozambique",
+    "region": "Afrique",
+    "url": "https://www.minec.gov.mz/"
+  },
+  {
+    "country": "Namibia",
+    "region": "Afrique",
+    "url": "https://mirex.gov.na/"
+  },
+  {
+    "country": "Niger",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gouv.ne/"
+  },
+  {
+    "country": "Nigeria",
+    "region": "Afrique",
+    "url": "https://foreignaffairs.gov.ng/"
+  },
+  {
+    "country": "Rwanda",
+    "region": "Afrique",
+    "url": "https://www.minaffet.gov.rw/"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "region": "Afrique",
+    "url": "https://mne.gov.st/"
+  },
+  {
+    "country": "Senegal",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gouv.sn/"
+  },
+  {
+    "country": "Seychelles",
+    "region": "Afrique",
+    "url": "https://mfa.gov.sc/"
+  },
+  {
+    "country": "Sierra Leone",
+    "region": "Afrique",
+    "url": "https://mofaic.gov.sl/"
+  },
+  {
+    "country": "Somalia",
+    "region": "Afrique",
+    "url": "https://mfa.gov.so/"
+  },
+  {
+    "country": "South Africa",
+    "region": "Afrique",
+    "url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/"
+  },
+  {
+    "country": "South Sudan",
+    "region": "Afrique",
+    "url": "https://mofaic.gov.ss/"
+  },
+  {
+    "country": "Sudan",
+    "region": "Afrique",
+    "url": "https://mofa.gov.sd/"
+  },
+  {
+    "country": "Tanzania",
+    "region": "Afrique",
+    "url": "https://www.foreign.go.tz/about/protocol-department/1000"
+  },
+  {
+    "country": "Togo",
+    "region": "Afrique",
+    "url": "https://diplomatie.gouv.tg/"
+  },
+  {
+    "country": "Tunisia",
+    "region": "Afrique",
+    "url": "https://www.diplomatie.gov.tn/"
+  },
+  {
+    "country": "Uganda",
+    "region": "Afrique",
+    "url": "https://www.mofa.go.ug/"
+  },
+  {
+    "country": "Zambia",
+    "region": "Afrique",
+    "url": "https://www.mofa.gov.zm/"
+  },
+  {
+    "country": "Zimbabwe",
+    "region": "Afrique",
+    "url": "https://www.mfa.gov.zw/"
+  },
+  {
+    "country": "Cambodia",
+    "region": "Asie",
+    "url": "https://www.mfaic.gov.kh/"
+  },
+  {
+    "country": "China",
+    "region": "Asie",
+    "url": "https://www.mfa.gov.cn/"
+  },
+  {
+    "country": "Hong Kong",
+    "region": "Asie",
+    "url": "https://www.protocol.gov.hk/"
+  },
+  {
+    "country": "India",
+    "region": "Asie",
+    "url": "https://www.mea.gov.in/"
+  },
+  {
+    "country": "Indonesia",
+    "region": "Asie",
+    "url": "https://layanandiplomatik.kemlu.go.id/guest/diplist"
+  },
+  {
+    "country": "Japan",
+    "region": "Asie",
+    "url": "https://www.mofa.go.jp/about/emb_cons/protocol/a-h.html"
+  },
+  {
+    "country": "Laos",
+    "region": "Asie",
+    "url": "https://www.mofa.gov.la/"
+  },
+  {
+    "country": "Macau",
+    "region": "Asie",
+    "url": "https://www.gov.mo/"
+  },
+  {
+    "country": "Malaysia",
+    "region": "Asie",
+    "url": "https://www.kln.gov.my/"
+  },
+  {
+    "country": "Myanmar",
+    "region": "Asie",
+    "url": "https://www.mofa.gov.mm/"
+  },
+  {
+    "country": "Philippines",
+    "region": "Asie",
+    "url": "https://dfa.gov.ph/"
+  },
+  {
+    "country": "Singapore",
+    "region": "Asie",
+    "url": "https://www.mfa.gov.sg/visiting-singapore/foreign-representatives-to-singapore/"
+  },
+  {
+    "country": "South Korea",
+    "region": "Asie",
+    "url": "https://www.mofa.go.kr/eng/brd/m_5795/list.do"
+  },
+  {
+    "country": "Taiwan",
+    "region": "Asie",
+    "url": "https://www.mofa.gov.tw/"
+  },
+  {
+    "country": "Thailand",
+    "region": "Asie",
+    "url": "https://www.mfa.go.th/"
+  },
+  {
+    "country": "Vietnam",
+    "region": "Asie",
+    "url": "https://stateprotocol.mofa.gov.vn/"
+  },
+  {
+    "country": "Bahrain",
+    "region": "Moyen-Orient",
+    "url": "https://www.mofa.gov.bh/"
+  },
+  {
+    "country": "Kuwait",
+    "region": "Moyen-Orient",
+    "url": "https://www.mofa.gov.kw/en/kuwait-missions/foreign-diplomatic-missions/"
+  },
+  {
+    "country": "Oman",
+    "region": "Moyen-Orient",
+    "url": "https://www.fm.gov.om/"
+  },
+  {
+    "country": "Qatar",
+    "region": "Moyen-Orient",
+    "url": "https://mofa.gov.qa/"
+  },
+  {
+    "country": "United Arab Emirates",
+    "region": "Moyen-Orient",
+    "url": "https://www.mofa.gov.ae/"
+  },
+  {
+    "country": "Aruba",
+    "region": "Caraïbes / Territoires d'outre-mer",
+    "url": "https://www.government.aw/"
+  },
+  {
+    "country": "Bonaire",
+    "region": "Caraïbes / Territoires d'outre-mer",
+    "url": "https://www.bonairegov.com/"
+  },
+  {
+    "country": "Curacao",
+    "region": "Caraïbes / Territoires d'outre-mer",
+    "url": "https://www.gobiernu.cw/"
+  },
+  {
+    "country": "Guadeloupe",
+    "region": "Caraïbes / Territoires d'outre-mer",
+    "url": "https://www.diplomatie.gouv.fr/"
+  },
+  {
+    "country": "Haiti",
+    "region": "Caraïbes / Territoires d'outre-mer",
+    "url": "https://www.mae.gouv.ht/"
+  },
+  {
+    "country": "Martinique",
+    "region": "Caraïbes / Territoires d'outre-mer",
+    "url": "https://www.diplomatie.gouv.fr/"
+  },
+  {
+    "country": "Saint Martin",
+    "region": "Caraïbes / Territoires d'outre-mer",
+    "url": "https://www.diplomatie.gouv.fr/"
+  },
+  {
+    "country": "Australia",
+    "region": "Sources complémentaires",
+    "url": "https://protocol.dfat.gov.au/"
+  },
+  {
+    "country": "Canada",
+    "region": "Sources complémentaires",
+    "url": "https://www.international.gc.ca/protocol-protocole/reps.aspx?lang=eng"
+  },
+  {
+    "country": "Latvia",
+    "region": "Sources complémentaires",
+    "url": "https://www.mfa.gov.lv/en/diplomatic-missions-latvia"
+  },
+  {
+    "country": "Dominican Republic",
+    "region": "Sources complémentaires",
+    "url": "https://mirex.gob.do/lista-diplomatica-y-de-organismos-internacionales/"
+  },
+  {
+    "country": "UK",
+    "region": "Sources complémentaires",
+    "url": "https://www.data.gov.uk/dataset/ac361893-3037-461e-8545-a7004f63ab42/https-www-gov-uk-government-publications-foreign-embassies-in-the-uk"
+  },
+  {
+    "country": "United Nations",
+    "region": "Sources complémentaires",
+    "url": "https://www.un.int/protocol/bluebook"
+  },
+  {
+    "country": "United States",
+    "region": "Sources complémentaires",
+    "url": "https://www.state.gov/diplomatic-list/"
+  },
+  {
+    "country": "United States",
+    "region": "Sources complémentaires",
+    "url": "https://www.state.gov/foreign-consular-offices-in-the-united-states/"
+  },
+  {
+    "country": "OSCE",
+    "region": "Sources complémentaires",
+    "url": "https://www.osce.org/permanent-council"
+  },
+  {
+    "country": "European Union",
+    "region": "Europe",
+    "url": "https://www.consilium.europa.eu/en/documents-publications/library/permanent-representations/"
+  }
+]

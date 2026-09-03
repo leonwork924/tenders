@@ -1,0 +1,292 @@
+MOBILITAS / AGS — GLOBAL DIPLOMATIC SOURCES (VERSION CORRIGÉE)
+==============================================
+Corrections et vérifications effectuées le 03/09/2026.
+Statut par entrée : [VERIFIE] = testé directement (fetch/recherche) ; sans mention = conservé
+tel quel, schéma de domaine conforme aux conventions officielles connues mais non re-testé
+individuellement dans cette passe.
+
+Purpose: official/open sources to check for foreign diplomatic personnel,
+diplomatic corps, foreign missions, consular personnel and heads of mission.
+
+EUROPE
+------
+Albania — Ministry for Europe and Foreign Affairs [VERIFIE]
+https://punetejashtme.gov.al/
+(Liste diplomatique directe trouvée : rubrique "Përfaqësitë e Huaja në Shqipëri",
+publiée en PDF, mise à jour régulièrement)
+
+Austria — BMEIA Diplomatic List [VERIFIE - domaine officiel confirmé, fetch bloqué par robots.txt]
+https://www.bmeia.gv.at/en/reports/diplomatic-list
+
+Belgium — FPS Foreign Affairs, Diplomatic & Consular Corps
+https://diplomatie.belgium.be/fr/protocole/coordonnees-du-corps-diplomatique-et-consulaire
+
+Bosnia and Herzegovina — Ministry of Foreign Affairs
+https://mvp.gov.ba/
+
+Bulgaria — Ministry of Foreign Affairs
+https://www.mfa.bg/
+
+Croatia — Ministry of Foreign and European Affairs
+https://mvep.gov.hr/
+
+Czech Republic — Diplomatic List
+https://mzv.gov.cz/jnp/en/diplomatic_missions/diplomatic_list.mobi
+
+France — France Diplomatie
+https://www.diplomatie.gouv.fr/
+
+Germany — Federal Foreign Office
+https://www.auswaertiges-amt.de/
+
+Hungary — Ministry of Foreign Affairs and Trade
+https://mfa.gov.hu/
+
+Kosovo — Ministry of Foreign Affairs and Diaspora [VERIFIE]
+https://mfa-ks.net/
+
+Montenegro — Ministry of Foreign Affairs
+https://www.gov.me/en/mfa
+
+North Macedonia — Ministry of Foreign Affairs
+https://mfa.gov.mk/
+
+Netherlands — Ministry of Foreign Affairs
+https://www.government.nl/ministries/ministry-of-foreign-affairs
+
+Poland — Ministry of Foreign Affairs
+https://www.gov.pl/web/diplomacy
+
+Portugal — Ministry of Foreign Affairs / Diplomatic Portal
+https://www.portaldiplomatico.mne.gov.pt/
+
+Romania — Ministry of Foreign Affairs
+https://www.mae.ro/
+
+Russia — Ministry of Foreign Affairs
+https://mid.ru/
+
+Serbia — Diplomatic List
+https://www.mfa.gov.rs/en/ministry/diplomatic-protocol/diplomatic-list
+
+Slovakia — Ministry of Foreign and European Affairs
+https://www.mzv.sk/
+
+Slovenia — Diplomatic Protocol
+https://www.gov.si/en/state-authorities/ministries/ministry-of-foreign-and-european-affairs/about-the-ministry/directorate-for-international-law-and-multilateral-affairs/diplomatic-protocol/
+
+Spain — Ministry of Foreign Affairs
+https://www.exteriores.gob.es/
+
+Switzerland — Federal Department of Foreign Affairs
+https://www.dfae.admin.ch/
+
+Ukraine — Ministry of Foreign Affairs
+https://mfa.gov.ua/
+
+United Kingdom — FCDO / London Diplomatic List
+https://www.gov.uk/government/publications/foreign-embassies-in-the-uk
+
+
+AFRICA — 54 COUNTRIES
+---------------------
+Algeria — https://www.mfa.gov.dz/
+Angola — https://mirex.gov.ao/ [VERIFIE — redirige vers /PortalMIREX/, fonctionnel]
+Benin — https://www.diplomatie.gouv.bj/ [VERIFIE]
+Botswana — https://www.gov.bw/
+Burkina Faso — https://www.diplomatie.gov.bf/
+Burundi — https://www.mae.gov.bi/
+Cameroon — https://www.diplocam.cm/
+Cabo Verde — https://mnec.gov.cv/
+Central African Republic — https://www.diplomatie.gouv.cf/ [VERIFIE]
+Chad — https://www.diplomatie.gouv.td/
+Comoros — https://diplomatie.gouv.km/
+Congo (Republic) — https://www.diplomatie.gouv.cg/
+DR Congo — https://www.minaffet.gouv.cd/
+Djibouti — https://diplomatie.gouv.dj/
+Egypt — https://www.mfa.gov.eg/
+Equatorial Guinea — https://minexteriores.gob.gq/
+Eritrea — https://www.shabait.com/  [ATTENTION : source secondaire uniquement — portail
+  d'information gouvernemental (ministère de l'Information), PAS le site du MAE lui-même.
+  L'Érythrée ne dispose pas d'un site MAE dédié fiable et à jour ; traiter avec prudence.]
+Eswatini — https://www.gov.sz/
+Ethiopia — https://mfa.gov.et/
+Gabon — https://www.diplomatie.gouv.ga/
+Gambia — https://mofa.gov.gm/
+Ghana — https://mfa.gov.gh/
+Guinea — https://www.diplomatie.gov.gn/
+Guinea-Bissau — https://www.mnec.gov.gw/
+Ivory Coast — https://diplomatie.gouv.ci/
+Kenya — https://mfa.go.ke/
+Lesotho — https://www.foreignaffairs.gov.ls/Home/Diplomatic
+Liberia — https://www.mofa.gov.lr/
+Libya — https://foreign.gov.ly/
+Madagascar — https://www.diplomatie.gov.mg/
+Malawi — https://www.foreignaffairs.gov.mw/
+Mali — https://www.diplomatiemali.com/
+Mauritania — https://diplomatie.gov.mr/
+Mauritius — https://foreign.govmu.org/
+Morocco — https://diplomatie.ma/
+Mozambique — https://www.minec.gov.mz/
+Namibia — https://mirex.gov.na/
+Niger — https://www.diplomatie.gouv.ne/
+Nigeria — https://foreignaffairs.gov.ng/
+Rwanda — https://www.minaffet.gov.rw/ [VERIFIE — seul site officiel confirmé]
+[SUPPRIME] "Rwanda Diplomatic Services Portal — https://rwdiplomatic.online/"
+  → Domaine .online sans lien avec le gouvernement rwandais (qui utilise exclusivement
+  .gov.rw). Profil typique de site usurpateur. Ne pas utiliser comme source.
+Sao Tome and Principe — https://mne.gov.st/
+Senegal — https://www.diplomatie.gouv.sn/
+Seychelles — https://mfa.gov.sc/
+Sierra Leone — https://mofaic.gov.sl/
+Somalia — https://mfa.gov.so/
+South Africa — DIRCO Foreign Representation
+https://dirco.gov.za/foreign-representation-in-south-africa-i/
+South Sudan — https://mofaic.gov.ss/
+Sudan — https://mofa.gov.sd/
+Tanzania — https://www.foreign.go.tz/about/protocol-department/1000
+Togo — https://diplomatie.gouv.tg/
+Tunisia — https://www.diplomatie.gov.tn/
+Uganda — https://www.mofa.go.ug/
+Zambia — https://www.mofa.gov.zm/
+Zimbabwe — https://www.mfa.gov.zw/
+
+
+ASIA
+----
+Cambodia — https://www.mfaic.gov.kh/
+China — https://www.mfa.gov.cn/
+Hong Kong — https://www.protocol.gov.hk/
+India — https://www.mea.gov.in/
+Indonesia — Diplomatic & Consular List
+https://layanandiplomatik.kemlu.go.id/guest/diplist
+Japan — Foreign Missions in Japan
+https://www.mofa.go.jp/about/emb_cons/protocol/a-h.html
+Laos — https://www.mofa.gov.la/
+Macau — https://www.gov.mo/
+Malaysia — https://www.kln.gov.my/
+Myanmar — https://www.mofa.gov.mm/  [NOTE : site du gouvernement militaire (junte) depuis 2021 ;
+  la légitimité internationale de cet organe est contestée par plusieurs États — à mentionner
+  si le contexte d'usage l'exige]
+Philippines — https://dfa.gov.ph/
+Singapore — Foreign Representatives / Diplomatic & Consular List
+https://www.mfa.gov.sg/visiting-singapore/foreign-representatives-to-singapore/
+South Korea — Diplomatic List
+https://www.mofa.go.kr/eng/brd/m_5795/list.do
+Taiwan — https://www.mofa.gov.tw/
+Thailand — https://www.mfa.go.th/
+Vietnam — State Protocol / Diplomatic Missions
+https://stateprotocol.mofa.gov.vn/
+
+
+MIDDLE EAST
+-----------
+Bahrain — https://www.mofa.gov.bh/
+Kuwait — Foreign Diplomatic Missions
+https://www.mofa.gov.kw/en/kuwait-missions/foreign-diplomatic-missions/
+Oman — https://www.fm.gov.om/
+Qatar — https://mofa.gov.qa/
+United Arab Emirates — https://www.mofa.gov.ae/
+
+
+CARIBBEAN / OVERSEAS TERRITORIES
+--------------------------------
+Aruba — https://www.government.aw/
+Bonaire — https://www.bonairegov.com/
+Curacao — https://www.gobiernu.cw/
+Guadeloupe — France Diplomatie (territoire français, pas de MAE propre)
+https://www.diplomatie.gouv.fr/
+Haiti — https://www.mae.gouv.ht/
+Martinique — France Diplomatie (territoire français, pas de MAE propre)
+https://www.diplomatie.gouv.fr/
+Saint Martin — France Diplomatie (territoire français, pas de MAE propre)
+https://www.diplomatie.gouv.fr/
+[NOTE : Guadeloupe / Martinique / Saint-Martin sont des territoires français sans corps
+diplomatique propre — leurs "diplomates" relèvent en réalité du corps consulaire/préfectoral
+local, pas du MAE parisien pour ce qui concerne du personnel accrédité localement. À utiliser
+avec cette nuance si l'objectif est d'identifier des diplomates présents physiquement sur place.]
+
+
+ADDITIONAL HIGH-VALUE SOURCES
+-----------------------------
+Australia — DFAT / Diplomatic List
+https://protocol.dfat.gov.au/
+
+Canada — Global Affairs Canada / Diplomatic Representatives
+https://www.international.gc.ca/protocol-protocole/reps.aspx?lang=eng
+
+Latvia — Diplomatic Missions / Diplomatic List
+https://www.mfa.gov.lv/en/diplomatic-missions-latvia
+
+Dominican Republic — Diplomatic List
+https://mirex.gob.do/lista-diplomatica-y-de-organismos-internacionales/
+
+UK — London Diplomatic List dataset on data.gov.uk
+https://www.data.gov.uk/dataset/ac361893-3037-461e-8545-a7004f63ab42/https-www-gov-uk-government-publications-foreign-embassies-in-the-uk
+
+--- NOUVELLES SOURCES AJOUTÉES ---
+
+United Nations — UN Protocol and Liaison Service "Blue Book"
+Liste officielle et à jour de toutes les Missions permanentes auprès de l'ONU à New York,
+avec les noms des Représentants permanents, adjoints, et personnel diplomatique accrédité.
+Source primaire de très haute qualité, couvrant quasiment tous les pays membres de l'ONU.
+https://www.un.int/protocol/bluebook
+
+United States — Department of State, Diplomatic List ("Blue List")
+Liste officielle des diplomates étrangers accrédités auprès du Département d'État américain.
+https://www.state.gov/diplomatic-list/
+
+United States — Department of State, Foreign Consular Offices in the United States
+https://www.state.gov/foreign-consular-offices-in-the-united-states/
+
+OSCE — Permanent Council delegations
+Utile pour les diplomates accrédités auprès de l'OSCE (Vienne).
+https://www.osce.org/permanent-council
+
+European Union — Permanent Representations to the EU
+https://www.consilium.europa.eu/en/documents-publications/library/permanent-representations/
+
+
+SEARCH TERMS
+------------
+Diplomatic List
+Diplomatic Corps
+Diplomatic Directory
+Foreign Representatives
+Foreign Missions
+Foreign Diplomatic Missions
+Diplomatic and Consular List
+Diplomatic & Consular Corps
+Diplomatic Protocol
+State Protocol
+Protocol Department
+List of Foreign Missions
+List of Accredited Diplomats
+Corps diplomatique
+Liste diplomatique
+Annuaire diplomatique
+Annuaire du corps diplomatique
+Blue Book (ONU)
+Diplomatic List / Blue List (US State Dept)
+
+NOTE
+----
+Les liens ci-dessus sont des points de départ pour vérifier la source officielle.
+Certains gouvernements publient la liste diplomatique réelle en PDF/Excel, d'autres via
+un annuaire en ligne, et certains ne publient que les missions ou les chefs de mission.
+L'objectif de ce fichier est l'identification de sources uniquement ; aucune donnée de
+diplomate n'a été extraite.
+
+MÉTHODOLOGIE DE CETTE RÉVISION (03/09/2026)
+--------------------------------------------
+- Vérification directe (fetch du site ou recherche web croisée) effectuée sur : Albanie,
+  Autriche, Rwanda, Angola, Bénin, RCA, Kosovo, Érythrée.
+- 1 entrée supprimée car frauduleuse/non officielle (Rwanda — rwdiplomatic.online).
+- 1 entrée reclassée en source secondaire avec avertissement (Érythrée — shabait.com).
+- Aucune autre erreur flagrante détectée sur l'échantillon vérifié.
+- Les ~90 entrées restantes n'ont pas toutes été re-testées individuellement (nombreux
+  sites gouvernementaux bloquent le fetch automatisé via robots.txt) ; elles ont été
+  conservées car leur schéma de domaine correspond aux conventions officielles connues
+  (ex. .gov.xx, diplomatie.gouv.xx, mfa.gov.xx). Une vérification manuelle ponctuelle
+  reste recommandée avant usage en production, en particulier pour les pays à
+  gouvernance instable (Libye, Somalie, Soudan, Soudan du Sud, Mali, Guinée-Bissau).

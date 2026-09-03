@@ -20,15 +20,17 @@
 </nav>
 
 <div class="nl-disclaimer">
-  <b>Ce que c'est :</b> des points de départ officiels pour identifier le corps diplomatique
-  par pays (ministères des Affaires étrangères, listes diplomatiques, protocoles d'État) —
-  pas une base de contacts individuels. Aucune donnée personnelle de diplomate n'a été
-  collectée ici, uniquement des sources à consulter manuellement.
+  <b>Ce que c'est :</b> une agrégation automatisée des listes diplomatiques publiées
+  officiellement par les ministères des Affaires étrangères, recoupée avec Wikidata
+  (licence CC0) quand c'est possible. Chaque entrée indique sa source et, quand connue,
+  sa date de prise de fonction. Le robots.txt de chaque site est respecté ; là où
+  l'extraction automatique échoue, seul le lien officiel est affiché. Pour toute demande
+  de retrait ou de correction : <a href="mailto:tenders@overseasam.com">tenders@overseasam.com</a>.
 </div>
 
 <div class="toolbar">
   <label for="q">Filtre</label>
-  <input id="q" type="search" placeholder="pays, organisme…" autocomplete="off">
+  <input id="q" type="search" placeholder="pays, nom, titre…" autocomplete="off">
   <span class="count" id="count"></span>
 </div>
 
@@ -46,9 +48,10 @@
 </section>
 
 <footer>
-  Mis à jour manuellement, pas d'automatisation ici — la plupart des sites gouvernementaux
-  bloquent le fetch automatique (robots.txt), et une bonne partie du contenu est en PDF.
-  Consultation manuelle des liens recommandée.
+  Généré automatiquement chaque semaine par un agent qui respecte le robots.txt de
+  chaque site. L'extraction est heuristique et échouera sur certains sites (PDF scanné,
+  contenu chargé en JavaScript, alphabets non-latins) — dans ce cas, seul le lien
+  officiel est affiché pour consultation manuelle.
 </footer>
 
 <script src="contact.js"></script>

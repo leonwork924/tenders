@@ -1,0 +1,74 @@
+name: extract diplomats
+
+on:
+  schedule:
+    # Hebdomadaire (les listes diplomatiques changent rarement) -- minute
+    # décalée comme pour fetch.yml pour éviter la congestion du scheduler.
+    - cron: "11 5 * * 0"   # dimanche 05:11 UTC
+  workflow_dispatch: {}    # pour lancer le premier run à la main depuis l'onglet Actions
+
+permissions:
+  contents: write   # nécessaire pour committer les fichiers générés
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r diplomats/requirements.txt
+
+      - name: Scrape official diplomatic lists
+        run: |
+          python diplomats/src/agent.py \
+            --sources diplomats/data/sources.json \
+            --out diplomats/data/diplomats.json
+
+      - name: Query Wikidata (complément)
+        run: |
+          python diplomats/src/wikidata_source.py \
+            --sources diplomats/data/sources.json \
+            --out diplomats/data/diplomats_wikidata.json
+
+      - name: Merge sources
+        run: |
+          python diplomats/src/merge_sources.py \
+            --scraped diplomats/data/diplomats.json \
+            --wikidata diplomats/data/diplomats_wikidata.json \
+            --out diplomats/data/diplomats_merged.json
+
+      - name: Export to site/contact.json
+        run: |
+          python diplomats/src/export_site.py \
+            --sources diplomats/data/sources.json \
+            --merged diplomats/data/diplomats_merged.json \
+            --out site/contact.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name "tender-radar-bot"
+          git config user.email "tender-radar-bot@users.noreply.github.com"
+          git add diplomats/data/diplomats.json diplomats/data/diplomats_wikidata.json diplomats/data/diplomats_merged.json site/contact.json
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Diplomats weekly refresh: $(date -u +%Y-%m-%d)"
+
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) -- fetching and rebasing."
+            git fetch origin main
+            git rebase origin/main -X ours
+            sleep 5
+          done
+          echo "Still couldn't push after 5 attempts."
+          exit 1

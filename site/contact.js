@@ -2,13 +2,19 @@ function esc(v) {
   return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-function statusBadge(status) {
-  if (status === 'verified') return '<span class="nl-status confirmed">✓ Vérifié</span>';
-  if (status === 'warning') return '<span class="nl-status cancelled">⚠ Attention</span>';
-  return '<span class="nl-status pipeline">non re-testé</span>';
+function sourceBadge(dataSource) {
+  if (dataSource === 'wikidata') return '<span class="nl-status confirmed" title="Wikidata (CC0)">Wikidata</span>';
+  if (dataSource === 'web_scrape') return '<span class="nl-status operational" title="Site officiel">Site officiel</span>';
+  return '';
 }
 
-let ALL_ITEMS = [];
+function diplomatLine(d) {
+  const since = d.start_date ? ` <span style="color:var(--ink-soft)">(depuis ${esc(d.start_date)})</span>` : '';
+  const wd = d.wikidata_url ? ` · <a href="${esc(d.wikidata_url)}" target="_blank" rel="noopener">wikidata</a>` : '';
+  return `<div style="margin-bottom:4px">${sourceBadge(d.data_source)} <b>${esc(d.name)}</b>${d.title ? ' — ' + esc(d.title) : ''}${since}${wd}</div>`;
+}
+
+let ALL_COUNTRIES = [];
 
 async function main() {
   const res = await fetch('contact.json', {cache: 'no-store'});
@@ -16,8 +22,8 @@ async function main() {
 
   document.getElementById('generated').textContent = data.generated || '';
 
-  Object.entries(data.regions || {}).forEach(([region, items]) => {
-    items.forEach(it => ALL_ITEMS.push({...it, region}));
+  Object.entries(data.regions || {}).forEach(([region, countries]) => {
+    countries.forEach(c => ALL_COUNTRIES.push({...c, region}));
   });
 
   document.getElementById('methodo-text').textContent = data.methodology || '';
@@ -38,28 +44,31 @@ async function main() {
 function render(query) {
   const regionsEl = document.getElementById('regions');
   const byRegion = {};
-  let shown = 0;
-  ALL_ITEMS.forEach(it => {
-    const text = (it.country + ' ' + it.org + ' ' + (it.note || '')).toLowerCase();
+  let shownCountries = 0, totalDiplomats = 0;
+
+  ALL_COUNTRIES.forEach(c => {
+    const names = (c.diplomats || []).map(d => `${d.name} ${d.title || ''}`).join(' ');
+    const text = (c.country + ' ' + names).toLowerCase();
     if (query && !text.includes(query)) return;
-    (byRegion[it.region] = byRegion[it.region] || []).push(it);
-    shown++;
+    (byRegion[c.region] = byRegion[c.region] || []).push(c);
+    shownCountries++;
+    totalDiplomats += (c.diplomats || []).length;
   });
 
-  document.getElementById('count').textContent = `${shown} / ${ALL_ITEMS.length}`;
+  document.getElementById('count').textContent = `${totalDiplomats} diplomate(s) · ${shownCountries} / ${ALL_COUNTRIES.length} pays`;
 
   regionsEl.innerHTML = Object.keys(byRegion).map(region => `
     <div class="region-heading">${esc(region)} <span style="color:var(--ink-soft);font-weight:400">(${byRegion[region].length})</span></div>
     <table class="nl-table">
-      <thead><tr><th>Pays / entité</th><th>Organisme</th><th>Statut</th><th>Lien</th><th>Note</th></tr></thead>
+      <thead><tr><th>Pays</th><th>Diplomate(s)</th><th>Source officielle</th></tr></thead>
       <tbody>
-        ${byRegion[region].map(it => `
+        ${byRegion[region].map(c => `
           <tr>
-            <td><b>${esc(it.country)}</b></td>
-            <td>${esc(it.org)}</td>
-            <td>${statusBadge(it.status)}</td>
-            <td><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.url.replace(/^https?:\/\//, '').split('/')[0])}</a></td>
-            <td class="contact">${esc(it.note || '')}</td>
+            <td><b>${esc(c.country)}</b></td>
+            <td>${(c.diplomats && c.diplomats.length)
+                ? c.diplomats.map(diplomatLine).join('')
+                : '<span class="nl-status pipeline">aucune donnée extraite</span>'}</td>
+            <td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url.replace(/^https?:\/\//, '').split('/')[0])}</a></td>
           </tr>`).join('')}
       </tbody>
     </table>`).join('') || '<p class="nl-empty-region">Aucun résultat pour ce filtre.</p>';
