@@ -45,6 +45,13 @@ function relatedTenderBadge(rt) {
   </a>`;
 }
 
+function eligibilityBadge(text) {
+  if (!text) return '';
+  const applicable = /postulable directement|eligible/i.test(text) && !/pas postulable/i.test(text);
+  const cls = applicable ? 'elig-yes' : 'elig-no';
+  return `<span class="nl-elig ${cls}">${esc(text)}</span>`;
+}
+
 async function main() {
   const res = await fetch('newsletter.json', { cache: 'no-store' });
   const data = await res.json();
@@ -61,6 +68,19 @@ async function main() {
       <td>${esc(it.parties)}</td>
       <td>${esc(it.type)}</td>
       <td>${esc(it.details)}${relatedTenderBadge(it.related_tender)}</td>
+      <td>${sourceLink(it.source)}</td>
+    </tr>`).join('');
+
+  // Financing & grants
+  document.querySelector('#tbl-financing tbody').innerHTML = (data.financing || []).map(it => `
+    <tr>
+      <td><b>${esc(it.program)}</b></td>
+      <td>${statusBadge(it.status)}</td>
+      <td>${eligibilityBadge(it.eligibility)}</td>
+      <td>${esc(it.org)}</td>
+      <td class="nl-amount">${esc(it.amount)}</td>
+      <td>${esc(it.deadline)}</td>
+      <td>${esc(it.summary)}${relatedTenderBadge(it.related_tender)}</td>
       <td>${sourceLink(it.source)}</td>
     </tr>`).join('');
 

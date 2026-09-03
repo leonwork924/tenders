@@ -51,6 +51,13 @@ table.nl-table td.contact { color: var(--ink-soft); font-size: 12px; }
 
 .nl-amount { color: var(--amber); font-weight: 600; white-space: nowrap; }
 
+.nl-elig {
+  display: inline-block; font-size: 11px; padding: 3px 9px; border-radius: 4px;
+  font-weight: 600; line-height: 1.4;
+}
+.nl-elig.elig-yes { background: #e2f3e7; color: var(--green); border: 1px solid #b6ddc0; }
+.nl-elig.elig-no { background: #eef1f4; color: var(--ink-soft); border: 1px solid var(--rule); }
+
 .nl-empty-region { color: var(--ink-soft); font-size: 12.5px; font-style: italic; margin: 0 0 12px; }
 
 .related-tender {

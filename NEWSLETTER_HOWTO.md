@@ -33,6 +33,10 @@ texte avant/apres, pas de blocs markdown) suivant EXACTEMENT ce schema :
     {"date_signed": "", "status": "", "deal": "", "parties": "", "type": "",
      "details": "", "source": {"label": "", "url": ""}, "related_tender": null}
   ],
+  "financing": [
+    {"program": "", "status": "", "eligibility": "", "org": "", "amount": "",
+     "deadline": "", "summary": "", "source": {"label": "", "url": ""}, "related_tender": null}
+  ],
   "hospitality": {
     "Africa": [ {"project": "", "status": "", "group": "", "summary": "",
                  "contact": "", "source": {"label": "", "url": ""}, "related_tender": null} ],
@@ -55,18 +59,33 @@ Contenu attendu par section :
 1. newly_signed : accords/MOU/contrats de gestion/financements signes dans
    les ~4 dernieres semaines, toutes categories confondues, les plus recents
    d'abord.
-2. hospitality : projets de developpement hotelier et de resorts, par
+2. financing : subventions et financements pertinents pour Records
+   Management et Heritage (numerisation d'archives, conservation-
+   restauration, technologies patrimoniales). Deux types de lignes,
+   melanges dans la meme liste :
+   a. Appels a candidature ouverts ou a venir (status: "Open Call") --
+      indique clairement dans "eligibility" si une PME/entreprise peut
+      postuler directement, ou si c'est reserve aux organismes a but non
+      lucratif (dans ce cas, precise si le dossier exige de nommer un
+      prestataire -- info utile meme sans pouvoir postuler soi-meme).
+   b. Institutions ayant recemment obtenu une subvention (status: "Awarded")
+      -- ce sont des prospects avec un budget documente. Mets
+      "eligibility": "N/A -- prospect potentiel".
+   Ne mets JAMAIS "eligible" ou "postulable directement" sans verifier
+   reellement les criteres d'eligibilite du programme -- c'est le champ le
+   plus important de cette section, il doit etre fiable.
+3. hospitality : projets de developpement hotelier et de resorts, par
    region (Afrique, Moyen-Orient, Asie, Europe, Caraibes) -- qui est
    derriere le projet (groupe hotelier, developpeur), un resume, et si une
    personne est citee nommement dans un article public, son nom + role +
    organisation.
-3. investments : investissements, partenariats et fusions-acquisitions
+4. investments : investissements, partenariats et fusions-acquisitions
    cross-border entre Europe / Afrique / Asie / Ameriques -- type
    d'operation (JV, acquisition, usine, financement...), montant si connu,
    objet/portee.
-4. arts : projets et expositions d'art majeurs -- organisation, personnes
+5. arts : projets et expositions d'art majeurs -- organisation, personnes
    cles nommees publiquement, region, resume.
-5. related_tender : AVANT de finaliser, recupere le contenu de
+6. related_tender : AVANT de finaliser, recupere le contenu de
    https://tenders-rho.vercel.app/data.json (nos appels d'offres publics
    actifs). Pour chaque actualite, verifie s'il s'agit REELEMENT du meme
    projet ou de la meme organisation qu'un de ces appels d'offres -- pas
