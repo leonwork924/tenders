@@ -27,7 +27,10 @@ METHODOLOGY = (
     "diplomatique officielle (souvent un PDF), dont il extrait les noms et titres par "
     "reconnaissance de motifs (« S.E. M./Mme », « H.E. Mr./Mrs », « Ambassadeur », etc.). "
     "Ces données sont recoupées, quand c'est possible, avec Wikidata (licence CC0) pour "
-    "retrouver une date de prise de fonction. Le robots.txt de chaque site est respecté : "
+    "retrouver une date de prise de fonction. Quand un email ou un téléphone apparaît à "
+    "proximité du nom sur la page source, il est également extrait — il s'agit presque "
+    "toujours du standard institutionnel de l'ambassade, pas d'une ligne personnelle, "
+    "mais l'extraction reste heuristique et peut se tromper. Le robots.txt de chaque site est respecté : "
     "si l'accès automatisé y est interdit, la source est ignorée et seul le lien officiel "
     "reste affiché. L'extraction est une heuristique — elle échoue sur les listes publiées "
     "en image scannée, chargées en JavaScript, ou rédigées dans un alphabet non-latin ; "
@@ -56,6 +59,8 @@ def diplomat_view(entry: dict) -> dict:
         "data_source": entry.get("data_source"),
         "source_url": entry.get("source_url"),
         "wikidata_url": entry.get("wikidata_url"),
+        "email": entry.get("email"),
+        "phone": entry.get("phone"),
     }
 
 
@@ -64,7 +69,6 @@ def main():
     ap.add_argument("--sources", default="diplomats/data/sources.json")
     ap.add_argument("--merged", default="diplomats/data/diplomats_merged.json")
     ap.add_argument("--out", default="site/contact.json")
-    ap.add_argument("--contact-email", default="tenders@overseasam.com")
     args = ap.parse_args()
 
     sources = load_json(Path(args.sources), [])
@@ -99,7 +103,6 @@ def main():
         "sa date de prise de fonction.",
         "Ces données sont réactualisées automatiquement chaque semaine — une entrée "
         "obsolète est remplacée ou retirée au prochain passage.",
-        f"Pour toute demande de retrait ou de correction : {args.contact_email}.",
     ]
 
     out = {

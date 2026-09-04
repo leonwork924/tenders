@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03",
+  "generated": "2026-09-04",
   "regions": {
     "Europe": [
       {
@@ -599,12 +599,11 @@
       }
     ]
   },
-  "methodology": "Chaque semaine, un agent automatisé consulte le site du ministère des Affaires étrangères de chaque pays listé ci-dessous et tente d'y repérer la liste diplomatique officielle (souvent un PDF), dont il extrait les noms et titres par reconnaissance de motifs (« S.E. M./Mme », « H.E. Mr./Mrs », « Ambassadeur », etc.). Ces données sont recoupées, quand c'est possible, avec Wikidata (licence CC0) pour retrouver une date de prise de fonction. Le robots.txt de chaque site est respecté : si l'accès automatisé y est interdit, la source est ignorée et seul le lien officiel reste affiché. L'extraction est une heuristique — elle échoue sur les listes publiées en image scannée, chargées en JavaScript, ou rédigées dans un alphabet non-latin ; dans ces cas, seul le lien officiel est affiché pour consultation manuelle.",
+  "methodology": "Chaque semaine, un agent automatisé consulte le site du ministère des Affaires étrangères de chaque pays listé ci-dessous et tente d'y repérer la liste diplomatique officielle (souvent un PDF), dont il extrait les noms et titres par reconnaissance de motifs (« S.E. M./Mme », « H.E. Mr./Mrs », « Ambassadeur », etc.). Ces données sont recoupées, quand c'est possible, avec Wikidata (licence CC0) pour retrouver une date de prise de fonction. Quand un email ou un téléphone apparaît à proximité du nom sur la page source, il est également extrait — il s'agit presque toujours du standard institutionnel de l'ambassade, pas d'une ligne personnelle, mais l'extraction reste heuristique et peut se tromper. Le robots.txt de chaque site est respecté : si l'accès automatisé y est interdit, la source est ignorée et seul le lien officiel reste affiché. L'extraction est une heuristique — elle échoue sur les listes publiées en image scannée, chargées en JavaScript, ou rédigées dans un alphabet non-latin ; dans ces cas, seul le lien officiel est affiché pour consultation manuelle.",
   "notes": [
     "Toutes les données proviennent de publications officielles des États (protocole diplomatique) et/ou de Wikidata (licence CC0) — rien n'est collecté depuis une source privée ou non publique.",
     "Chaque entrée indique sa provenance (site officiel ou Wikidata) et, quand connue, sa date de prise de fonction.",
-    "Ces données sont réactualisées automatiquement chaque semaine — une entrée obsolète est remplacée ou retirée au prochain passage.",
-    "Pour toute demande de retrait ou de correction : tenders@overseasam.com."
+    "Ces données sont réactualisées automatiquement chaque semaine — une entrée obsolète est remplacée ou retirée au prochain passage."
   ],
   "search_terms": [
     "diplomatic list",

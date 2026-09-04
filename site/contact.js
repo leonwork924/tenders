@@ -11,7 +11,9 @@ function sourceBadge(dataSource) {
 function diplomatLine(d) {
   const since = d.start_date ? ` <span style="color:var(--ink-soft)">(depuis ${esc(d.start_date)})</span>` : '';
   const wd = d.wikidata_url ? ` · <a href="${esc(d.wikidata_url)}" target="_blank" rel="noopener">wikidata</a>` : '';
-  return `<div style="margin-bottom:4px">${sourceBadge(d.data_source)} <b>${esc(d.name)}</b>${d.title ? ' — ' + esc(d.title) : ''}${since}${wd}</div>`;
+  const email = d.email ? ` · <a href="mailto:${esc(d.email)}">${esc(d.email)}</a>` : '';
+  const phone = d.phone ? ` · ${esc(d.phone)}` : '';
+  return `<div style="margin-bottom:4px">${sourceBadge(d.data_source)} <b>${esc(d.name)}</b>${d.title ? ' — ' + esc(d.title) : ''}${since}${wd}${email}${phone}</div>`;
 }
 
 let ALL_COUNTRIES = [];
@@ -47,7 +49,7 @@ function render(query) {
   let shownCountries = 0, totalDiplomats = 0;
 
   ALL_COUNTRIES.forEach(c => {
-    const names = (c.diplomats || []).map(d => `${d.name} ${d.title || ''}`).join(' ');
+    const names = (c.diplomats || []).map(d => `${d.name} ${d.title || ''} ${d.email || ''}`).join(' ');
     const text = (c.country + ' ' + names).toLowerCase();
     if (query && !text.includes(query)) return;
     (byRegion[c.region] = byRegion[c.region] || []).push(c);

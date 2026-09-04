@@ -84,6 +84,22 @@ NAME_PATTERN = r"([A-ZÀ-Ý][\wÀ-ÿ'’\.-]*(?:\s+[A-ZÀ-Ý][\wÀ-ÿ'’\.-]*){
 
 NAME_LINE_RE = re.compile(TITLE_PATTERN + r"\s+" + NAME_PATTERN)
 
+EMAIL_RE = re.compile(r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}")
+
+# Téléphone : assez permissif pour couvrir les formats internationaux
+# courants, mais on exige un préfixe +NN ou plusieurs groupes séparés
+# (espace/point/tiret) pour limiter les faux positifs sur des suites de
+# chiffres qui n'en sont pas (dates, codes postaux...).
+PHONE_RE = re.compile(
+    r"\+\d{1,3}[\s.-]?(?:\(?\d{1,4}\)?[\s.-]?){2,5}\d{2,4}"
+    r"|\b\d{2,4}(?:[\s.-]\d{2,4}){3,6}\b"
+)
+
+# Nb de lignes regardées après un nom pour y chercher un email/téléphone.
+# Sur une liste diplomatique, les coordonnées de l'ambassade suivent
+# souvent immédiatement le nom/titre dans le même bloc d'adresse.
+CONTACT_WINDOW_LINES = 6
+
 
 @dataclass
 class DiplomatEntry:
@@ -100,6 +116,11 @@ class DiplomatEntry:
     start_date: str | None = None   # date de prise de fonction (ISO YYYY-MM-DD), si connue
     end_date: str | None = None     # date de fin de fonction (ISO YYYY-MM-DD), si connue et déjà passée
     data_source: str = "web_scrape"  # "web_scrape" | "wikidata"
+    # Coordonnées trouvées à proximité du nom -- presque toujours le
+    # standard institutionnel de l'ambassade plutôt qu'une ligne
+    # personnelle, mais ce n'est pas garanti (voir CONTACT_WINDOW_LINES).
+    email: str | None = None
+    phone: str | None = None
 
 
 def check_robots(url: str) -> bool:
@@ -160,11 +181,36 @@ def extract_text_from_pdf(content: bytes) -> str:
     return "\n".join(text_parts)
 
 
-def extract_names_from_text(text: str) -> list[tuple[str, str, str]]:
-    """Retourne une liste de (titre_devine, nom, ligne_brute)."""
+def find_nearby_contact(lines: list[str], start_idx: int) -> tuple[str | None, str | None]:
+    """Cherche un email et un téléphone dans les quelques lignes qui suivent
+    une entrée nom+titre. Heuristique : peut rater le bon contact (absent
+    des CONTACT_WINDOW_LINES suivantes) ou, si plusieurs diplomates sont
+    listés sans bloc de contact individuel bien délimité, attribuer par
+    erreur les coordonnées d'une entrée voisine."""
+    email = None
+    phone = None
+    for line in lines[start_idx: start_idx + CONTACT_WINDOW_LINES]:
+        if email is None:
+            m = EMAIL_RE.search(line)
+            if m:
+                email = m.group(0)
+        if phone is None:
+            m = PHONE_RE.search(line)
+            if m:
+                candidate = m.group(0).strip()
+                if sum(c.isdigit() for c in candidate) >= 7:  # anti faux-positif grossier
+                    phone = candidate
+        if email and phone:
+            break
+    return email, phone
+
+
+def extract_names_from_text(text: str) -> list[tuple[str, str, str, str | None, str | None]]:
+    """Retourne une liste de (titre_devine, nom, ligne_brute, email, telephone)."""
+    lines = text.splitlines()
     results = []
-    for line in text.splitlines():
-        line = line.strip()
+    for idx, raw in enumerate(lines):
+        line = raw.strip()
         if not line or len(line) > 200:
             continue
         for m in NAME_LINE_RE.finditer(line):
@@ -173,7 +219,8 @@ def extract_names_from_text(text: str) -> list[tuple[str, str, str]]:
             # Filtre anti faux-positifs grossiers (trop court, tout en maj, etc.)
             if len(name.split()) < 2:
                 continue
-            results.append((title_guess, name, line))
+            email, phone = find_nearby_contact(lines, idx)
+            results.append((title_guess, name, line, email, phone))
     return results
 
 
@@ -216,7 +263,7 @@ def process_source(entry: dict) -> list[DiplomatEntry]:
             text = BeautifulSoup(html, "html.parser").get_text("\n")
             source_used = url
 
-    for title_guess, name, raw_line in extract_names_from_text(text):
+    for title_guess, name, raw_line, email, phone in extract_names_from_text(text):
         found.append(
             DiplomatEntry(
                 country_source=country,
@@ -226,6 +273,8 @@ def process_source(entry: dict) -> list[DiplomatEntry]:
                 raw_line=raw_line,
                 source_url=source_used,
                 scraped_at=now,
+                email=email,
+                phone=phone,
             )
         )
 
