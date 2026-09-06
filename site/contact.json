@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04",
+  "generated": "2026-09-06",
   "regions": {
     "Europe": [
       {
@@ -11917,547 +11917,7 @@
       {
         "country": "Hungary",
         "url": "https://mfa.gov.hu/",
-        "diplomats": [
-          {
-            "name": "Miklós Lengyel",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "2025-04-08",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q141222527",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Katalin Kissné Hlatki",
-            "title": "ambassadeur de Hongrie en Roumanie",
-            "start_date": "2024-12-18",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140389438",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gabor Diczhazi",
-            "title": "ambassador of Hungary to State of Palestine",
-            "start_date": "2024-10-09",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q131219557",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "István Íjgyártó",
-            "title": "ambassadeur de Hongrie en Pologne",
-            "start_date": "2024-06-27",
-            "end_date": "2026-05-28",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q4198946",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Rita Herencsár",
-            "title": "ambassadeur de Hongrie en Egypte",
-            "start_date": "2024-04-12",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140452369",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Hikariko Ono",
-            "title": "ambassadeur du Japon en Hongrie",
-            "start_date": "2024-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q106479347",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Dániel Horogszegi Szilágyi-Landeck",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "2023-12-14",
-            "end_date": "2026-07-16",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140937690",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Zoltán Szentgyörgyi",
-            "title": "ambassadeur de Hongrie en Israël",
-            "start_date": "2023-06-21",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140958178",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Emília Fábián",
-            "title": "ambassadeur de Hongrie au Portugal",
-            "start_date": "2023-05-04",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q141133908",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "István Balogh",
-            "title": "Permanent Representative of Hungary to the NATO, Brussels",
-            "start_date": "2023-01-01",
-            "end_date": "2026-07-16",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q112496182",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Edit Szilágyiné Bátorfi",
-            "title": "ambassadeur de Hongrie en Autriche",
-            "start_date": "2022-12-20",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138750939",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "József Magyar",
-            "title": "ambassadeur de Hongrie en Serbie",
-            "start_date": "2022-10-19",
-            "end_date": "2026-07-16",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140838809",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "David Pressman",
-            "title": "ambassadeur des États-Unis en Hongrie",
-            "start_date": "2022-09-14",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5238702",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Uladzimir Ulakhovich",
-            "title": "ambassadeur de Biélorussie en Hongrie",
-            "start_date": "2022-02-10",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q110879417",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Baatarjav Sainnyambuu",
-            "title": "ambassadeur de Mongolie en Hongrie",
-            "start_date": "2021-11-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q110763975",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Zsolt Csenger-Zalán",
-            "title": "ambassadeur de Hongrie en Australie",
-            "start_date": "2021-10-12",
-            "end_date": "2025-12-10",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q8074805",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Klára Breuer",
-            "title": "ambassadeur de Hongrie en Finlande",
-            "start_date": "2021-10-04",
-            "end_date": "2025-12-10",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q106731182",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Zsuzsanna Horváth",
-            "title": "représentant permanent de la Hongrie aux Nations unies à New York",
-            "start_date": "2021-01-13",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q110915195",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Marjan Cencen",
-            "title": "ambassadeur de Slovénie en Hongrie",
-            "start_date": "2021-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q12795833",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "József Czukor",
-            "title": "ambassadeur de Hongrie en Suisse",
-            "start_date": "2020-11-15",
-            "end_date": "2025-12-10",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1715137",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ferenc Kumin",
-            "title": "ambassadeur de Hongrie au Royaume-Uni",
-            "start_date": "2020-03-04",
-            "end_date": "2026-07-16",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1121834",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "András Imre Kovács",
-            "title": "ambassadeur de Hongrie en Egypte",
-            "start_date": "2020-03-04",
-            "end_date": "2024-04-12",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140451659",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mária Vass-Salazar",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "2020-02-03",
-            "end_date": "2025-04-08",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q99220043",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Csaba Demcsák",
-            "title": "ambassadeur de Hongrie en Croatie",
-            "start_date": "2020-02-03",
-            "end_date": "2026-07-16",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q141162945",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Masato Ohtaka",
-            "title": "ambassadeur du Japon en Hongrie",
-            "start_date": "2020-01-01",
-            "end_date": "2024-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q98734418",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Tibor Bial",
-            "title": "ambassadeur de la République tchèque en Hongrie",
-            "start_date": "2019-09-02",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q69378079",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "László Odrobina",
-            "title": "ambassadeur de Hongrie en Espagne",
-            "start_date": "2019-06-14",
-            "end_date": "2020-08-10",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q70401745",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Miklós Halmai",
-            "title": "ambassadeur de Hongrie au Portugal",
-            "start_date": "2019-04-24",
-            "end_date": "2023-05-04",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q141040281",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gabor Diczhazi",
-            "title": "ambassador of Hungary to Lithuania",
-            "start_date": "2019-01-01",
-            "end_date": "2024-03-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q131219557",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Viktor Mátis",
-            "title": "ambassadeur de Hongrie en Turquie",
-            "start_date": "2018-11-30",
-            "end_date": "2025-12-18",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q67636491",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Aleksandr Ponomarev",
-            "title": "ambassadeur de Biélorussie en Hongrie",
-            "start_date": "2018-11-13",
-            "end_date": "2022-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q24450482",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Jolt Çutora",
-            "title": "ambassadeur de Hongroise en Biélorussie",
-            "start_date": "2018-09-25",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q20559830",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "György Urkuti",
-            "title": "ambassadeur de Hongrie en Finlande",
-            "start_date": "2018-09-19",
-            "end_date": "2021-10-04",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q63255695",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "David Cornstein",
-            "title": "ambassadeur des États-Unis en Hongrie",
-            "start_date": "2018-06-23",
-            "end_date": "2020-10-30",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q56065045",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "István Mikola",
-            "title": "ambassadeur de Hongrie en Australie",
-            "start_date": "2018-06-18",
-            "end_date": "2021-10-12",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1177081",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Levente Benkő",
-            "title": "ambassadeur de Hongrie en Israël",
-            "start_date": "2018-04-13",
-            "end_date": "2023-06-21",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q63789988",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Andor Nagy",
-            "title": "ambassadeur de Hongrie en Autriche",
-            "start_date": "2018-04-13",
-            "end_date": "2022-12-20",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q14922928",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Tamás Iván Kovács",
-            "title": "ambassadeur de Hongrie en Belgique",
-            "start_date": "2018-01-26",
-            "end_date": "2926-05-28",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1120412",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Máté Pesti",
-            "title": "ambassadeur de Hongrie en république populaire de Chine",
-            "start_date": "2018-01-01",
-            "end_date": "2025-12-10",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q66684946",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Kristi Karelsohn",
-            "title": "ambassadeur d'Estonie en Hongrie",
-            "start_date": "2018-01-01",
-            "end_date": "2022-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q61111275",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Orsolya Zsuzsanna Kovács",
-            "title": "ambassadeur de Hongrie en Pologne",
-            "start_date": "2017-02-08",
-            "end_date": "2024-06-27",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q62068840",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ádám Zoltán Kovács",
-            "title": "ambassadeur de Hongrie en Italie",
-            "start_date": "2017-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q107966709",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Viktor Szederkenyi",
-            "title": "ambassadeur de Hongrie en Azerbaïdjan",
-            "start_date": "2017-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q55199209",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Robert Kokalj",
-            "title": "ambassadeur de Slovénie en Hongrie",
-            "start_date": "2017-01-01",
-            "end_date": "2021-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q64541705",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Kuni Satō",
-            "title": "ambassadeur du Japon en Hongrie",
-            "start_date": "2017-01-01",
-            "end_date": "2020-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q17158997",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Elisabeth Ellison-Kramer",
-            "title": "ambassadeur de la république d'Autriche en Hongrie",
-            "start_date": "2017-01-01",
-            "end_date": "2020-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q47068171",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Kristóf Szalay-Bobrovniczky",
-            "title": "ambassadeur de Hongrie au Royaume-Uni",
-            "start_date": "2016-05-02",
-            "end_date": "2020-03-04",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q66813321",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "András Kocsis",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "2016-05-02",
-            "end_date": "2023-12-14",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q26877296",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Rein Oidekivi",
-            "title": "ambassadeur d'Estonie en Hongrie",
-            "start_date": "2016-03-02",
-            "end_date": "2018-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111904103",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Kosovo",
@@ -12832,393 +12292,7 @@
       {
         "country": "Netherlands",
         "url": "https://www.government.nl/ministries/ministry-of-foreign-affairs",
-        "diplomats": [
-          {
-            "name": "Ammar Hijazi",
-            "title": "représentant de l'OLP aux Pays-Bas",
-            "start_date": "2024-09-12",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q124259105",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Dániel Horogszegi Szilágyi-Landeck",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "2023-12-14",
-            "end_date": "2026-07-16",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140937690",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Rawan Sulaiman",
-            "title": "représentant de l'OLP aux Pays-Bas",
-            "start_date": "2017-01-28",
-            "end_date": "2024-09-02",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q113362140",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "András Kocsis",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "2016-05-02",
-            "end_date": "2023-12-14",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q26877296",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Orsolya Szijjártó",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "2014-08-01",
-            "end_date": "2016-05-02",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140937848",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Nabil Abu Znaid",
-            "title": "représentant de l'OLP aux Pays-Bas",
-            "start_date": "2009-09-10",
-            "end_date": "2017-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q113361558",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Sumaya Al-Barghuta",
-            "title": "représentant de l'OLP aux Pays-Bas",
-            "start_date": "2006-01-09",
-            "end_date": "2009-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q122180744",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gábor Szentiványi",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "2004-01-01",
-            "end_date": "2007-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q96851261",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "András Gergely",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1999-01-01",
-            "end_date": "2002-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q25467630",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Dénes Tomaj",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1993-09-07",
-            "end_date": "1998-11-18",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140031223",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Youssef Habab",
-            "title": "représentant de l'OLP aux Pays-Bas",
-            "start_date": "1993-01-01",
-            "end_date": "2005-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q96762456",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Leïla Shahid",
-            "title": "représentant de l'OLP aux Pays-Bas",
-            "start_date": "1990-01-01",
-            "end_date": "1993-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1963057",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "István Csejtei",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1989-06-01",
-            "end_date": "1993-09-07",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140031182",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Afif Safieh",
-            "title": "représentant de l'OLP aux Pays-Bas",
-            "start_date": "1987-01-01",
-            "end_date": "1990-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q383257",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Tivadar Iván",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1984-10-11",
-            "end_date": "1989-06-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q139604359",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "István Horváth",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1983-09-12",
-            "end_date": "1984-09-13",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q20435636",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Emil Lakatos",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1979-12-05",
-            "end_date": "1983-09-12",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q117042028",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Anna Bebrits",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1974-08-27",
-            "end_date": "1979-12-05",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q63323222",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Loránd Jókai",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1970-10-15",
-            "end_date": "1974-08-27",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140001574",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Tibor Lajti",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1968-08-12",
-            "end_date": "1970-10-15",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138029981",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Lajos Barta",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1965-07-08",
-            "end_date": "1968-08-12",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138315373",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Lajos Barta",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1964-06-01",
-            "end_date": "1965-07-08",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138315373",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gyula Révész",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1962-03-30",
-            "end_date": "1964-06-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140633455",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "István Beck",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1958-10-10",
-            "end_date": "1962-03-30",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138359568",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "József Kárpáti",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1956-08-04",
-            "end_date": "1957-07-11",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q139569585",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "S. Lajos Nagy",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1953-10-16",
-            "end_date": "1956-07-08",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q139519330",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "András Móczi",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1952-01-06",
-            "end_date": "1953-10-22",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1213177",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "György Bölöni",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1948-08-27",
-            "end_date": "1951-07-23",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q855139",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Béla Szent-Istvány",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1939-09-23",
-            "end_date": "1941-02-12",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138464345",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Antal Magyary",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1934-10-24",
-            "end_date": "1939-10-31",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q139564078",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Béla Török",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1929-04-25",
-            "end_date": "1934-10-24",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138357158",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ludwig Rudolf Rudnay de Rudnó et Divék-Ujfalu",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1927-01-25",
-            "end_date": "1929-05-13",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q75392398",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Pál Forster",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1924-01-03",
-            "end_date": "1924-01-25",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138426532",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "János Wettstein",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1921-04-10",
-            "end_date": "1923-08-20",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q13421541",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ferenc Ambró",
-            "title": "ambassadeur de Hongrie aux Pays-Bas",
-            "start_date": "1921-04-10",
-            "end_date": "1923-08-20",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q65218822",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Poland",
@@ -15388,12 +14462,12 @@
             "phone": null
           },
           {
-            "name": "Issei Nomura",
-            "title": "ambassadeur du Japon en Russie",
+            "name": "Stefan Meller",
+            "title": "ambassadeur de Pologne à Moscou",
             "start_date": "2002-01-01",
-            "end_date": "2006-01-01",
+            "end_date": "2005-01-01",
             "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q7400808",
+            "source_url": "http://www.wikidata.org/entity/Q552957",
             "wikidata_url": null,
             "email": null,
             "phone": null
@@ -29794,558 +28868,7 @@
       {
         "country": "United Kingdom",
         "url": "https://www.gov.uk/government/publications/foreign-embassies-in-the-uk",
-        "diplomats": [
-          {
-            "name": "Abdullah bin Khalid bin Sultan Al Saud",
-            "title": "ambassadeur d'Arabie saoudite au Royaume-Uni",
-            "start_date": "2026-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q87436373",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Stephen Smith",
-            "title": "haut-commissaire d'Australie au Royaume-Uni",
-            "start_date": "2023-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1376420",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Iain Frew",
-            "title": "ambassadeur du Royaume-Uni au Viêt Nam",
-            "start_date": "2022-08-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138648292",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Piotr Wilczek",
-            "title": "ambassadeur de Pologne au Royaume-Uni",
-            "start_date": "2022-02-15",
-            "end_date": "2025-10-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q7197024",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Elin Suleymanov",
-            "title": "ambassadeur d'Azerbaïdjan au Royaume-Uni",
-            "start_date": "2021-07-26",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5361095",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Zheng Zeguang",
-            "title": "ambassadeur de Chine au Royaume-Uni",
-            "start_date": "2021-06-07",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q16907486",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ferenc Kumin",
-            "title": "ambassadeur de Hongrie au Royaume-Uni",
-            "start_date": "2020-03-04",
-            "end_date": "2026-07-16",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1121834",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Sidi Breika",
-            "title": "ambassadeur de la République arabe sahraouie démocratique",
-            "start_date": "2020-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q123440269",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Geraldo Nunda",
-            "title": "ambassadeur d'Angola au Royaume-Uni",
-            "start_date": "2019-11-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q29359484",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Farahanaz Faisal",
-            "title": "haut-commissaire des Maldives auprès du Royaume-Uni",
-            "start_date": "2019-04-18",
-            "end_date": "2024-05-07",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q91915316",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Khalid ben Bandar ben Sultan Al Saoud",
-            "title": "ambassadeur d'Arabie saoudite au Royaume-Uni",
-            "start_date": "2019-01-01",
-            "end_date": "2025-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q616695",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Rafael Ortiz Fábrega",
-            "title": "ambassadeur du Costa Rica au Royaume-Uni",
-            "start_date": "2018-10-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q28501766",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Husam Zomlot",
-            "title": "ambassadeur de Palestine au Royaume-Uni",
-            "start_date": "2018-10-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q29512374",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gareth Ward",
-            "title": "ambassadeur du Royaume-Uni au Viêt Nam",
-            "start_date": "2018-07-01",
-            "end_date": "2022-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q59259843",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "George Brandis",
-            "title": "haut-commissaire d'Australie au Royaume-Uni",
-            "start_date": "2018-04-30",
-            "end_date": "2022-04-30",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5537216",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Rui Jorge C. Mangueira",
-            "title": "ambassadeur d'Angola au Royaume-Uni",
-            "start_date": "2018-03-01",
-            "end_date": "2019-10-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111993766",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Hamdi Bueha",
-            "title": "ambassadeur de la République arabe sahraouie démocratique",
-            "start_date": "2017-12-01",
-            "end_date": "2019-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q123440181",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Maen Rashid Areikat",
-            "title": "ambassadeur de Palestine au Royaume-Uni",
-            "start_date": "2017-03-01",
-            "end_date": "2018-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q6729221",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Karen-Mae Hill",
-            "title": "High Commissioner for Antigua and Barbuda to the United Kingdom",
-            "start_date": "2017-01-10",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q100323712",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Janice Charette",
-            "title": "haut-commissaire du Canada au Royaume-Uni",
-            "start_date": "2016-07-19",
-            "end_date": "2021-03-09",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q17580037",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Kristóf Szalay-Bobrovniczky",
-            "title": "ambassadeur de Hongrie au Royaume-Uni",
-            "start_date": "2016-05-02",
-            "end_date": "2020-03-04",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q66813321",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Terri Sarch",
-            "title": "ambassadeur du Royaume-Uni",
-            "start_date": "2016-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q124254849",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Arkady Rzegocki",
-            "title": "ambassadeur de Pologne au Royaume-Uni",
-            "start_date": "2016-01-01",
-            "end_date": "2021-06-30",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q9159817",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Carlos Abad Ortiz",
-            "title": "ambassadeur d'Équateur au Royaume-Uni",
-            "start_date": "2015-01-01",
-            "end_date": "2018-11-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q59219903",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Tahir Tağızadə",
-            "title": "ambassadeur d'Azerbaïdjan au Royaume-Uni",
-            "start_date": "2014-07-09",
-            "end_date": "2021-07-26",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q20584735",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Alexander Downer",
-            "title": "haut-commissaire d'Australie au Royaume-Uni",
-            "start_date": "2014-06-27",
-            "end_date": "2018-03-20",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1239291",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Péter Szabadhegy",
-            "title": "ambassadeur de Hongrie au Royaume-Uni",
-            "start_date": "2014-02-24",
-            "end_date": "2016-05-02",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q65216624",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Giles Lever",
-            "title": "ambassadeur du Royaume-Uni au Viêt Nam",
-            "start_date": "2014-01-01",
-            "end_date": "2018-06-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q56872420",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mike Rann",
-            "title": "haut-commissaire d'Australie au Royaume-Uni",
-            "start_date": "2013-02-01",
-            "end_date": "2014-06-27",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q3108729",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Witold Sobków",
-            "title": "ambassadeur de Pologne au Royaume-Uni",
-            "start_date": "2012-08-31",
-            "end_date": "2016-08-05",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q9375836",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Miguel Neto",
-            "title": "ambassadeur d'Angola au Royaume-Uni",
-            "start_date": "2012-01-01",
-            "end_date": "2020-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q6844700",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gordon Campbell",
-            "title": "haut-commissaire du Canada au Royaume-Uni",
-            "start_date": "2011-09-15",
-            "end_date": "2016-07-19",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q627888",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "János Csák",
-            "title": "ambassadeur de Hongrie au Royaume-Uni",
-            "start_date": "2010-12-03",
-            "end_date": "2014-02-24",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q56392311",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Liu Xiaoming",
-            "title": "ambassadeur de Chine au Royaume-Uni",
-            "start_date": "2010-03-01",
-            "end_date": "2021-01-31",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5360047",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Antony Stokes",
-            "title": "ambassadeur du Royaume-Uni au Viêt Nam",
-            "start_date": "2010-01-01",
-            "end_date": "2014-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q28382522",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Farahanaz Faisal",
-            "title": "haut-commissaire des Maldives auprès du Royaume-Uni",
-            "start_date": "2008-12-13",
-            "end_date": "2012-02-08",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q91915316",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Fu Ying",
-            "title": "ambassadeur de Chine au Royaume-Uni",
-            "start_date": "2007-03-01",
-            "end_date": "2010-02-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1006996",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mohamed Asim",
-            "title": "haut-commissaire des Maldives auprès du Royaume-Uni",
-            "start_date": "2007-01-01",
-            "end_date": "2008-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q46262998",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mark Kent",
-            "title": "ambassadeur du Royaume-Uni au Viêt Nam",
-            "start_date": "2007-01-01",
-            "end_date": "2010-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q26196946",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Borbála Czakó",
-            "title": "ambassadeur de Hongrie au Royaume-Uni",
-            "start_date": "2007-01-01",
-            "end_date": "2010-08-19",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q108800986",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Barbara Tuge-Erecińska",
-            "title": "ambassadeur de Pologne au Royaume-Uni",
-            "start_date": "2006-10-24",
-            "end_date": "2012-08-13",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q4859374",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ana Maria Teles Carreira",
-            "title": "ambassadeur d'Angola au Royaume-Uni",
-            "start_date": "2005-11-01",
-            "end_date": "2011-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q4750416",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Manuel Hassassian",
-            "title": "ambassadeur de Palestine au Royaume-Uni",
-            "start_date": "2005-10-31",
-            "end_date": "2018-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q6752623",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mohammed bin Nawwaf bin Abdulaziz",
-            "title": "ambassadeur d'Arabie saoudite au Royaume-Uni",
-            "start_date": "2005-01-01",
-            "end_date": "2018-12-27",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q6893468",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Hassan Sobir",
-            "title": "haut-commissaire des Maldives auprès du Royaume-Uni",
-            "start_date": "2004-10-24",
-            "end_date": "2007-09-26",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q112769223",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Zbigniew Matuszewski",
-            "title": "ambassadeur de Pologne au Royaume-Uni",
-            "start_date": "2004-01-01",
-            "end_date": "2006-04-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q56192016",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Hor Nambora",
-            "title": "ambassadeur du Cambodge au Royaume-Uni",
-            "start_date": "2004-01-01",
-            "end_date": "2013-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5901400",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Robert Anthony Eagleson Gordon",
-            "title": "ambassadeur du Royaume-Uni au Viêt Nam",
-            "start_date": "2003-01-01",
-            "end_date": "2007-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q28382601",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Béla Szombati",
-            "title": "ambassadeur de Hongrie au Royaume-Uni",
-            "start_date": "2002-08-13",
-            "end_date": "2006-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5005031",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Russell Marshall",
-            "title": "High Commissioner from New Zealand to the United Kingdom",
-            "start_date": "2002-01-04",
-            "end_date": "2005-01-04",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q2176939",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "European Union",
@@ -30765,349 +29288,7 @@
       {
         "country": "Algeria",
         "url": "https://www.mfa.gov.dz/",
-        "diplomats": [
-          {
-            "name": "Mahmood Shafqat",
-            "title": "ambassadeur du Pakistan en Algérie",
-            "start_date": "http://www.wikidata.org/.well-known/genid/cd08c9fcfa1efe61576260ebc00fa078",
-            "end_date": "http://www.wikidata.org/.well-known/genid/000316474e1fc39f15c4f5de7997ca7b",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q27972826",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Q135915448",
-            "title": "ambassadeur de Biélorussie en Algérie",
-            "start_date": "2025-06-30",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q135915448",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Emmanuel Goût",
-            "title": "ambassadeur de Saint-Marin en Algérie",
-            "start_date": "2023-07-18",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q33283351",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Elizabeth Aubin",
-            "title": "ambassadeur des États-Unis en Algérie",
-            "start_date": "2021-12-21",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q56649797",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Chalief Akbar Tjandraningrat",
-            "title": "ambassadeur d'Indonésie en Algérie",
-            "start_date": "2020-10-26",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q114243815",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Komidor Hamidou Njimoluh",
-            "title": "ambassadeur du Cameroun en Algérie",
-            "start_date": "2020-08-19",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111396018",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Rabiu Akawu",
-            "title": "ambassadeur du Nigeria en Algérie",
-            "start_date": "2016-12-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111168266",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Witold Spirydowicz",
-            "title": "ambassador of Poland to Algeria",
-            "start_date": "2016-07-06",
-            "end_date": "2023-03-10",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q16615723",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Q22688235",
-            "title": "ambassade d'Arabie Saoudite en Algérie",
-            "start_date": "2016-01-18",
-            "end_date": "2018-09-30",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q22688235",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Sergey Rachkov",
-            "title": "ambassadeur de Biélorussie en Algérie",
-            "start_date": "2014-01-01",
-            "end_date": "2019-09-12",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q18398882",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Joan A. Polaschik",
-            "title": "ambassadeur des États-Unis en Algérie",
-            "start_date": "2014-01-01",
-            "end_date": "2017-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q23772372",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Henry S. Ensher",
-            "title": "ambassadeur des États-Unis en Algérie",
-            "start_date": "2011-08-10",
-            "end_date": "2014-09-03",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q83688244",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Yuli Mumpuni Widarso",
-            "title": "ambassadeur d'Indonésie en Algérie",
-            "start_date": "2008-01-30",
-            "end_date": "2011-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q114243803",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "David D. Pearce",
-            "title": "ambassadeur des États-Unis en Algérie",
-            "start_date": "2008-01-01",
-            "end_date": "2011-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5232781",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Janet A. Sanderson",
-            "title": "ambassadeur des États-Unis en Algérie",
-            "start_date": "2000-01-01",
-            "end_date": "2003-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q3161915",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gerhard Haida",
-            "title": "ambassadeur de la République démocratique allemande en Algérie",
-            "start_date": "1988-01-01",
-            "end_date": "1990-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1511693",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mohammad Ali Sobhani",
-            "title": "ambassadeur d'Iran en Algérie",
-            "start_date": "1987-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q63348000",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mohamed Sahnoun",
-            "title": "ambassadeur d'Algérie aux États-Unis",
-            "start_date": "1984-01-01",
-            "end_date": "1989-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q15614942",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Manfred Thiede",
-            "title": "ambassadeur de la République démocratique allemande en Algérie",
-            "start_date": "1983-01-01",
-            "end_date": "1988-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1890020",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Lambert Amon Tanoh",
-            "title": "ambassadeur de Côte d'Ivoire en Algérie",
-            "start_date": "1983-01-01",
-            "end_date": "http://www.wikidata.org/.well-known/genid/a83c987a9833fed89f180771a5d6602c",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q3216625",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Redha Malek",
-            "title": "ambassadeur d'Algérie aux États-Unis",
-            "start_date": "1979-01-01",
-            "end_date": "1982-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1938509",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Edgar Röder",
-            "title": "ambassadeur de la République démocratique allemande en Algérie",
-            "start_date": "1979-01-01",
-            "end_date": "1983-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q18223702",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Karl-Heinz Vesper",
-            "title": "ambassadeur de la République démocratique allemande en Algérie",
-            "start_date": "1974-01-01",
-            "end_date": "1979-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1730008",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Grzegorz Korczyński",
-            "title": "ambassador of Poland to Algeria",
-            "start_date": "1971-04-04",
-            "end_date": "1971-10-22",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q7942507",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Tabarak Husain",
-            "title": "ambassadeur du Pakistan en Algérie",
-            "start_date": "1971-01-01",
-            "end_date": "http://www.wikidata.org/.well-known/genid/c5464ab2b2d93ce917a2d834a145729a",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q18577390",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Edward Wychowaniec",
-            "title": "ambassador of Poland to Algeria",
-            "start_date": "1966-10-31",
-            "end_date": "1971-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q109180448",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "John D. Jernegan",
-            "title": "ambassadeur des États-Unis en Algérie",
-            "start_date": "1965-07-22",
-            "end_date": "1967-06-09",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q83689152",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Cherif Guellal",
-            "title": "ambassadeur d'Algérie aux États-Unis",
-            "start_date": "1963-01-01",
-            "end_date": "1967-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q16018457",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Reza Ameri",
-            "title": "ambassadeur d'Iran en Algérie",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q124613330",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Béchir Salah Béchir",
-            "title": "ambassadeur de Libye en Algérie",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q2929688",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Abdelaziz Maoui",
-            "title": "ambassadeur d'Algérie aux États-Unis",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q2820992",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Angola",
@@ -31589,72 +29770,6 @@
         "url": "https://www.mae.gov.bi/",
         "diplomats": [
           {
-            "name": "Tri Yogo Jatmiko",
-            "title": "ambassadeur d'Indonésie en Tanzanie",
-            "start_date": "2021-11-17",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q114243800",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Daniel Wambura",
-            "title": "ambassadeur du Kenya au Burundi",
-            "start_date": "2020-10-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111235399",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Félix Costales Artieda",
-            "title": "ambassadeur d'Espagne au Burundi",
-            "start_date": "2016-05-28",
-            "end_date": "2018-09-08",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5872215",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Luis Manuel Cuesta Civís",
-            "title": "ambassadeur d'Espagne au Burundi",
-            "start_date": "2013-01-11",
-            "end_date": "2015-07-31",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q93428823",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ken Vitisia",
-            "title": "ambassadeur du Kenya au Burundi",
-            "start_date": "2013-01-01",
-            "end_date": "2020-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111235411",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "John Muzhar",
-            "title": "ambassadeur d'Indonésie en Tanzanie",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q130314648",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Else NIZIGAMA NTAMAGIRO",
             "title": "",
             "start_date": null,
@@ -31716,17 +29831,6 @@
             "phone": null
           },
           {
-            "name": "RIGHT REVEREND SARAH MULLALY",
-            "title": "AUDIENCE GRANTED TO T",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.diplocam.cm/",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Q136372912",
             "title": "ambassadeur d'Indonésie au Nigeria",
             "start_date": null,
@@ -31738,8 +29842,8 @@
             "phone": null
           },
           {
-            "name": "MBELLA MBELLA",
-            "title": "L'AFRIQUE CENTRALE (CEEAC) PAR",
+            "name": "NAM LI-WOOK",
+            "title": "CE ACCORDEE PAR LE MINDELCOM A",
             "start_date": null,
             "end_date": null,
             "data_source": "web_scrape",
@@ -31749,8 +29853,30 @@
             "phone": null
           },
           {
-            "name": "MBELLA MBELLA",
-            "title": "tre des Relations Extérieures,",
+            "name": "NAM LI-WOOK",
+            "title": "CE ACCORDEE PAR LE MINDELCOM A",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplocam.cm/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Félix MBAYU",
+            "title": "Le jeudi 03 septembre 2026,",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplocam.cm/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Felix MBAYU",
+            "title": "UNION EUROPEENNE AU CAMEROUN A",
             "start_date": null,
             "end_date": null,
             "data_source": "web_scrape",
@@ -31762,17 +29888,6 @@
           {
             "name": "ET DOCUMENTATION",
             "title": "PRES",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.diplocam.cm/",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "ANGLICAN COMMUNION BY THE",
-            "title": "BURY AND SPIRITUAL LEADER OF T",
             "start_date": null,
             "end_date": null,
             "data_source": "web_scrape",
@@ -34632,83 +32747,6 @@
         "url": "https://www.mofa.gov.lr/",
         "diplomats": [
           {
-            "name": "Guillermo Marín Gorbea",
-            "title": "ambassadeur d'Espagne au Libéria",
-            "start_date": "2025-04-16",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q128193126",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Rafael Soriano Ortiz",
-            "title": "ambassadeur d'Espagne au Libéria",
-            "start_date": "2022-04-05",
-            "end_date": "2024-07-30",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q113625526",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ricardo López-Aranda Jagu",
-            "title": "ambassadeur d'Espagne au Libéria",
-            "start_date": "2018-01-01",
-            "end_date": "2021-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q113625337",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Fernando Morán Calvo-Sotelo",
-            "title": "ambassadeur d'Espagne au Libéria",
-            "start_date": "2012-03-06",
-            "end_date": "2014-07-26",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5859957",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Beng'Yela Augustine Gang",
-            "title": "ambassadeur du Cameroun au Libéria",
-            "start_date": "2008-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111395773",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Cristina Díaz Fernández-Gil",
-            "title": "ambassadeur d'Espagne au Libéria",
-            "start_date": "2007-09-01",
-            "end_date": "2011-09-06",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q5791446",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Manuel de Luna Aguado",
-            "title": "ambassadeur d'Espagne au Libéria",
-            "start_date": "1984-01-01",
-            "end_date": "1985-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q117262910",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "YEAR ENDED DECEMBER",
             "title": "AND FINANCIAL STATEMENTS FOR T",
             "start_date": null,
@@ -34867,85 +32905,7 @@
       {
         "country": "Malawi",
         "url": "https://www.foreignaffairs.gov.mw/",
-        "diplomats": [
-          {
-            "name": "Azevedo Xavier Francisco",
-            "title": "ambassadeur d'Angola au Malawi",
-            "start_date": "2022-03-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q112042218",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Herry Sudrajat",
-            "title": "Ambassadeur d'Indonésie au Mozambique",
-            "start_date": "2020-09-14",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q124452984",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Richard Boidin",
-            "title": "ambassadeur de France au Malawi",
-            "start_date": "2017-08-09",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q50392625",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Laurent Delahousse",
-            "title": "ambassadeur de France au Malawi",
-            "start_date": "2014-10-02",
-            "end_date": "2017-08-08",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q18744702",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Marie-Annick Bourdin",
-            "title": "ambassadeur de France au Malawi",
-            "start_date": "2012-06-28",
-            "end_date": "2014-10-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q33285073",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Olivier Richard",
-            "title": "ambassadeur de France au Malawi",
-            "start_date": "2010-07-02",
-            "end_date": "2012-07-27",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q24325682",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Jean-Louis Zoël",
-            "title": "ambassadeur de France au Malawi",
-            "start_date": "1999-03-22",
-            "end_date": "2001-11-13",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q3167029",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Mali",
@@ -37697,6 +35657,17 @@
             "phone": null
           },
           {
+            "name": "V A Verwey Betta",
+            "title": "Honorary Vice Consul –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
             "name": "Tadao Shimizu",
             "title": "ambassadeur du Japon en Afrique du Sud",
             "start_date": null,
@@ -37714,6 +35685,17 @@
             "end_date": null,
             "data_source": "wikidata",
             "source_url": "http://www.wikidata.org/entity/Q136376711",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "R Gylfadóttir",
+            "title": "Honorary Consul –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
             "wikidata_url": null,
             "email": null,
             "phone": null
@@ -37741,12 +35723,111 @@
             "phone": null
           },
           {
+            "name": "N Putigna",
+            "title": "Honorary Vice-Consul –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Mr Saud Purwanto Krisnawan",
+            "title": "ordinary and Plenipotentiary –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Mr P Kumar",
+            "title": "High Commissioner –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Mr M Shakib Mehr",
+            "title": "ordinary and Plenipotentiary –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Mr G Eiriksson",
+            "title": "ordinary and Plenipotentiary –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Mr A Vecchi",
+            "title": "ordinary and Plenipotentiary –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Mr A Gormley",
+            "title": "ordinary and Plenipotentiary –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
             "name": "Mohammad Ali Qanezadeh",
             "title": "ambassadeur d'Iran en Afrique du Sud",
             "start_date": null,
             "end_date": null,
             "data_source": "wikidata",
             "source_url": "http://www.wikidata.org/entity/Q124626114",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "D Mji",
+            "title": "Honorary Consul –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
+            "wikidata_url": null,
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "A Mokgokong",
+            "title": "Honorary Consul –",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://dirco.gov.za/foreign-representation-in-south-africa-i/",
             "wikidata_url": null,
             "email": null,
             "phone": null
@@ -40474,17 +38555,6 @@
             "wikidata_url": null,
             "email": null,
             "phone": null
-          },
-          {
-            "name": "Dražen Hrastić",
-            "title": "ambassador of Croatia to Japan",
-            "start_date": "2015-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q20557748",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
           }
         ]
       },
@@ -41480,17 +39550,6 @@
           {
             "name": "Mikalai Barysevich",
             "title": "ntre ၏ Director-General ဖြစ်သူ",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.mofa.gov.mm/",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Abdul Fattah",
-            "title": "ဟာဂျ်နှင့်အွမ်ရဟ် ဒုတိယဝန်ကြီး",
             "start_date": null,
             "end_date": null,
             "data_source": "web_scrape",
@@ -60388,17 +58447,6 @@
             "phone": null
           },
           {
-            "name": "Sheikh Salah",
-            "title": "9.",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.fm.gov.om/en/54325/",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Safia Taleb Ali al-Suhail",
             "title": "ambassadeur d'Irak à Oman",
             "start_date": null,
@@ -61042,30 +59090,7 @@
       {
         "country": "Haiti",
         "url": "https://www.mae.gouv.ht/",
-        "diplomats": [
-          {
-            "name": "Oliver del Cid",
-            "title": "ambassadeur du Belize en Haïti",
-            "start_date": "2016-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q97257301",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Karl Graf von Spreti",
-            "title": "ambassadeur d'Allemagne de l'Ouest en Haïti",
-            "start_date": "1967-01-01",
-            "end_date": "1969-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q76347",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Martinique",
@@ -61638,558 +59663,7 @@
       {
         "country": "Canada",
         "url": "https://www.international.gc.ca/protocol-protocole/reps.aspx?lang=eng",
-        "diplomats": [
-          {
-            "name": "Miklós Lengyel",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "2025-04-08",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q141222527",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Amal al-Moallimi",
-            "title": "ambassadeur d'Arabie Saoudite au Canada",
-            "start_date": "2023-11-17",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q97120155",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Martin Tlapa",
-            "title": "Ambassadors of the Czech Republic to Canada",
-            "start_date": "2023-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q12035855",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Witold Dzielski",
-            "title": "ambassadeur de Pologne au Canada",
-            "start_date": "2022-01-01",
-            "end_date": "2026-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q61944186",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Immaculate Wambua",
-            "title": "ambassadeur du Kenya au Canada",
-            "start_date": "2020-10-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111235263",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Kirsten Hillman",
-            "title": "ambassadeur du Canada aux États-Unis",
-            "start_date": "2020-03-26",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q88720948",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mária Vass-Salazar",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "2020-02-03",
-            "end_date": "2025-04-08",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q99220043",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Kirsten Hillman",
-            "title": "ambassadeur du Canada aux États-Unis",
-            "start_date": "2019-08-01",
-            "end_date": "2020-03-26",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q88720948",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Andrzej Kurnicki",
-            "title": "ambassadeur de Pologne au Canada",
-            "start_date": "2017-06-01",
-            "end_date": "2022-03-31",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q47360463",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "John McCallum",
-            "title": "ambassadeur du Canada en république populaire de Chine",
-            "start_date": "2017-03-18",
-            "end_date": "2019-01-26",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q3182037",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Claudio Taffuri",
-            "title": "ambassadeur italien au Canada",
-            "start_date": "2017-01-01",
-            "end_date": "2021-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q123009246",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "David MacNaughton",
-            "title": "ambassadeur du Canada aux États-Unis",
-            "start_date": "2016-03-03",
-            "end_date": "2019-08-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q22278965",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Hassana Alidou",
-            "title": "ambassadeur du Niger au Canada",
-            "start_date": "2016-01-01",
-            "end_date": null,
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q27824558",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Bálint Ódor",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "2014-08-01",
-            "end_date": "2020-03-02",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q16523963",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Naif Bin Bandar Al-Sudairi",
-            "title": "ambassadeur d'Arabie Saoudite au Canada",
-            "start_date": "2014-01-01",
-            "end_date": "2018-08-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q85202037",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Marcin Bosacki",
-            "title": "ambassadeur de Pologne au Canada",
-            "start_date": "2013-01-01",
-            "end_date": "2016-07-31",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q11767500",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Guy Saint-Jacques",
-            "title": "ambassadeur du Canada en république populaire de Chine",
-            "start_date": "2012-10-01",
-            "end_date": "2016-10-09",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q43645144",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Fadjimata Sidibé",
-            "title": "ambassadeur du Niger au Canada",
-            "start_date": "2012-02-15",
-            "end_date": "2013-07-31",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q58821407",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "László Pordány",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "2010-11-04",
-            "end_date": "2014-08-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q107005667",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Zenon Kosiniak-Kamysz",
-            "title": "ambassadeur de Pologne au Canada",
-            "start_date": "2010-01-01",
-            "end_date": "2013-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q9390102",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gary Doer",
-            "title": "ambassadeur du Canada aux États-Unis",
-            "start_date": "2009-10-19",
-            "end_date": "2016-03-03",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q365213",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Pál Vastagh",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "2006-01-01",
-            "end_date": "2010-08-19",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1402315",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Pavel Vošalík",
-            "title": "Ambassadors of the Czech Republic to Canada",
-            "start_date": "2004-09-02",
-            "end_date": "2008-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q12044301",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Dénes Tomaj",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "2002-08-26",
-            "end_date": "2006-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140031223",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Sándor Papp",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1998-02-18",
-            "end_date": "2002-08-26",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140372950",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Károly Gedai",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1994-01-17",
-            "end_date": "1998-02-18",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q141221628",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Raymond Chrétien",
-            "title": "ambassadeur du Canada aux États-Unis",
-            "start_date": "1994-01-01",
-            "end_date": "2000-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q3420759",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Stanislav Chýlek",
-            "title": "Ambassadors of the Czech Republic to Canada",
-            "start_date": "1993-01-01",
-            "end_date": "1998-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q12055905",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "John de Chastelain",
-            "title": "ambassadeur du Canada aux États-Unis",
-            "start_date": "1993-01-01",
-            "end_date": "1994-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q3182811",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Kálmán Kulcsár",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1990-11-02",
-            "end_date": "1994-01-17",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1121770",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Fred Bild",
-            "title": "ambassadeur du Canada en république populaire de Chine",
-            "start_date": "1990-10-11",
-            "end_date": "1994-12-04",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q6712577",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Rezső Bányász",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1988-07-14",
-            "end_date": "1990-06-13",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q27975307",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Lajos Nagy",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1984-05-17",
-            "end_date": "1988-07-14",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140456377",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gyula Budai",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1980-06-23",
-            "end_date": "1984-05-17",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138510110",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Francesco Paolo Fulci",
-            "title": "ambassadeur italien au Canada",
-            "start_date": "1980-01-01",
-            "end_date": "1985-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q3750410",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Stanisław Pawlak",
-            "title": "ambassadeur de Pologne au Canada",
-            "start_date": "1978-01-01",
-            "end_date": "1983-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q2331429",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Eric Bergbusch",
-            "title": "haut-commissaire du Canada",
-            "start_date": "1978-01-01",
-            "end_date": "1980-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q125648588",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "József Németh",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1976-07-13",
-            "end_date": "1980-06-23",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q140354054",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "John Dougan",
-            "title": "haut-commissaire du Canada",
-            "start_date": "1976-01-01",
-            "end_date": "1978-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q125888200",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Alexandre Nikolaïevitch Iakovlev",
-            "title": "ambassadeur d'Union soviétique au Canada",
-            "start_date": "1973-06-01",
-            "end_date": "1983-10-29",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q312469",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "János Bartha",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1972-04-10",
-            "end_date": "1976-07-13",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q31090235",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ralph Collins",
-            "title": "ambassadeur du Canada en république populaire de Chine",
-            "start_date": "1971-01-01",
-            "end_date": "1972-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q125741887",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Józef Czesak",
-            "title": "ambassadeur de Pologne au Canada",
-            "start_date": "1971-01-01",
-            "end_date": "1978-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q109590649",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "John Dougan",
-            "title": "haut-commissaire du Canada",
-            "start_date": "1970-01-01",
-            "end_date": "1974-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q125888200",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gyula Baranyi",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1968-08-24",
-            "end_date": "1972-08-14",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q138118110",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Emanuele Clarizio",
-            "title": "délégué apostolique",
-            "start_date": "1967-06-12",
-            "end_date": "1969-06-14",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q1334837",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Marian Stradowski",
-            "title": "ambassadeur de Pologne au Canada",
-            "start_date": "1967-01-01",
-            "end_date": "1971-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q111630152",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "John Dougan",
-            "title": "haut-commissaire du Canada",
-            "start_date": "1967-01-01",
-            "end_date": "1970-01-01",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q125888200",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "János Bartha",
-            "title": "ambassadeur de Hongrie au Canada",
-            "start_date": "1964-12-16",
-            "end_date": "1968-07-28",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q31090235",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Hamazasp Harutyunyan",
-            "title": "ambassadeur d'Union soviétique au Canada",
-            "start_date": "1958-10-22",
-            "end_date": "1963-02-20",
-            "data_source": "wikidata",
-            "source_url": "http://www.wikidata.org/entity/Q4070502",
-            "wikidata_url": null,
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Latvia",
