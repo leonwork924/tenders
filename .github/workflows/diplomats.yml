@@ -23,37 +23,52 @@ jobs:
       - name: Install dependencies
         run: pip install -r diplomats/requirements.txt
 
-      - name: Scrape official diplomatic lists
+      - name: Combine main + consular sources
+        run: |
+          python diplomats/src/combine_sources.py \
+            --sources diplomats/data/sources.json \
+            --consular diplomats/data/consular_sources_seed.json \
+            --out diplomats/data/sources_combined.json
+
+      - name: Scrape official diplomatic + honorary consul lists
         run: |
           python diplomats/src/agent.py \
-            --sources diplomats/data/sources.json \
+            --sources diplomats/data/sources_combined.json \
             --out diplomats/data/diplomats.json
 
       - name: Query Wikidata (complément)
         run: |
           python diplomats/src/wikidata_source.py \
-            --sources diplomats/data/sources.json \
+            --sources diplomats/data/sources_combined.json \
             --out diplomats/data/diplomats_wikidata.json
+
+      - name: International organizations (UN / AU / OSCE)
+        run: |
+          python diplomats/src/org_delegations.py \
+            --org all \
+            --out diplomats/data/org_delegations.json
 
       - name: Merge sources
         run: |
           python diplomats/src/merge_sources.py \
             --scraped diplomats/data/diplomats.json \
             --wikidata diplomats/data/diplomats_wikidata.json \
+            --org diplomats/data/org_delegations.json \
             --out diplomats/data/diplomats_merged.json
 
       - name: Export to site/contact.json
         run: |
           python diplomats/src/export_site.py \
-            --sources diplomats/data/sources.json \
+            --sources diplomats/data/sources_combined.json \
             --merged diplomats/data/diplomats_merged.json \
+            --org diplomats/data/org_delegations.json \
             --out site/contact.json
 
       - name: Commit updated data
         run: |
           git config user.name "tender-radar-bot"
           git config user.email "tender-radar-bot@users.noreply.github.com"
-          git add diplomats/data/diplomats.json diplomats/data/diplomats_wikidata.json diplomats/data/diplomats_merged.json site/contact.json
+          git add diplomats/data/sources_combined.json diplomats/data/diplomats.json diplomats/data/diplomats_wikidata.json diplomats/data/org_delegations.json diplomats/data/diplomats_merged.json site/contact.json
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
             exit 0

@@ -17,6 +17,7 @@ Usage:
     python src/merge_sources.py \
         --scraped data/diplomats.json \
         --wikidata data/diplomats_wikidata.json \
+        --org data/org_delegations.json \
         --out data/diplomats_merged.json
 """
 
@@ -96,6 +97,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--scraped", default="data/diplomats.json")
     parser.add_argument("--wikidata", default="data/diplomats_wikidata.json")
+    parser.add_argument("--org", default=None,
+                         help="Sortie de org_delegations.py (ONU/UA/OSCE), simplement concaténée : "
+                              "univers distinct (délégations auprès d'organisations, pas d'ambassades "
+                              "bilatérales), pas de rapprochement par nom avec le reste.")
     parser.add_argument("--out", default="data/diplomats_merged.json")
     args = parser.parse_args()
 
@@ -103,6 +108,12 @@ def main():
     wikidata = load_entries(Path(args.wikidata))
 
     merged = merge(scraped, wikidata)
+
+    n_org = 0
+    if args.org:
+        org_entries = load_entries(Path(args.org))
+        merged.extend(org_entries)
+        n_org = len(org_entries)
 
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -114,9 +125,9 @@ def main():
     n_with_date = sum(1 for e in merged if e.get("start_date"))
     print(
         f"Terminé : {len(merged)} entrées écrites dans {out_path} "
-        f"({len(scraped)} scrapées + {len(wikidata) - (len(merged) - len(scraped))} "
-        f"reprises de Wikidata sans équivalent scrapé ; {n_with_date} avec une date "
-        f"de prise de fonction)."
+        f"({len(scraped)} scrapées + {len(wikidata) - (len(merged) - n_org - len(scraped))} "
+        f"reprises de Wikidata sans équivalent scrapé + {n_org} délégations internationales ; "
+        f"{n_with_date} avec une date de prise de fonction)."
     )
 
 

@@ -1,0 +1,63 @@
+name: corporate contacts (global)
+
+on:
+  schedule:
+    # Hebdomadaire, jour différent des deux autres workflows pour étaler la charge.
+    - cron: "37 4 * * 1"   # lundi 04:37 UTC
+  workflow_dispatch: {}    # pour lancer le premier run à la main depuis l'onglet Actions
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    # Le run global (GLEIF Golden Copy, ~plusieurs millions d'entités) peut être
+    # long -- généreux par précaution, à ajuster une fois la durée réelle connue.
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r corporate/requirements.txt
+
+      - name: Run global corporate discovery (GLEIF Golden Copy)
+        run: python corporate/src/agent_corporate_contacts_v8.py
+
+      - name: Export site summary (stats only -- la base brute est trop grosse pour git)
+        run: python corporate/src/export_stats.py --db corporate_contacts.db --out site/corporate_contacts.json
+
+      - name: Upload full database as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: corporate_contacts-db
+          path: corporate_contacts.db
+          retention-days: 30
+
+      - name: Commit site summary
+        run: |
+          git config user.name "tender-radar-bot"
+          git config user.email "tender-radar-bot@users.noreply.github.com"
+          git add site/corporate_contacts.json
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Corporate contacts weekly refresh: $(date -u +%Y-%m-%d)"
+
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) -- fetching and rebasing."
+            git fetch origin main
+            git rebase origin/main -X ours
+            sleep 5
+          done
+          echo "Still couldn't push after 5 attempts."
+          exit 1

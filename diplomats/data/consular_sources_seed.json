@@ -1,0 +1,20 @@
+[
+  {
+    "country": "France (réseau de consuls honoraires français à l'étranger)",
+    "region": "Sources complémentaires",
+    "url": "https://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/missions-organisation/metiers-de-la-diplomatie/metiers-et-services/article/consuls-honoraires-et-agences-consulaires",
+    "note": "Page d'information générale du MEAE sur le statut des consuls honoraires français ; à vérifier si un annuaire nominatif est publié séparément (souvent par ambassade/consulat général de rattachement plutôt que de façon centralisée)."
+  },
+  {
+    "country": "Grèce (consuls honoraires en France)",
+    "region": "Sources complémentaires",
+    "url": "https://www.mfa.gr/france/fr/consulats-honoraires.html",
+    "note": "Liste nominative confirmée (adresse, nom du consul honoraire) par ville française."
+  },
+  {
+    "country": "Lituanie (consuls honoraires en France)",
+    "region": "Sources complémentaires",
+    "url": "https://fr.mfa.lt/fr/fr/ambassade/consuls-honoraires/en-france",
+    "note": "Liste nominative confirmée par ville française."
+  }
+]

@@ -19,6 +19,13 @@
   <a href="prospection.html">🕸️ Prospection</a>
 </nav>
 
+<nav class="nl-nav" id="contact-subtabs">
+  <a href="#" class="active" data-tab="diplo">🌍 Corps diplomatique</a>
+  <a href="#" data-tab="corporate">🏢 Entreprises</a>
+</nav>
+
+<div id="tab-diplo">
+
 <div class="nl-disclaimer">
   <b>Ce que c'est :</b> une agrégation automatisée des listes diplomatiques publiées
   officiellement par les ministères des Affaires étrangères, recoupée avec Wikidata
@@ -34,6 +41,7 @@
 </div>
 
 <main class="nl-main" id="regions"></main>
+<main class="nl-main" id="orgs"></main>
 
 <section class="nl-main" id="methodo-section">
   <button id="methodo-toggle" class="btn-toggle">▸ Méthodologie &amp; termes de recherche</button>
@@ -53,6 +61,24 @@
   officiel est affiché pour consultation manuelle.
 </footer>
 
+</div>
+
+<div id="tab-corporate" style="display:none">
+
+  <div class="nl-disclaimer">
+    <b>Ce que c'est :</b> un instantané agrégé de la base mondiale des entités légales
+    GLEIF (identifiants LEI), rafraîchi chaque semaine. Vu le volume (plusieurs
+    millions d'entités dans le monde, aucun filtrage par pertinence pour l'instant),
+    seules des <b>statistiques agrégées</b> et un petit échantillon sont publiées ici —
+    la base complète est téléchargeable en pièce jointe ("artifact") depuis la dernière
+    exécution du <a href="https://github.com/leonwork924/tenders/actions/workflows/corporate-contacts.yml" target="_blank" rel="noopener">workflow GitHub Actions</a>.
+  </div>
+
+  <main class="nl-main" id="corp-stats"></main>
+
+</div>
+
 <script src="contact.js"></script>
+<script src="contact-corporate.js"></script>
 </body>
 </html>

@@ -31,6 +31,22 @@ titres des personnes qui y figurent.
   personnelles : limite la conservation à ce qui est nécessaire, indique
   la source et la date de collecte, et prévois un moyen de retirer une
   entrée sur demande justifiée.
+- Depuis la dernière version, l'agent cherche AUSSI un lien vers la liste
+  des consuls honoraires (souvent une page séparée du corps diplomatique
+  sur le même site de MAE) et classe chaque entrée trouvée en "ambassador"
+  ou "consul" via classify_role() — une heuristique par mots-clés, pas une
+  vérité absolue (voir le champ `role` en sortie).
+- Coordonnées (téléphone/email) : quand elles apparaissent DANS LE MÊME
+  BLOC DE TEXTE que le nom (pratique fréquente sur ces listes — tél/fax/
+  email de la chancellerie ou du consulat), elles sont capturées dans les
+  champs `phone` / `email`. Il s'agit presque toujours de coordonnées
+  INSTITUTIONNELLES (standard de l'ambassade), pas du numéro ou de
+  l'adresse personnelle de l'individu — cette distinction n'est pas
+  garantie à 100%, en particulier pour les consuls honoraires (souvent des
+  particuliers dont l'adresse professionnelle communiquée EST leur adresse
+  personnelle). Redouble de prudence sur l'usage qui en est fait (voir
+  "Précautions légales et éthiques" plus bas) : ne construis pas de fichier
+  de prospection ou de contact de masse à partir de ces données.
 
 Usage:
     pip install -r requirements.txt
@@ -70,12 +86,29 @@ LIST_LINK_KEYWORDS = [
     "diplomatic protocol", "protocol department",
 ]
 
+# Mots-clés spécifiques aux consuls HONORAIRES (souvent une page/section à
+# part du corps diplomatique proprement dit — voir README, section "Corps
+# consulaire honoraire"). On les cherche séparément car beaucoup de sites de
+# MAE ont deux pages distinctes : une pour les ambassadeurs accrédités chez
+# eux, une pour LEUR PROPRE réseau de consuls honoraires à l'étranger.
+CONSULAR_LINK_KEYWORDS = [
+    "honorary consul", "honorary consuls", "consul honoraire",
+    "consuls honoraires", "corps consulaire", "consular corps",
+    "cónsul honorario", "cónsules honorarios", "console onorario",
+    "consoli onorari", "honorarkonsul",
+]
+
 # Titres qui précèdent typiquement un nom dans une liste diplomatique
 TITLE_PATTERN = (
     r"(?:H\.?E\.?|S\.?E\.?|Son Excellence|His Excellency|Her Excellency|"
     r"Ambassador|Ambassadeur|Ambassadrice|Amb\.|Chargé d'Affaires|"
     r"Chargée d'Affaires|Chargé d'affaires a\.i\.|High Commissioner|"
-    r"Haut[- ]Commissaire|Dr\.?|Mr\.?|Mrs\.?|Ms\.?|M\.|Mme\.?)"
+    r"Haut[- ]Commissaire|"
+    r"Consul[- ]General(?:e)?|Consul[- ]Général(?:e)?|Honorary Consul(?:[- ]General)?|"
+    r"Consul[- ]Honoraire|Consule[- ]Honoraire|Consul Général Honoraire|"
+    r"Vice[- ]Consul(?:[- ]Honoraire| Honorary)?|Cónsul[- ]Honorari[oa]|"
+    r"Console Onorari[oa]|Honorarkonsul|Consul|Consule|Consulesa|"
+    r"Dr\.?|Mr\.?|Mrs\.?|Ms\.?|M\.|Mme\.?)"
 )
 # Un "nom" = 2 à 4 mots commençant par une majuscule (heuristique simple,
 # fonctionne raisonnablement en alphabet latin ; à adapter pour d'autres
@@ -84,21 +117,43 @@ NAME_PATTERN = r"([A-ZÀ-Ý][\wÀ-ÿ'’\.-]*(?:\s+[A-ZÀ-Ý][\wÀ-ÿ'’\.-]*){
 
 NAME_LINE_RE = re.compile(TITLE_PATTERN + r"\s+" + NAME_PATTERN)
 
-EMAIL_RE = re.compile(r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}")
-
-# Téléphone : assez permissif pour couvrir les formats internationaux
-# courants, mais on exige un préfixe +NN ou plusieurs groupes séparés
-# (espace/point/tiret) pour limiter les faux positifs sur des suites de
-# chiffres qui n'en sont pas (dates, codes postaux...).
+# Motifs de coordonnées, cherchés dans le voisinage immédiat d'un nom trouvé
+# (même ligne + quelques lignes suivantes) — PAS sur tout le document, pour
+# éviter d'associer par erreur le téléphone/email d'une tierce entrée.
+EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
 PHONE_RE = re.compile(
-    r"\+\d{1,3}[\s.-]?(?:\(?\d{1,4}\)?[\s.-]?){2,5}\d{2,4}"
-    r"|\b\d{2,4}(?:[\s.-]\d{2,4}){3,6}\b"
+    r"(?:\+\d{1,3}[\s.-]?)?(?:\(0?\d{1,4}\)[\s.-]?)?(?:\d[\s.-]?){6,12}\d"
+)
+# Un numéro de téléphone plausible a au moins 7 chiffres ; on filtre les
+# faux positifs (années, codes postaux isolés) après coup avec ce minimum.
+MIN_PHONE_DIGITS = 7
+CONTACT_LOOKAHEAD_LINES = 3  # combien de lignes après le nom on regarde
+
+# Mots-clés utilisés pour classer une entrée entre "ambassadeur/diplomate"
+# et "consul honoraire" a posteriori, à partir du titre repéré. Une entrée
+# qui ne matche ni l'un ni l'autre est classée "other" (ex : simple "Mr."
+# sans autre contexte, capturé par erreur — à vérifier manuellement).
+_CONSUL_KEYWORDS = (
+    "consul", "consule", "consulesa", "cónsul", "console", "konsul",
+)
+_AMBASSADOR_KEYWORDS = (
+    "ambassad", "excellency", "excellence", "high commissioner",
+    "haut-commissaire", "haut commissaire", "chargé d'affaires",
+    "chargée d'affaires",
 )
 
-# Nb de lignes regardées après un nom pour y chercher un email/téléphone.
-# Sur une liste diplomatique, les coordonnées de l'ambassade suivent
-# souvent immédiatement le nom/titre dans le même bloc d'adresse.
-CONTACT_WINDOW_LINES = 6
+
+def classify_role(title_guess: str) -> str:
+    """Classe grossièrement une entrée à partir du titre repéré autour du
+    nom. Heuristique simple par mots-clés, pas une vérité absolue — utile
+    surtout pour filtrer/afficher séparément ambassadeurs et consuls
+    honoraires dans le site de consultation."""
+    t = title_guess.lower()
+    if any(k in t for k in _CONSUL_KEYWORDS):
+        return "consul"
+    if any(k in t for k in _AMBASSADOR_KEYWORDS):
+        return "ambassador"
+    return "other"
 
 
 @dataclass
@@ -115,12 +170,10 @@ class DiplomatEntry:
     # brut, qui ne donne quasiment jamais de date exploitable.
     start_date: str | None = None   # date de prise de fonction (ISO YYYY-MM-DD), si connue
     end_date: str | None = None     # date de fin de fonction (ISO YYYY-MM-DD), si connue et déjà passée
-    data_source: str = "web_scrape"  # "web_scrape" | "wikidata"
-    # Coordonnées trouvées à proximité du nom -- presque toujours le
-    # standard institutionnel de l'ambassade plutôt qu'une ligne
-    # personnelle, mais ce n'est pas garanti (voir CONTACT_WINDOW_LINES).
-    email: str | None = None
-    phone: str | None = None
+    data_source: str = "web_scrape"  # "web_scrape" | "wikidata" | "org_official"
+    role: str = "ambassador"        # "ambassador" | "consul" | "other" (voir classify_role)
+    phone: str | None = None        # coordonnée institutionnelle si trouvée à proximité du nom
+    email: str | None = None        # idem — voir avertissement en en-tête de fichier
 
 
 def check_robots(url: str) -> bool:
@@ -149,15 +202,16 @@ def fetch(url: str) -> requests.Response | None:
         return None
 
 
-def find_diplomatic_list_link(html: str, base_url: str) -> str | None:
-    """Cherche dans la page un lien dont le texte ou l'URL évoque la liste
-    diplomatique officielle (souvent un PDF)."""
+def find_list_link(html: str, base_url: str, keywords: list[str]) -> str | None:
+    """Cherche dans la page un lien dont le texte ou l'URL évoque l'une des
+    listes recherchées (diplomatique OU consulaire honoraire, selon les
+    `keywords` passés). Souvent un PDF."""
     soup = BeautifulSoup(html, "html.parser")
     best_candidate = None
     for a in soup.find_all("a", href=True):
         text = (a.get_text() or "").lower()
         href = a["href"].lower()
-        if any(kw in text or kw in href for kw in LIST_LINK_KEYWORDS):
+        if any(kw in text or kw in href for kw in keywords):
             candidate = urljoin(base_url, a["href"])
             # On préfère un PDF si plusieurs candidats existent
             if candidate.endswith(".pdf"):
@@ -181,36 +235,35 @@ def extract_text_from_pdf(content: bytes) -> str:
     return "\n".join(text_parts)
 
 
-def find_nearby_contact(lines: list[str], start_idx: int) -> tuple[str | None, str | None]:
-    """Cherche un email et un téléphone dans les quelques lignes qui suivent
-    une entrée nom+titre. Heuristique : peut rater le bon contact (absent
-    des CONTACT_WINDOW_LINES suivantes) ou, si plusieurs diplomates sont
-    listés sans bloc de contact individuel bien délimité, attribuer par
-    erreur les coordonnées d'une entrée voisine."""
-    email = None
-    phone = None
-    for line in lines[start_idx: start_idx + CONTACT_WINDOW_LINES]:
+def _find_contact_near(lines: list[str], idx: int) -> tuple[str | None, str | None]:
+    """Cherche un email et un téléphone plausibles sur la ligne du nom (idx)
+    et les CONTACT_LOOKAHEAD_LINES suivantes seulement — pas sur tout le
+    document, pour éviter d'associer par erreur les coordonnées d'une autre
+    entrée située plus loin dans la liste."""
+    email, phone = None, None
+    window = lines[idx: idx + 1 + CONTACT_LOOKAHEAD_LINES]
+    for line in window:
         if email is None:
             m = EMAIL_RE.search(line)
             if m:
                 email = m.group(0)
         if phone is None:
-            m = PHONE_RE.search(line)
-            if m:
-                candidate = m.group(0).strip()
-                if sum(c.isdigit() for c in candidate) >= 7:  # anti faux-positif grossier
-                    phone = candidate
+            for m in PHONE_RE.finditer(line):
+                digits = re.sub(r"\D", "", m.group(0))
+                if len(digits) >= MIN_PHONE_DIGITS:
+                    phone = m.group(0).strip()
+                    break
         if email and phone:
             break
-    return email, phone
+    return phone, email
 
 
-def extract_names_from_text(text: str) -> list[tuple[str, str, str, str | None, str | None]]:
-    """Retourne une liste de (titre_devine, nom, ligne_brute, email, telephone)."""
-    lines = text.splitlines()
+def extract_names_from_text(text: str) -> list[tuple[str, str, str, str, str | None, str | None]]:
+    """Retourne une liste de (titre_devine, nom, ligne_brute, role, phone, email)."""
     results = []
-    for idx, raw in enumerate(lines):
-        line = raw.strip()
+    all_lines = text.splitlines()
+    for idx, line in enumerate(all_lines):
+        line = line.strip()
         if not line or len(line) > 200:
             continue
         for m in NAME_LINE_RE.finditer(line):
@@ -219,9 +272,17 @@ def extract_names_from_text(text: str) -> list[tuple[str, str, str, str | None, 
             # Filtre anti faux-positifs grossiers (trop court, tout en maj, etc.)
             if len(name.split()) < 2:
                 continue
-            email, phone = find_nearby_contact(lines, idx)
-            results.append((title_guess, name, line, email, phone))
+            role = classify_role(line)
+            phone, email = _find_contact_near(all_lines, idx)
+            results.append((title_guess, name, line, role, phone, email))
     return results
+
+
+def _extract_from_page(resp: requests.Response, url: str) -> str:
+    """Convertit une réponse HTTP (HTML ou PDF) en texte brut exploitable."""
+    if url.lower().endswith(".pdf") or "pdf" in resp.headers.get("Content-Type", ""):
+        return extract_text_from_pdf(resp.content)
+    return BeautifulSoup(resp.text, "html.parser").get_text("\n")
 
 
 def process_source(entry: dict) -> list[DiplomatEntry]:
@@ -238,47 +299,61 @@ def process_source(entry: dict) -> list[DiplomatEntry]:
     if resp is None:
         return []
 
-    content_type = resp.headers.get("Content-Type", "")
     now = datetime.now(timezone.utc).isoformat()
     found: list[DiplomatEntry] = []
 
-    if "pdf" in content_type or url.lower().endswith(".pdf"):
-        text = extract_text_from_pdf(resp.content)
-        source_used = url
+    if url.lower().endswith(".pdf") or "pdf" in resp.headers.get("Content-Type", ""):
+        # La source elle-même est déjà le PDF/texte à analyser : pas de lien
+        # de liste distinct à chercher (ni diplomatique, ni consulaire).
+        text_sources = [(extract_text_from_pdf(resp.content), url)]
     else:
         html = resp.text
-        list_link = find_diplomatic_list_link(html, url)
-        if list_link:
-            print(f"  -> lien de liste diplomatique détecté : {list_link}")
+        text_sources = []
+
+        diplo_link = find_list_link(html, url, LIST_LINK_KEYWORDS)
+        if diplo_link:
+            print(f"  -> lien de liste diplomatique détecté : {diplo_link}")
             time.sleep(RATE_LIMIT_SECONDS)
-            resp2 = fetch(list_link)
-            if resp2 is None:
-                return []
-            if list_link.lower().endswith(".pdf") or "pdf" in resp2.headers.get("Content-Type", ""):
-                text = extract_text_from_pdf(resp2.content)
-            else:
-                text = BeautifulSoup(resp2.text, "html.parser").get_text("\n")
-            source_used = list_link
+            resp2 = fetch(diplo_link)
+            if resp2 is not None:
+                text_sources.append((_extract_from_page(resp2, diplo_link), diplo_link))
         else:
-            text = BeautifulSoup(html, "html.parser").get_text("\n")
-            source_used = url
+            # Pas de lien dédié trouvé : on analyse la page elle-même,
+            # certains sites listent tout sur une seule page.
+            text_sources.append((BeautifulSoup(html, "html.parser").get_text("\n"), url))
 
-    for title_guess, name, raw_line, email, phone in extract_names_from_text(text):
-        found.append(
-            DiplomatEntry(
-                country_source=country,
-                region=region,
-                name=name,
-                title=title_guess,
-                raw_line=raw_line,
-                source_url=source_used,
-                scraped_at=now,
-                email=email,
-                phone=phone,
+        consular_link = find_list_link(html, url, CONSULAR_LINK_KEYWORDS)
+        if consular_link and consular_link not in {u for _, u in text_sources}:
+            print(f"  -> lien de liste consulaire (consuls honoraires) détecté : {consular_link}")
+            time.sleep(RATE_LIMIT_SECONDS)
+            resp3 = fetch(consular_link)
+            if resp3 is not None:
+                text_sources.append((_extract_from_page(resp3, consular_link), consular_link))
+
+    for text, source_used in text_sources:
+        for title_guess, name, raw_line, role, phone, email in extract_names_from_text(text):
+            found.append(
+                DiplomatEntry(
+                    country_source=country,
+                    region=region,
+                    name=name,
+                    title=title_guess,
+                    raw_line=raw_line,
+                    source_url=source_used,
+                    scraped_at=now,
+                    role=role,
+                    phone=phone,
+                    email=email,
+                )
             )
-        )
 
-    print(f"  -> {len(found)} entrée(s) candidate(s) extraite(s)")
+    n_ambassadors = sum(1 for e in found if e.role == "ambassador")
+    n_consuls = sum(1 for e in found if e.role == "consul")
+    n_other = len(found) - n_ambassadors - n_consuls
+    print(
+        f"  -> {len(found)} entrée(s) candidate(s) "
+        f"({n_ambassadors} ambassadeur(s), {n_consuls} consul(s), {n_other} autre(s))"
+    )
     return found
 
 

@@ -7,3 +7,4 @@ inbox/*
 !inbox/README.txt
 .env
 node_modules/
+corporate_contacts.db
