@@ -31,6 +31,9 @@ jobs:
       - name: Export site summary (stats only -- la base brute est trop grosse pour git)
         run: python corporate/src/export_stats.py --db corporate_contacts.db --out site/corporate_contacts.json
 
+      - name: Export full list by country (paginated JSON)
+        run: python corporate/src/export_by_country.py --db corporate_contacts.db --out-dir site/corporate
+
       - name: Upload full database as workflow artifact
         uses: actions/upload-artifact@v4
         with:
@@ -42,7 +45,7 @@ jobs:
         run: |
           git config user.name "tender-radar-bot"
           git config user.email "tender-radar-bot@users.noreply.github.com"
-          git add site/corporate_contacts.json
+          git add site/corporate_contacts.json site/corporate/
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
             exit 0
