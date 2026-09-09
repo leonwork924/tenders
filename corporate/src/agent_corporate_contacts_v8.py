@@ -1807,6 +1807,13 @@ def init_v5_schema(conn):
     _ensure_column(conn, "companies", "normalized_name", "TEXT")
     _ensure_column(conn, "companies", "confidence_score", "REAL")
     _ensure_column(conn, "companies", "last_verified_at", "TEXT")
+    # CRITIQUE pour discover_gleif_bulk : sans cet index, le "SELECT ... WHERE
+    # lei=?" fait un scan complet de la table à CHAQUE ligne du fichier GLEIF
+    # (plusieurs millions de lignes) -- le run devient O(n²) et ne termine
+    # jamais dans un temps raisonnable (constaté : timeout à 5h). Avec l'index,
+    # c'est O(n log n).
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_companies_lei ON companies(lei)")
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_companies_jurisdiction ON companies(jurisdiction)")
     conn.commit()
 
 
