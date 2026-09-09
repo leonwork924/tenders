@@ -1,0 +1,1180 @@
+{
+  "jurisdictions": [
+    {
+      "jurisdiction": "ad",
+      "count": 520,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ae",
+      "count": 9362,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "af",
+      "count": 11,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ag",
+      "count": 110,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ai",
+      "count": 382,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "al",
+      "count": 88,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "am",
+      "count": 80,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ao",
+      "count": 83,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ar",
+      "count": 964,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "as",
+      "count": 8,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "at",
+      "count": 48973,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "au",
+      "count": 52850,
+      "pages": 2
+    },
+    {
+      "jurisdiction": "aw",
+      "count": 55,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ax",
+      "count": 13,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "az",
+      "count": 77,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ba",
+      "count": 141,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bb",
+      "count": 336,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bd",
+      "count": 227,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "be",
+      "count": 67995,
+      "pages": 2
+    },
+    {
+      "jurisdiction": "bf",
+      "count": 17,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bg",
+      "count": 6122,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bh",
+      "count": 314,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bi",
+      "count": 5,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bj",
+      "count": 8,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bl",
+      "count": 11,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bm",
+      "count": 4007,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bn",
+      "count": 42,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bo",
+      "count": 53,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bq",
+      "count": 24,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "br",
+      "count": 4364,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bs",
+      "count": 5350,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bt",
+      "count": 14,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bw",
+      "count": 76,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "by",
+      "count": 54,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "bz",
+      "count": 1530,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ca",
+      "count": 58721,
+      "pages": 2
+    },
+    {
+      "jurisdiction": "cd",
+      "count": 36,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cf",
+      "count": 4,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cg",
+      "count": 10,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ch",
+      "count": 28139,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ci",
+      "count": 51,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ck",
+      "count": 347,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cl",
+      "count": 1697,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cm",
+      "count": 22,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cn",
+      "count": 107226,
+      "pages": 3
+    },
+    {
+      "jurisdiction": "co",
+      "count": 1130,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cr",
+      "count": 286,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cv",
+      "count": 16,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cw",
+      "count": 1017,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cy",
+      "count": 15135,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "cz",
+      "count": 32682,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "de",
+      "count": 255460,
+      "pages": 6
+    },
+    {
+      "jurisdiction": "dj",
+      "count": 15,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "dk",
+      "count": 114528,
+      "pages": 3
+    },
+    {
+      "jurisdiction": "dm",
+      "count": 127,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "do",
+      "count": 221,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "dz",
+      "count": 23,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ec",
+      "count": 137,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ee",
+      "count": 29821,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "eg",
+      "count": 336,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "eh",
+      "count": 5,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "es",
+      "count": 192937,
+      "pages": 4
+    },
+    {
+      "jurisdiction": "et",
+      "count": 16,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "fi",
+      "count": 59770,
+      "pages": 2
+    },
+    {
+      "jurisdiction": "fj",
+      "count": 42,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "fk",
+      "count": 16,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "fm",
+      "count": 10,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "fo",
+      "count": 499,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "fr",
+      "count": 190197,
+      "pages": 4
+    },
+    {
+      "jurisdiction": "ga",
+      "count": 16,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gb",
+      "count": 231491,
+      "pages": 5
+    },
+    {
+      "jurisdiction": "gd",
+      "count": 14,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ge",
+      "count": 162,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gf",
+      "count": 4,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gg",
+      "count": 8769,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gh",
+      "count": 139,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gi",
+      "count": 2506,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gl",
+      "count": 105,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gm",
+      "count": 7,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gn",
+      "count": 9,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gp",
+      "count": 28,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gq",
+      "count": 12,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gr",
+      "count": 7672,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gt",
+      "count": 176,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gu",
+      "count": 30,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gw",
+      "count": 2,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "gy",
+      "count": 16,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "hk",
+      "count": 13285,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "hn",
+      "count": 86,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "hr",
+      "count": 3112,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ht",
+      "count": 3,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "hu",
+      "count": 26062,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "id",
+      "count": 1569,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ie",
+      "count": 38040,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "il",
+      "count": 2458,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "im",
+      "count": 4164,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "in",
+      "count": 392869,
+      "pages": 8
+    },
+    {
+      "jurisdiction": "io",
+      "count": 6,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "iq",
+      "count": 55,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ir",
+      "count": 8,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "is",
+      "count": 5570,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "it",
+      "count": 257981,
+      "pages": 6
+    },
+    {
+      "jurisdiction": "je",
+      "count": 13943,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "jm",
+      "count": 56,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "jo",
+      "count": 177,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "jp",
+      "count": 19285,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ke",
+      "count": 306,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "kg",
+      "count": 86,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "kh",
+      "count": 37,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ki",
+      "count": 2,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "km",
+      "count": 98,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "kn",
+      "count": 1054,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "kr",
+      "count": 2771,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "kw",
+      "count": 222,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ky",
+      "count": 47281,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "kz",
+      "count": 340,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "la",
+      "count": 23,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "lb",
+      "count": 285,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "lc",
+      "count": 212,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "li",
+      "count": 15472,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "lk",
+      "count": 202,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "lr",
+      "count": 1035,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ls",
+      "count": 4,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "lt",
+      "count": 5211,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "lu",
+      "count": 72637,
+      "pages": 2
+    },
+    {
+      "jurisdiction": "lv",
+      "count": 4253,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ly",
+      "count": 16,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ma",
+      "count": 211,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mc",
+      "count": 969,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "md",
+      "count": 55,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "me",
+      "count": 79,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mf",
+      "count": 1,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mg",
+      "count": 16,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mh",
+      "count": 2978,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mk",
+      "count": 168,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ml",
+      "count": 17,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mm",
+      "count": 6,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mn",
+      "count": 57,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mo",
+      "count": 115,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mp",
+      "count": 1,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mq",
+      "count": 18,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mr",
+      "count": 19,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mt",
+      "count": 7040,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mu",
+      "count": 4633,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mv",
+      "count": 43,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mw",
+      "count": 12,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mx",
+      "count": 7523,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "my",
+      "count": 2266,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "mz",
+      "count": 32,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "na",
+      "count": 108,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "nc",
+      "count": 131,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ne",
+      "count": 5,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ng",
+      "count": 988,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ni",
+      "count": 34,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "nl",
+      "count": 196478,
+      "pages": 4
+    },
+    {
+      "jurisdiction": "no",
+      "count": 65340,
+      "pages": 2
+    },
+    {
+      "jurisdiction": "np",
+      "count": 42,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "nr",
+      "count": 2,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "nu",
+      "count": 2,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "nz",
+      "count": 4056,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "om",
+      "count": 263,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pa",
+      "count": 6302,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pe",
+      "count": 650,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pf",
+      "count": 95,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pg",
+      "count": 19,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ph",
+      "count": 748,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pk",
+      "count": 152,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pl",
+      "count": 42903,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pm",
+      "count": 7,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pr",
+      "count": 511,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ps",
+      "count": 126,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pt",
+      "count": 18446,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "pw",
+      "count": 1,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "py",
+      "count": 240,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "qa",
+      "count": 373,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "re",
+      "count": 24,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ro",
+      "count": 9014,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "rs",
+      "count": 305,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ru",
+      "count": 1880,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "rw",
+      "count": 28,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sa",
+      "count": 6005,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sb",
+      "count": 7,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sc",
+      "count": 2072,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sd",
+      "count": 14,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "se",
+      "count": 119844,
+      "pages": 3
+    },
+    {
+      "jurisdiction": "sg",
+      "count": 14233,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sh",
+      "count": 3,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "si",
+      "count": 5085,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sk",
+      "count": 7611,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sl",
+      "count": 12,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sm",
+      "count": 123,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sn",
+      "count": 32,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "so",
+      "count": 4,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sr",
+      "count": 24,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ss",
+      "count": 2,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "st",
+      "count": 11,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sv",
+      "count": 113,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sx",
+      "count": 24,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sy",
+      "count": 1,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "sz",
+      "count": 6,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tc",
+      "count": 299,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "td",
+      "count": 6,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tf",
+      "count": 1,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tg",
+      "count": 18,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "th",
+      "count": 2403,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tj",
+      "count": 12,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tl",
+      "count": 7,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tm",
+      "count": 4,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tn",
+      "count": 154,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "to",
+      "count": 4,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tr",
+      "count": 10981,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tt",
+      "count": 95,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tw",
+      "count": 1770,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "tz",
+      "count": 83,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ua",
+      "count": 303,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ug",
+      "count": 93,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "um",
+      "count": 4,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "us",
+      "count": 360189,
+      "pages": 8
+    },
+    {
+      "jurisdiction": "uy",
+      "count": 680,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "uz",
+      "count": 79,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "va",
+      "count": 9,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "vc",
+      "count": 810,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ve",
+      "count": 185,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "vg",
+      "count": 34796,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "vi",
+      "count": 68,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "vn",
+      "count": 371,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "vu",
+      "count": 164,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "wf",
+      "count": 4,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ws",
+      "count": 897,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "xk",
+      "count": 47,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "ye",
+      "count": 26,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "yt",
+      "count": 3,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "za",
+      "count": 3445,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "zm",
+      "count": 67,
+      "pages": 1
+    },
+    {
+      "jurisdiction": "zw",
+      "count": 88,
+      "pages": 1
+    }
+  ],
+  "page_size": 50000
+}

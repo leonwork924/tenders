@@ -811,329 +811,329 @@
   ],
   "sample": [
     {
-      "legal_name": "KMA TRADING & INVESTMENTS LTD",
-      "jurisdiction": "gb",
-      "lei": "984500A8D4446B6VDF93",
-      "hq_city": "Omagh",
-      "hq_country": "GB",
+      "legal_name": "CANADA ENTERPRISE EMERGENCY FUNDING CORPORATION",
+      "jurisdiction": "ca",
+      "lei": "5493000CRQXSRRRDKN11",
+      "hq_city": "Toronto",
+      "hq_country": "CA",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "FAM Querfeld Consulting GmbH",
-      "jurisdiction": "at",
-      "lei": "984500RDFC0A3BC3A007",
-      "hq_city": "Wien",
-      "hq_country": "AT",
+      "legal_name": "304 EAST 20TH STREET LLC",
+      "jurisdiction": "us",
+      "lei": "549300G21EWXWLVYNH14",
+      "hq_city": "NEW YORK",
+      "hq_country": "US",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "Gollinger Personenbeförderung GmbH",
-      "jurisdiction": "at",
-      "lei": "3912004LCDM4BYG0J486",
-      "hq_city": "Vorchdorf",
-      "hq_country": "AT",
+      "legal_name": "CPI Three Morgan Parkway LLC",
+      "jurisdiction": "us",
+      "lei": "549300HL8BYRY1HHF157",
+      "hq_city": "Atlanta",
+      "hq_country": "US",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "HALFEN SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-      "jurisdiction": "pl",
-      "lei": "549300DRD9HY4GJO3543",
-      "hq_city": "POZNAN",
-      "hq_country": "PL",
+      "legal_name": "TUMLARE CORPORATION A/S",
+      "jurisdiction": "dk",
+      "lei": "549300O2FRMTCA100I25",
+      "hq_city": "Copenhagen",
+      "hq_country": "DK",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "SAGE ASSOCIATES",
+      "legal_name": "JATIN RAJENDER ASWANI",
       "jurisdiction": "in",
-      "lei": "8945003PC5V2V5AK5259",
-      "hq_city": "kolkata",
+      "lei": "984500046E12ED0BD716",
+      "hq_city": "ADIPUR",
       "hq_country": "IN",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "COLIN ROBERT JOHNSON WILL TRUST",
-      "jurisdiction": "gb",
-      "lei": "213800ZBSCCSUI9SRT16",
-      "hq_city": "BRISTOL",
-      "hq_country": "GB",
+      "legal_name": "ClucasGray Global Flexible Prescient Fund",
+      "jurisdiction": "za",
+      "lei": "254900OAO35U2G3X1O03",
+      "hq_city": "Cape Town",
+      "hq_country": "ZA",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "FUBA Automotive Electronics GmbH",
+      "legal_name": "ULKA FOUNDATION",
+      "jurisdiction": "in",
+      "lei": "984500HD2C5B38FF3F31",
+      "hq_city": "MUMBAI",
+      "hq_country": "IN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Harald Gutschelhofer GmbH",
+      "jurisdiction": "at",
+      "lei": "529900156ZYRYP9XE072",
+      "hq_city": "Neuberg",
+      "hq_country": "AT",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "SEO DISCOVERY PRIVATE LIMITED",
+      "jurisdiction": "in",
+      "lei": "6488RYR8FV94A146N284",
+      "hq_city": "S.A.S. Nagar",
+      "hq_country": "IN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Hakkeijima Godo Kaisha",
+      "jurisdiction": "jp",
+      "lei": "529900NSTJR15GJQKI66",
+      "hq_city": "Tokyo",
+      "hq_country": "JP",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "BMVA Consultancy",
+      "jurisdiction": "nl",
+      "lei": "724500TAYZRK42NPCO71",
+      "hq_city": "'s-Gravenhage",
+      "hq_country": "NL",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Katholische Kirchengemeinde Mariä Heimsuchung Bodelschwingh",
       "jurisdiction": "de",
-      "lei": "529900LHETWPVK2T0U77",
-      "hq_city": "Bad Salzdetfurth",
+      "lei": "391200MKJFDSNKJ68N85",
+      "hq_city": "Dortmund",
       "hq_country": "DE",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "\"TARMET\" JERZY, PAWEŁ I MICHAŁ PIASKOWSCY SPÓŁKA JAWNA",
-      "jurisdiction": "pl",
-      "lei": "259400GTSLNZ37FT7R61",
-      "hq_city": "Tarnowo Podgórne",
-      "hq_country": "PL",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "WAWEL SERVICE DEWELOPER SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA JAWNA",
-      "jurisdiction": "pl",
-      "lei": "2594005XUJHKX7YT1X13",
-      "hq_city": "Kraków",
-      "hq_country": "PL",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "DE.MA. S.R.L.",
-      "jurisdiction": "it",
-      "lei": "8156007860E814761F20",
-      "hq_city": "ORSENIGO",
-      "hq_country": "IT",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "TRANSPORTS PHILIPPE INVESTISSEMENT S.A.",
-      "jurisdiction": "fr",
-      "lei": "969500ZGQ8J6FI5JKD05",
-      "hq_city": "VILLENEUVE-D'ASCQ",
-      "hq_country": "FR",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "G. Sluijer Holding B.V.",
-      "jurisdiction": "nl",
-      "lei": "724500EX71YKUVIBYW96",
-      "hq_city": "Westerhaar-Vriezenveensewijk",
-      "hq_country": "NL",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "Stichting Terra Bona",
-      "jurisdiction": "nl",
-      "lei": "724500R0N2WXWL7FJ691",
-      "hq_city": "Wassenaar",
-      "hq_country": "NL",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "Rebkee Partners New Kent, LLC",
-      "jurisdiction": "us",
-      "lei": "549300XUXMHDEXL7M420",
-      "hq_city": "Richmond",
-      "hq_country": "US",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "Gajria Holdings W.L.L",
-      "jurisdiction": "bh",
-      "lei": "254900OSEBGSICT5IL06",
-      "hq_city": "Manama",
-      "hq_country": "BH",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "BTM Premier Fund V - US Small and Mid Cap Growth Portfolio",
-      "jurisdiction": "lu",
-      "lei": "549300HQJT7DSW391U35",
-      "hq_city": "Luxembourg",
-      "hq_country": "LU",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "安徽沃德康宁新材料有限公司",
-      "jurisdiction": "cn",
-      "lei": "655600UBIMWJUBH4J220",
-      "hq_city": "淮南市",
-      "hq_country": "CN",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "C N UNWIN WILL TRUST",
-      "jurisdiction": "gb",
-      "lei": "213800FNZXJ7N9SZS558",
-      "hq_city": "WELLINGTON",
-      "hq_country": "GB",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "YIHUI SHIPPING HONGKONG CO., LIMITED",
-      "jurisdiction": "hk",
-      "lei": "9845003AC55D71A22205",
-      "hq_city": "HONG KONG",
-      "hq_country": "HK",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "La Fronde Beheer B.V.",
-      "jurisdiction": "nl",
-      "lei": "724500LYPYJ9WUZZF820",
-      "hq_city": "Hoofddorp",
-      "hq_country": "NL",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "MAGI S.A.",
-      "jurisdiction": "lu",
-      "lei": "984500B0FA8DF45E6A04",
-      "hq_city": "Luxembourg",
-      "hq_country": "LU",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "BUSATO FRATELLI SOCIETA' AGRICOLA S.S.",
-      "jurisdiction": "it",
-      "lei": "81560021880526F6CB98",
-      "hq_city": "MINERBIO",
-      "hq_country": "IT",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "Bruder Spielwaren GmbH + Co. KG",
+      "legal_name": "GfB - Gesellschaft für Bodensanierung mbH",
       "jurisdiction": "de",
-      "lei": "391200OU1QSHAHMW2U51",
-      "hq_city": "Fürth",
+      "lei": "984500110DAB5N07DA20",
+      "hq_city": "Egelsbach",
       "hq_country": "DE",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "CB ESSENTIAL SERVICES, LLC",
+      "legal_name": "Archer Apartments, LLC",
       "jurisdiction": "us",
-      "lei": "9845008AB78B4BFCCD72",
-      "hq_city": "FLUSHING",
+      "lei": "254900372NNNAXZ2O228",
+      "hq_city": "Charleston",
       "hq_country": "US",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "广东威法定制家居股份有限公司",
-      "jurisdiction": "cn",
-      "lei": "655600EGFD8GJPALA556",
-      "hq_city": "中山市",
-      "hq_country": "CN",
+      "legal_name": "Lorven Holding B.V.",
+      "jurisdiction": "nl",
+      "lei": "724500DNL4A6X503PX71",
+      "hq_city": "Grashoek",
+      "hq_country": "NL",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "Diversicare Chanute Property, LLC",
-      "jurisdiction": "us",
-      "lei": "549300DFRZ7W11U8ST10",
-      "hq_city": "Wilmington",
-      "hq_country": "US",
+      "legal_name": "Itex B.V.",
+      "jurisdiction": "nl",
+      "lei": "724500Z28WQKKOJ2IM71",
+      "hq_city": "Ambt Delden",
+      "hq_country": "NL",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "KENOSHA BEEF INTERNATIONAL, LTD.",
-      "jurisdiction": "us",
-      "lei": "5493001XXOY57XN06L07",
-      "hq_city": "KENOSHA",
-      "hq_country": "US",
+      "legal_name": "ProcAdvise s.r.o.",
+      "jurisdiction": "cz",
+      "lei": "3157002QX7U1OA9FYY81",
+      "hq_city": "Praha",
+      "hq_country": "CZ",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "PETROCONSULT AS",
-      "jurisdiction": "no",
-      "lei": "636700EQ792HO0N8XA32",
-      "hq_city": "Melhus",
-      "hq_country": "NO",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "ASEFICAN S.L.",
+      "legal_name": "SERIMA INMUEBLES SL",
       "jurisdiction": "es",
-      "lei": "959800LTYZGXFC4E1721",
-      "hq_city": "Santander",
+      "lei": "959800XSHX9CDMCBU489",
+      "hq_city": "Cáceres",
       "hq_country": "ES",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "C-BASS CBO XV Ltd.",
+      "legal_name": "CREA Vision Funds Investmentgesellschaft AGmvK - CREA Vision CHF Growth Fund",
+      "jurisdiction": "li",
+      "lei": "54930071AYSWVPXUYX41",
+      "hq_city": "Vaduz",
+      "hq_country": "LI",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "The Trustee for NOW Trust 2025-1",
+      "jurisdiction": "au",
+      "lei": "984500B0D6BFDDCCDB63",
+      "hq_city": "Sydney",
+      "hq_country": "AU",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "DR. PAUL CORNARDT",
+      "jurisdiction": "be",
+      "lei": "967600MN0PQV4EV0NY22",
+      "hq_city": "Zonnebeke",
+      "hq_country": "BE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Cyrus Select Opportunities Master Fund II, L.P.",
       "jurisdiction": "ky",
-      "lei": "549300O3L5CM8RMPEM21",
+      "lei": "254900P1KL0I1X4LM335",
       "hq_city": "George Town",
       "hq_country": "KY",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "Schubert GmbH",
-      "jurisdiction": "de",
-      "lei": "3912002ARZON0C3MRK46",
-      "hq_city": "Kaltenkirchen",
-      "hq_country": "DE",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "NEWVUE AFFORDABLE HOUSING CORPORATION",
-      "jurisdiction": "us",
-      "lei": "549300FVXX0TWQ2X1095",
-      "hq_city": "FITCHBURG",
-      "hq_country": "US",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "JITESH DHANWANI",
-      "jurisdiction": "in",
-      "lei": "984500875CX4DE8CE498",
-      "hq_city": "Indore",
-      "hq_country": "IN",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "Brunaj Spółka z ograniczoną odpowiedzialnością",
-      "jurisdiction": "pl",
-      "lei": "259400TW0I0TSVU3JH51",
-      "hq_city": "Warszawa",
-      "hq_country": "PL",
-      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
-    },
-    {
-      "legal_name": "LIMOFITZ HOLDING COMPANY LIMITED",
+      "legal_name": "MW EUREKA FUND III",
       "jurisdiction": "ie",
-      "lei": "984500AD400F4EFYCF83",
-      "hq_city": "TIPPERARY",
+      "lei": "21380066ZPWLBWQ5GA02",
+      "hq_city": "DUBLIN",
       "hq_country": "IE",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "ROYAL SONA VIJAY MOTORS PRIVATE LIMITED",
+      "legal_name": "UNIELECTRICA ENERGIA SA",
+      "jurisdiction": "es",
+      "lei": "9598006TUMR7N51GJQ65",
+      "hq_city": "Córdoba",
+      "hq_country": "ES",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "AKASHDEEP BHAMBRI",
       "jurisdiction": "in",
-      "lei": "3358001JV7MZV5SHQU15",
-      "hq_city": "JODHPUR",
+      "lei": "6488OPB1SKM4U9447973",
+      "hq_city": "Fatehgarh Sahib",
       "hq_country": "IN",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "Gabriela Wagner e.U.",
-      "jurisdiction": "at",
-      "lei": "529900NZ81MWZTPZXF53",
-      "hq_city": "Seiersberg",
-      "hq_country": "AT",
+      "legal_name": "Sparbanksstiftelsen Sörmland",
+      "jurisdiction": "se",
+      "lei": "894500OZNTR31ILRP010",
+      "hq_city": "Katrineholm",
+      "hq_country": "SE",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "连云港市公共交通集团有限公司",
+      "legal_name": "N&N CAPITAL",
+      "jurisdiction": "fr",
+      "lei": "894500699COEZ1AHRS49",
+      "hq_city": "SAINT-PAUL",
+      "hq_country": "FR",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "GLOBAL SERIES SICAV PLC - EPIC FUND",
+      "jurisdiction": "mt",
+      "lei": "2138009TPD581HQ8KJ28",
+      "hq_city": "SLIEMA",
+      "hq_country": "MT",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "DWARAKAMAI BUILDERS AND DEVELOPERS PRIVATE LIMITED",
+      "jurisdiction": "in",
+      "lei": "335800HWFCOVKF2MGB44",
+      "hq_city": "BANGALORE",
+      "hq_country": "IN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "JAB BANANA COMPANY LTD.",
+      "jurisdiction": "bs",
+      "lei": "529900OHWCP2MIPK5898",
+      "hq_city": "Nassau",
+      "hq_country": "BS",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "BOLSA INSTITUCIONAL DE VALORES SA DE CV",
+      "jurisdiction": "mx",
+      "lei": "984500C8D7KE6EA35784",
+      "hq_city": "Mexico",
+      "hq_country": "MX",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "RAENTA LLP",
+      "jurisdiction": "gb",
+      "lei": "5493002ICQSE37NL0X32",
+      "hq_city": "LONDON",
+      "hq_country": "GB",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Experts corner company for industry",
+      "jurisdiction": "sa",
+      "lei": "558600FRHNJIAIQQFA03",
+      "hq_city": "Riyadh",
+      "hq_country": "SA",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "泰昌饰品（惠州）有限公司",
       "jurisdiction": "cn",
-      "lei": "300300X36RVLWX5YPJ30",
-      "hq_city": "连云港市",
+      "lei": "655600BZ8TPEUMF1RN57",
+      "hq_city": "惠州市",
       "hq_country": "CN",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "AJAY KUMAR CHAUDHARY",
+      "legal_name": "MIMECAST SERVICES LIMITED",
+      "jurisdiction": "gb",
+      "lei": "213800ZRSRSAJVIZEX39",
+      "hq_city": "LONDON",
+      "hq_country": "GB",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "STROJÍRNA BENC s.r.o.",
+      "jurisdiction": "cz",
+      "lei": "315700P46186AP7PC370",
+      "hq_city": "Krucemburk",
+      "hq_country": "CZ",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "VRAJ ISPAT",
       "jurisdiction": "in",
-      "lei": "648824J3VT9Y77FMJ662",
-      "hq_city": "Basti",
+      "lei": "254900EUHXVCFPPRZR28",
+      "hq_city": "BHAVNAGAR",
       "hq_country": "IN",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     },
     {
-      "legal_name": "PIRELIUS AS",
-      "jurisdiction": "no",
-      "lei": "5493008KULSMX344D046",
-      "hq_city": "Oslo",
-      "hq_country": "NO",
+      "legal_name": "TOTAL ALTERNATIVES FUND - PRIVATE CREDIT (B) LP",
+      "jurisdiction": "ky",
+      "lei": "549300MV7HVUVFYBO532",
+      "hq_city": "George Town",
+      "hq_country": "KY",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "PRUNERI COSTRUZIONI S.R.L.",
+      "jurisdiction": "it",
+      "lei": "8156001E240367F2BB08",
+      "hq_city": "GROSIO",
+      "hq_country": "IT",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Silveira Dairy",
+      "jurisdiction": "us",
+      "lei": "254900A8RXY10V6RPX79",
+      "hq_city": "Chowchilla",
+      "hq_country": "US",
       "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
     }
   ],
   "last_run": {
-    "started_at": "2026-09-09T06:21:12.430976+00:00",
-    "finished_at": "2026-09-09T06:42:52.853947+00:00",
+    "started_at": "2026-09-09T07:41:07.479511+00:00",
+    "finished_at": "2026-09-09T08:10:51.230215+00:00",
     "records_seen": 3425302,
     "records_imported": 302,
     "status": "complete"
