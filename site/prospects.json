@@ -1,5 +1,275 @@
 {
   "generated": "2026-09-10",
-  "total_scanned": 0,
-  "prospects": []
+  "total_scanned": 41,
+  "prospects": [
+    {
+      "company": "South Africa",
+      "country": "",
+      "score": 30,
+      "classification": "LOW",
+      "why_now": "South Africa has relevant trigger evidence: market entry.",
+      "triggers": [
+        "ACQUISITION",
+        "MARKET_ENTRY",
+        "MERGER"
+      ],
+      "sources": [
+        "https://www.euronews.com/my-europe/2025/11/25/europe-eyes-investments-in-africa-for-clean-energy-and-infrastructure",
+        "https://en.wikipedia.org/wiki/Delegation_of_the_European_Union_to_the_Republic_of_South_Africa",
+        "https://www.ecofinagency.com/news/2209-48887-china-bets-10-billion-on-south-africa-to-build-africa-s-next-tech-hub",
+        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/",
+        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/"
+      ]
+    },
+    {
+      "company": "China",
+      "country": "",
+      "score": 30,
+      "classification": "LOW",
+      "why_now": "China has relevant trigger evidence: market entry.",
+      "triggers": [
+        "INTERNATIONAL_EXPANSION",
+        "MARKET_ENTRY"
+      ],
+      "sources": [
+        "https://www.ecofinagency.com/news/2209-48887-china-bets-10-billion-on-south-africa-to-build-africa-s-next-tech-hub",
+        "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
+      ]
+    },
+    {
+      "company": "Macquarie Asset Management (Australia)",
+      "country": "Allemagne",
+      "score": 22,
+      "classification": "LOW",
+      "why_now": "Macquarie Asset Management (Australia) has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/",
+        "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/"
+      ]
+    },
+    {
+      "company": "China (state/private)",
+      "country": "Chine / Multi-pays (Afrique)",
+      "score": 20,
+      "classification": "LOW",
+      "why_now": "China (state/private) has relevant trigger evidence: international expansion.",
+      "triggers": [
+        "INTERNATIONAL_EXPANSION"
+      ],
+      "sources": [
+        "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
+      ]
+    },
+    {
+      "company": "African governments",
+      "country": "Chine / Multi-pays (Afrique)",
+      "score": 20,
+      "classification": "LOW",
+      "why_now": "African governments has relevant trigger evidence: international expansion.",
+      "triggers": [
+        "INTERNATIONAL_EXPANSION"
+      ],
+      "sources": [
+        "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
+      ]
+    },
+    {
+      "company": "firms",
+      "country": "Chine / Multi-pays (Afrique)",
+      "score": 20,
+      "classification": "LOW",
+      "why_now": "firms has relevant trigger evidence: international expansion.",
+      "triggers": [
+        "INTERNATIONAL_EXPANSION"
+      ],
+      "sources": [
+        "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
+      ]
+    },
+    {
+      "company": "continental",
+      "country": "Chine / Multi-pays (Afrique)",
+      "score": 20,
+      "classification": "LOW",
+      "why_now": "continental has relevant trigger evidence: international expansion.",
+      "triggers": [
+        "INTERNATIONAL_EXPANSION"
+      ],
+      "sources": [
+        "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
+      ]
+    },
+    {
+      "company": "Africa (continental)",
+      "country": "",
+      "score": 20,
+      "classification": "LOW",
+      "why_now": "Africa (continental) has relevant trigger evidence: international expansion.",
+      "triggers": [
+        "INTERNATIONAL_EXPANSION"
+      ],
+      "sources": [
+        "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
+      ]
+    },
+    {
+      "company": "Pacifica Hotels + Marriott International",
+      "country": "Japon",
+      "score": 19,
+      "classification": "LOW",
+      "why_now": "Pacifica Hotels + Marriott International has relevant trigger evidence: new office.",
+      "triggers": [
+        "NEW_OFFICE"
+      ],
+      "sources": [
+        "https://www.manilatimes.net/2026/09/02/tmt-newswire/globenewswire/pacifica-hotels-signs-franchise-agreement-with-marriott-international-to-open-westin-hokkaido-furano-resort/2416694"
+      ]
+    },
+    {
+      "company": "Gulf Hotels Group (Bahrain) + Silva Gigiri Ltd (Kenya)",
+      "country": "Kenya",
+      "score": 19,
+      "classification": "LOW",
+      "why_now": "Gulf Hotels Group (Bahrain) + Silva Gigiri Ltd (Kenya) has relevant trigger evidence: new office.",
+      "triggers": [
+        "NEW_OFFICE"
+      ],
+      "sources": [
+        "https://sg.finance.yahoo.com/news/gulf-hotels-group-expands-management-160700356.html"
+      ]
+    },
+    {
+      "company": "Albwardy Investments (owner) + Hyatt Hotels Corp. (operator)",
+      "country": "Zimbabwe",
+      "score": 19,
+      "classification": "LOW",
+      "why_now": "Albwardy Investments (owner) + Hyatt Hotels Corp. (operator) has relevant trigger evidence: new office.",
+      "triggers": [
+        "NEW_OFFICE"
+      ],
+      "sources": [
+        "https://www.costar.com/article/482549137/europe-middle-east-and-africa-deals-developments-evok-collection-to-open-french-alpine-resort"
+      ]
+    },
+    {
+      "company": "IHG Hotels",
+      "country": "Italie",
+      "score": 19,
+      "classification": "LOW",
+      "why_now": "IHG Hotels has relevant trigger evidence: new office.",
+      "triggers": [
+        "NEW_OFFICE"
+      ],
+      "sources": [
+        "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-reaches-over-50-open-and-pipeline-properties-in-italy-with-four-new-hotel-signings"
+      ]
+    },
+    {
+      "company": "Resorts + Gruppo Stay (first IHG–Gruppo Stay partnership)",
+      "country": "Italie",
+      "score": 19,
+      "classification": "LOW",
+      "why_now": "Resorts + Gruppo Stay (first IHG–Gruppo Stay partnership) has relevant trigger evidence: new office.",
+      "triggers": [
+        "NEW_OFFICE"
+      ],
+      "sources": [
+        "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-reaches-over-50-open-and-pipeline-properties-in-italy-with-four-new-hotel-signings"
+      ]
+    },
+    {
+      "company": "The First Group Hospitality (Dubai) + MIDROC Investment Group (Addis Ababa)",
+      "country": "Éthiopie",
+      "score": 19,
+      "classification": "LOW",
+      "why_now": "The First Group Hospitality (Dubai) + MIDROC Investment Group (Addis Ababa) has relevant trigger evidence: new office.",
+      "triggers": [
+        "NEW_OFFICE"
+      ],
+      "sources": [
+        "https://www.hospitalitynet.org/news/4131734/the-first-group-hospitality-and-midroc-investment-group-sign-master-agreement-for-10-properties-in-ethiopia"
+      ]
+    },
+    {
+      "company": "Deutsche Telekom (Germany)",
+      "country": "Allemagne",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Deutsche Telekom (Germany) has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/"
+      ]
+    },
+    {
+      "company": "Nigeria (pan-African telecom infra)",
+      "country": "",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Nigeria (pan-African telecom infra) has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/"
+      ]
+    },
+    {
+      "company": "South Africa ↔ Kenya",
+      "country": "",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "South Africa ↔ Kenya has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/"
+      ]
+    },
+    {
+      "company": "Kenya",
+      "country": "",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Kenya has relevant trigger evidence: merger.",
+      "triggers": [
+        "MERGER"
+      ],
+      "sources": [
+        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/"
+      ]
+    },
+    {
+      "company": "Pan-African (from Capitalworks PE)",
+      "country": "",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Pan-African (from Capitalworks PE) has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://www.africaglobalfunds.com/news/private-equity/deals/"
+      ]
+    },
+    {
+      "company": "Germany",
+      "country": "",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Germany has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/"
+      ]
+    }
+  ]
 }
