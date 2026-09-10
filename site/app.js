@@ -3,7 +3,27 @@
 // on every push, so this file just has to render whatever is in data.json
 // today.
 
-const state = { q: '', src: '', country: '', urgentOnly: false, sortKey: 'score', sortAsc: false };
+const state = { q: '', src: '', country: '', urgentOnly: false, sortKey: 'score', sortAsc: false, activities: new Set(), regions: new Set() };
+
+const ACTIVITY_LABELS = {
+  records_management: 'Archives & gestion documentaire',
+  digitisation: 'Numérisation',
+  av_media: 'Audiovisuel & médias',
+  heritage: 'Patrimoine',
+  mobility: 'Déménagement & mobilité',
+  fine_art: "Œuvres d'art",
+  hospitality: 'Hôtellerie',
+  support: 'Support',
+};
+
+// Extrait les catégories d'activité du champ "matched" (ex: "records_management(12.0): ..."
+// devient "records_management") -- les mêmes catégories que tools/keywords_manual.yaml.
+function activitiesOf(item) {
+  return (item.matched || '')
+    .split('|')
+    .map(s => s.trim().split('(')[0].trim())
+    .filter(s => s && ACTIVITY_LABELS[s]);
+}
 
 function esc(v) {
   return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -28,6 +48,14 @@ function money(value, currency) {
 async function main() {
   const res = await fetch('data.json', {cache: 'no-store'});
   const data = await res.json();
+
+  let regionOf = {};
+  try {
+    const regionsRes = await fetch('regions.json', {cache: 'no-store'});
+    regionOf = await regionsRes.json();
+  } catch (e) {
+    console.warn('regions.json indisponible, filtre région désactivé', e);
+  }
 
   document.getElementById('generated').textContent = data.generated || '';
   document.getElementById('scope').textContent = data.scope || '';
@@ -63,6 +91,44 @@ async function main() {
     document.getElementById('q').value = initialQuery;
   }
 
+  // Boutons Activité -- seulement les catégories réellement présentes dans les données du jour.
+  const activitiesPresent = new Set();
+  (data.items || []).forEach(it => activitiesOf(it).forEach(a => activitiesPresent.add(a)));
+  const activityEl = document.getElementById('activity-filter');
+  Array.from(activitiesPresent).sort().forEach(a => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'filter-btn';
+    btn.textContent = ACTIVITY_LABELS[a] || a;
+    btn.dataset.activity = a;
+    btn.addEventListener('click', () => {
+      if (state.activities.has(a)) state.activities.delete(a); else state.activities.add(a);
+      btn.classList.toggle('on');
+      refresh();
+    });
+    activityEl.appendChild(btn);
+  });
+
+  // Boutons Région -- déduits des pays présents dans les données du jour.
+  const regionsPresent = new Set();
+  (data.items || []).forEach(it => {
+    const r = regionOf[it.country_name] || regionOf[it.country];
+    if (r) regionsPresent.add(r);
+  });
+  const regionEl = document.getElementById('region-filter');
+  Array.from(regionsPresent).sort().forEach(r => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'filter-btn';
+    btn.textContent = r;
+    btn.addEventListener('click', () => {
+      if (state.regions.has(r)) state.regions.delete(r); else state.regions.add(r);
+      btn.classList.toggle('on');
+      refresh();
+    });
+    regionEl.appendChild(btn);
+  });
+
   document.getElementById('q').addEventListener('input', e => { state.q = e.target.value.toLowerCase(); refresh(); });
   srcSel.addEventListener('change', e => { state.src = e.target.value; refresh(); });
   countrySel.addEventListener('change', e => { state.country = e.target.value; refresh(); });
@@ -96,6 +162,8 @@ async function main() {
     if (state.country) items = items.filter(it => it.country === state.country);
     if (state.src) items = items.filter(it => it.source === state.src);
     if (state.urgentOnly) items = items.filter(it => it.days_left !== '' && it.days_left !== null && parseInt(it.days_left, 10) <= 7);
+    if (state.activities.size) items = items.filter(it => activitiesOf(it).some(a => state.activities.has(a)));
+    if (state.regions.size) items = items.filter(it => state.regions.has(regionOf[it.country_name] || regionOf[it.country]));
     if (state.q) {
       items = items.filter(it => [it.title, it.buyer, it.country_name, it.matched, it.source]
         .join(' ').toLowerCase().includes(state.q));

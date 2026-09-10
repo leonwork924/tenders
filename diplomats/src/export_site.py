@@ -27,8 +27,7 @@ METHODOLOGY = (
     "diplomatique officielle (souvent un PDF) ainsi que, si elle existe, une liste "
     "distincte de consuls honoraires, dont il extrait les noms et titres par "
     "reconnaissance de motifs (« S.E. M./Mme », « H.E. Mr./Mrs », « Ambassadeur », "
-    "« Consul honoraire », etc.). Ces données sont recoupées, quand c'est possible, "
-    "avec Wikidata (licence CC0) pour retrouver une date de prise de fonction, et "
+    "« Consul honoraire », etc.). Ces données sont "
     "complétées par les listes officielles de représentants permanents de l'ONU, de "
     "l'Union africaine et de l'OSCE. Quand un email ou un téléphone apparaît à "
     "proximité du nom sur la page source, il est également extrait — il s'agit presque "
@@ -64,7 +63,6 @@ def diplomat_view(entry: dict) -> dict:
         "end_date": entry.get("end_date"),
         "data_source": entry.get("data_source"),
         "source_url": entry.get("source_url"),
-        "wikidata_url": entry.get("wikidata_url"),
         "email": entry.get("email"),
         "phone": entry.get("phone"),
     }
@@ -127,9 +125,9 @@ def main():
 
     notes = [
         "Toutes les données proviennent de publications officielles des États et "
-        "organisations internationales (protocole diplomatique) et/ou de Wikidata "
-        "(licence CC0) — rien n'est collecté depuis une source privée ou non publique.",
-        "Chaque entrée indique sa provenance (site officiel, Wikidata, ou organisation "
+        "organisations internationales (protocole diplomatique) — rien n'est collecté "
+        "depuis une source privée ou non publique.",
+        "Chaque entrée indique sa provenance (site officiel ou organisation "
         "internationale) et, quand connue, sa date de prise de fonction.",
         "Les consuls honoraires sont distingués des ambassadeurs quand la source le "
         "permet (voir l'étiquette sur chaque entrée) ; leurs coordonnées, quand connues, "

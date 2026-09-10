@@ -36,12 +36,6 @@ jobs:
             --sources diplomats/data/sources_combined.json \
             --out diplomats/data/diplomats.json
 
-      - name: Query Wikidata (complément)
-        run: |
-          python diplomats/src/wikidata_source.py \
-            --sources diplomats/data/sources_combined.json \
-            --out diplomats/data/diplomats_wikidata.json
-
       - name: International organizations (UN / AU / OSCE)
         run: |
           python diplomats/src/org_delegations.py \
@@ -52,7 +46,6 @@ jobs:
         run: |
           python diplomats/src/merge_sources.py \
             --scraped diplomats/data/diplomats.json \
-            --wikidata diplomats/data/diplomats_wikidata.json \
             --org diplomats/data/org_delegations.json \
             --out diplomats/data/diplomats_merged.json
 
@@ -68,7 +61,7 @@ jobs:
         run: |
           git config user.name "tender-radar-bot"
           git config user.email "tender-radar-bot@users.noreply.github.com"
-          git add diplomats/data/sources_combined.json diplomats/data/diplomats.json diplomats/data/diplomats_wikidata.json diplomats/data/org_delegations.json diplomats/data/diplomats_merged.json site/contact.json
+          git add diplomats/data/sources_combined.json diplomats/data/diplomats.json diplomats/data/org_delegations.json diplomats/data/diplomats_merged.json site/contact.json
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
             exit 0

@@ -3,7 +3,6 @@ function esc(v) {
 }
 
 function sourceBadge(dataSource) {
-  if (dataSource === 'wikidata') return '<span class="nl-status confirmed" title="Wikidata (CC0)">Wikidata</span>';
   if (dataSource === 'web_scrape') return '<span class="nl-status operational" title="Site officiel">Site officiel</span>';
   if (dataSource === 'org_official') return '<span class="nl-status operational" title="Organisation internationale">Officiel</span>';
   return '';
@@ -11,6 +10,7 @@ function sourceBadge(dataSource) {
 
 function roleBadge(role) {
   if (role === 'consul') return '<span class="nl-status pipeline" title="Consul honoraire — coordonnées potentiellement personnelles">Consul honoraire</span>';
+  if (role === 'diplomatic_staff') return '<span class="nl-status operational" title="Conseiller, secrétaire, attaché...">Personnel diplomatique</span>';
   return '';
 }
 
@@ -22,10 +22,9 @@ function delegateTypeBadge(t) {
 
 function diplomatLine(d) {
   const since = d.start_date ? ` <span style="color:var(--ink-soft)">(depuis ${esc(d.start_date)})</span>` : '';
-  const wd = d.wikidata_url ? ` · <a href="${esc(d.wikidata_url)}" target="_blank" rel="noopener">wikidata</a>` : '';
   const email = d.email ? ` · <a href="mailto:${esc(d.email)}">${esc(d.email)}</a>` : '';
   const phone = d.phone ? ` · ${esc(d.phone)}` : '';
-  return `<div style="margin-bottom:4px">${sourceBadge(d.data_source)} ${roleBadge(d.role)} <b>${esc(d.name)}</b>${d.title ? ' — ' + esc(d.title) : ''}${since}${wd}${email}${phone}</div>`;
+  return `<div style="margin-bottom:4px">${sourceBadge(d.data_source)} ${roleBadge(d.role)} <b>${esc(d.name)}</b>${d.title ? ' — ' + esc(d.title) : ''}${since}${email}${phone}</div>`;
 }
 
 function delegateLine(d) {

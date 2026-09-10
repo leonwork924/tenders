@@ -108,6 +108,17 @@ TITLE_PATTERN = (
     r"Consul[- ]Honoraire|Consule[- ]Honoraire|Consul Général Honoraire|"
     r"Vice[- ]Consul(?:[- ]Honoraire| Honorary)?|Cónsul[- ]Honorari[oa]|"
     r"Console Onorari[oa]|Honorarkonsul|Consul|Consule|Consulesa|"
+    # Reste du personnel diplomatique (rangs classiques, hors ambassadeur/consul) :
+    r"Deputy Head of Mission|Deputy Chief of Mission|Chef Adjoint de Mission|"
+    r"Minister[- ]Counsell?or|Ministre[- ]Conseill[eè]r|Ministre Plénipotentiaire|"
+    r"Minister Plenipotentiary|"
+    r"Counsell?or|Conseill[eè]r(?:e)?|"
+    r"First Secretary|Second Secretary|Third Secretary|"
+    r"Premi[eè]re? Secrétaire|Deuxième Secrétaire|Troisième Secrétaire|"
+    r"(?:Military|Defence|Defense|Naval|Air|Cultural|Commercial|Press|Economic)\s+Attaché|"
+    r"Attaché(?:e)?\s+(?:militaire|de défense|naval|de l'air|culturel(?:le)?|"
+    r"commercial(?:e)?|de presse|économique)|"
+    r"Attaché(?:e)?|"
     r"Dr\.?|Mr\.?|Mrs\.?|Ms\.?|M\.|Mme\.?)"
 )
 # Un "nom" = 2 à 4 mots commençant par une majuscule (heuristique simple,
@@ -141,18 +152,26 @@ _AMBASSADOR_KEYWORDS = (
     "haut-commissaire", "haut commissaire", "chargé d'affaires",
     "chargée d'affaires",
 )
+_STAFF_KEYWORDS = (
+    "counsell", "conseill", "secretary", "secrétaire", "attaché", "attachee",
+    "attachée", "deputy head of mission", "deputy chief of mission",
+    "chef adjoint", "plenipotentiary", "plénipotentiaire",
+)
 
 
 def classify_role(title_guess: str) -> str:
     """Classe grossièrement une entrée à partir du titre repéré autour du
     nom. Heuristique simple par mots-clés, pas une vérité absolue — utile
-    surtout pour filtrer/afficher séparément ambassadeurs et consuls
-    honoraires dans le site de consultation."""
+    surtout pour filtrer/afficher séparément ambassadeurs, consuls
+    honoraires et reste du personnel diplomatique dans le site de
+    consultation."""
     t = title_guess.lower()
     if any(k in t for k in _CONSUL_KEYWORDS):
         return "consul"
     if any(k in t for k in _AMBASSADOR_KEYWORDS):
         return "ambassador"
+    if any(k in t for k in _STAFF_KEYWORDS):
+        return "diplomatic_staff"
     return "other"
 
 
@@ -165,13 +184,12 @@ class DiplomatEntry:
     raw_line: str
     source_url: str
     scraped_at: str
-    # Champs optionnels, remplis notamment par la source Wikidata
-    # (voir wikidata_source.py) — absents ou vides pour le scraping HTML/PDF
-    # brut, qui ne donne quasiment jamais de date exploitable.
+    # start_date/end_date restent généralement vides : le scraping HTML/PDF
+    # brut donne quasiment jamais de date de prise de fonction exploitable.
     start_date: str | None = None   # date de prise de fonction (ISO YYYY-MM-DD), si connue
     end_date: str | None = None     # date de fin de fonction (ISO YYYY-MM-DD), si connue et déjà passée
-    data_source: str = "web_scrape"  # "web_scrape" | "wikidata" | "org_official"
-    role: str = "ambassador"        # "ambassador" | "consul" | "other" (voir classify_role)
+    data_source: str = "web_scrape"  # "web_scrape" | "org_official"
+    role: str = "ambassador"        # "ambassador" | "consul" | "diplomatic_staff" | "other" (voir classify_role)
     phone: str | None = None        # coordonnée institutionnelle si trouvée à proximité du nom
     email: str | None = None        # idem — voir avertissement en en-tête de fichier
 
