@@ -242,6 +242,12 @@
 </nav>
 
 <div class="wrap">
+  <div class="hero" id="leads-section" style="display:none">
+    <div class="section-label" style="margin:0 0 10px">📡 Opportunités de la semaine — repérées dans la newsletter</div>
+    <div class="timeline" id="leads-list"></div>
+    <p class="note-src" id="leads-note"></p>
+  </div>
+
   <div class="tabs">
     <button class="tab on" data-t="catalogue" onclick="setTab('catalogue')">Catalogue groupe <span class="badge" id="badgeCat"></span></button>
     <button class="tab" data-t="mine" onclick="setTab('mine')">Comptes de ma branche <span class="badge" id="badgeMine">0</span></button>
@@ -992,9 +998,42 @@ function saveInfo(){
 function closeDevModalNow(){ document.getElementById('devBg').classList.remove('on'); }
 function closeDevModal(e){ if(e.target.id==='devBg') closeDevModalNow(); }
 
+function escLeads(v) {
+  return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+async function loadLeads() {
+  try {
+    const res = await fetch('prospects.json', { cache: 'no-store' });
+    const data = await res.json();
+    const items = data.prospects || [];
+    if (!items.length) return;  // section reste masquée, rien à montrer
+
+    document.getElementById('leads-list').innerHTML = items.map(p => `
+      <div class="inter is-prospect">
+        <div class="inter-top">
+          <span class="where">${escLeads(p.company)}</span>
+          ${(p.triggers || []).map(t => `<span class="pill prospect">${escLeads(t.replace(/_/g, ' ').toLowerCase())}</span>`).join('')}
+          ${p.country ? `<span class="pill metier">${escLeads(p.country)}</span>` : ''}
+        </div>
+        <div class="inter-note">
+          ${escLeads(p.why_now)}
+          ${(p.sources || []).filter(Boolean).slice(0, 1).map(s => ` · <a href="${escLeads(s)}" target="_blank" rel="noopener">source</a>`).join('')}
+        </div>
+      </div>`).join('');
+
+    document.getElementById('leads-note').textContent =
+      `Généré le ${data.generated} à partir de ${data.total_scanned} entreprise(s) citées dans la newsletter -- score indicatif uniquement (secteur/effectif inconnus pour ces entreprises, non comparable au reste du site).`;
+    document.getElementById('leads-section').style.display = '';
+  } catch (e) {
+    console.warn('prospects.json indisponible', e);  // pas grave, section masquée par défaut
+  }
+}
+
 buildFamNav();
 render();
 renderMine();
+loadLeads();
 document.getElementById('devBg').classList.add('on');
 </script>
 </body>

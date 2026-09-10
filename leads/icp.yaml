@@ -1,0 +1,57 @@
+scorer_version: "2.0"
+classification: {HOT: 80, WARM: 60, COLD: 40, LOW: 0}
+industry_tiers:
+  tier_1: [financial_services, technology, consulting, mining, energy, telecommunications, pharmaceuticals]
+  tier_2: [manufacturing, logistics, professional_services, education, hospitality]
+headcount_bands:
+  - {max: 99, points: 1}
+  - {max: 499, points: 3}
+  - {max: 999, points: 5}
+  - {max: 4999, points: 6}
+  - {max: 100000000, points: 7}
+contact_roles:
+  - {role: global mobility, points: 12}
+  - {role: relocation, points: 12}
+  - {role: international hr, points: 11}
+  - {role: hr director, points: 9}
+  - {role: people director, points: 9}
+  - {role: hr manager, points: 8}
+  - {role: talent acquisition, points: 6}
+  - {role: procurement, points: 5}
+  - {role: facilities, points: 4}
+  - {role: office management, points: 3}
+trigger_weights:
+  INTERNATIONAL_EXPANSION: 20
+  NEW_OFFICE: 18
+  MARKET_ENTRY: 20
+  MAJOR_INTERNATIONAL_HIRING: 17
+  ACQUISITION: 12
+  MERGER: 12
+  EMPLOYEE_MOBILITY_PROGRAMME: 20
+  HEADQUARTERS_RELOCATION: 20
+  INTERNATIONAL_PROJECT: 14
+  CORPORATE_RESTRUCTURING: 8
+  LAYOFFS: -15
+  HIRING_FREEZE: -12
+  MARKET_EXIT: -18
+  INSOLVENCY: -25
+  INCUMBENT_CONTRACT_AWARDED: -20
+trigger_half_life_days:
+  INTERNATIONAL_EXPANSION: 365
+  NEW_OFFICE: 365
+  MARKET_ENTRY: 365
+  MAJOR_INTERNATIONAL_HIRING: 120
+  ACQUISITION: 240
+  MERGER: 240
+  EMPLOYEE_MOBILITY_PROGRAMME: 365
+  HEADQUARTERS_RELOCATION: 365
+  INTERNATIONAL_PROJECT: 180
+  CORPORATE_RESTRUCTURING: 180
+  LAYOFFS: 120
+  HIRING_FREEZE: 90
+  MARKET_EXIT: 365
+  INSOLVENCY: 30
+  INCUMBENT_CONTRACT_AWARDED: 365
+mobility_rates: {tier_1: 0.004, tier_2: 0.0025, other: 0.001}
+target_countries: ["South Africa"]
+refresh_days: {HOT: 14, WARM: 30, COLD: 90, LOW: 180}
