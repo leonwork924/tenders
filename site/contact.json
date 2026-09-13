@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-13",
   "regions": {
     "Europe": [
       {
@@ -20742,7 +20742,30 @@
       {
         "country": "Botswana",
         "url": "https://www.gov.bw/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "FOOT AND MOUTH DISEASE",
+            "title": "UPDATE ON T",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.gov.bw/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "DEVELOPMENT OF NATIONAL SECURITY",
+            "title": "UPDATE ON T",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.gov.bw/",
+            "email": null,
+            "phone": null
+          }
+        ]
       },
       {
         "country": "Burkina Faso",
@@ -21427,7 +21450,250 @@
       {
         "country": "Mauritius",
         "url": "https://foreign.govmu.org/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Wall Street",
+            "title": "",
+            "role": "consul",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "26.01.2019 1"
+          },
+          {
+            "name": "Robert AFRIYIE Consul-General Building",
+            "title": "Republic of Ghana",
+            "role": "consul",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Rezina AHMED",
+            "title": "H. E.",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Port Louis",
+            "title": "",
+            "role": "ambassador",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "18.07.2018 9"
+          },
+          {
+            "name": "P.O. Box",
+            "title": "",
+            "role": "ambassador",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "09.11.2017"
+          },
+          {
+            "name": "Mustafa A.K. ABURKHIES John",
+            "title": "State of Libya",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Ms. Florence Causse-Tissier",
+            "title": "Republic of France",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "23.09.2020 14"
+          },
+          {
+            "name": "Mrs. K. Nandini SINGLA",
+            "title": "Republic of India",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "05.01.2021 6"
+          },
+          {
+            "name": "Mrs C. UMUTONI",
+            "title": "Office of UN Resident",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "01.01.2019 6"
+          },
+          {
+            "name": "Mr. Vincent DEGERT",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "18.09.2019 8"
+          },
+          {
+            "name": "Mr. Shuichiro KAWAGUCHI",
+            "title": "Japan",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "03.12.2020"
+          },
+          {
+            "name": "Mr. Dick ESPARON",
+            "title": "Republic of Seychelles",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "16.03.2020"
+          },
+          {
+            "name": "Mr. David Dale REIMER",
+            "title": "United States of America",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "16.01.2018 4"
+          },
+          {
+            "name": "Mr Konstantin KLIMOVSKIY",
+            "title": "Russian Federation",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "09.11.2017"
+          },
+          {
+            "name": "Mr Albert Camille VITAL",
+            "title": "Republic of Madagascar",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "12.02.2020"
+          },
+          {
+            "name": "Keith Rennie ALLAN",
+            "title": "H. E.",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Gong Yufeng Royal Road",
+            "title": "17. People's Republic of China",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Dr. Kate Elizabeth",
+            "title": "Commonwealth of Australia",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "09.09.2020 2"
+          },
+          {
+            "name": "Dr. Hlamalani Nelly MANZINI",
+            "title": "Republic of South Africa",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "28.02.2020 4"
+          },
+          {
+            "name": "Dr. Alya’a Samir BORHAN",
+            "title": "Arab Republic of Egypt",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "23.11.2020 6"
+          },
+          {
+            "name": "Dr Sayed Rizwan AHMED",
+            "title": "Islamic Republic of Pakistan",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "18.07.2018 9"
+          },
+          {
+            "name": "Ahmed Abdulaziz BIN",
+            "title": "Consulate-General of the",
+            "role": "consul",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
+            "email": null,
+            "phone": "26.01.2019 1"
+          }
+        ]
       },
       {
         "country": "Morocco",
@@ -21530,7 +21796,316 @@
       {
         "country": "Seychelles",
         "url": "https://mfa.gov.sc/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Terry Romain",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Terence Malbrook",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Shirley Low-Meng",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Selby Pillay",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Sandra Michel",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Patsy Moustache",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Myrna Hoareau",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Myra Laporte",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Lindy Ernesta",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Lalatiana Accouche",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Kenneth Racombo",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Kenneth Jacques Gervais Racombo",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Jemma Simeon",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Ian Madeleine",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Ian Madeleine",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Gervais Moumou",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Georges Tirant",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Fock Tave",
+            "title": "",
+            "role": "ambassador",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Fock Tave",
+            "title": "May 2021,",
+            "role": "ambassador",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Conrad Mederic",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Claude Morel",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Cilia Mangroo",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Christian Faure",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "CONSTITUTIONAL APPOINTMENTS AUTHORITY",
+            "title": "T",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Bessy Banane",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Beryl Samson",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Anne Lafortune",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Amenda Padayachy",
+            "title": "",
+            "role": "other",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          }
+        ]
       },
       {
         "country": "Sierra Leone",
@@ -21870,17 +22445,6 @@
             "source_url": "https://www.mofa.gov.mm/sample-page-3/myanmar-honorary-consulates-abroad/",
             "email": null,
             "phone": "(81) 078 452 6500"
-          },
-          {
-            "name": "Mr. Piyapak Sricharoen",
-            "title": "းစီးဌာန၊ ညွှန်ကြားရေးမှူးချုပ်",
-            "role": "other",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.mofa.gov.mm/",
-            "email": null,
-            "phone": null
           },
           {
             "name": "Maung Thura",
