@@ -450,3 +450,24 @@ sources:
     country: HR
     max_records: 20000
     default_currency: EUR
+
+  sam_gov:
+    enabled: true
+    type: sam_gov
+    # Requires a free public API key: sign in at sam.gov, Account Details
+    # page, enter your password to reveal it. Set as the SAM_GOV_API_KEY
+    # GitHub secret (see .github/workflows/fetch.yml).
+    api_key_env: SAM_GOV_API_KEY
+    ptype: "p,o,k,r,s"  # open/actionable notices only, no award notices
+    page_size: 1000
+    max_pages: 5
+
+  simap:
+    enabled: true
+    type: simap
+    # Public read API, no key needed. See tender_radar/sources/simap.py for
+    # the confidence caveat on publication-type filtering - verify the first
+    # run's output before trusting it fully.
+    lang: en
+    page_size: 50
+    max_pages: 20

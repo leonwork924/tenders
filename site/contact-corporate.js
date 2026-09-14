@@ -10,110 +10,78 @@ document.querySelectorAll('#contact-subtabs a[data-tab]').forEach(a => {
     const tab = a.dataset.tab;
     document.getElementById('tab-diplo').style.display = tab === 'diplo' ? '' : 'none';
     document.getElementById('tab-corporate').style.display = tab === 'corporate' ? '' : 'none';
-    if (tab === 'corporate') loadCorporateStats();
+    if (tab === 'corporate') loadCorporate();
   });
 });
 
+let CORP_COMPANIES = [];
 let corpLoaded = false;
-let CORP_INDEX = [];
 
-async function loadCorporateStats() {
+function contactLine(c) {
+  const email = c.email ? ` · <a href="mailto:${escC(c.email)}">${escC(c.email)}</a>` : '';
+  const phone = c.phone ? ` · ${escC(c.phone)}` : '';
+  const status = c.email_verification_status === 'valid'
+    ? ' <span class="nl-status operational" title="Email vérifié">vérifié</span>'
+    : '';
+  return `<div style="margin-bottom:4px"><b>${escC(c.full_name)}</b>${c.job_title ? ' — ' + escC(c.job_title) : ''}${email}${phone}${status}</div>`;
+}
+
+function companyRow(co) {
+  const loc = [co.hq_city, co.hq_state, co.hq_country].filter(Boolean).join(', ');
+  const registryContact = [co.registry_phone, co.registry_email].filter(Boolean).join(' · ');
+  return `
+    <tr>
+      <td>
+        <b>${escC(co.legal_name)}</b>
+        <div style="color:var(--ink-soft);font-size:12px">
+          ${escC((co.jurisdiction || '').toUpperCase())}${co.company_number ? ' · n° ' + escC(co.company_number) : ''}${co.lei ? ' · LEI ' + escC(co.lei) : ''}
+        </div>
+      </td>
+      <td>${co.contacts && co.contacts.length ? co.contacts.map(contactLine).join('') : (registryContact || '<span class="nl-status pipeline">aucun contact</span>')}</td>
+      <td>${loc || ''}</td>
+      <td><a href="${escC(co.source_url)}" target="_blank" rel="noopener">${escC(co.source_name)}</a></td>
+    </tr>`;
+}
+
+async function loadCorporate() {
   if (corpLoaded) return;
   corpLoaded = true;
-  const el = document.getElementById('corp-stats');
+  const el = document.getElementById('corp-main');
   try {
-    const res = await fetch('corporate_contacts.json', {cache: 'no-store'});
+    const res = await fetch('corporate_contacts.json', { cache: 'no-store' });
     const data = await res.json();
+    CORP_COMPANIES = data.companies || [];
 
-    const lastRun = data.last_run
-      ? `${escC(data.last_run.status)} · ${(data.last_run.records_seen || 0).toLocaleString('fr-FR')} lignes parcourues, ${(data.last_run.records_imported || 0).toLocaleString('fr-FR')} nouvelles`
-      : 'aucun run enregistré';
-
-    const sourceRows = (data.by_source || []).map(s =>
-      `<tr><td>${escC(s.source)}</td><td>${s.count.toLocaleString('fr-FR')}</td></tr>`
-    ).join('');
+    document.getElementById('corp-generated').textContent = data.generated ? new Date(data.generated).toLocaleDateString('fr-FR') : '';
 
     el.innerHTML = `
-      <div class="region-heading">Vue d'ensemble <span style="color:var(--ink-soft);font-weight:400">(généré le ${escC(data.generated)})</span></div>
-      <p class="nl-sub">${(data.total_companies || 0).toLocaleString('fr-FR')} entreprise(s)/entité(s) au total &nbsp;·&nbsp; dernier run : ${lastRun}</p>
-
-      <div class="region-heading">Par source</div>
-      <table class="nl-table">
-        <thead><tr><th>Source</th><th>Nb d'entités</th></tr></thead>
-        <tbody>${sourceRows || '<tr><td colspan="2">Aucune donnée pour l\'instant</td></tr>'}</tbody>
-      </table>
-
-      <div class="region-heading">Liste complète, par pays</div>
-      <div class="toolbar" style="margin-bottom:10px">
-        <label for="corp-country-select">Pays</label>
-        <select id="corp-country-select" style="flex:1;max-width:320px"><option value="">— choisir un pays —</option></select>
+      <div class="toolbar">
+        <label for="corp-q">Filtre</label>
+        <input id="corp-q" type="search" placeholder="entreprise, contact, pays…" autocomplete="off">
+        <span class="count" id="corp-count"></span>
       </div>
-      <div id="corp-country-list"></div>`;
-
-    document.getElementById('corp-country-select').addEventListener('change', e => {
-      if (e.target.value) loadCountryPage(e.target.value, 0);
-    });
-
-    await loadCorpIndex();
-  } catch (err) {
-    el.innerHTML = `<p class="nl-empty-region">Impossible de charger corporate_contacts.json (${escC(err)}). Le premier run n'a peut-être pas encore eu lieu.</p>`;
-  }
-}
-
-async function loadCorpIndex() {
-  const select = document.getElementById('corp-country-select');
-  try {
-    const res = await fetch('corporate/index.json', {cache: 'no-store'});
-    const data = await res.json();
-    CORP_INDEX = data.jurisdictions || [];
-    CORP_INDEX
-      .slice()
-      .sort((a, b) => b.count - a.count)
-      .forEach(j => {
-        const opt = document.createElement('option');
-        opt.value = j.jurisdiction;
-        opt.textContent = `${j.jurisdiction.toUpperCase()} (${j.count.toLocaleString('fr-FR')})`;
-        select.appendChild(opt);
-      });
-  } catch (err) {
-    select.insertAdjacentHTML('afterend', `<p class="nl-empty-region">Liste par pays pas encore disponible (${escC(err)}).</p>`);
-  }
-}
-
-async function loadCountryPage(jurisdiction, page) {
-  const listEl = document.getElementById('corp-country-list');
-  listEl.innerHTML = '<p class="nl-sub">Chargement…</p>';
-  const info = CORP_INDEX.find(j => j.jurisdiction === jurisdiction);
-  try {
-    const res = await fetch(`corporate/${jurisdiction}_${page}.json`, {cache: 'no-store'});
-    const data = await res.json();
-    const rows = (data.companies || []).map(c => `
-      <tr>
-        <td><b>${escC(c.n)}</b></td>
-        <td>${escC(c.city)}${c.city && (c.state || c.country) ? ', ' : ''}${escC(c.state)} ${escC(c.country)}</td>
-        <td>${c.lei ? `<code>${escC(c.lei)}</code>` : ''}</td>
-        <td>${escC(c.reg)}</td>
-      </tr>`).join('');
-
-    const totalPages = info ? info.pages : 1;
-    const pager = totalPages > 1 ? `
-      <div class="toolbar" style="margin-top:10px">
-        <button class="btn-toggle" ${page <= 0 ? 'disabled' : ''} data-nav="prev">‹ précédent</button>
-        <span class="count">page ${page + 1} / ${totalPages}</span>
-        <button class="btn-toggle" ${page >= totalPages - 1 ? 'disabled' : ''} data-nav="next">suivant ›</button>
-      </div>` : '';
-
-    listEl.innerHTML = `
-      <p class="nl-sub">${jurisdiction.toUpperCase()} — ${(info ? info.count : data.companies.length).toLocaleString('fr-FR')} entreprise(s)</p>
       <table class="nl-table">
-        <thead><tr><th>Nom</th><th>Ville / Région / Pays</th><th>LEI</th><th>N° registre</th></tr></thead>
-        <tbody>${rows || '<tr><td colspan="4">Aucune entreprise</td></tr>'}</tbody>
-      </table>
-      ${pager}`;
+        <thead><tr><th>Entreprise</th><th>Contact(s)</th><th>Siège</th><th>Source</th></tr></thead>
+        <tbody id="corp-tbody"></tbody>
+      </table>`;
 
-    listEl.querySelector('[data-nav="prev"]')?.addEventListener('click', () => loadCountryPage(jurisdiction, page - 1));
-    listEl.querySelector('[data-nav="next"]')?.addEventListener('click', () => loadCountryPage(jurisdiction, page + 1));
+    document.getElementById('corp-q').addEventListener('input', e => renderCorp(e.target.value.toLowerCase()));
+    renderCorp('');
   } catch (err) {
-    listEl.innerHTML = `<p class="nl-empty-region">Impossible de charger ce pays (${escC(err)}).</p>`;
+    el.innerHTML = `<p class="nl-empty-region">Impossible de charger corporate_contacts.json (${escC(err)}). Lance le workflow "corporate contacts (lookup)" depuis l'onglet Actions pour rechercher une première entreprise.</p>`;
   }
+}
+
+function renderCorp(query) {
+  const tbody = document.getElementById('corp-tbody');
+  const filtered = CORP_COMPANIES.filter(co => {
+    if (!query) return true;
+    const names = (co.contacts || []).map(c => `${c.full_name} ${c.job_title || ''} ${c.email || ''}`).join(' ');
+    const text = `${co.legal_name} ${co.jurisdiction || ''} ${co.hq_city || ''} ${co.hq_country || ''} ${names}`.toLowerCase();
+    return text.includes(query);
+  });
+
+  document.getElementById('corp-count').textContent = `${filtered.length} / ${CORP_COMPANIES.length} entreprise(s)`;
+  tbody.innerHTML = filtered.map(companyRow).join('') ||
+    `<tr><td colspan="4" class="nl-empty-region">${CORP_COMPANIES.length ? 'Aucun résultat pour ce filtre.' : 'Aucune entreprise recherchée pour l\'instant.'}</td></tr>`;
 }

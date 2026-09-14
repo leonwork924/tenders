@@ -66,14 +66,15 @@
 <div id="tab-corporate" style="display:none">
 
   <div class="nl-disclaimer">
-    <b>Ce que c'est :</b> un instantané agrégé de la base mondiale des entités légales
-    GLEIF (identifiants LEI), rafraîchi chaque semaine. La liste complète est
-    consultable ci-dessous, pays par pays (paginée pour les gros pays) ; la base brute
-    au format SQLite reste aussi téléchargeable en pièce jointe ("artifact") depuis la
-    dernière exécution du <a href="https://github.com/leonwork924/tenders/actions/workflows/corporate-contacts.yml" target="_blank" rel="noopener">workflow GitHub Actions</a>.
+    <b>Ce que c'est :</b> des fiches entreprise constituées à la demande — registre
+    national (ou OpenCorporates), identifiant LEI (GLEIF), et contacts (Hunter.io si un
+    domaine est fourni). Chaque recherche s'ajoute à la liste ci-dessous. Pour ajouter une
+    entreprise, lance le workflow <a href="https://github.com/leonwork924/tenders/actions/workflows/corporate-contacts.yml" target="_blank" rel="noopener">"corporate contacts (lookup)"</a>
+    depuis l'onglet Actions avec son nom (et si possible pays / domaine).
+    <span class="meta" style="display:block;margin-top:4px">Dernière recherche : <span id="corp-generated"></span></span>
   </div>
 
-  <main class="nl-main" id="corp-stats"></main>
+  <main class="nl-main" id="corp-main"></main>
 
 </div>
 

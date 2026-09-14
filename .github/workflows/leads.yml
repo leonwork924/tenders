@@ -1,12 +1,11 @@
 name: leads (moving intelligence)
 
 on:
-  schedule:
-    # Lundi matin -- suppose que la newsletter de la semaine a déjà été
-    # déposée (processus manuel séparé, voir NEWSLETTER_HOWTO.md). Si ce
-    # n'est pas encore le cas au moment du run, celui-ci travaillera juste
-    # sur l'édition précédente -- pas d'erreur, juste moins à jour.
-    - cron: "5 7 * * 1"   # lundi 07:05 UTC
+  # Cron désactivé le 11/09/2026 : le classifieur remonte des faux positifs
+  # (noms de pays et mots génériques traités comme "entreprises" -- ex.
+  # "South Africa", "firms", "continental"). Le pipeline et l'UI restent en
+  # place ; on réactive via workflow_dispatch une fois le prompt/filtre revu.
+  # - cron: "5 7 * * 1"   # lundi 07:05 UTC
   workflow_dispatch: {}   # pour lancer à la main depuis l'onglet Actions
 
 permissions:

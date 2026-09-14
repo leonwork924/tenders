@@ -849,7 +849,11 @@ def run_pipeline(company_name: str, jurisdiction: str = None, domain: str = None
 
     company_id = str(uuid.uuid4())
     conn.execute(
-        "INSERT INTO companies VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        """INSERT INTO companies
+           (company_id, legal_name, lei, jurisdiction, primary_domain, source_name,
+            source_url, retrieved_at, registry_phone, registry_email, registry_website,
+            hq_city, hq_state, hq_country)
+           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
         (
             company_id, company_data["legal_name"], lei, company_data["jurisdiction"],
             domain, company_data["source_name"], company_data["source_url"], now,

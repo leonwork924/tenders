@@ -12,6 +12,8 @@ from .world_bank import WorldBankSource
 from .ecuador import EcuadorOcdsSource
 from .international import AusTenderSource, SecopColombiaSource, AnacItalySource, ProzorroSource
 from .open_sources import OcpRegistrySource, MtenderSource, TanzaniaNestLiveSource
+from .sam_gov import SamGovSource
+from .simap import SimapSource
 
 SOURCE_ALIASES = {
     "paraguay_dncp": "paraguay_dncp",
@@ -45,6 +47,8 @@ REGISTRY = {
     "rss": RssSource,
     "csv_inbox": CsvInboxSource,
     "vendor_api": VendorApiSource,
+    "sam_gov": SamGovSource,
+    "simap": SimapSource,
 }
 
 

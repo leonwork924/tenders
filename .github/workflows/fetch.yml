@@ -26,6 +26,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch, score, export
+        env:
+          SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
         run: python run.py fetch
 
       - name: Commit updated data
