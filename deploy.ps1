@@ -1,16 +1,10 @@
 # deploy.ps1
 #
-# À placer une fois pour toutes dans le dossier du repo
-# (C:\Users\deryckel-l\Documents\tender-radar\project) et à relancer à chaque
-# fois qu'il faut appliquer un zip et pousser. Élimine le besoin d'extraire
-# dans un dossier temporaire puis de copier à la main -- c'était ça la source
-# de toutes les erreurs (copie faite depuis le mauvais dossier).
+# Peut être lancé de N'IMPORTE OU (il se place lui-même dans le bon dossier).
 #
 # Usage :
-#   .\deploy.ps1 -Zip "C:\Users\deryckel-l\Downloads\quelquechose.zip" -Message "mon message de commit"
-#
-# Sans -Zip, le script se contente de commit+push ce qui est déjà présent
-# dans le dossier (utile si t'as édité des fichiers à la main).
+#   C:\Users\deryckel-l\Documents\tender-radar\project\deploy.ps1 -Zip "C:\Users\deryckel-l\Downloads\xxx.zip" -Message "mon message"
+#   C:\Users\deryckel-l\Documents\tender-radar\project\deploy.ps1 -Message "mon message"   (sans zip, commit ce qui est déjà là)
 
 param(
     [string]$Zip,
@@ -19,14 +13,18 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-# --- 0. Vérifie qu'on est bien dans un repo git ---
+# --- 0. Se place TOUJOURS dans le bon dossier, peu importe d'où on lance le script ---
+$RepoPath = "C:\Users\deryckel-l\Documents\tender-radar\project"
+Set-Location $RepoPath
+Write-Host "== Dossier actif : $(Get-Location) ==" -ForegroundColor DarkGray
+
 if (-not (Test-Path ".git")) {
-    Write-Error "Ce dossier n'est pas un repo git. Lance ce script depuis tender-radar\project."
+    Write-Error "$RepoPath n'est pas (ou plus) un repo git. Vérifie le chemin en haut du script."
     exit 1
 }
 
 # --- 1. Récupère l'état distant avant de toucher à quoi que ce soit ---
-Write-Host "== git fetch + rebase (récupère les commits des bots avant de commencer) ==" -ForegroundColor Cyan
+Write-Host "== git fetch + rebase ==" -ForegroundColor Cyan
 git fetch origin
 git rebase origin/main
 
@@ -36,8 +34,8 @@ if ($Zip) {
         Write-Error "Zip introuvable : $Zip"
         exit 1
     }
-    Write-Host "== Extraction directe de $Zip sur le repo ==" -ForegroundColor Cyan
-    Expand-Archive -Path $Zip -DestinationPath . -Force
+    Write-Host "== Extraction directe de $Zip sur $RepoPath ==" -ForegroundColor Cyan
+    Expand-Archive -Path $Zip -DestinationPath $RepoPath -Force
 }
 
 # --- 3. Montre ce qui va être commité ---
@@ -46,7 +44,7 @@ git status --short
 
 $changes = git status --porcelain
 if (-not $changes) {
-    Write-Host "Rien à commiter. Si tu attendais des changements, vérifie que le zip contient bien les bons fichiers." -ForegroundColor Yellow
+    Write-Host "Rien à commiter." -ForegroundColor Yellow
     exit 0
 }
 
@@ -63,11 +61,11 @@ for ($i = 1; $i -le $maxAttempts; $i++) {
         Write-Host "Poussé avec succès." -ForegroundColor Green
         exit 0
     }
-    Write-Host "Push rejeté -- un bot a probablement commité entre-temps. Rebase et nouvel essai." -ForegroundColor Yellow
+    Write-Host "Push rejeté -- rebase et nouvel essai." -ForegroundColor Yellow
     git fetch origin
     git rebase origin/main -X ours
     Start-Sleep -Seconds 3
 }
 
-Write-Error "Échec après $maxAttempts tentatives. Regarde le message d'erreur ci-dessus."
+Write-Error "Échec après $maxAttempts tentatives."
 exit 1
