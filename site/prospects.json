@@ -1,39 +1,19 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-14",
   "total_scanned": 41,
   "prospects": [
     {
-      "company": "South Africa",
-      "country": "",
-      "score": 30,
+      "company": "The First Group Hospitality (Dubai) + MIDROC Investment Group (Addis Ababa)",
+      "country": "Éthiopie",
+      "score": 29,
       "classification": "LOW",
-      "why_now": "South Africa has relevant trigger evidence: market entry.",
-      "triggers": [
-        "ACQUISITION",
-        "MARKET_ENTRY",
-        "MERGER"
-      ],
-      "sources": [
-        "https://www.euronews.com/my-europe/2025/11/25/europe-eyes-investments-in-africa-for-clean-energy-and-infrastructure",
-        "https://en.wikipedia.org/wiki/Delegation_of_the_European_Union_to_the_Republic_of_South_Africa",
-        "https://www.ecofinagency.com/news/2209-48887-china-bets-10-billion-on-south-africa-to-build-africa-s-next-tech-hub",
-        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/",
-        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/"
-      ]
-    },
-    {
-      "company": "China",
-      "country": "",
-      "score": 30,
-      "classification": "LOW",
-      "why_now": "China has relevant trigger evidence: market entry.",
+      "why_now": "The First Group Hospitality (Dubai) + MIDROC Investment Group (Addis Ababa) has relevant trigger evidence: new office.",
       "triggers": [
         "INTERNATIONAL_EXPANSION",
-        "MARKET_ENTRY"
+        "NEW_OFFICE"
       ],
       "sources": [
-        "https://www.ecofinagency.com/news/2209-48887-china-bets-10-billion-on-south-africa-to-build-africa-s-next-tech-hub",
-        "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
+        "https://www.hospitalitynet.org/news/4131734/the-first-group-hospitality-and-midroc-investment-group-sign-master-agreement-for-10-properties-in-ethiopia"
       ]
     },
     {
@@ -48,6 +28,24 @@
       "sources": [
         "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/",
         "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/"
+      ]
+    },
+    {
+      "company": "South Africa",
+      "country": "",
+      "score": 22,
+      "classification": "LOW",
+      "why_now": "South Africa has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION",
+        "MERGER"
+      ],
+      "sources": [
+        "https://www.euronews.com/my-europe/2025/11/25/europe-eyes-investments-in-africa-for-clean-energy-and-infrastructure",
+        "https://en.wikipedia.org/wiki/Delegation_of_the_European_Union_to_the_Republic_of_South_Africa",
+        "https://www.ecofinagency.com/news/2209-48887-china-bets-10-billion-on-south-africa-to-build-africa-s-next-tech-hub",
+        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/",
+        "https://insights.techcabal.com/84-ma-deals-worth-11-4-billion-in-disclosed-value-recorded-so-far-in-2026/"
       ]
     },
     {
@@ -99,6 +97,20 @@
         "INTERNATIONAL_EXPANSION"
       ],
       "sources": [
+        "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
+      ]
+    },
+    {
+      "company": "China",
+      "country": "",
+      "score": 20,
+      "classification": "LOW",
+      "why_now": "China has relevant trigger evidence: international expansion.",
+      "triggers": [
+        "INTERNATIONAL_EXPANSION"
+      ],
+      "sources": [
+        "https://www.ecofinagency.com/news/2209-48887-china-bets-10-billion-on-south-africa-to-build-africa-s-next-tech-hub",
         "https://www.riotimesonline.com/china-belt-road-investment-africa-record-2026/"
       ]
     },
@@ -181,19 +193,6 @@
       ]
     },
     {
-      "company": "The First Group Hospitality (Dubai) + MIDROC Investment Group (Addis Ababa)",
-      "country": "Éthiopie",
-      "score": 19,
-      "classification": "LOW",
-      "why_now": "The First Group Hospitality (Dubai) + MIDROC Investment Group (Addis Ababa) has relevant trigger evidence: new office.",
-      "triggers": [
-        "NEW_OFFICE"
-      ],
-      "sources": [
-        "https://www.hospitalitynet.org/news/4131734/the-first-group-hospitality-and-midroc-investment-group-sign-master-agreement-for-10-properties-in-ethiopia"
-      ]
-    },
-    {
       "company": "Deutsche Telekom (Germany)",
       "country": "Allemagne",
       "score": 16,
@@ -204,6 +203,71 @@
       ],
       "sources": [
         "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/"
+      ]
+    },
+    {
+      "company": "Kaya Hotels",
+      "country": "Espagne",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Kaya Hotels has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://www.hospitalitynet.org/news/4133881/hvs-europe-hotel-transactions-bulletin-week-ending-07-august-2026"
+      ]
+    },
+    {
+      "company": "Resorts (Turkey)",
+      "country": "Espagne",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Resorts (Turkey) has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://www.hospitalitynet.org/news/4133881/hvs-europe-hotel-transactions-bulletin-week-ending-07-august-2026"
+      ]
+    },
+    {
+      "company": "Actual Capital (Spain)",
+      "country": "Espagne",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Actual Capital (Spain) has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://www.hospitalitynet.org/news/4133881/hvs-europe-hotel-transactions-bulletin-week-ending-07-august-2026"
+      ]
+    },
+    {
+      "company": "First Sponsor Group (Singapore) + consortium",
+      "country": "Pays-Bas",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "First Sponsor Group (Singapore) + consortium has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://www.hospitalitynet.org/news/4133881/hvs-europe-hotel-transactions-bulletin-week-ending-07-august-2026"
+      ]
+    },
+    {
+      "company": "Invesco Real Estate European Hotel Fund",
+      "country": "Pays-Bas",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Invesco Real Estate European Hotel Fund has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://www.hospitalitynet.org/news/4133881/hvs-europe-hotel-transactions-bulletin-week-ending-07-august-2026"
       ]
     },
     {
@@ -251,6 +315,32 @@
       "score": 16,
       "classification": "LOW",
       "why_now": "Pan-African (from Capitalworks PE) has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://www.africaglobalfunds.com/news/private-equity/deals/"
+      ]
+    },
+    {
+      "company": "United States",
+      "country": "",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "United States has relevant trigger evidence: acquisition.",
+      "triggers": [
+        "ACQUISITION"
+      ],
+      "sources": [
+        "https://www.africaglobalfunds.com/news/private-equity/deals/"
+      ]
+    },
+    {
+      "company": "Africa (pan-African fintech)",
+      "country": "",
+      "score": 16,
+      "classification": "LOW",
+      "why_now": "Africa (pan-African fintech) has relevant trigger evidence: acquisition.",
       "triggers": [
         "ACQUISITION"
       ],
