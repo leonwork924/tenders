@@ -2,12 +2,12 @@
   "jurisdictions": [
     {
       "jurisdiction": "ad",
-      "count": 520,
+      "count": 521,
       "pages": 1
     },
     {
       "jurisdiction": "ae",
-      "count": 9362,
+      "count": 9386,
       "pages": 1
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "jurisdiction": "al",
-      "count": 88,
+      "count": 89,
       "pages": 1
     },
     {
@@ -52,12 +52,12 @@
     },
     {
       "jurisdiction": "at",
-      "count": 48973,
+      "count": 49004,
       "pages": 1
     },
     {
       "jurisdiction": "au",
-      "count": 52850,
+      "count": 52910,
       "pages": 2
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "jurisdiction": "be",
-      "count": 67995,
+      "count": 68055,
       "pages": 2
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "jurisdiction": "bg",
-      "count": 6122,
+      "count": 6129,
       "pages": 1
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "jurisdiction": "bm",
-      "count": 4007,
+      "count": 4008,
       "pages": 1
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "jurisdiction": "br",
-      "count": 4364,
+      "count": 4373,
       "pages": 1
     },
     {
@@ -177,7 +177,7 @@
     },
     {
       "jurisdiction": "ca",
-      "count": 58721,
+      "count": 58756,
       "pages": 2
     },
     {
@@ -197,7 +197,7 @@
     },
     {
       "jurisdiction": "ch",
-      "count": 28139,
+      "count": 28155,
       "pages": 1
     },
     {
@@ -222,12 +222,12 @@
     },
     {
       "jurisdiction": "cn",
-      "count": 107226,
+      "count": 107229,
       "pages": 3
     },
     {
       "jurisdiction": "co",
-      "count": 1130,
+      "count": 1131,
       "pages": 1
     },
     {
@@ -247,17 +247,17 @@
     },
     {
       "jurisdiction": "cy",
-      "count": 15135,
+      "count": 15156,
       "pages": 1
     },
     {
       "jurisdiction": "cz",
-      "count": 32682,
+      "count": 32711,
       "pages": 1
     },
     {
       "jurisdiction": "de",
-      "count": 255460,
+      "count": 255702,
       "pages": 6
     },
     {
@@ -267,7 +267,7 @@
     },
     {
       "jurisdiction": "dk",
-      "count": 114528,
+      "count": 114611,
       "pages": 3
     },
     {
@@ -292,7 +292,7 @@
     },
     {
       "jurisdiction": "ee",
-      "count": 29821,
+      "count": 29868,
       "pages": 1
     },
     {
@@ -307,7 +307,7 @@
     },
     {
       "jurisdiction": "es",
-      "count": 192937,
+      "count": 193104,
       "pages": 4
     },
     {
@@ -317,7 +317,7 @@
     },
     {
       "jurisdiction": "fi",
-      "count": 59770,
+      "count": 59823,
       "pages": 2
     },
     {
@@ -337,12 +337,12 @@
     },
     {
       "jurisdiction": "fo",
-      "count": 499,
+      "count": 500,
       "pages": 1
     },
     {
       "jurisdiction": "fr",
-      "count": 190197,
+      "count": 190502,
       "pages": 4
     },
     {
@@ -352,7 +352,7 @@
     },
     {
       "jurisdiction": "gb",
-      "count": 231491,
+      "count": 231650,
       "pages": 5
     },
     {
@@ -372,7 +372,7 @@
     },
     {
       "jurisdiction": "gg",
-      "count": 8769,
+      "count": 8774,
       "pages": 1
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "jurisdiction": "gp",
-      "count": 28,
+      "count": 29,
       "pages": 1
     },
     {
@@ -412,7 +412,7 @@
     },
     {
       "jurisdiction": "gr",
-      "count": 7672,
+      "count": 7689,
       "pages": 1
     },
     {
@@ -437,7 +437,7 @@
     },
     {
       "jurisdiction": "hk",
-      "count": 13285,
+      "count": 13308,
       "pages": 1
     },
     {
@@ -447,7 +447,7 @@
     },
     {
       "jurisdiction": "hr",
-      "count": 3112,
+      "count": 3113,
       "pages": 1
     },
     {
@@ -457,7 +457,7 @@
     },
     {
       "jurisdiction": "hu",
-      "count": 26062,
+      "count": 26078,
       "pages": 1
     },
     {
@@ -467,7 +467,7 @@
     },
     {
       "jurisdiction": "ie",
-      "count": 38040,
+      "count": 38093,
       "pages": 1
     },
     {
@@ -477,12 +477,12 @@
     },
     {
       "jurisdiction": "im",
-      "count": 4164,
+      "count": 4169,
       "pages": 1
     },
     {
       "jurisdiction": "in",
-      "count": 392869,
+      "count": 393997,
       "pages": 8
     },
     {
@@ -502,17 +502,17 @@
     },
     {
       "jurisdiction": "is",
-      "count": 5570,
+      "count": 5572,
       "pages": 1
     },
     {
       "jurisdiction": "it",
-      "count": 257981,
+      "count": 258334,
       "pages": 6
     },
     {
       "jurisdiction": "je",
-      "count": 13943,
+      "count": 13949,
       "pages": 1
     },
     {
@@ -522,12 +522,12 @@
     },
     {
       "jurisdiction": "jo",
-      "count": 177,
+      "count": 178,
       "pages": 1
     },
     {
       "jurisdiction": "jp",
-      "count": 19285,
+      "count": 19304,
       "pages": 1
     },
     {
@@ -557,12 +557,12 @@
     },
     {
       "jurisdiction": "kn",
-      "count": 1054,
+      "count": 1056,
       "pages": 1
     },
     {
       "jurisdiction": "kr",
-      "count": 2771,
+      "count": 2772,
       "pages": 1
     },
     {
@@ -572,12 +572,12 @@
     },
     {
       "jurisdiction": "ky",
-      "count": 47281,
+      "count": 47346,
       "pages": 1
     },
     {
       "jurisdiction": "kz",
-      "count": 340,
+      "count": 341,
       "pages": 1
     },
     {
@@ -597,12 +597,12 @@
     },
     {
       "jurisdiction": "li",
-      "count": 15472,
+      "count": 15479,
       "pages": 1
     },
     {
       "jurisdiction": "lk",
-      "count": 202,
+      "count": 203,
       "pages": 1
     },
     {
@@ -617,17 +617,17 @@
     },
     {
       "jurisdiction": "lt",
-      "count": 5211,
+      "count": 5222,
       "pages": 1
     },
     {
       "jurisdiction": "lu",
-      "count": 72637,
+      "count": 72704,
       "pages": 2
     },
     {
       "jurisdiction": "lv",
-      "count": 4253,
+      "count": 4261,
       "pages": 1
     },
     {
@@ -667,7 +667,7 @@
     },
     {
       "jurisdiction": "mh",
-      "count": 2978,
+      "count": 2980,
       "pages": 1
     },
     {
@@ -712,12 +712,12 @@
     },
     {
       "jurisdiction": "mt",
-      "count": 7040,
+      "count": 7049,
       "pages": 1
     },
     {
       "jurisdiction": "mu",
-      "count": 4633,
+      "count": 4637,
       "pages": 1
     },
     {
@@ -732,12 +732,12 @@
     },
     {
       "jurisdiction": "mx",
-      "count": 7523,
+      "count": 7545,
       "pages": 1
     },
     {
       "jurisdiction": "my",
-      "count": 2266,
+      "count": 2269,
       "pages": 1
     },
     {
@@ -762,7 +762,7 @@
     },
     {
       "jurisdiction": "ng",
-      "count": 988,
+      "count": 991,
       "pages": 1
     },
     {
@@ -772,12 +772,12 @@
     },
     {
       "jurisdiction": "nl",
-      "count": 196478,
+      "count": 196746,
       "pages": 4
     },
     {
       "jurisdiction": "no",
-      "count": 65340,
+      "count": 65400,
       "pages": 2
     },
     {
@@ -797,7 +797,7 @@
     },
     {
       "jurisdiction": "nz",
-      "count": 4056,
+      "count": 4058,
       "pages": 1
     },
     {
@@ -807,7 +807,7 @@
     },
     {
       "jurisdiction": "pa",
-      "count": 6302,
+      "count": 6303,
       "pages": 1
     },
     {
@@ -837,7 +837,7 @@
     },
     {
       "jurisdiction": "pl",
-      "count": 42903,
+      "count": 42977,
       "pages": 1
     },
     {
@@ -852,12 +852,12 @@
     },
     {
       "jurisdiction": "ps",
-      "count": 126,
+      "count": 128,
       "pages": 1
     },
     {
       "jurisdiction": "pt",
-      "count": 18446,
+      "count": 18465,
       "pages": 1
     },
     {
@@ -872,7 +872,7 @@
     },
     {
       "jurisdiction": "qa",
-      "count": 373,
+      "count": 374,
       "pages": 1
     },
     {
@@ -882,7 +882,7 @@
     },
     {
       "jurisdiction": "ro",
-      "count": 9014,
+      "count": 9025,
       "pages": 1
     },
     {
@@ -902,7 +902,7 @@
     },
     {
       "jurisdiction": "sa",
-      "count": 6005,
+      "count": 6023,
       "pages": 1
     },
     {
@@ -922,12 +922,12 @@
     },
     {
       "jurisdiction": "se",
-      "count": 119844,
+      "count": 119968,
       "pages": 3
     },
     {
       "jurisdiction": "sg",
-      "count": 14233,
+      "count": 14254,
       "pages": 1
     },
     {
@@ -937,12 +937,12 @@
     },
     {
       "jurisdiction": "si",
-      "count": 5085,
+      "count": 5089,
       "pages": 1
     },
     {
       "jurisdiction": "sk",
-      "count": 7611,
+      "count": 7617,
       "pages": 1
     },
     {
@@ -952,12 +952,12 @@
     },
     {
       "jurisdiction": "sm",
-      "count": 123,
+      "count": 124,
       "pages": 1
     },
     {
       "jurisdiction": "sn",
-      "count": 32,
+      "count": 33,
       "pages": 1
     },
     {
@@ -1022,7 +1022,7 @@
     },
     {
       "jurisdiction": "th",
-      "count": 2403,
+      "count": 2404,
       "pages": 1
     },
     {
@@ -1052,7 +1052,7 @@
     },
     {
       "jurisdiction": "tr",
-      "count": 10981,
+      "count": 11004,
       "pages": 1
     },
     {
@@ -1062,7 +1062,7 @@
     },
     {
       "jurisdiction": "tw",
-      "count": 1770,
+      "count": 1771,
       "pages": 1
     },
     {
@@ -1087,7 +1087,7 @@
     },
     {
       "jurisdiction": "us",
-      "count": 360189,
+      "count": 360512,
       "pages": 8
     },
     {
@@ -1117,7 +1117,7 @@
     },
     {
       "jurisdiction": "vg",
-      "count": 34796,
+      "count": 34830,
       "pages": 1
     },
     {
@@ -1127,7 +1127,7 @@
     },
     {
       "jurisdiction": "vn",
-      "count": 371,
+      "count": 372,
       "pages": 1
     },
     {
@@ -1142,7 +1142,7 @@
     },
     {
       "jurisdiction": "ws",
-      "count": 897,
+      "count": 898,
       "pages": 1
     },
     {
@@ -1162,7 +1162,7 @@
     },
     {
       "jurisdiction": "za",
-      "count": 3445,
+      "count": 3453,
       "pages": 1
     },
     {

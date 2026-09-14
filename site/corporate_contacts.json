@@ -1,7 +1,1142 @@
 {
-  "generated": "2026-09-08",
-  "total_companies": 0,
-  "by_jurisdiction": [],
-  "by_source": [],
-  "sample": []
+  "generated": "2026-09-14",
+  "total_companies": 3429499,
+  "by_jurisdiction": [
+    {
+      "jurisdiction": "in",
+      "count": 393997
+    },
+    {
+      "jurisdiction": "us",
+      "count": 360512
+    },
+    {
+      "jurisdiction": "it",
+      "count": 258334
+    },
+    {
+      "jurisdiction": "de",
+      "count": 255702
+    },
+    {
+      "jurisdiction": "gb",
+      "count": 231650
+    },
+    {
+      "jurisdiction": "nl",
+      "count": 196746
+    },
+    {
+      "jurisdiction": "es",
+      "count": 193104
+    },
+    {
+      "jurisdiction": "fr",
+      "count": 190502
+    },
+    {
+      "jurisdiction": "se",
+      "count": 119968
+    },
+    {
+      "jurisdiction": "dk",
+      "count": 114611
+    },
+    {
+      "jurisdiction": "cn",
+      "count": 107229
+    },
+    {
+      "jurisdiction": "lu",
+      "count": 72704
+    },
+    {
+      "jurisdiction": "be",
+      "count": 68055
+    },
+    {
+      "jurisdiction": "no",
+      "count": 65400
+    },
+    {
+      "jurisdiction": "fi",
+      "count": 59823
+    },
+    {
+      "jurisdiction": "ca",
+      "count": 58756
+    },
+    {
+      "jurisdiction": "au",
+      "count": 52910
+    },
+    {
+      "jurisdiction": "at",
+      "count": 49004
+    },
+    {
+      "jurisdiction": "ky",
+      "count": 47346
+    },
+    {
+      "jurisdiction": "pl",
+      "count": 42977
+    },
+    {
+      "jurisdiction": "ie",
+      "count": 38093
+    },
+    {
+      "jurisdiction": "vg",
+      "count": 34830
+    },
+    {
+      "jurisdiction": "cz",
+      "count": 32711
+    },
+    {
+      "jurisdiction": "ee",
+      "count": 29868
+    },
+    {
+      "jurisdiction": "ch",
+      "count": 28155
+    },
+    {
+      "jurisdiction": "hu",
+      "count": 26078
+    },
+    {
+      "jurisdiction": "jp",
+      "count": 19304
+    },
+    {
+      "jurisdiction": "pt",
+      "count": 18465
+    },
+    {
+      "jurisdiction": "li",
+      "count": 15479
+    },
+    {
+      "jurisdiction": "cy",
+      "count": 15156
+    },
+    {
+      "jurisdiction": "sg",
+      "count": 14254
+    },
+    {
+      "jurisdiction": "je",
+      "count": 13949
+    },
+    {
+      "jurisdiction": "hk",
+      "count": 13308
+    },
+    {
+      "jurisdiction": "tr",
+      "count": 11004
+    },
+    {
+      "jurisdiction": "ae",
+      "count": 9386
+    },
+    {
+      "jurisdiction": "ro",
+      "count": 9025
+    },
+    {
+      "jurisdiction": "gg",
+      "count": 8774
+    },
+    {
+      "jurisdiction": "gr",
+      "count": 7689
+    },
+    {
+      "jurisdiction": "sk",
+      "count": 7617
+    },
+    {
+      "jurisdiction": "mx",
+      "count": 7545
+    },
+    {
+      "jurisdiction": "mt",
+      "count": 7049
+    },
+    {
+      "jurisdiction": "pa",
+      "count": 6303
+    },
+    {
+      "jurisdiction": "bg",
+      "count": 6129
+    },
+    {
+      "jurisdiction": "sa",
+      "count": 6023
+    },
+    {
+      "jurisdiction": "is",
+      "count": 5572
+    },
+    {
+      "jurisdiction": "bs",
+      "count": 5350
+    },
+    {
+      "jurisdiction": "lt",
+      "count": 5222
+    },
+    {
+      "jurisdiction": "si",
+      "count": 5089
+    },
+    {
+      "jurisdiction": "mu",
+      "count": 4637
+    },
+    {
+      "jurisdiction": "br",
+      "count": 4373
+    },
+    {
+      "jurisdiction": "lv",
+      "count": 4261
+    },
+    {
+      "jurisdiction": "im",
+      "count": 4169
+    },
+    {
+      "jurisdiction": "nz",
+      "count": 4058
+    },
+    {
+      "jurisdiction": "bm",
+      "count": 4008
+    },
+    {
+      "jurisdiction": "za",
+      "count": 3453
+    },
+    {
+      "jurisdiction": "hr",
+      "count": 3113
+    },
+    {
+      "jurisdiction": "mh",
+      "count": 2980
+    },
+    {
+      "jurisdiction": "kr",
+      "count": 2772
+    },
+    {
+      "jurisdiction": "gi",
+      "count": 2506
+    },
+    {
+      "jurisdiction": "il",
+      "count": 2458
+    },
+    {
+      "jurisdiction": "th",
+      "count": 2404
+    },
+    {
+      "jurisdiction": "my",
+      "count": 2269
+    },
+    {
+      "jurisdiction": "sc",
+      "count": 2072
+    },
+    {
+      "jurisdiction": "ru",
+      "count": 1880
+    },
+    {
+      "jurisdiction": "tw",
+      "count": 1771
+    },
+    {
+      "jurisdiction": "cl",
+      "count": 1697
+    },
+    {
+      "jurisdiction": "id",
+      "count": 1569
+    },
+    {
+      "jurisdiction": "bz",
+      "count": 1530
+    },
+    {
+      "jurisdiction": "co",
+      "count": 1131
+    },
+    {
+      "jurisdiction": "kn",
+      "count": 1056
+    },
+    {
+      "jurisdiction": "lr",
+      "count": 1035
+    },
+    {
+      "jurisdiction": "cw",
+      "count": 1017
+    },
+    {
+      "jurisdiction": "ng",
+      "count": 991
+    },
+    {
+      "jurisdiction": "mc",
+      "count": 969
+    },
+    {
+      "jurisdiction": "ar",
+      "count": 964
+    },
+    {
+      "jurisdiction": "ws",
+      "count": 898
+    },
+    {
+      "jurisdiction": "vc",
+      "count": 810
+    },
+    {
+      "jurisdiction": "ph",
+      "count": 748
+    },
+    {
+      "jurisdiction": "uy",
+      "count": 680
+    },
+    {
+      "jurisdiction": "pe",
+      "count": 650
+    },
+    {
+      "jurisdiction": "ad",
+      "count": 521
+    },
+    {
+      "jurisdiction": "pr",
+      "count": 511
+    },
+    {
+      "jurisdiction": "fo",
+      "count": 500
+    },
+    {
+      "jurisdiction": "ai",
+      "count": 382
+    },
+    {
+      "jurisdiction": "qa",
+      "count": 374
+    },
+    {
+      "jurisdiction": "vn",
+      "count": 372
+    },
+    {
+      "jurisdiction": "ck",
+      "count": 347
+    },
+    {
+      "jurisdiction": "kz",
+      "count": 341
+    },
+    {
+      "jurisdiction": "bb",
+      "count": 336
+    },
+    {
+      "jurisdiction": "eg",
+      "count": 336
+    },
+    {
+      "jurisdiction": "bh",
+      "count": 314
+    },
+    {
+      "jurisdiction": "ke",
+      "count": 306
+    },
+    {
+      "jurisdiction": "rs",
+      "count": 305
+    },
+    {
+      "jurisdiction": "ua",
+      "count": 303
+    },
+    {
+      "jurisdiction": "tc",
+      "count": 299
+    },
+    {
+      "jurisdiction": "cr",
+      "count": 286
+    },
+    {
+      "jurisdiction": "lb",
+      "count": 285
+    },
+    {
+      "jurisdiction": "om",
+      "count": 263
+    },
+    {
+      "jurisdiction": "py",
+      "count": 240
+    },
+    {
+      "jurisdiction": "bd",
+      "count": 227
+    },
+    {
+      "jurisdiction": "kw",
+      "count": 222
+    },
+    {
+      "jurisdiction": "do",
+      "count": 221
+    },
+    {
+      "jurisdiction": "lc",
+      "count": 212
+    },
+    {
+      "jurisdiction": "ma",
+      "count": 211
+    },
+    {
+      "jurisdiction": "lk",
+      "count": 203
+    },
+    {
+      "jurisdiction": "ve",
+      "count": 185
+    },
+    {
+      "jurisdiction": "jo",
+      "count": 178
+    },
+    {
+      "jurisdiction": "gt",
+      "count": 176
+    },
+    {
+      "jurisdiction": "mk",
+      "count": 168
+    },
+    {
+      "jurisdiction": "vu",
+      "count": 164
+    },
+    {
+      "jurisdiction": "ge",
+      "count": 162
+    },
+    {
+      "jurisdiction": "tn",
+      "count": 154
+    },
+    {
+      "jurisdiction": "pk",
+      "count": 152
+    },
+    {
+      "jurisdiction": "ba",
+      "count": 141
+    },
+    {
+      "jurisdiction": "gh",
+      "count": 139
+    },
+    {
+      "jurisdiction": "ec",
+      "count": 137
+    },
+    {
+      "jurisdiction": "nc",
+      "count": 131
+    },
+    {
+      "jurisdiction": "ps",
+      "count": 128
+    },
+    {
+      "jurisdiction": "dm",
+      "count": 127
+    },
+    {
+      "jurisdiction": "sm",
+      "count": 124
+    },
+    {
+      "jurisdiction": "mo",
+      "count": 115
+    },
+    {
+      "jurisdiction": "sv",
+      "count": 113
+    },
+    {
+      "jurisdiction": "ag",
+      "count": 110
+    },
+    {
+      "jurisdiction": "na",
+      "count": 108
+    },
+    {
+      "jurisdiction": "gl",
+      "count": 105
+    },
+    {
+      "jurisdiction": "km",
+      "count": 98
+    },
+    {
+      "jurisdiction": "pf",
+      "count": 95
+    },
+    {
+      "jurisdiction": "tt",
+      "count": 95
+    },
+    {
+      "jurisdiction": "ug",
+      "count": 93
+    },
+    {
+      "jurisdiction": "al",
+      "count": 89
+    },
+    {
+      "jurisdiction": "zw",
+      "count": 88
+    },
+    {
+      "jurisdiction": "hn",
+      "count": 86
+    },
+    {
+      "jurisdiction": "kg",
+      "count": 86
+    },
+    {
+      "jurisdiction": "ao",
+      "count": 83
+    },
+    {
+      "jurisdiction": "tz",
+      "count": 83
+    },
+    {
+      "jurisdiction": "am",
+      "count": 80
+    },
+    {
+      "jurisdiction": "me",
+      "count": 79
+    },
+    {
+      "jurisdiction": "uz",
+      "count": 79
+    },
+    {
+      "jurisdiction": "az",
+      "count": 77
+    },
+    {
+      "jurisdiction": "bw",
+      "count": 76
+    },
+    {
+      "jurisdiction": "vi",
+      "count": 68
+    },
+    {
+      "jurisdiction": "zm",
+      "count": 67
+    },
+    {
+      "jurisdiction": "mn",
+      "count": 57
+    },
+    {
+      "jurisdiction": "jm",
+      "count": 56
+    },
+    {
+      "jurisdiction": "aw",
+      "count": 55
+    },
+    {
+      "jurisdiction": "iq",
+      "count": 55
+    },
+    {
+      "jurisdiction": "md",
+      "count": 55
+    },
+    {
+      "jurisdiction": "by",
+      "count": 54
+    },
+    {
+      "jurisdiction": "bo",
+      "count": 53
+    },
+    {
+      "jurisdiction": "ci",
+      "count": 51
+    },
+    {
+      "jurisdiction": "xk",
+      "count": 47
+    },
+    {
+      "jurisdiction": "mv",
+      "count": 43
+    },
+    {
+      "jurisdiction": "bn",
+      "count": 42
+    },
+    {
+      "jurisdiction": "fj",
+      "count": 42
+    },
+    {
+      "jurisdiction": "np",
+      "count": 42
+    },
+    {
+      "jurisdiction": "kh",
+      "count": 37
+    },
+    {
+      "jurisdiction": "cd",
+      "count": 36
+    },
+    {
+      "jurisdiction": "ni",
+      "count": 34
+    },
+    {
+      "jurisdiction": "sn",
+      "count": 33
+    },
+    {
+      "jurisdiction": "mz",
+      "count": 32
+    },
+    {
+      "jurisdiction": "gu",
+      "count": 30
+    },
+    {
+      "jurisdiction": "gp",
+      "count": 29
+    },
+    {
+      "jurisdiction": "rw",
+      "count": 28
+    },
+    {
+      "jurisdiction": "ye",
+      "count": 26
+    },
+    {
+      "jurisdiction": "bq",
+      "count": 24
+    },
+    {
+      "jurisdiction": "re",
+      "count": 24
+    },
+    {
+      "jurisdiction": "sr",
+      "count": 24
+    },
+    {
+      "jurisdiction": "sx",
+      "count": 24
+    },
+    {
+      "jurisdiction": "dz",
+      "count": 23
+    },
+    {
+      "jurisdiction": "la",
+      "count": 23
+    },
+    {
+      "jurisdiction": "cm",
+      "count": 22
+    },
+    {
+      "jurisdiction": "mr",
+      "count": 19
+    },
+    {
+      "jurisdiction": "pg",
+      "count": 19
+    },
+    {
+      "jurisdiction": "mq",
+      "count": 18
+    },
+    {
+      "jurisdiction": "tg",
+      "count": 18
+    },
+    {
+      "jurisdiction": "bf",
+      "count": 17
+    },
+    {
+      "jurisdiction": "ml",
+      "count": 17
+    },
+    {
+      "jurisdiction": "cv",
+      "count": 16
+    },
+    {
+      "jurisdiction": "et",
+      "count": 16
+    },
+    {
+      "jurisdiction": "fk",
+      "count": 16
+    },
+    {
+      "jurisdiction": "ga",
+      "count": 16
+    },
+    {
+      "jurisdiction": "gy",
+      "count": 16
+    },
+    {
+      "jurisdiction": "ly",
+      "count": 16
+    },
+    {
+      "jurisdiction": "mg",
+      "count": 16
+    },
+    {
+      "jurisdiction": "dj",
+      "count": 15
+    },
+    {
+      "jurisdiction": "bt",
+      "count": 14
+    },
+    {
+      "jurisdiction": "gd",
+      "count": 14
+    },
+    {
+      "jurisdiction": "sd",
+      "count": 14
+    },
+    {
+      "jurisdiction": "ax",
+      "count": 13
+    },
+    {
+      "jurisdiction": "gq",
+      "count": 12
+    },
+    {
+      "jurisdiction": "mw",
+      "count": 12
+    },
+    {
+      "jurisdiction": "sl",
+      "count": 12
+    },
+    {
+      "jurisdiction": "tj",
+      "count": 12
+    },
+    {
+      "jurisdiction": "af",
+      "count": 11
+    },
+    {
+      "jurisdiction": "bl",
+      "count": 11
+    },
+    {
+      "jurisdiction": "st",
+      "count": 11
+    },
+    {
+      "jurisdiction": "cg",
+      "count": 10
+    },
+    {
+      "jurisdiction": "fm",
+      "count": 10
+    },
+    {
+      "jurisdiction": "gn",
+      "count": 9
+    },
+    {
+      "jurisdiction": "va",
+      "count": 9
+    }
+  ],
+  "by_source": [
+    {
+      "source": "GLEIF Golden Copy",
+      "count": 3429499
+    }
+  ],
+  "sample": [
+    {
+      "legal_name": "AVALON TELECOM SIA",
+      "jurisdiction": "lv",
+      "lei": "259400R3VF8609DMZ271",
+      "hq_city": "Pinki, Babites pag.",
+      "hq_country": "LV",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "LOWE GRAHAM JONES PLLC",
+      "jurisdiction": "us",
+      "lei": "549300P36RUX2J1P6X98",
+      "hq_city": "SEATTLE",
+      "hq_country": "US",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "CTFinance s.r.o.",
+      "jurisdiction": "cz",
+      "lei": "315700BJ6TM0FYNWFY83",
+      "hq_city": "Humpolec",
+      "hq_country": "CZ",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "PROTECBA SL",
+      "jurisdiction": "es",
+      "lei": "95980060XLAXVHFJ8318",
+      "hq_city": "Marratxí",
+      "hq_country": "ES",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "SHREENATHJI DIAMOND",
+      "jurisdiction": "in",
+      "lei": "335800PTAHEO22KRER04",
+      "hq_city": "SURAT",
+      "hq_country": "IN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "SARAH BALDOCK RE: ELIJAH",
+      "jurisdiction": "gb",
+      "lei": "21380093KTD1KJ1V6617",
+      "hq_city": "BURTON ON TRENT",
+      "hq_country": "GB",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "DIOCESI DI VIGEVANO",
+      "jurisdiction": "it",
+      "lei": "8156003576FC5E280D19",
+      "hq_city": "VIGEVANO",
+      "hq_country": "IT",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "E. AND L. UDOLF LLC",
+      "jurisdiction": "us",
+      "lei": "9845001G168405F16K08",
+      "hq_city": "WEST HARTFORD",
+      "hq_country": "US",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "VISEUIN - ENGENHARIA E SERVIÇOS TÉCNICOS LDA",
+      "jurisdiction": "pt",
+      "lei": "549300C1T6PTR1ZFRV48",
+      "hq_city": "VISEU",
+      "hq_country": "PT",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Marma Invest AB",
+      "jurisdiction": "se",
+      "lei": "9845000FEA3CQ8C88173",
+      "hq_city": "ALUNDA",
+      "hq_country": "SE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Golden Square Investments Limited",
+      "jurisdiction": "gg",
+      "lei": "254900WHIHC9HAHHS279",
+      "hq_city": "St Peter Port",
+      "hq_country": "GG",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Royal Liikenneasema Oy",
+      "jurisdiction": "fi",
+      "lei": "7437008Q4B4AAYLUXY43",
+      "hq_city": "HARTOLA",
+      "hq_country": "FI",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Braun Hanse Holding GmbH",
+      "jurisdiction": "de",
+      "lei": "529900BRRK3LOZ6WA940",
+      "hq_city": "Greifswald",
+      "hq_country": "DE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Sun Life Canada Securities Inc.",
+      "jurisdiction": "ca",
+      "lei": "894500M4NQQ0WFSBYK93",
+      "hq_city": "Toronto",
+      "hq_country": "CA",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "BAHADUR COLD STORAGE PRIVATE LIMITED",
+      "jurisdiction": "in",
+      "lei": "6488U6498EC06K3KQT90",
+      "hq_city": "Jalpaiguri",
+      "hq_country": "IN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "CIG PATRIMOINE 4",
+      "jurisdiction": "fr",
+      "lei": "8945004FTKB4NY1SOO58",
+      "hq_city": "PARIS",
+      "hq_country": "FR",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "S2S DOMAIN OXFORD ASSOCIATES, LLC",
+      "jurisdiction": "us",
+      "lei": "549300ZZJI4HSJXRYI40",
+      "hq_city": "WILMINGTON",
+      "hq_country": "US",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "PERFETO CONSULTING",
+      "jurisdiction": "bg",
+      "lei": "894500G8BDZRTZ8Y2931",
+      "hq_city": "Sofia",
+      "hq_country": "BG",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "汕头市鮀浦农村信用合作社",
+      "jurisdiction": "cn",
+      "lei": "30030031IKNFX3X9Z756",
+      "hq_city": "汕头市",
+      "hq_country": "CN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "EVR HOLDINGS PLC",
+      "jurisdiction": "gb",
+      "lei": "213800B2AKGQC3D2R751",
+      "hq_city": "LONDON",
+      "hq_country": "GB",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Hanson Properties Development Limited",
+      "jurisdiction": "vg",
+      "lei": "549300450D6PK1K1Z371",
+      "hq_city": "Road Town, Tortola",
+      "hq_country": "VG",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Gijtgip Holding B.V.",
+      "jurisdiction": "nl",
+      "lei": "724500IP62LUVIFASS58",
+      "hq_city": "Deventer",
+      "hq_country": "NL",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "JN-Konsultointi OY",
+      "jurisdiction": "fi",
+      "lei": "7437006ZPYV8J6XV3T47",
+      "hq_city": "VALKEAKOSKI",
+      "hq_country": "FI",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Omni Existence AB",
+      "jurisdiction": "se",
+      "lei": "9845006AF5TDXE376264",
+      "hq_city": "MALMÖ",
+      "hq_country": "SE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Stiftung der Stadtsparkasse Lengerich zur Förderung kultureller Zwecke im Gebiet der Stadt Lengerich - Sparkassenstiftung -",
+      "jurisdiction": "de",
+      "lei": "529900F41RC3BX5VUF46",
+      "hq_city": "Lengerich",
+      "hq_country": "DE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "LUCCHETTI PROFESSIONAL S.R.L.",
+      "jurisdiction": "it",
+      "lei": "8156005BF6E97F944806",
+      "hq_city": "CHATILLON",
+      "hq_country": "IT",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "太原市杏花岭区相聚芙蓉餐饮有限公司",
+      "jurisdiction": "cn",
+      "lei": "8368004IVVJ74QH95T38",
+      "hq_city": "太原市",
+      "hq_country": "CN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "CompuMess Elektronik GmbH",
+      "jurisdiction": "de",
+      "lei": "5299001P7GMIJ90MUT42",
+      "hq_city": "Unterschleißheim",
+      "hq_country": "DE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "M & N S.R.L.",
+      "jurisdiction": "it",
+      "lei": "815600DF5AE1169DB239",
+      "hq_city": "SARZANA",
+      "hq_country": "IT",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "AON BESPOKE FUND D06",
+      "jurisdiction": "ie",
+      "lei": "213800MP9B6QRH3JID80",
+      "hq_city": "DUBLIN",
+      "hq_country": "IE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "EHSAN DANI",
+      "jurisdiction": "in",
+      "lei": "64882J1AB4200CFNF380",
+      "hq_city": "Mahasamund",
+      "hq_country": "IN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "BHAWANI STORES",
+      "jurisdiction": "in",
+      "lei": "894500EIQOV88JR2X787",
+      "hq_city": "KATIHAR",
+      "hq_country": "IN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Anacor Pharmaceuticals, Inc.",
+      "jurisdiction": "us",
+      "lei": "5493005R5TB1X0002W47",
+      "hq_city": "Wilmington",
+      "hq_country": "US",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "SHUBHAM MINCHEM PRIVATE LIMITED",
+      "jurisdiction": "in",
+      "lei": "894500OP11O465A1YT06",
+      "hq_city": "BHILWARA",
+      "hq_country": "IN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "舒兰浩业生物质成型燃料科技开发有限公司",
+      "jurisdiction": "cn",
+      "lei": "836800QGS59INQ5BI022",
+      "hq_city": "吉林市",
+      "hq_country": "CN",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "VLH Verwaltung UG (haftungsbeschränkt)",
+      "jurisdiction": "de",
+      "lei": "391200TZETSKWY6QBO12",
+      "hq_city": "Budenheim",
+      "hq_country": "DE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "WWC LXXVIII, LP",
+      "jurisdiction": "us",
+      "lei": "5493007ZSRV4BXIEUO22",
+      "hq_city": "Wilmington",
+      "hq_country": "US",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "THE KADUNA TRUST",
+      "jurisdiction": "je",
+      "lei": "2138008RWZN6G22P1Y95",
+      "hq_city": "ST PETER PORT",
+      "hq_country": "JE",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Palmovka Offices, s.r.o.",
+      "jurisdiction": "cz",
+      "lei": "315700MGM0PLDPWQYZ66",
+      "hq_city": "Prague",
+      "hq_country": "CZ",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    },
+    {
+      "legal_name": "Highcroft Ventures Limited",
+      "jurisdiction": "mt",
+      "lei": "254900EKBQZ9AZ773F38",
+      "hq_city": "Valletta",
+      "hq_country": "MT",
+      "source_url": "https://www.gleif.org/en/lei-data/gleif-golden-copy"
+    }
+  ],
+  "last_run": {
+    "started_at": "2026-09-14T04:45:25.286750+00:00",
+    "finished_at": "2026-09-14T05:15:25.277611+00:00",
+    "records_seen": 3429499,
+    "records_imported": 499,
+    "status": "complete"
+  },
+  "total_runs": 1
 }
