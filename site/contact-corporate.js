@@ -10,7 +10,9 @@ document.querySelectorAll('#contact-subtabs a[data-tab]').forEach(a => {
     const tab = a.dataset.tab;
     document.getElementById('tab-diplo').style.display = tab === 'diplo' ? '' : 'none';
     document.getElementById('tab-corporate').style.display = tab === 'corporate' ? '' : 'none';
+    document.getElementById('tab-france').style.display = tab === 'france' ? '' : 'none';
     if (tab === 'corporate') loadCorporate();
+    if (tab === 'france') loadFrance();
   });
 });
 

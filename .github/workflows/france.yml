@@ -1,0 +1,65 @@
+name: france (nominations JORF)
+
+# Scrape les nominations d'ambassadeurs français (JORFSearch) et génère une
+# lettre de félicitations personnalisée par nomination. Voir
+# france/src/jorf_ambassadors.py pour le détail de la source et des limites
+# connues (notamment : jamais testé contre le vrai site depuis l'environnement
+# où ce workflow a été écrit -- voir l'avertissement en tête de ce fichier).
+
+on:
+  schedule:
+    # Les nominations passent en Conseil des ministres, généralement le
+    # mercredi -- vérifie le mercredi soir et une fois en milieu de semaine
+    # suivante pour ne rien manquer si le Conseil est décalé.
+    - cron: "0 18 * * 3"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r france/requirements.txt
+
+      - name: Vérifie le parseur contre la fixture réelle avant de lancer sur le vrai site
+        run: python france/src/jorf_ambassadors.py --self-test
+
+      - name: Scrape JORFSearch
+        run: python jorf_ambassadors.py --out ../data/ambassadeurs.json
+        working-directory: france/src
+
+      - name: Génère les lettres personnalisées
+        run: python letter_generator.py --nominations ../data/ambassadeurs.json --regions ../../site/regions.json --out ../../site/france_ambassadeurs.json
+        working-directory: france/src
+
+      - name: Commit et push
+        run: |
+          git config user.name "tender-radar-bot"
+          git config user.email "tender-radar-bot@users.noreply.github.com"
+          git add france/data/ambassadeurs.json site/france_ambassadeurs.json
+          if git diff --staged --quiet; then
+            echo "Rien de nouveau."
+            exit 0
+          fi
+          git commit -m "France: nominations JORF mises à jour"
+
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushé (tentative $attempt)."
+              exit 0
+            fi
+            git fetch origin main
+            git rebase origin/main -X ours
+            sleep 5
+          done
+          echo "Échec après 5 tentatives."
+          exit 1
