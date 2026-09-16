@@ -24,7 +24,8 @@ function diplomatLine(d) {
   const since = d.start_date ? ` <span style="color:var(--ink-soft)">(depuis ${esc(d.start_date)})</span>` : '';
   const email = d.email ? ` · <a href="mailto:${esc(d.email)}">${esc(d.email)}</a>` : '';
   const phone = d.phone ? ` · ${esc(d.phone)}` : '';
-  return `<div style="margin-bottom:4px">${sourceBadge(d.data_source)} ${roleBadge(d.role)} <b>${esc(d.name)}</b>${d.title ? ' — ' + esc(d.title) : ''}${since}${email}${phone}</div>`;
+  const represents = d.represented_country ? ` <span class="nl-status pipeline" title="Pays représenté, déduit du titre">${esc(d.represented_country)}</span>` : '';
+  return `<div style="margin-bottom:4px">${sourceBadge(d.data_source)} ${roleBadge(d.role)}${represents} <b>${esc(d.name)}</b>${d.title ? ' — ' + esc(d.title) : ''}${since}${email}${phone}</div>`;
 }
 
 function delegateLine(d) {
@@ -100,7 +101,7 @@ function render(query) {
   let shownCountries = 0, totalDiplomats = 0;
 
   ALL_COUNTRIES.forEach(c => {
-    const names = (c.diplomats || []).map(d => `${d.name} ${d.title || ''} ${d.email || ''}`).join(' ');
+    const names = (c.diplomats || []).map(d => `${d.name} ${d.title || ''} ${d.email || ''} ${d.represented_country || ''}`).join(' ');
     const text = (c.country + ' ' + names).toLowerCase();
     if (query && !text.includes(query)) return;
     (byRegion[c.region] = byRegion[c.region] || []).push(c);

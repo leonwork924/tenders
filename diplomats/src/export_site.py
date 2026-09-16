@@ -38,7 +38,10 @@ METHODOLOGY = (
     "source est ignorée et seul le lien officiel reste affiché. L'extraction est une "
     "heuristique — elle échoue sur les listes publiées en image scannée, chargées en "
     "JavaScript, ou rédigées dans un alphabet non-latin ; dans ces cas, seul le lien "
-    "officiel est affiché pour consultation manuelle."
+    "officiel est affiché pour consultation manuelle. Le pays représenté (affiché en "
+    "badge à côté du nom) est déduit du titre repéré — absent quand le titre lui-même "
+    "n'a pas pu être extrait. La date de prise de fonction, quand affichée, vient du "
+    "même repérage heuristique et doit être traitée comme approximative."
 )
 
 SEARCH_TERMS = [
@@ -59,6 +62,11 @@ def diplomat_view(entry: dict) -> dict:
         "name": entry.get("name"),
         "title": entry.get("title"),
         "role": entry.get("role", "ambassador"),
+        # Pays représenté (déduit du titre, ex. "Ambassadeur de France" ->
+        # "France") -- distinct du pays du site consulté, qui est déjà la
+        # clé de regroupement dans regions[*][*].country. None si le titre
+        # n'a pas permis de le déterminer.
+        "represented_country": entry.get("represented_country"),
         "start_date": entry.get("start_date"),
         "end_date": entry.get("end_date"),
         "data_source": entry.get("data_source"),
