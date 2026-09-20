@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16",
+  "generated": "2026-09-20",
   "regions": {
     "Europe": [
       {
@@ -9494,30 +9494,6 @@
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://www.osce.org/node/108218",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Johann Wadephul",
-            "title": "ministerin von Ungarn, und Dr.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.auswaertiges-amt.de/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Anita Orbán",
-            "title": "Gemeinsame Erklärung von Dr.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.auswaertiges-amt.de/",
             "email": null,
             "phone": null
           }
@@ -25964,7 +25940,20 @@
       {
         "country": "Cameroon",
         "url": "https://www.diplocam.cm/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Félix MBAYU",
+            "title": "Le 18 septembre 2026, S.E.",
+            "role": "other",
+            "represented_country": "Cameroon",
+            "start_date": "2026-09-18",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplocam.cm/",
+            "email": null,
+            "phone": null
+          }
+        ]
       },
       {
         "country": "Cabo Verde",
@@ -25989,7 +25978,20 @@
       {
         "country": "Congo (Republic)",
         "url": "https://www.diplomatie.gouv.cg/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Constant-Serge BOUNDA",
+            "title": "S.E.M.",
+            "role": "ambassador",
+            "represented_country": "Congo",
+            "start_date": "2026-09-15",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplomatie.gouv.cg/",
+            "email": null,
+            "phone": null
+          }
+        ]
       },
       {
         "country": "DR Congo",
@@ -26019,92 +26021,7 @@
       {
         "country": "Eswatini",
         "url": "https://www.gov.sz/",
-        "diplomats": [
-          {
-            "name": "The Prime Minister's Office",
-            "title": "Administration and Principal Secretary",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.gov.sz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "The Prime Minister's Office",
-            "title": "Administration and Principal Secretary",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.gov.sz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Minister's Office",
-            "title": "Administration and Principal Secretary",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.gov.sz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Minister's Office",
-            "title": "Administration and Principal Secretary",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.gov.sz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Government Press Office",
-            "title": "Administration and Principal Secretary",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.gov.sz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Government Press Office",
-            "title": "Administration and Principal Secretary",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.gov.sz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Eswatini VAT",
-            "title": "Taxation Of Diplomats and Consul",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.gov.sz/",
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Ethiopia",
@@ -26401,7 +26318,32 @@
       {
         "country": "Ghana",
         "url": "https://mfa.gov.gh/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Tayeb Al-Siddiq Al-Bashir",
+            "title": "wa has granted audience to Mr.",
+            "role": "other",
+            "represented_country": "Ghana",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.gh/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Our Missions",
+            "title": "AMBASSADOR KHADIJA IDDRISU",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.gh/",
+            "email": null,
+            "phone": null
+          }
+        ]
       },
       {
         "country": "Guinea",
@@ -28027,6 +27969,30 @@
         "country": "Myanmar",
         "url": "https://www.mofa.gov.mm/",
         "diplomats": [
+          {
+            "name": "Julapun Amornvivat",
+            "title": "ိုင်းအလုပ်သမားဝန်ကြီး H.E. Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "2026-09-16",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mofa.gov.mm/",
+            "email": null,
+            "phone": "၁၆-၉-၂၀၂၆"
+          },
+          {
+            "name": "Julapun Amornvivat",
+            "title": "ိုင်းအလုပ်သမားဝန်ကြီး H.E. Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "2026-09-16",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mofa.gov.mm/",
+            "email": null,
+            "phone": "၁၆-၉-၂၀၂၆"
+          },
           {
             "name": "Yukaka Aso",
             "title": "Honorary Consul : Mr.",
