@@ -285,6 +285,468 @@ groups:
       - servizio di trasloco
       - trasferimento sede
 
+      # --- Added from AGS relocation keyword sheet (2026-09-22) ---
+      # English (relocation business vocabulary, from AGS keyword sheet)
+      - corporate relocation services
+      - corporate relocation
+      - employee relocation
+      - employee relocation services
+      - employee relocation assistance
+      - international relocation
+      - international corporate relocation
+      - global mobility services
+      - global mobility solutions
+      - workforce relocation
+      - staff relocation
+      - expatriate relocation
+      - expat relocation services
+      - corporate moving
+      - business moving
+      - workplace relocation
+      - office moving services
+      - assignment management
+      - international assignment management
+      - global assignment management
+      - expatriate management
+      - expatriate services
+      - employee mobility
+      - international employee mobility
+      - workforce mobility
+      - global workforce mobility
+      - mobility management
+      - international mobility services
+      - destination services
+      - destination assistance
+      - relocation management
+      - relocation programme management
+      - immigration services
+      - corporate immigration
+      - immigration support
+      - visa services
+      - work permit services
+      - immigration and relocation services
+      - household goods relocation
+      - household goods moving
+      - international household goods moving
+      - employee household goods
+      - office furniture relocation
+      - furniture removal
+      - furniture moving
+      - packing and unpacking services
+      - moving and storage
+      - relocation and storage
+      - storage services
+      - temporary storage
+      - international moving
+      - international removals
+      - commercial removals
+      - office removals
+      - settling-in services
+      - orientation services
+      - home finding services
+      - school search services
+      - area orientation
+      - tenancy assistance
+      - rental assistance
+      - temporary accommodation
+      - corporate accommodation
+      - serviced accommodation
+      - temporary housing
+      - corporate housing
+      - property search services
+      - relocation rfp
+      - relocation rfq
+      - relocation tender
+      - relocation contract
+      - relocation procurement
+      - relocation bid
+      - corporate relocation rfp
+      - corporate relocation tender
+      - corporate moving tender
+      - employee relocation tender
+      - employee relocation contract
+      - global mobility rfp
+      - global mobility tender
+      - mobility services procurement
+      - moving services tender
+      - moving services contract
+      - removal services tender
+      - removal services contract
+      - framework agreement relocation
+      - framework agreement moving services
+      - data center relocation
+      - warehouse move
+      - lab relocation services
+      - it equipment relocation
+      - server relocation
+      - medical equipment relocation
+      - factory relocation
+      - enterprise logistics
+      - corporate logistics solutions
+      - business transition services
+      # Bulgarian
+      - услуги за корпоративно преместване
+      - корпоративно преместване
+      - преместване на служители
+      - услуги за преместване на служители
+      - съдействие при преместване на служители
+      - международно преместване
+      - международно корпоративно преместване
+      - услуги за глобална мобилност
+      - решения за глобална мобилност
+      - преместване на работна сила
+      - преместване на персонал
+      - преместване на експатрианти
+      - услуги за преместване на експатрианти
+      - бизнес преместване
+      - преместване на офис
+      - преместване на работно място
+      - услуги по преместване на офиси
+      - управление на международни назначения
+      - управление на глобални назначения
+      - управление на експатрианти
+      - услуги за експатрианти
+      - мобилност на служители
+      - международна мобилност на служители
+      - мобилност на работната сила
+      - глобална мобилност на работната сила
+      - управление на мобилността
+      - услуги за международна мобилност
+      - дестинационни услуги
+      - съдействие при установяване на ново място
+      - управление на преместването
+      - управление на програми за преместване
+      - имиграционни услуги
+      - корпоративна имиграция
+      - подкрепа при имиграция
+      - визови услуги
+      - услуги за разрешителни за работа
+      - имиграционни и релокационни услуги
+      - преместване на домакински вещи
+      - превоз на домакински вещи
+      - международно преместване на домакински вещи
+      - домакински вещи на служители
+      - преместване на офис мебели
+      - преместване на мебели
+      - услуги по опаковане и разопаковане
+      - преместване и съхранение
+      - релокация и съхранение
+      - услуги за съхранение
+      - временно съхранение
+      - международни премествания
+      - търговски премествания
+      - преместване на офиси
+      - услуги за установяване
+      - услуги за ориентация
+      - услуги за намиране на жилище
+      - услуги за търсене на училище
+      - ориентация в района
+      - съдействие при наемане на жилище
+      - съдействие при наемане
+      - временно настаняване
+      - корпоративно настаняване
+      - обзаведено обслужвано настаняване
+      - временно жилищно настаняване
+      - корпоративно жилищно настаняване
+      - услуги за търсене на имоти
+      - rfp за релокация
+      - rfq за релокация
+      - търг за услуги по релокация
+      - договор за релокация
+      - обществена поръчка за релокация
+      - оферта за релокация
+      - rfp за корпоративна релокация
+      - търг за корпоративна релокация
+      - търг за корпоративно преместване
+      - търг за преместване на служители
+      - договор за преместване на служители
+      - rfp за глобална мобилност
+      - търг за глобална мобилност
+      - обществена поръчка за мобилни услуги
+      - търг за услуги по преместване
+      - договор за услуги по преместване
+      - рамково споразумение за релокация
+      - рамково споразумение за услуги по преместване
+      - преместване на център за данни
+      - преместване на склад
+      - услуги по преместване на лаборатории
+      - преместване на ит оборудване
+      - преместване на сървъри
+      - преместване на медицинско оборудване
+      - преместване на фабрика
+      - корпоративна логистика
+      - корпоративни логистични решения
+      - услуги за бизнес трансформация
+      # Dutch
+      - relocatiediensten voor bedrijven
+      - bedrijfsverhuizing
+      - werknemersverhuizing
+      - diensten voor werknemersverhuizing
+      - ondersteuning bij werknemersverhuizing
+      - internationale verhuizing
+      - internationale bedrijfsverhuizing
+      - diensten voor internationale mobiliteit
+      - oplossingen voor internationale mobiliteit
+      - verhuizing van personeel
+      - personeelsverhuizing
+      - verhuizing van expats
+      - relocatiediensten voor expats
+      - kantoorverhuizing
+      - werkplekverhuizing
+      - kantoorverhuizingsdiensten
+      - beheer van internationale uitzendingen
+      - beheer van internationale opdrachten
+      - beheer van wereldwijde opdrachten
+      - expatriate management
+      - expatriatendiensten
+      - werknemersmobiliteit
+      - internationale werknemersmobiliteit
+      - personeelsmobiliteit
+      - wereldwijde personeelsmobiliteit
+      - mobiliteitsmanagement
+      - bestemmingsdiensten
+      - bestemmingsassistentie
+      - relocatiemanagement
+      - beheer van relocatieprogramma's
+      - immigratiediensten
+      - zakelijke immigratie
+      - ondersteuning bij immigratie
+      - visumdiensten
+      - diensten voor werkvergunningen
+      - immigratie- en relocatiediensten
+      - verhuizing van huishoudelijke goederen
+      - internationale verhuizing van huishoudelijke goederen
+      - huishoudelijke goederen van werknemers
+      - verhuizing van kantoormeubilair
+      - meubelverhuizing
+      - inpak- en uitpakdiensten
+      - verhuizen en opslag
+      - relocatie en opslag
+      - opslagdiensten
+      - tijdelijke opslag
+      - internationale verhuizingen
+      - zakelijke verhuizingen
+      - kantoorverhuizingen
+      - vestigingsdiensten
+      - orientatiediensten
+      - diensten voor woningzoektocht
+      - diensten voor schoolzoektocht
+      - orientatie in de omgeving
+      - ondersteuning bij huurcontracten
+      - huurassistentie
+      - tijdelijke accommodatie
+      - zakelijke accommodatie
+      - serviced accommodatie
+      - tijdelijke huisvesting
+      - zakelijke huisvesting
+      - diensten voor het zoeken naar vastgoed
+      - rfp voor relocatie
+      - rfq voor relocatie
+      - relocatietender
+      - relocatiecontract
+      - relocatieaanbesteding
+      - relocatieofferte
+      - rfp voor bedrijfsverhuizing
+      - tender voor bedrijfsverhuizing
+      - tender voor werknemersverhuizing
+      - contract voor werknemersverhuizing
+      - rfp voor internationale mobiliteit
+      - tender voor internationale mobiliteit
+      - aanbesteding van mobiliteitsdiensten
+      - tender voor verhuisdiensten
+      - contract voor verhuisdiensten
+      - raamovereenkomst voor relocatie
+      - raamovereenkomst voor verhuisdiensten
+      - datacenterverhuizing
+      - magazijnverhuizing
+      - labverhuizingsdiensten
+      - verhuizing van it-apparatuur
+      - serververhuizing
+      - verhuizing van medische apparatuur
+      - fabrieksverhuizing
+      - bedrijfslogistiek
+      - logistieke oplossingen voor bedrijven
+      - diensten voor bedrijfstransitie
+      # French (additional)
+      - services de demenagement d'entreprise
+      - demenagement d'entreprise
+      - demenagement de salaries
+      - services de demenagement de salaries
+      - assistance au demenagement des salaries
+      - demenagement international
+      - demenagement international d'entreprise
+      - services de mobilite internationale
+      - solutions de mobilite internationale
+      - demenagement de personnel
+      - demenagement d'expatries
+      - services de relocation pour expatries
+      - demenagement professionnel
+      - demenagement de bureaux
+      - demenagement du lieu de travail
+      - services de demenagement de bureaux
+      - gestion des missions internationales
+      - gestion des affectations internationales
+      - gestion des expatries
+      - services aux expatries
+      - mobilite des salaries
+      - mobilite internationale des salaries
+      - mobilite de la main-d'œuvre
+      - mobilite mondiale de la main-d'œuvre
+      - gestion de la mobilite
+      - services de destination
+      - assistance a la destination
+      - gestion de la relocalisation
+      - gestion de programmes de mobilite
+      - services d'immigration
+      - immigration d'entreprise
+      - assistance en immigration
+      - services de visa
+      - services de permis de travail
+      - services d'immigration et de mobilite
+      - demenagement des effets personnels
+      - demenagement d'effets personnels
+      - demenagement international des effets personnels
+      - effets personnels des salaries
+      - demenagement de mobilier de bureau
+      - demenagement de mobilier
+      - services d'emballage et de deballage
+      - demenagement et stockage
+      - relocation et stockage
+      - services de stockage
+      - stockage temporaire
+      - demenagements internationaux
+      - demenagements commerciaux
+      - demenagements de bureaux
+      - services d'installation
+      - services d'orientation
+      - services de recherche de logement
+      - services de recherche d'ecoles
+      - orientation locale
+      - assistance locative
+      - assistance a la location
+      - hebergement temporaire
+      - hebergement d'entreprise
+      - hebergement avec services
+      - logement temporaire
+      - logement d'entreprise
+      - services de recherche immobiliere
+      - appel d'offres relocation
+      - demande de devis relocation
+      - appel d'offres de relocation
+      - contrat de relocation
+      - marche public de relocation
+      - offre de relocation
+      - appel d'offres de demenagement d'entreprise
+      - appel d'offres de demenagement de salaries
+      - contrat de demenagement de salaries
+      - appel d'offres de mobilite internationale
+      - marche public de services de mobilite
+      - appel d'offres de services de demenagement
+      - contrat de services de demenagement
+      - appel d'offres de demenagement
+      - accord-cadre de mobilite
+      - accord-cadre de services de demenagement
+      - demenagement de centre de donnees
+      - demenagement d'entrepot
+      - services de demenagement de laboratoires
+      - demenagement de materiel informatique
+      - demenagement de serveurs
+      - demenagement d'equipements medicaux
+      - demenagement d'usine
+      - logistique d'entreprise
+      - solutions logistiques d'entreprise
+      - services de transition d'entreprise
+      # German (additional)
+      - dienstleistungen fur unternehmensumzuge
+      - unternehmensumzug
+      - mitarbeiterumzug
+      - dienstleistungen fur mitarbeiterumzuge
+      - unterstutzung bei mitarbeiterumzugen
+      - internationaler umzug
+      - internationaler unternehmensumzug
+      - dienstleistungen fur globale mobilitat
+      - losungen fur globale mobilitat
+      - verlagerung von mitarbeitern
+      - umzug von expatriates
+      - relocation-dienstleistungen fur expatriates
+      - geschaftsumzug
+      - buroumzug
+      - umzug des arbeitsplatzes
+      - buroumzugsdienstleistungen
+      - management internationaler einsatze
+      - management globaler einsatze
+      - expatriate-management
+      - expatriate-dienstleistungen
+      - mitarbeitermobilitat
+      - internationale mitarbeitermobilitat
+      - arbeitskraftemobilitat
+      - globale arbeitskraftemobilitat
+      - mobilitatsmanagement
+      - dienstleistungen fur internationale mobilitat
+      - destination services
+      - unterstutzung am zielort
+      - relocation-management
+      - management von relocation-programmen
+      - einwanderungsdienstleistungen
+      - unternehmensimmigration
+      - unterstutzung bei einwanderung
+      - visa-dienstleistungen
+      - dienstleistungen fur arbeitserlaubnisse
+      - einwanderungs- und relocation-dienstleistungen
+      - umzug von haushaltsgutern
+      - internationaler umzug von haushaltsgutern
+      - haushaltsguter von mitarbeitern
+      - umzug von buromobeln
+      - mobelumzug
+      - mobeltransport
+      - verpackungs- und auspackdienstleistungen
+      - umzug und lagerung
+      - relocation und lagerung
+      - lagerdienstleistungen
+      - zwischenlagerung
+      - internationale umzuge
+      - gewerbliche umzuge
+      - buroumzuge
+      - einrichtungs- und eingewohnungsservices
+      - orientierungsdienste
+      - wohnungssuchdienste
+      - schulsuchdienste
+      - orientierung vor ort
+      - unterstutzung bei mietvertragen
+      - mietunterstutzung
+      - vorubergehende unterkunft
+      - unterkunft fur unternehmen
+      - serviced apartments / moblierte unterkunft
+      - vorubergehender wohnraum
+      - mitarbeiterwohnungen
+      - immobiliensuchdienste
+      - relocation-ausschreibung / rfp
+      - relocation-rfq
+      - relocation-ausschreibung
+      - relocation-vertrag
+      - relocation-beschaffung
+      - relocation-angebot
+      - ausschreibung fur unternehmensumzug
+      - ausschreibung fur unternehmensumzuge
+      - ausschreibung fur mitarbeiterumzuge
+      - vertrag fur mitarbeiterumzuge
+      - ausschreibung fur globale mobilitat
+      - beschaffung von mobilitatsdienstleistungen
+      - ausschreibung fur umzugsdienstleistungen
+      - vertrag fur umzugsdienstleistungen
+      - rahmenvereinbarung fur relocation
+      - rahmenvereinbarung fur umzugsdienstleistungen
+      - rechenzentrumsumzug
+      - lagerumzug
+      - labor-umzugsdienstleistungen
+      - umzug von it-geraten
+      - serverumzug
+      - umzug medizinischer gerate
+      - fabrikverlagerung
+      - unternehmenslogistik
+      - logistiklosungen fur unternehmen
+      - dienstleistungen fur unternehmenstransitionen
+
   fine_art:
     weight: 5.0
     terms:

@@ -165,7 +165,7 @@ async function main() {
     if (state.activities.size) items = items.filter(it => activitiesOf(it).some(a => state.activities.has(a)));
     if (state.regions.size) items = items.filter(it => state.regions.has(regionOf[it.country_name] || regionOf[it.country]));
     if (state.q) {
-      items = items.filter(it => [it.title, it.buyer, it.country_name, it.matched, it.source]
+      items = items.filter(it => [it.title, it.buyer, it.country_name, it.matched, it.source, it.description]
         .join(' ').toLowerCase().includes(state.q));
     }
     items = items.slice().sort((a, b) => {
@@ -201,6 +201,7 @@ async function main() {
           <a class="title" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
           ${it.is_new ? '<span class="new-badge">Nouveau</span>' : ''}
           <span class="why">${esc((it.matched || '').slice(0, 180))}</span>
+          ${it.description ? `<details class="summary"><summary>résumé</summary>${esc(it.description)}</details>` : ''}
         </td>
         <td class="hide-sm">${esc(it.buyer)}</td>
         <td>${esc(it.country_name || it.country)}</td>

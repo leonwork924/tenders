@@ -43,6 +43,23 @@ COUNTRY_NAME_OVERRIDES = {
 }
 
 
+def _excerpt(description: str | None, limit: int = 400) -> str:
+    """Aperçu court de la description brute pour la page (pas un vrai résumé
+    généré -- juste les premiers caractères du texte source, coupés sur un
+    mot entier). Le champ description existe déjà côté backend pour la
+    plupart des sources (BOAMP, TED, OCDS, generic...), juste jamais exposé
+    au site jusqu'ici."""
+    if not description:
+        return ""
+    text = " ".join(description.split())  # aplati les retours à la ligne
+    if len(text) <= limit:
+        return text
+    cut = text.rfind(" ", 0, limit)
+    if cut < limit * 0.6:  # pas d'espace raisonnable trouvé, coupe net
+        cut = limit
+    return text[:cut].rstrip(",.;:") + "…"
+
+
 def _country_name(code: str) -> str:
     """Best-effort ISO country name. Falls back to the raw code for the
     non-ISO regional codes some sources (World Bank in particular) use for
@@ -143,6 +160,7 @@ def write_json(rows, path: str | Path, meta: dict, source_health: list[dict] | N
             "published": d.get("published"),
             "url": d.get("url"),
             "matched": d.get("matched"),
+            "description": _excerpt(d.get("description")),
             "is_new": is_new,
         })
 

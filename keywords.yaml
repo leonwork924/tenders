@@ -282,50 +282,339 @@ groups:
 - name: mobility
   weight: 5.0
   terms:
+  - aanbesteding van mobiliteitsdiensten
+  - accord-cadre de mobilite
+  - accord-cadre de services de demenagement
   - amenagement et transfert
+  - appel d'offres de demenagement
+  - appel d'offres de demenagement d'entreprise
+  - appel d'offres de demenagement de salaries
+  - appel d'offres de mobilite internationale
+  - appel d'offres de relocation
+  - appel d'offres de services de demenagement
+  - appel d'offres relocation
+  - arbeitskraftemobilitat
   - archive relocation
+  - area orientation
+  - assignment management
+  - assistance a la destination
+  - assistance a la location
+  - assistance au demenagement des salaries
+  - assistance en immigration
+  - assistance locative
+  - ausschreibung fur globale mobilitat
+  - ausschreibung fur mitarbeiterumzuge
+  - ausschreibung fur umzugsdienstleistungen
+  - ausschreibung fur unternehmensumzug
+  - ausschreibung fur unternehmensumzuge
+  - bedrijfslogistiek
+  - bedrijfsverhuizing
+  - beheer van internationale opdrachten
+  - beheer van internationale uitzendingen
+  - beheer van relocatieprogramma's
+  - beheer van wereldwijde opdrachten
+  - beschaffung von mobilitatsdienstleistungen
+  - bestemmingsassistentie
+  - bestemmingsdiensten
   - betriebsumzug
+  - buroumzug
+  - buroumzuge
+  - buroumzugsdienstleistungen
+  - business moving
+  - business transition services
   - collection relocation
   - commercial relocation
   - commercial removal*
+  - contract voor verhuisdiensten
+  - contract voor werknemersverhuizing
+  - contrat de demenagement de salaries
+  - contrat de relocation
+  - contrat de services de demenagement
+  - corporate accommodation
+  - corporate housing
+  - corporate immigration
+  - corporate logistics solutions
+  - corporate moving
+  - corporate moving tender
   - corporate relocation
+  - corporate relocation rfp
+  - corporate relocation services
+  - corporate relocation tender
+  - data center relocation
+  - datacenterverhuizing
   - decant
   - decanting
+  - demande de devis relocation
   - demenagement*
   - demenageur*
+  - destination assistance
   - destination services
+  - diensten voor bedrijfstransitie
+  - diensten voor het zoeken naar vastgoed
+  - diensten voor internationale mobiliteit
+  - diensten voor schoolzoektocht
+  - diensten voor werknemersverhuizing
+  - diensten voor werkvergunningen
+  - diensten voor woningzoektocht
+  - dienstleistungen fur arbeitserlaubnisse
+  - dienstleistungen fur globale mobilitat
+  - dienstleistungen fur internationale mobilitat
+  - dienstleistungen fur mitarbeiterumzuge
+  - dienstleistungen fur unternehmenstransitionen
+  - dienstleistungen fur unternehmensumzuge
   - diplomatic pouch
+  - effets personnels des salaries
+  - einrichtungs- und eingewohnungsservices
+  - einwanderungs- und relocation-dienstleistungen
+  - einwanderungsdienstleistungen
   - embassy relocation*
+  - employee household goods
+  - employee mobility
   - employee relocation
+  - employee relocation assistance
+  - employee relocation contract
+  - employee relocation services
+  - employee relocation tender
   - empresa de mudanzas
+  - enterprise logistics
+  - expat relocation services
+  - expatriate management
+  - expatriate relocation
+  - expatriate services
+  - expatriate-dienstleistungen
+  - expatriate-management
+  - expatriatendiensten
+  - fabrieksverhuizing
+  - fabrikverlagerung
+  - factory relocation
+  - framework agreement moving services
+  - framework agreement relocation
+  - furniture moving
   - furniture removal
+  - geschaftsumzug
+  - gestion de la mobilite
+  - gestion de la relocalisation
+  - gestion de programmes de mobilite
+  - gestion des affectations internationales
+  - gestion des expatries
+  - gestion des missions internationales
+  - gewerbliche umzuge
+  - global assignment management
+  - global mobility rfp
+  - global mobility services
+  - global mobility solutions
+  - global mobility tender
+  - global workforce mobility
+  - globale arbeitskraftemobilitat
   - government removals
+  - haushaltsguter von mitarbeitern
+  - hebergement avec services
+  - hebergement d'entreprise
+  - hebergement temporaire
+  - home finding services
+  - household goods moving
+  - household goods relocation
   - household removals
+  - huishoudelijke goederen van werknemers
+  - huurassistentie
+  - immigratie- en relocatiediensten
+  - immigratiediensten
+  - immigration and relocation services
+  - immigration d'entreprise
+  - immigration services
+  - immigration support
+  - immobiliensuchdienste
   - impresa di traslochi
   - industrial removals
+  - inpak- en uitpakdiensten
+  - international assignment management
+  - international corporate relocation
+  - international employee mobility
+  - international household goods moving
+  - international mobility services
+  - international moving
+  - international relocation
+  - international removals
+  - internationale bedrijfsverhuizing
+  - internationale mitarbeitermobilitat
+  - internationale umzuge
+  - internationale verhuizing
+  - internationale verhuizing van huishoudelijke goederen
+  - internationale verhuizingen
+  - internationale werknemersmobiliteit
+  - internationaler umzug
+  - internationaler umzug von haushaltsgutern
+  - internationaler unternehmensumzug
+  - it equipment relocation
+  - kantoorverhuizing
+  - kantoorverhuizingen
+  - kantoorverhuizingsdiensten
+  - lab relocation services
+  - labor-umzugsdienstleistungen
+  - labverhuizingsdiensten
+  - lagerdienstleistungen
+  - lagerumzug
+  - logement d'entreprise
+  - logement temporaire
+  - logistieke oplossingen voor bedrijven
+  - logistiklosungen fur unternehmen
+  - logistique d'entreprise
+  - losungen fur globale mobilitat
+  - magazijnverhuizing
+  - management globaler einsatze
+  - management internationaler einsatze
+  - management von relocation-programmen
+  - marche public de relocation
+  - marche public de services de mobilite
+  - medical equipment relocation
+  - meubelverhuizing
+  - mietunterstutzung
+  - mitarbeitermobilitat
+  - mitarbeiterumzug
+  - mitarbeiterwohnungen
+  - mobeltransport
+  - mobelumzug
+  - mobilitatsmanagement
+  - mobilite de la main-d'œuvre
+  - mobilite des salaries
+  - mobilite internationale des salaries
+  - mobilite mondiale de la main-d'œuvre
+  - mobiliteitsmanagement
+  - mobility management
+  - mobility services procurement
   - moebeltransport
   - move management
+  - moving and storage
+  - moving services contract
+  - moving services tender
   - mudanza
   - mudanza de la embajada
   - mudanza de oficina
   - mudanzas
   - museum relocation
+  - office furniture relocation
   - office move
   - office moving
+  - office moving services
   - office relocation
   - office removal
+  - office removals
+  - offre de relocation
+  - ondersteuning bij huurcontracten
+  - ondersteuning bij immigratie
+  - ondersteuning bij werknemersverhuizing
+  - oplossingen voor internationale mobiliteit
+  - opslagdiensten
+  - orientatie in de omgeving
+  - orientatiediensten
+  - orientation locale
+  - orientation services
+  - orientierung vor ort
+  - orientierungsdienste
+  - packing and unpacking services
+  - personeelsmobiliteit
+  - personeelsverhuizing
   - prestation* de demenagement
+  - property search services
+  - raamovereenkomst voor relocatie
+  - raamovereenkomst voor verhuisdiensten
+  - rahmenvereinbarung fur relocation
+  - rahmenvereinbarung fur umzugsdienstleistungen
+  - rechenzentrumsumzug
+  - relocatie en opslag
+  - relocatieaanbesteding
+  - relocatiecontract
+  - relocatiediensten voor bedrijven
+  - relocatiediensten voor expats
+  - relocatiemanagement
+  - relocatieofferte
+  - relocatietender
   - relocation
+  - relocation and storage
+  - relocation bid
+  - relocation contract
+  - relocation et stockage
+  - relocation management
   - relocation of diplomatic staff
+  - relocation procurement
+  - relocation programme management
+  - relocation rfp
+  - relocation rfq
   - relocation service*
+  - relocation tender
+  - relocation und lagerung
+  - relocation-angebot
+  - relocation-ausschreibung
+  - relocation-ausschreibung / rfp
+  - relocation-beschaffung
+  - relocation-dienstleistungen fur expatriates
+  - relocation-management
+  - relocation-rfq
+  - relocation-vertrag
+  - removal services contract
+  - removal services tender
   - removals
+  - rental assistance
   - reubicacion
+  - rfp voor bedrijfsverhuizing
+  - rfp voor internationale mobiliteit
+  - rfp voor relocatie
+  - rfp за глобална мобилност
+  - rfp за корпоративна релокация
+  - rfp за релокация
+  - rfq voor relocatie
+  - rfq за релокация
+  - school search services
+  - schulsuchdienste
+  - server relocation
+  - serverumzug
+  - serververhuizing
+  - serviced accommodatie
+  - serviced accommodation
+  - serviced apartments / moblierte unterkunft
+  - services aux expatries
+  - services d'emballage et de deballage
+  - services d'immigration
+  - services d'immigration et de mobilite
+  - services d'installation
+  - services d'orientation
+  - services de demenagement d'entreprise
+  - services de demenagement de bureaux
+  - services de demenagement de laboratoires
+  - services de demenagement de salaries
+  - services de destination
+  - services de mobilite internationale
+  - services de permis de travail
+  - services de recherche d'ecoles
+  - services de recherche de logement
+  - services de recherche immobiliere
+  - services de relocation pour expatries
+  - services de stockage
+  - services de transition d'entreprise
+  - services de visa
   - servicio de mudanza
   - servizio di trasloco
+  - settling-in services
+  - solutions de mobilite internationale
+  - solutions logistiques d'entreprise
   - specialist relocation
   - speciality removals
   - staff mobility
+  - staff relocation
+  - stockage temporaire
+  - storage services
   - talent mobility
+  - temporary accommodation
+  - temporary housing
+  - temporary storage
+  - tenancy assistance
+  - tender voor bedrijfsverhuizing
+  - tender voor internationale mobiliteit
+  - tender voor verhuisdiensten
+  - tender voor werknemersverhuizing
+  - tijdelijke accommodatie
+  - tijdelijke huisvesting
+  - tijdelijke opslag
   - transfert de mobilier
   - transfert de site
   - transfert des services
@@ -337,8 +626,136 @@ groups:
   - trasloco
   - trasloco ufficio
   - umzug*
+  - unterkunft fur unternehmen
+  - unternehmensimmigration
+  - unternehmenslogistik
+  - unternehmensumzug
+  - unterstutzung am zielort
+  - unterstutzung bei einwanderung
+  - unterstutzung bei mietvertragen
+  - unterstutzung bei mitarbeiterumzugen
   - valise diplomatique
+  - verhuizen en opslag
+  - verhuizing van expats
+  - verhuizing van huishoudelijke goederen
+  - verhuizing van it-apparatuur
+  - verhuizing van kantoormeubilair
+  - verhuizing van medische apparatuur
+  - verhuizing van personeel
+  - verlagerung von mitarbeitern
+  - verpackungs- und auspackdienstleistungen
+  - vertrag fur mitarbeiterumzuge
+  - vertrag fur umzugsdienstleistungen
+  - vestigingsdiensten
+  - visa services
+  - visa-dienstleistungen
+  - visumdiensten
+  - vorubergehende unterkunft
+  - vorubergehender wohnraum
+  - warehouse move
+  - wereldwijde personeelsmobiliteit
+  - werknemersmobiliteit
+  - werknemersverhuizing
+  - werkplekverhuizing
+  - wohnungssuchdienste
   - work force mobility
+  - work permit services
+  - workforce mobility
+  - workforce relocation
+  - workplace relocation
+  - zakelijke accommodatie
+  - zakelijke huisvesting
+  - zakelijke immigratie
+  - zakelijke verhuizingen
+  - zwischenlagerung
+  - бизнес преместване
+  - визови услуги
+  - временно жилищно настаняване
+  - временно настаняване
+  - временно съхранение
+  - глобална мобилност на работната сила
+  - дестинационни услуги
+  - договор за преместване на служители
+  - договор за релокация
+  - договор за услуги по преместване
+  - домакински вещи на служители
+  - имиграционни и релокационни услуги
+  - имиграционни услуги
+  - корпоративна имиграция
+  - корпоративна логистика
+  - корпоративни логистични решения
+  - корпоративно жилищно настаняване
+  - корпоративно настаняване
+  - корпоративно преместване
+  - международна мобилност на служители
+  - международни премествания
+  - международно корпоративно преместване
+  - международно преместване
+  - международно преместване на домакински вещи
+  - мобилност на работната сила
+  - мобилност на служители
+  - обзаведено обслужвано настаняване
+  - обществена поръчка за мобилни услуги
+  - обществена поръчка за релокация
+  - ориентация в раиона
+  - оферта за релокация
+  - подкрепа при имиграция
+  - превоз на домакински вещи
+  - преместване и съхранение
+  - преместване на домакински вещи
+  - преместване на експатрианти
+  - преместване на ит оборудване
+  - преместване на мебели
+  - преместване на медицинско оборудване
+  - преместване на офис
+  - преместване на офис мебели
+  - преместване на офиси
+  - преместване на персонал
+  - преместване на работна сила
+  - преместване на работно място
+  - преместване на склад
+  - преместване на служители
+  - преместване на сървъри
+  - преместване на фабрика
+  - преместване на център за данни
+  - рамково споразумение за релокация
+  - рамково споразумение за услуги по преместване
+  - релокация и съхранение
+  - решения за глобална мобилност
+  - съдеиствие при наемане
+  - съдеиствие при наемане на жилище
+  - съдеиствие при преместване на служители
+  - съдеиствие при установяване на ново място
+  - търг за глобална мобилност
+  - търг за корпоративна релокация
+  - търг за корпоративно преместване
+  - търг за преместване на служители
+  - търг за услуги по преместване
+  - търг за услуги по релокация
+  - търговски премествания
+  - управление на глобални назначения
+  - управление на експатрианти
+  - управление на международни назначения
+  - управление на мобилността
+  - управление на преместването
+  - управление на програми за преместване
+  - услуги за бизнес трансформация
+  - услуги за глобална мобилност
+  - услуги за експатрианти
+  - услуги за корпоративно преместване
+  - услуги за международна мобилност
+  - услуги за намиране на жилище
+  - услуги за ориентация
+  - услуги за преместване на експатрианти
+  - услуги за преместване на служители
+  - услуги за разрешителни за работа
+  - услуги за съхранение
+  - услуги за търсене на имоти
+  - услуги за търсене на училище
+  - услуги за установяване
+  - услуги по опаковане и разопаковане
+  - услуги по преместване на лаборатории
+  - услуги по преместване на офиси
 - name: fine_art
   weight: 5.0
   terms:
@@ -425,7 +842,6 @@ groups:
 - name: support
   weight: 1.5
   terms:
-  - assignment management
   - cargo handling
   - cargo storage
   - chain of custody

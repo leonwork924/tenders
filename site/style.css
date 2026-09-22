@@ -90,6 +90,9 @@ td.num, td.date { font-family: var(--mono); font-size: 13px; white-space: nowrap
 a { color: var(--navy); }
 .title { font-weight: 600; display: block; margin-bottom: 3px; }
 .why { font-family: var(--mono); font-size: 11px; color: var(--ink-soft); }
+.summary { font-size: 12px; color: var(--ink-soft); margin-top: 3px; }
+.summary summary { cursor: pointer; color: var(--navy); font-size: 11px; }
+.summary summary::marker { font-size: 10px; }
 .score { display: flex; align-items: center; gap: 8px; }
 .score b { font-family: var(--mono); font-size: 14px; width: 34px; text-align: right; }
 .bar { width: 52px; height: 6px; background: var(--rule); border-radius: 3px; overflow: hidden; }
