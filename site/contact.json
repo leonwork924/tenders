@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-27",
   "regions": {
     "Europe": [
       {
@@ -25940,20 +25940,7 @@
       {
         "country": "Cameroon",
         "url": "https://www.diplocam.cm/",
-        "diplomats": [
-          {
-            "name": "Félix MBAYU",
-            "title": "Le 18 septembre 2026, S.E.",
-            "role": "other",
-            "represented_country": "Cameroon",
-            "start_date": "2026-09-18",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.diplocam.cm/",
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Cabo Verde",
@@ -25984,7 +25971,7 @@
             "title": "S.E.M.",
             "role": "ambassador",
             "represented_country": "Congo",
-            "start_date": "2026-09-15",
+            "start_date": null,
             "end_date": null,
             "data_source": "web_scrape",
             "source_url": "https://www.diplomatie.gouv.cg/",
@@ -26319,18 +26306,6 @@
         "country": "Ghana",
         "url": "https://mfa.gov.gh/",
         "diplomats": [
-          {
-            "name": "Tayeb Al-Siddiq Al-Bashir",
-            "title": "wa has granted audience to Mr.",
-            "role": "other",
-            "represented_country": "Ghana",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://mfa.gov.gh/",
-            "email": null,
-            "phone": null
-          },
           {
             "name": "Our Missions",
             "title": "AMBASSADOR KHADIJA IDDRISU",
@@ -26943,6 +26918,78 @@
         "url": "https://www.minaffet.gov.rw/",
         "diplomats": [
           {
+            "name": "Usta Kaitesi",
+            "title": "r 2026 - Minister of State Dr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "2026-09-17",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.minaffet.gov.rw/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Hanan AbdelAziz Elsaid Shahin",
+            "title": "Dr. Usta Kaitesi received H.E.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "2026-09-17",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.minaffet.gov.rw/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Usta Kaitesi",
+            "title": "r 2026 - Minister of State Dr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "2026-09-16",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.minaffet.gov.rw/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Anna Mutavati",
+            "title": "Dr. Usta Kaitesi received Mrs.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "2026-09-16",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.minaffet.gov.rw/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Kaitesi Receives Egypt’s Ambassador",
+            "title": "Minister of State Dr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.minaffet.gov.rw/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Kaitesi Meets UN Women",
+            "title": "Minister of State Dr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.minaffet.gov.rw/",
+            "email": null,
+            "phone": null
+          },
+          {
             "name": "Hope Tumukunde Gasatura",
             "title": "Chairperson, PRC",
             "role": "org_delegate",
@@ -26966,9 +27013,21 @@
         "url": "https://www.diplomatie.gouv.sn/",
         "diplomats": [
           {
-            "name": "Cheikh NIANG",
-            "title": "Visite de S.E.M.",
-            "role": "other",
+            "name": "Monsieur Bassirou Diomaye Diakhar",
+            "title": "Intervention de Son Excellence",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplomatie.gouv.sn/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Monsieur Bassirou Diomaye Diakhar",
+            "title": "Intervention de Son Excellence",
+            "role": "ambassador",
             "represented_country": null,
             "start_date": null,
             "end_date": null,
@@ -26980,18 +27039,6 @@
           {
             "name": "Cheikh NIANG",
             "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.diplomatie.gouv.sn/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Cheikh NIANG",
-            "title": "Visite de S.E.M.",
             "role": "other",
             "represented_country": null,
             "start_date": null,
@@ -27970,30 +28017,6 @@
         "url": "https://www.mofa.gov.mm/",
         "diplomats": [
           {
-            "name": "Julapun Amornvivat",
-            "title": "ိုင်းအလုပ်သမားဝန်ကြီး H.E. Mr.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": "2026-09-16",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.mofa.gov.mm/",
-            "email": null,
-            "phone": "၁၆-၉-၂၀၂၆"
-          },
-          {
-            "name": "Julapun Amornvivat",
-            "title": "ိုင်းအလုပ်သမားဝန်ကြီး H.E. Mr.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": "2026-09-16",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.mofa.gov.mm/",
-            "email": null,
-            "phone": "၁၆-၉-၂၀၂၆"
-          },
-          {
             "name": "Yukaka Aso",
             "title": "Honorary Consul : Mr.",
             "role": "consul",
@@ -28088,6 +28111,18 @@
             "source_url": "https://www.mofa.gov.mm/sample-page-3/myanmar-honorary-consulates-abroad/",
             "email": null,
             "phone": "0049-211"
+          },
+          {
+            "name": "Jamal Sharifuddin Johan",
+            "title": "အပ်ရန်သဘောတူညီထားသည့် H.E. Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mofa.gov.mm/",
+            "email": null,
+            "phone": null
           },
           {
             "name": "Ho Chi Minh City",
@@ -28208,6 +28243,18 @@
             "source_url": "https://www.mofa.gov.mm/sample-page-3/myanmar-honorary-consulates-abroad/",
             "email": null,
             "phone": "0035722 277255"
+          },
+          {
+            "name": "De Long Yong",
+            "title": "့်တင်ရေးအဖွဲ့ ဒုတိယဥက္ကဋ္ဌ Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mofa.gov.mm/",
+            "email": null,
+            "phone": null
           },
           {
             "name": "Dam Trung Bac",
