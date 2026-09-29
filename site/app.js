@@ -6,18 +6,18 @@
 const state = { q: '', src: '', country: '', urgentOnly: false, sortKey: 'score', sortAsc: false, activities: new Set(), regions: new Set() };
 
 const ACTIVITY_LABELS = {
-  records_management: 'Archives & gestion documentaire',
-  digitisation: 'Numérisation',
-  av_media: 'Audiovisuel & médias',
-  heritage: 'Patrimoine',
-  mobility: 'Déménagement & mobilité',
-  fine_art: "Œuvres d'art",
-  hospitality: 'Hôtellerie',
+  records_management: 'Records & archive management',
+  digitisation: 'Digitisation',
+  av_media: 'Audiovisual & media',
+  heritage: 'Heritage',
+  mobility: 'Relocation & mobility',
+  fine_art: "Fine art",
+  hospitality: 'Hospitality',
   support: 'Support',
 };
 
-// Extrait les catégories d'activité du champ "matched" (ex: "records_management(12.0): ..."
-// devient "records_management") -- les mêmes catégories que tools/keywords_manual.yaml.
+// Extracts activity categories from the "matched" field (e.g. "records_management(12.0): ..."
+// becomes "records_management") -- same categories as tools/keywords_manual.yaml.
 function activitiesOf(item) {
   return (item.matched || '')
     .split('|')
@@ -54,7 +54,7 @@ async function main() {
     const regionsRes = await fetch('regions.json', {cache: 'no-store'});
     regionOf = await regionsRes.json();
   } catch (e) {
-    console.warn('regions.json indisponible, filtre région désactivé', e);
+    console.warn('regions.json unavailable, region filter disabled', e);
   }
 
   document.getElementById('generated').textContent = data.generated || '';
@@ -91,7 +91,7 @@ async function main() {
     document.getElementById('q').value = initialQuery;
   }
 
-  // Boutons Activité -- seulement les catégories réellement présentes dans les données du jour.
+  // Activity buttons -- only categories actually present in today's data.
   const activitiesPresent = new Set();
   (data.items || []).forEach(it => activitiesOf(it).forEach(a => activitiesPresent.add(a)));
   const activityEl = document.getElementById('activity-filter');
@@ -109,7 +109,7 @@ async function main() {
     activityEl.appendChild(btn);
   });
 
-  // Boutons Région -- déduits des pays présents dans les données du jour.
+  // Region buttons -- derived from the countries present in today's data.
   const regionsPresent = new Set();
   (data.items || []).forEach(it => {
     const r = regionOf[it.country_name] || regionOf[it.country];
@@ -150,9 +150,9 @@ async function main() {
     <tr>
       <td>${esc(s.source)}</td>
       <td>${esc((s.last_run || '').replace('T', ' ').slice(0, 16))}</td>
-      <td class="${s.ok ? 'ok' : 'soon'}">${s.ok ? 'OK' : (s.last_run ? 'echec' : 'jamais lance')}</td>
+      <td class="${s.ok ? 'ok' : 'soon'}">${s.ok ? 'OK' : (s.last_run ? 'failed' : 'never run')}</td>
       <td class="num">${s.active_count}</td>
-    </tr>`).join('') || '<tr><td colspan="4">Pas encore de donnees.</td></tr>';
+    </tr>`).join('') || '<tr><td colspan="4">No data yet.</td></tr>';
   document.getElementById('health-toggle').addEventListener('click', () => {
     healthPanel.style.display = healthPanel.style.display === 'none' ? 'block' : 'none';
   });
@@ -199,15 +199,15 @@ async function main() {
         </td>
         <td>
           <a class="title" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
-          ${it.is_new ? '<span class="new-badge">Nouveau</span>' : ''}
+          ${it.is_new ? '<span class="new-badge">New</span>' : ''}
           <span class="why">${esc((it.matched || '').slice(0, 180))}</span>
-          ${it.description ? `<details class="summary"><summary>résumé</summary>${esc(it.description)}</details>` : ''}
+          ${it.description ? `<details class="summary"><summary>summary</summary>${esc(it.description)}</details>` : ''}
         </td>
         <td class="hide-sm">${esc(it.buyer)}</td>
         <td>${esc(it.country_name || it.country)}</td>
         <td class="date">
           ${esc((it.deadline || '').slice(0, 10))}
-          ${it.days_left !== '' && it.days_left !== null ? `<span class="chip ${urgency(it.days_left)}">${esc(it.days_left)}j</span>` : ''}
+          ${it.days_left !== '' && it.days_left !== null ? `<span class="chip ${urgency(it.days_left)}">${esc(it.days_left)}d</span>` : ''}
         </td>
         <td class="num hide-sm">${esc(money(it.value, it.currency))}</td>
         <td class="src hide-sm"><span class="src-chip">${esc(it.source)}</span></td>
@@ -218,7 +218,7 @@ async function main() {
   loadHistory();
 }
 
-// --- Historique / renouvellements -------------------------------------
+// --- History / renewals -------------------------------------
 function showSubtab(which) {
   document.getElementById('subtab-active').classList.toggle('on', which === 'active');
   document.getElementById('subtab-history').classList.toggle('on', which === 'history');
@@ -236,17 +236,17 @@ async function loadHistory() {
     hist = await res.json();
   } catch (e) {
     document.getElementById('history-empty').style.display = 'block';
-    document.getElementById('history-empty').textContent = "Impossible de charger history.json.";
+    document.getElementById('history-empty').textContent = "Could not load history.json.";
     return;
   }
 
   const alertBox = document.getElementById('renewal-alert');
   if ((hist.renewals || []).length) {
     alertBox.style.display = 'block';
-    alertBox.innerHTML = `<b>⏰ ${hist.renewals.length} contrat(s) arrivent à échéance dans les 6 prochains mois</b>
-      — le marché revient probablement en jeu, à surveiller pour repostuler :
+    alertBox.innerHTML = `<b>⏰ ${hist.renewals.length} contract(s) coming up for renewal in the next 6 months</b>
+      — the market is likely to come back up for bid, worth watching to re-tender:
       <ul>${hist.renewals.map(r => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
-        — ${esc(r.country_name || r.country)} — fin de contrat estimée ${esc((r.contract_end || '').slice(0,10))}</li>`).join('')}</ul>`;
+        — ${esc(r.country_name || r.country)} — estimated contract end ${esc((r.contract_end || '').slice(0,10))}</li>`).join('')}</ul>`;
   } else {
     alertBox.style.display = 'none';
   }
@@ -274,5 +274,5 @@ async function loadHistory() {
 
 main().catch(err => {
   document.getElementById('empty').style.display = 'block';
-  document.getElementById('empty').textContent = "Impossible de charger data.json (" + err + ").";
+  document.getElementById('empty').textContent = "Could not load data.json (" + err + ").";
 });

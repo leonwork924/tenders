@@ -1,6 +1,10 @@
 // Reads newsletter.json (dropped in manually after a weekly research pass)
-// and renders it, with client-side filters by section ("activité") and by
+// and renders it, with client-side filters by section ("activity") and by
 // country region (via regions.json, same mapping used across the site).
+//
+// NOTE: newsletter.json itself is curated research content (deal names,
+// summaries...) written in French by whoever compiles the weekly edition --
+// this file only translates the surrounding UI chrome, not that content.
 
 function esc(v) {
   return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -38,7 +42,7 @@ function relatedTenderBadge(rt) {
   if (!rt || !rt.title) return '';
   const q = encodeURIComponent(rt.title);
   return `<a class="related-tender" href="index.html?q=${q}" title="${esc(rt.why || '')}">
-    🔗 AO lié : ${esc(rt.title.slice(0, 60))}${rt.title.length > 60 ? '…' : ''}
+    🔗 Related tender: ${esc(rt.title.slice(0, 60))}${rt.title.length > 60 ? '…' : ''}
   </a>`;
 }
 
@@ -50,10 +54,10 @@ function eligibilityBadge(text) {
 }
 
 const ACTIVITY_SECTIONS = [
-  { id: 'newsigned', label: '🆕 Deals récents' },
-  { id: 'financing', label: '💶 Financements' },
-  { id: 'hospitality', label: '🏨 Hôtellerie' },
-  { id: 'investments', label: '🤝 Investissements' },
+  { id: 'newsigned', label: '🆕 Recent deals' },
+  { id: 'financing', label: '💶 Financing' },
+  { id: 'hospitality', label: '🏨 Hospitality' },
+  { id: 'investments', label: '🤝 Investments' },
   { id: 'arts', label: '🎨 Arts' },
 ];
 
@@ -61,15 +65,15 @@ let DATA = null;
 const state = { regions: new Set(), activities: new Set() };
 let regionOf = {};
 
-// Filet de secours : certaines valeurs de "pays" dans la newsletter sont des
-// descriptions longues ("Africa (Nairobi hub; satellites in...)") plutôt
-// qu'un nom de pays/région propre -- on cherche un mot-région connu dedans.
+// Fallback: some "pays" (country) values in the newsletter data are long
+// descriptions ("Africa (Nairobi hub; satellites in...)") rather than a
+// clean country/region name -- look for a known region word inside.
 const REGION_KEYWORDS = [
-  ['Afrique', 'Afrique'], ['Africa', 'Afrique'],
-  ['Moyen-Orient', 'Moyen-Orient'], ['Middle East', 'Moyen-Orient'],
-  ['Caraïbes', "Caraïbes / Territoires d'outre-mer"], ['Caribbean', "Caraïbes / Territoires d'outre-mer"],
-  ['Amériques', 'Amériques'], ['Americas', 'Amériques'],
-  ['Asie', 'Asie'], ['Asia', 'Asie'],
+  ['Afrique', 'Africa'], ['Africa', 'Africa'],
+  ['Moyen-Orient', 'Middle East'], ['Middle East', 'Middle East'],
+  ['Caraïbes', "Caribbean / Overseas Territories"], ['Caribbean', "Caribbean / Overseas Territories"],
+  ['Amériques', 'Americas'], ['Americas', 'Americas'],
+  ['Asie', 'Asia'], ['Asia', 'Asia'],
   ['Europe', 'Europe'],
 ];
 
@@ -90,7 +94,7 @@ function keep(pays) {
 function renderAll() {
   const data = DATA;
 
-  // Deals récents, groupés par secteur
+  // Recent deals, grouped by sector
   const sectorsEl = document.getElementById('newsigned-sectors');
   const sectors = data.newly_signed || {};
   sectorsEl.innerHTML = Object.keys(sectors).map(sector => {
@@ -99,7 +103,7 @@ function renderAll() {
     return `
     <div class="region-heading">${esc(sector)}</div>
     <table class="nl-table">
-      <thead><tr><th>Date</th><th>Statut</th><th>Deal</th><th>Parties</th><th>Type</th><th>Pays</th><th>Détails</th><th>Source</th></tr></thead>
+      <thead><tr><th>Date</th><th>Status</th><th>Deal</th><th>Parties</th><th>Type</th><th>Country</th><th>Details</th><th>Source</th></tr></thead>
       <tbody>
         ${items.map(it => `
           <tr>
@@ -114,7 +118,7 @@ function renderAll() {
           </tr>`).join('')}
       </tbody>
     </table>`;
-  }).join('') || '<p class="nl-empty-region">Aucun deal identifié pour cette édition (ou filtré par la région choisie).</p>';
+  }).join('') || '<p class="nl-empty-region">No deal identified for this edition (or filtered out by the selected region).</p>';
 
   // Financing & grants
   document.querySelector('#tbl-financing tbody').innerHTML = (data.financing || []).filter(it => keep(it.pays)).map(it => `
@@ -137,9 +141,9 @@ function renderAll() {
     const items = (regions[region] || []).filter(it => keep(it.pays || region));
     return `
     <div class="region-heading">${esc(region)}</div>
-    ${!items.length ? '<p class="nl-empty-region">Rien identifié pour cette région dans cette édition (ou filtré).</p>' : `
+    ${!items.length ? '<p class="nl-empty-region">Nothing identified for this region in this edition (or filtered out).</p>' : `
     <table class="nl-table">
-      <thead><tr><th>Projet</th><th>Statut</th><th>Groupe(s)</th><th>Pays</th><th>Résumé</th><th>Contact clé</th><th>Source</th></tr></thead>
+      <thead><tr><th>Project</th><th>Status</th><th>Group(s)</th><th>Country</th><th>Summary</th><th>Key contact</th><th>Source</th></tr></thead>
       <tbody>
         ${items.map(it => `
           <tr>
@@ -189,13 +193,13 @@ async function main() {
     const regionsRes = await fetch('regions.json', { cache: 'no-store' });
     regionOf = await regionsRes.json();
   } catch (e) {
-    console.warn('regions.json indisponible, filtre région désactivé', e);
+    console.warn('regions.json unavailable, region filter disabled', e);
   }
 
   document.getElementById('edition').textContent = DATA.edition || '';
   document.getElementById('generated').textContent = DATA.generated || '';
 
-  // Boutons Activité -- montrent/masquent une section entière
+  // Activity buttons -- show/hide an entire section
   const activityEl = document.getElementById('activity-filter');
   ACTIVITY_SECTIONS.forEach(({ id, label }) => {
     const btn = document.createElement('button');
@@ -218,7 +222,7 @@ async function main() {
     });
   }
 
-  // Boutons Région -- déduits des pays réellement présents dans l'édition
+  // Region buttons -- derived from countries actually present in the edition
   const paysPresent = new Set();
   const collectPays = it => it.pays && paysPresent.add(it.pays);
   Object.values(DATA.newly_signed || {}).forEach(arr => arr.forEach(collectPays));
@@ -248,5 +252,5 @@ async function main() {
 
 main().catch(err => {
   document.querySelector('.nl-main').innerHTML =
-    `<p class="empty">Impossible de charger newsletter.json (${esc(err)}).</p>`;
+    `<p class="empty">Could not load newsletter.json (${esc(err)}).</p>`;
 });

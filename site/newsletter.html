@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,21 +10,19 @@
 <body>
 <header>
   <h1>Business Newsletter</h1>
-  <span class="meta">Édition <span id="edition"></span> &nbsp;·&nbsp; générée le <span id="generated"></span></span>
+  <span class="meta">Edition <span id="edition"></span> &nbsp;·&nbsp; generated <span id="generated"></span></span>
 </header>
 <nav class="site-tabs">
   <a href="index.html">📋 Tenders</a>
   <a href="newsletter.html" class="active">📰 Business Newsletter</a>
-  <a href="contact.html">🌍 Contact</a>
-  <a href="prospection.html">🕸️ Prospection</a>
 </nav>
 
 <nav class="nl-nav" id="nl-nav">
-  <a href="#newsigned">🆕 Deals récents</a>
-  <a href="#financing">💶 Subventions &amp; financements</a>
-  <a href="#hospitality">🏨 Hôtellerie &amp; resorts</a>
-  <a href="#investments">🤝 Investissements &amp; M&amp;A</a>
-  <a href="#arts">🎨 Arts &amp; expositions</a>
+  <a href="#newsigned">🆕 Recent deals</a>
+  <a href="#financing">💶 Grants &amp; financing</a>
+  <a href="#hospitality">🏨 Hospitality &amp; resorts</a>
+  <a href="#investments">🤝 Investments &amp; M&amp;A</a>
+  <a href="#arts">🎨 Arts &amp; exhibitions</a>
 </nav>
 
 <div class="toolbar" id="activity-filter" style="flex-wrap:wrap;gap:6px"></div>
@@ -33,40 +31,40 @@
 <main class="nl-main">
 
   <section id="newsigned">
-    <h2>Deals récemment signés</h2>
-    <p class="nl-sub">Accords, MOU, contrats de gestion et financements des ~4 dernières semaines, par secteur</p>
+    <h2>Recently signed deals</h2>
+    <p class="nl-sub">Agreements, MOUs, management contracts and financing from the last ~4 weeks, by sector</p>
     <div id="newsigned-sectors"></div>
   </section>
 
   <section id="financing">
-    <h2>Subventions &amp; financements</h2>
-    <p class="nl-sub">Appels à candidature ouverts, et institutions ayant récemment obtenu une subvention (= prospects avec budget)</p>
+    <h2>Grants &amp; financing</h2>
+    <p class="nl-sub">Open calls for applications, and institutions that recently secured a grant (= prospects with budget)</p>
     <table class="nl-table" id="tbl-financing">
-      <thead><tr><th>Programme</th><th>Statut</th><th>Éligibilité</th><th>Organisme</th><th>Pays</th><th>Montant</th><th>Échéance</th><th>Résumé</th><th>Source</th></tr></thead>
+      <thead><tr><th>Programme</th><th>Status</th><th>Eligibility</th><th>Organisation</th><th>Country</th><th>Amount</th><th>Deadline</th><th>Summary</th><th>Source</th></tr></thead>
       <tbody></tbody>
     </table>
   </section>
 
   <section id="hospitality">
-    <h2>Développement hôtelier &amp; resorts</h2>
-    <p class="nl-sub">Par région — qui est derrière chaque projet, résumé, contact identifié</p>
+    <h2>Hospitality &amp; resort development</h2>
+    <p class="nl-sub">By region — who's behind each project, summary, identified contact</p>
     <div id="hospitality-regions"></div>
   </section>
 
   <section id="investments">
-    <h2>Investissements, partenariats &amp; M&amp;A</h2>
-    <p class="nl-sub">Flux cross-border Europe / Afrique / Asie / Amériques</p>
+    <h2>Investments, partnerships &amp; M&amp;A</h2>
+    <p class="nl-sub">Cross-border flows: Europe / Africa / Asia / Americas</p>
     <table class="nl-table" id="tbl-investments">
-      <thead><tr><th>Deal</th><th>Statut</th><th>Parties</th><th>Type</th><th>Pays</th><th>Montant</th><th>Objet</th><th>Source</th></tr></thead>
+      <thead><tr><th>Deal</th><th>Status</th><th>Parties</th><th>Type</th><th>Country</th><th>Amount</th><th>Subject</th><th>Source</th></tr></thead>
       <tbody></tbody>
     </table>
   </section>
 
   <section id="arts">
-    <h2>Arts &amp; expositions</h2>
-    <p class="nl-sub">Projets, organisations et personnes clés</p>
+    <h2>Arts &amp; exhibitions</h2>
+    <p class="nl-sub">Projects, organisations and key people</p>
     <table class="nl-table" id="tbl-arts">
-      <thead><tr><th>Événement</th><th>Statut</th><th>Organisation</th><th>Personnes clés</th><th>Pays</th><th>Résumé</th><th>Source</th></tr></thead>
+      <thead><tr><th>Event</th><th>Status</th><th>Organisation</th><th>Key people</th><th>Country</th><th>Summary</th><th>Source</th></tr></thead>
       <tbody></tbody>
     </table>
   </section>
@@ -74,8 +72,8 @@
 </main>
 
 <footer>
-  Mis à jour manuellement, environ chaque semaine — pas d'automatisation IA en continu ici
-  (contrairement au fetch quotidien des tenders).
+  Updated manually, roughly every week — no continuous AI automation here
+  (unlike the daily tender fetch).
 </footer>
 
 <script src="newsletter.js"></script>

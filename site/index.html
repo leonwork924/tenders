@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,32 +9,28 @@
 <body>
 <header>
   <h1>Tender Radar</h1>
-  <span class="meta">Mis à jour le <span id="generated"></span> &nbsp;·&nbsp; <span id="scope"></span></span>
+  <span class="meta">Updated <span id="generated"></span> &nbsp;·&nbsp; <span id="scope"></span></span>
 </header>
 <nav class="site-tabs">
   <a href="index.html" class="active">📋 Tenders</a>
   <a href="newsletter.html">📰 Business Newsletter</a>
-  <a href="contact.html">🌍 Contact</a>
-  <a href="prospection.html">🕸️ Prospection</a>
-</nav>
-
-<nav class="sub-tabs">
-  <button id="subtab-active" class="on" onclick="showSubtab('active')">Actifs</button>
-  <button id="subtab-history" onclick="showSubtab('history')">Historique</button>
+  <span class="tabs-sep" aria-hidden="true"></span>
+  <button id="subtab-active" class="on" onclick="showSubtab('active')">Active</button>
+  <button id="subtab-history" onclick="showSubtab('history')">History</button>
 </nav>
 
 <div id="renewal-alert" class="renewal-alert" style="display:none"></div>
 
 <div id="active-toolbar" class="toolbar">
-  <label for="q">Filtre</label>
-  <input id="q" type="search" placeholder="titre, acheteur, mot-clé…" autocomplete="off">
-  <label for="country">Pays</label>
-  <select id="country"><option value="">tous</option></select>
+  <label for="q">Filter</label>
+  <input id="q" type="search" placeholder="title, buyer, keyword…" autocomplete="off">
+  <label for="country">Country</label>
+  <select id="country"><option value="">all</option></select>
   <label for="src">Source</label>
-  <select id="src"><option value="">toutes</option></select>
-  <label class="check"><input type="checkbox" id="urgent-only"> Clôture ≤ 7 jours</label>
+  <select id="src"><option value="">all</option></select>
+  <label class="check"><input type="checkbox" id="urgent-only"> Closing ≤ 7 days</label>
   <span class="count" id="count"></span>
-  <button id="health-toggle" type="button">État des sources</button>
+  <button id="health-toggle" type="button">Source status</button>
 </div>
 
 <div class="toolbar" id="activity-filter" style="flex-wrap:wrap;gap:6px"></div>
@@ -42,7 +38,7 @@
 
 <div id="health-panel" class="health-panel" style="display:none">
   <table>
-    <thead><tr><th>Source</th><th>Dernier passage</th><th>Statut</th><th>AO actifs</th></tr></thead>
+    <thead><tr><th>Source</th><th>Last run</th><th>Status</th><th>Active tenders</th></tr></thead>
     <tbody id="health-tbody"></tbody>
   </table>
 </div>
@@ -52,44 +48,44 @@
     <thead>
       <tr>
         <th data-key="score">Score</th>
-        <th data-key="title">Appel d'offres</th>
-        <th data-key="buyer" class="hide-sm">Acheteur</th>
-        <th data-key="country_name">Pays</th>
-        <th data-key="deadline">Échéance</th>
-        <th data-key="value" class="hide-sm">Valeur</th>
+        <th data-key="title">Tender</th>
+        <th data-key="buyer" class="hide-sm">Buyer</th>
+        <th data-key="country_name">Country</th>
+        <th data-key="deadline">Deadline</th>
+        <th data-key="value" class="hide-sm">Value</th>
         <th data-key="source" class="hide-sm">Source</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
   </table>
-  <p class="empty" id="empty" style="display:none">Aucun appel d'offres pour ce filtre.</p>
+  <p class="empty" id="empty" style="display:none">No tenders match this filter.</p>
 </main>
 
 <main id="view-history" style="display:none">
-  <p class="nl-sub" style="padding:14px 24px 0">Appels d'offres dont la date limite est passée. La section
-  "renouvellement à prévoir" ci-dessus liste ceux dont la durée de contrat annoncée se termine dans les
-  6 prochains mois — le marché reviendra probablement en jeu à ce moment-là.</p>
+  <p class="nl-sub" style="padding:14px 24px 0">Tenders whose deadline has passed. The "upcoming renewal"
+  section above lists the ones whose announced contract length ends within the next 6 months —
+  the market is likely to come back up for bid around then.</p>
   <table>
     <thead>
       <tr>
         <th>Score</th>
-        <th>Appel d'offres</th>
-        <th>Acheteur</th>
-        <th>Pays</th>
-        <th>Échéance dépassée le</th>
-        <th>Fin de contrat estimée</th>
+        <th>Tender</th>
+        <th>Buyer</th>
+        <th>Country</th>
+        <th>Deadline passed on</th>
+        <th>Estimated contract end</th>
         <th>Source</th>
       </tr>
     </thead>
     <tbody id="history-tbody"></tbody>
   </table>
-  <p class="empty" id="history-empty" style="display:none">Aucun historique pour l'instant.</p>
+  <p class="empty" id="history-empty" style="display:none">No history yet.</p>
 </main>
 
 <footer>
-  Généré automatiquement chaque jour par le pipeline tender-radar. Filtrez par pays
-  ci-dessus, ou cliquez sur l'entête d'une colonne pour trier. Aucun compte requis —
-  le lien de cette page suffit.
+  Generated automatically every day by the tender-radar pipeline. Filter by country
+  above, or click a column header to sort. No account required —
+  this page's link is all you need.
 </footer>
 
 <script src="app.js"></script>
