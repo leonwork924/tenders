@@ -38,13 +38,17 @@ FIELDS = [
     "estimated-value-cur-proc",
     "total-value",
     "total-value-cur",
-    # Best-effort: contract/framework duration, following the same lot/proc
-    # pairing as the value fields above. NOT verified against a live
-    # response from here (network-restricted sandbox) -- if these field
-    # names are wrong, TED just won't return them and contract_end stays
-    # empty for TED, same as today. Check after the first real fetch.
-    "duration-lot",
-    "duration-proc",
+    # "duration-lot"/"duration-proc" removed (30/09/2026): these were the
+    # best-effort, never-verified guess mentioned in the comment they used
+    # to sit under. Real observed symptom was a hard HTTP 400 "fields
+    # parameter contains unsupported value" on every run since 03/09 --
+    # meaning TED rejects the WHOLE request on one bad field name, it
+    # doesn't just silently drop it as this comment used to assume. Can't
+    # confirm from here which exact name was wrong (TED's domain isn't
+    # reachable from this sandbox to test live), so both guessed fields are
+    # dropped rather than guessing again. Net effect: contract_end stays
+    # empty for TED (same as before), but the other 16 fields should flow
+    # again. Verify against the health panel after the next scheduled run.
     "notice-type",
     "links",
 ]
