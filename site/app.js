@@ -3,7 +3,7 @@
 // on every push, so this file just has to render whatever is in data.json
 // today.
 
-const state = { q: '', src: '', country: '', urgentOnly: false, sortKey: 'score', sortAsc: false, activities: new Set(), regions: new Set() };
+const state = { q: '', src: '', country: '', urgentOnly: false, branchOnly: false, sortKey: 'score', sortAsc: false, activities: new Set(), regions: new Set() };
 
 const ACTIVITY_LABELS = {
   records_management: 'Records & archive management',
@@ -55,6 +55,24 @@ async function main() {
     regionOf = await regionsRes.json();
   } catch (e) {
     console.warn('regions.json unavailable, region filter disabled', e);
+  }
+
+  // Countries where Mobilitas has a branch (any network) -- built from
+  // Mobilitas_Branches_ALL_.csv (115 countries), matched against both
+  // country_name and the raw country code, either of which data.json may
+  // carry depending on the source (formats aren't consistent source to
+  // source -- some give ISO alpha-2, some alpha-3, a few give neither).
+  let branchSet = new Set();
+  try {
+    const branchesRes = await fetch('branches.json', {cache: 'no-store'});
+    const branchesData = await branchesRes.json();
+    branchSet = new Set(branchesData.variants || []);
+  } catch (e) {
+    console.warn('branches.json unavailable, branch filter disabled', e);
+  }
+  function hasBranch(it) {
+    return branchSet.has(String(it.country_name || '').toLowerCase())
+        || branchSet.has(String(it.country || '').toLowerCase());
   }
 
   document.getElementById('generated').textContent = data.generated || '';
@@ -133,6 +151,7 @@ async function main() {
   srcSel.addEventListener('change', e => { state.src = e.target.value; refresh(); });
   countrySel.addEventListener('change', e => { state.country = e.target.value; refresh(); });
   document.getElementById('urgent-only').addEventListener('change', e => { state.urgentOnly = e.target.checked; refresh(); });
+  document.getElementById('branch-only').addEventListener('change', e => { state.branchOnly = e.target.checked; refresh(); });
   document.querySelectorAll('thead th[data-key]').forEach(th => {
     th.addEventListener('click', () => {
       const key = th.dataset.key;
@@ -162,6 +181,7 @@ async function main() {
     if (state.country) items = items.filter(it => it.country === state.country);
     if (state.src) items = items.filter(it => it.source === state.src);
     if (state.urgentOnly) items = items.filter(it => it.days_left !== '' && it.days_left !== null && parseInt(it.days_left, 10) <= 7);
+    if (state.branchOnly) items = items.filter(hasBranch);
     if (state.activities.size) items = items.filter(it => activitiesOf(it).some(a => state.activities.has(a)));
     if (state.regions.size) items = items.filter(it => state.regions.has(regionOf[it.country_name] || regionOf[it.country]));
     if (state.q) {
@@ -204,7 +224,7 @@ async function main() {
           ${it.description ? `<details class="summary"><summary>summary</summary>${esc(it.description)}</details>` : ''}
         </td>
         <td class="hide-sm">${esc(it.buyer)}</td>
-        <td>${esc(it.country_name || it.country)}</td>
+        <td>${esc(it.country_name || it.country)}${hasBranch(it) ? ' <span class="branch-badge" title="Country with a Mobilitas branch">🏢</span>' : ''}</td>
         <td class="date">
           ${esc((it.deadline || '').slice(0, 10))}
           ${it.days_left !== '' && it.days_left !== null ? `<span class="chip ${urgency(it.days_left)}">${esc(it.days_left)}d</span>` : ''}
