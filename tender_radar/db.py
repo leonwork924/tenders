@@ -175,7 +175,7 @@ class Database:
         args: list = [min_score]
         if only_new:
             sql.append("AND status = 'new'")
-        if min_days:
+        if min_days is not None:
             sql.append("AND (deadline IS NULL OR deadline >= date('now', ?))")
             args.append(f"+{int(min_days)} day")
         sql.append("ORDER BY score DESC, deadline IS NULL, deadline ASC")
@@ -219,7 +219,7 @@ class Database:
         sql = ["SELECT * FROM tenders WHERE score >= ? AND duplicate_of IS NULL",
                "AND first_seen >= ?"]
         args: list = [min_score, since_iso]
-        if min_days:
+        if min_days is not None:
             sql.append("AND (deadline IS NULL OR deadline >= date('now', ?))")
             args.append(f"+{int(min_days)} day")
         sql.append("ORDER BY score DESC, deadline IS NULL, deadline ASC")
@@ -237,7 +237,7 @@ class Database:
         sql = ["SELECT source, COUNT(*) n FROM tenders",
                "WHERE score >= ? AND duplicate_of IS NULL"]
         args: list = [min_score]
-        if min_days:
+        if min_days is not None:
             sql.append("AND (deadline IS NULL OR deadline >= date('now', ?))")
             args.append(f"+{int(min_days)} day")
         sql.append("GROUP BY source")
