@@ -4,17 +4,6 @@
 }
 .nl-disclaimer b { color: var(--amber); }
 
-.nl-nav {
-  display: flex; gap: 8px; flex-wrap: wrap; padding: 14px 24px;
-  background: var(--card); border-bottom: 1px solid var(--rule);
-  position: sticky; top: 0; z-index: 5;
-}
-.nl-nav a {
-  color: var(--ink); text-decoration: none; font-size: 12.5px; padding: 7px 14px;
-  background: #fff; border: 1px solid var(--rule); border-radius: 20px;
-}
-.nl-nav a:hover { border-color: var(--navy); }
-
 .nl-main { padding: 8px 24px 56px; }
 .nl-main section { margin-top: 36px; }
 .nl-main h2 {
