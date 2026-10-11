@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-11",
   "regions": {
     "Europe": [
       {
@@ -25843,59 +25843,11 @@
         "url": "https://www.consilium.europa.eu/en/documents-publications/library/permanent-representations/",
         "diplomats": [
           {
-            "name": "Deike Potzel",
-            "title": "Observateur permanent (OIG/ONG)",
-            "role": "org_delegate",
-            "represented_country": null,
-            "start_date": "2025-09-09",
-            "end_date": null,
-            "data_source": "org_official",
-            "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Stavros Lambrinidis [ 22 ]",
+            "name": "Stavros Lambrinidis [ 21 ]",
             "title": "Observateur permanent (OIG/ONG)",
             "role": "org_delegate",
             "represented_country": null,
             "start_date": "2024-01-15",
-            "end_date": null,
-            "data_source": "org_official",
-            "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Christina Kokkinakis",
-            "title": "Observateur permanent (OIG/ONG)",
-            "role": "org_delegate",
-            "represented_country": null,
-            "start_date": "2023-10-10",
-            "end_date": null,
-            "data_source": "org_official",
-            "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Carl Christian Hallergard",
-            "title": "Observateur permanent (OIG/ONG)",
-            "role": "org_delegate",
-            "represented_country": null,
-            "start_date": "2023-09-12",
-            "end_date": null,
-            "data_source": "org_official",
-            "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Martin Selmayr",
-            "title": "Observateur permanent (OIG/ONG)",
-            "role": "org_delegate",
-            "represented_country": null,
-            "start_date": null,
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
@@ -26012,7 +25964,32 @@
       {
         "country": "Cameroon",
         "url": "https://www.diplocam.cm/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Mbella Mbella",
+            "title": "er of External Relations, H.E.",
+            "role": "other",
+            "represented_country": "South Africa",
+            "start_date": "2026-10-07",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplocam.cm/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Mandla Langa",
+            "title": "lla, received in audience H.E.",
+            "role": "other",
+            "represented_country": "South Africa",
+            "start_date": "2026-10-07",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplocam.cm/",
+            "email": null,
+            "phone": null
+          }
+        ]
       },
       {
         "country": "Cabo Verde",
@@ -26062,7 +26039,56 @@
       {
         "country": "Eritrea",
         "url": "https://www.shabait.com/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Beyene Russom",
+            "title": "Statement by Ambassador",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.shabait.com/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Beyene Russom",
+            "title": "Statement by Ambassador",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.shabait.com/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Arefaine Berhe",
+            "title": "An Interview with H.E",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.shabait.com/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Arefaine Berhe",
+            "title": "An Interview with H.E",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.shabait.com/",
+            "email": null,
+            "phone": null
+          }
+        ]
       },
       {
         "country": "Eswatini",
@@ -26365,6 +26391,18 @@
         "country": "Ghana",
         "url": "https://mfa.gov.gh/",
         "diplomats": [
+          {
+            "name": "Subrahmanyam Jaishankar",
+            "title": "s Minister, His Excellency Dr.",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.gh/",
+            "email": null,
+            "phone": null
+          },
           {
             "name": "Our Missions",
             "title": "AMBASSADOR KHADIJA IDDRISU",
@@ -26840,85 +26878,25 @@
       {
         "country": "Morocco",
         "url": "https://diplomatie.ma/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Request Rejected",
+            "title": "ed URL was rejected. Please consult with your administrator.",
+            "role": "consul",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://diplomatie.ma/",
+            "email": null,
+            "phone": "2770081251278"
+          }
+        ]
       },
       {
         "country": "Mozambique",
         "url": "https://www.minec.gov.mz/",
-        "diplomats": [
-          {
-            "name": "O País",
-            "title": "Conselho Consultivo",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.minec.gov.mz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Missões Diplomáticas",
-            "title": "Missões Consulares",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.minec.gov.mz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Missões Consulares",
-            "title": "Consulados Honorários",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.minec.gov.mz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Missões Consulares",
-            "title": "Missões Diplomáticas e Consulares",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.minec.gov.mz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Consulados Honorários",
-            "title": "Missões Consulares",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.minec.gov.mz/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Consulados Honorários",
-            "title": "Missões Consulares",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.minec.gov.mz/",
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Namibia",
@@ -27000,30 +26978,6 @@
         "url": "https://www.diplomatie.gouv.sn/",
         "diplomats": [
           {
-            "name": "Monsieur Bassirou Diomaye Diakhar",
-            "title": "Intervention de Son Excellence",
-            "role": "ambassador",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.diplomatie.gouv.sn/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Damjan JOVIC",
-            "title": "Audience accordée avec S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.diplomatie.gouv.sn/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Damjan JOVIC",
             "title": "Audience accordée avec S.E.M.",
             "role": "other",
@@ -27052,7 +27006,380 @@
       {
         "country": "Seychelles",
         "url": "https://mfa.gov.sc/",
-        "diplomats": []
+        "diplomats": [
+          {
+            "name": "Fock Tave",
+            "title": "Ambassador",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": "2025-08-01",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Fock Tave",
+            "title": "May 2021, Ambassador",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": "2021-05-01",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Amenda Padayachy",
+            "title": "Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "1985-07-05",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Christian Faure",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "1984-02-21",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Kenneth Jacques Gervais Racombo",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "1977-01-03",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Bessy Banane",
+            "title": "Mrs.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "1975-07-22",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Myrna Hoareau",
+            "title": "Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "1970-03-27",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "United Arab Emirates",
+            "title": "(Türkiye)Consulate Ankara",
+            "role": "consul",
+            "represented_country": "Uganda",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "The Ambassadors",
+            "title": "The Principal Secretary",
+            "role": "diplomatic_staff",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Terry Romain",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Terence Malbrook",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Shirley Low-Meng",
+            "title": "Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Selby Pillay",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Sandra Michel",
+            "title": "Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Patsy Moustache",
+            "title": "Mrs.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Organisational Structure",
+            "title": "The Ambassadors",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Myra Laporte",
+            "title": "Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Lindy Ernesta",
+            "title": "Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Lalatiana Accouche",
+            "title": "Mrs.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Kenneth Racombo",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Jemma Simeon",
+            "title": "Dr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "International Organisations",
+            "title": "Consular Missions",
+            "role": "consul",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Ian Madeleine",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Ian Madeleine",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Gervais Moumou",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Georges Tirant",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Conrad Mederic",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Claude Morel",
+            "title": "Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Cilia Mangroo",
+            "title": "Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Beryl Samson",
+            "title": "Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Anne Lafortune",
+            "title": "Mrs.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.sc/diplomatic-directory-2/seychelles-representative-overseas/",
+            "email": null,
+            "phone": null
+          }
+        ]
       },
       {
         "country": "Sierra Leone",
@@ -27082,7 +27409,7 @@
           },
           {
             "name": "Trade Offic",
-            "title": "Attaché  – A Ganim",
+            "title": "Attaché  – H Shibli",
             "role": "diplomatic_staff",
             "represented_country": null,
             "start_date": null,
@@ -27667,6 +27994,18 @@
             "phone": "466 0785"
           },
           {
+            "name": "Vladimíra Hirsch",
+            "title": "ရှဌာနခွဲ၏ အကြီးအမှူးဖြစ်သူ Ms.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mofa.gov.mm/",
+            "email": null,
+            "phone": null
+          },
+          {
             "name": "Tashio Nishimura",
             "title": "Honorary Consul : Mr.",
             "role": "consul",
@@ -27737,6 +28076,18 @@
             "source_url": "https://www.mofa.gov.mm/sample-page-3/myanmar-honorary-consulates-abroad/",
             "email": null,
             "phone": "0049-211"
+          },
+          {
+            "name": "Lorenzo Maria Pacini",
+            "title": "ီး ဦးဇော်ဦး တွဲဖက်ပါမောက္ခ Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mofa.gov.mm/",
+            "email": null,
+            "phone": null
           },
           {
             "name": "Ho Chi Minh City",
@@ -27845,6 +28196,18 @@
             "source_url": "https://www.mofa.gov.mm/sample-page-3/myanmar-honorary-consulates-abroad/",
             "email": null,
             "phone": "0049-611"
+          },
+          {
+            "name": "Dr. Thani",
+            "title": "းပြည်ပ ကုန်သွယ်ရေးဝန်ကြီး H.E.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mofa.gov.mm/",
+            "email": null,
+            "phone": null
           },
           {
             "name": "Demetrios A. Tsingis",
@@ -49640,20 +50003,7 @@
       {
         "country": "Haiti",
         "url": "https://www.mae.gouv.ht/",
-        "diplomats": [
-          {
-            "name": "Missions Permanentes",
-            "title": "Consulats",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.mae.gouv.ht/",
-            "email": null,
-            "phone": null
-          }
-        ]
+        "diplomats": []
       },
       {
         "country": "Martinique",
@@ -50506,66 +50856,11 @@
     ],
     "ONU (New York)": [
       {
-        "name": "Girma Amente Nono",
+        "name": "Fatima Kyari Mohammed [ 14 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "African Union",
         "delegate_type": "observer_entity",
-        "start_date": "2025-09-08",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Khadija Rachida Masri",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "African Union",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Mohamed Fathi Ahmed Edrees [ 14 ]",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "African Union",
-        "delegate_type": "observer_entity",
-        "start_date": "2025-09-08",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Afifa Zayadi",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Arab League Educational, Cultural and Scientific Organization",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Chin Min Lee",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Asian Forest Cooperation Organization",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Christine Nemoto",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Asian-African Legal Consultative Organization",
-        "delegate_type": "observer_entity",
-        "start_date": "2001-06-07",
+        "start_date": "2018-03-23",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
@@ -50583,11 +50878,11 @@
         "phone": null
       },
       {
-        "name": "Leslie L. Wade [ 16 ]",
+        "name": "Missouri Sherman-Peter [ 16 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Caribbean Community",
         "delegate_type": "observer_entity",
-        "start_date": "2024-12-05",
+        "start_date": "2014-11-05",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
@@ -50605,17 +50900,6 @@
         "phone": null
       },
       {
-        "name": "Aasirima Ahangama Hettiarachchi",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Commonwealth of Nations",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
         "name": "Patricia Scotland",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Commonwealth of Nations",
@@ -50627,84 +50911,18 @@
         "phone": null
       },
       {
-        "name": "Abdulaziz Suliman A. Alnasser",
+        "name": "Mohammed Alnowaiser [ 17 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Cooperation Council for the Arab States of the Gulf",
         "delegate_type": "observer_entity",
-        "start_date": "2024-12-17",
+        "start_date": "2017-09-15",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
         "phone": null
       },
       {
-        "name": "Khalid Sulaiman Ba Omar [ 17 ]",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Cooperation Council for the Arab States of the Gulf",
-        "delegate_type": "observer_entity",
-        "start_date": "2024-05-22",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Rashed Abdulrahman M. Almuraikhi",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Cooperation Council for the Arab States of the Gulf",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Anne-Cécile Joubert",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Council of Europe",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Gerhard Doujak",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Council of Europe",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Kelly Sipp [ 18 ]",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Council of Europe",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Miroslav Papa",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Council of Europe",
-        "delegate_type": "observer_entity",
-        "start_date": "2026-01-08",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Jeanne d'Arc Byaje [ 19 ]",
+        "name": "Jeanne d'Arc Byaje [ 18 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Economic Community of Central African States",
         "delegate_type": "observer_entity",
@@ -50715,7 +50933,7 @@
         "phone": null
       },
       {
-        "name": "Tanou Koné [ 20 ]",
+        "name": "Tanou Koné [ 19 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Economic Community of Western African States",
         "delegate_type": "observer_entity",
@@ -50726,9 +50944,9 @@
         "phone": null
       },
       {
-        "name": "Barbara Faedda [ 21 ]",
+        "name": "Barbara Faedda [ 20 ]",
         "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "European Public Law Organisation",
+        "country_source": "European Public Law Organization",
         "delegate_type": "observer_entity",
         "start_date": "2019-05-21",
         "end_date": null,
@@ -50737,73 +50955,7 @@
         "phone": null
       },
       {
-        "name": "Ugljesa Zvekic",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "European Public Law Organisation",
-        "delegate_type": "observer_entity",
-        "start_date": "2019-05-06",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "George Papadatos",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "European Public Law Organization",
-        "delegate_type": "observer_entity",
-        "start_date": "2019-03-11",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Carl Christian Hallergard",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "European Union",
-        "delegate_type": "observer_entity",
-        "start_date": "2023-09-12",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Christina Kokkinakis",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "European Union",
-        "delegate_type": "observer_entity",
-        "start_date": "2023-10-10",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Deike Potzel",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "European Union",
-        "delegate_type": "observer_entity",
-        "start_date": "2025-09-09",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Martin Selmayr",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "European Union",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Stavros Lambrinidis [ 22 ]",
+        "name": "Stavros Lambrinidis [ 21 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "European Union",
         "delegate_type": "observer_entity",
@@ -50825,18 +50977,7 @@
         "phone": null
       },
       {
-        "name": "Brigitte Brenner",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Inter-Parliamentary Union",
-        "delegate_type": "observer_entity",
-        "start_date": "2021-06-29",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Paddy Torsney [ 44 ]",
+        "name": "Paddy Torsney [ 41 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Inter-Parliamentary Union",
         "delegate_type": "observer_entity",
@@ -50847,7 +50988,7 @@
         "phone": null
       },
       {
-        "name": "Cherinet Hariffo [ 23 ]",
+        "name": "Cherinet Hariffo [ 22 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Intergovernmental Authority on Development",
         "delegate_type": "observer_entity",
@@ -50869,18 +51010,7 @@
         "phone": null
       },
       {
-        "name": "Meena Singelee",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "International Atomic Energy Agency",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Andrew Wilson [ 24 ]",
+        "name": "Andrew Wilson [ 23 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Chamber of Commerce",
         "delegate_type": "observer_entity",
@@ -50891,11 +51021,11 @@
         "phone": null
       },
       {
-        "name": "Elyse Mosquini [ 41 ]",
+        "name": "Robert Mardini [ 38 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Committee of the Red Cross",
         "delegate_type": "observer_entity",
-        "start_date": "2025-02-04",
+        "start_date": "2018-09-05",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
@@ -50913,17 +51043,6 @@
         "phone": null
       },
       {
-        "name": "Mark Cassayre",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "International Development Law Organization",
-        "delegate_type": "observer_entity",
-        "start_date": "2021-04-01",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
         "name": "Patrizio M. Civili",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Development Law Organization",
@@ -50935,40 +51054,29 @@
         "phone": null
       },
       {
-        "name": "Dylan Winder [ 42 ]",
+        "name": "Richard Blewitt [ 39 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Federation of Red Cross and Red Crescent Societies",
         "delegate_type": "observer_entity",
-        "start_date": "2024-06-28",
+        "start_date": "2018-08-13",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
         "phone": null
       },
       {
-        "name": "Gabriela Poller-Hartig",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "International Federation of Red Cross and Red Crescent Societies",
-        "delegate_type": "observer_entity",
-        "start_date": "2019-11-19",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Annika Silva-Leander [ 25 ]",
+        "name": "Massimo Tommasoli",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Institute for Democracy and Electoral Assistance",
         "delegate_type": "observer_entity",
-        "start_date": "2023-06-16",
+        "start_date": "2015-10-16",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
         "phone": null
       },
       {
-        "name": "Mario Pescante [ 43 ]",
+        "name": "Mario Pescante [ 40 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Olympic Committee",
         "delegate_type": "observer_entity",
@@ -50979,40 +51087,18 @@
         "phone": null
       },
       {
-        "name": "Henri Eli Monceau",
+        "name": "Ifigeneia Kontoleontos [ 25 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Organisation of La Francophonie",
         "delegate_type": "observer_entity",
-        "start_date": "2023-10-03",
+        "start_date": "2017-08-18",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
         "phone": null
       },
       {
-        "name": "Henri Monceau",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "International Organisation of La Francophonie",
-        "delegate_type": "observer_entity",
-        "start_date": "2023-06-13",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Michel Xavier Biang [ 27 ]",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "International Organisation of La Francophonie",
-        "delegate_type": "observer_entity",
-        "start_date": "2025-05-21",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Ashraf Elnour Mustafa Mohamed Nour [ 26 ]",
+        "name": "Ashraf Elnour Mustafa Mohamed Nour [ 24 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Organization for Migration",
         "delegate_type": "observer_entity",
@@ -51023,7 +51109,7 @@
         "phone": null
       },
       {
-        "name": "Alain Wilfired Biya [ 28 ]",
+        "name": "Alain Wilfired Biya [ 26 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Renewable Energy Agency",
         "delegate_type": "observer_entity",
@@ -51034,7 +51120,7 @@
         "phone": null
       },
       {
-        "name": "Michael W. Lodge [ 29 ]",
+        "name": "Michael W. Lodge [ 27 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Seabed Authority",
         "delegate_type": "observer_entity",
@@ -51045,11 +51131,11 @@
         "phone": null
       },
       {
-        "name": "Sofie Sandström Jaffe [ 30 ]",
+        "name": "David Chadwick O'Connor [ 28 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "International Union for Conservation of Nature",
         "delegate_type": "observer_entity",
-        "start_date": "2024-05-22",
+        "start_date": "2015-11-24",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
@@ -51058,7 +51144,7 @@
       {
         "name": "Daniel del Valle Blanco",
         "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "International Youth Organisation for Ibero-America",
+        "country_source": "International Youth Organization for Ibero-America",
         "delegate_type": "observer_entity",
         "start_date": null,
         "end_date": null,
@@ -51067,18 +51153,7 @@
         "phone": null
       },
       {
-        "name": "Somia Djacta",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Islamic World Educational, Scientific and Cultural Organization",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Oscar Horacio Aguilar Colindres [ 31 ]",
+        "name": "Oscar Horacio Aguilar Colindres [ 29 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Latin American, Caribbean Indigenous Peoples Fund",
         "delegate_type": "observer_entity",
@@ -51089,29 +51164,7 @@
         "phone": null
       },
       {
-        "name": "Carlos Antonio Carrasco",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Latin Union",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Hichem Bayoudh",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "League of Arab States",
-        "delegate_type": "observer_entity",
-        "start_date": "2024-09-02",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Maged Abdelfattah Abdelaziz [ 32 ]",
+        "name": "Maged Abdelfattah Abdelaziz [ 30 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "League of Arab States",
         "delegate_type": "observer_entity",
@@ -51122,51 +51175,18 @@
         "phone": null
       },
       {
-        "name": "Naji Abi Assi",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "League of Arab States",
-        "delegate_type": "observer_entity",
-        "start_date": "2021-12-21",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Salah Boucha",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "League of Arab States",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Thomas Schnöll [ 33 ]",
+        "name": "Robin Ogilvy [ 31 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Organisation for Economic Co-operation and Development",
         "delegate_type": "observer_entity",
-        "start_date": "2025-03-07",
+        "start_date": "2018-07-05",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
         "phone": null
       },
       {
-        "name": "Colin Murdoch",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Organisation of Eastern Caribbean States",
-        "delegate_type": "observer_entity",
-        "start_date": "2021-12-01",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Agshin Mehdiyev [ 35 ]",
+        "name": "Agshin Mehdiyev [ 33 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Organisation of Islamic Cooperation",
         "delegate_type": "observer_entity",
@@ -51177,66 +51197,11 @@
         "phone": null
       },
       {
-        "name": "Bader Al-Mutairi",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Organisation of Islamic Cooperation",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Muhammad Saeed Sarwar",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Organisation of Islamic Cooperation",
-        "delegate_type": "observer_entity",
-        "start_date": "2026-03-17",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Eva Awadalla Khair",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Organization of African, Caribbean and Pacific States",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Gonzalo Koncke [ 34 ]",
+        "name": "Gonzalo Koncke [ 32 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Organization of American States",
         "delegate_type": "observer_entity",
         "start_date": "2016-01-25",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Merewalesi Falemaka",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Pacific Islands Forum",
-        "delegate_type": "observer_entity",
-        "start_date": "2023-07-03",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Hazem Shabat",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Palestine",
-        "delegate_type": "observer_entity",
-        "start_date": null,
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
@@ -51254,51 +51219,7 @@
         "phone": null
       },
       {
-        "name": "Avnija Nasufoski",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Pan-African Intergovernmental Agency for Water and Sanitation for Africa",
-        "delegate_type": "observer_entity",
-        "start_date": "2025-07-03",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Nabhit Kapur [ 36 ]",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Pan-African Intergovernmental Agency for Water and Sanitation for Africa",
-        "delegate_type": "observer_entity",
-        "start_date": "2025-03-28",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Gerhard J.W. Putman-Cramer",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Parliamentary Assembly of the Mediterranean",
-        "delegate_type": "observer_entity",
-        "start_date": "2013-08-26",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Peter Schatzer",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Parliamentary Assembly of the Mediterranean",
-        "delegate_type": "observer_entity",
-        "start_date": "2013-06-24",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Qazi Shaukat Fareed [ 37 ]",
+        "name": "Qazi Shaukat Fareed [ 34 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Parliamentary Assembly of the Mediterranean",
         "delegate_type": "observer_entity",
@@ -51309,7 +51230,7 @@
         "phone": null
       },
       {
-        "name": "Mohammad Nurul Alam [ 38 ]",
+        "name": "Mohammad Nurul Alam [ 35 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Partners in Population and Development",
         "delegate_type": "observer_entity",
@@ -51320,7 +51241,7 @@
         "phone": null
       },
       {
-        "name": "Manuel F. Montes [ 39 ]",
+        "name": "Manuel F. Montes [ 36 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "South Centre",
         "delegate_type": "observer_entity",
@@ -51331,40 +51252,7 @@
         "phone": null
       },
       {
-        "name": "Guenther A. Granser",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Sovereign Military Order of Malta",
-        "delegate_type": "observer_entity",
-        "start_date": "2009-09-17",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Manfredi Lefebvre d'Ovidio",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Sovereign Military Order of Malta",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Marie-Thérèse Pictet-Althann",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "Sovereign Military Order of Malta",
-        "delegate_type": "observer_entity",
-        "start_date": "2005-11-24",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Paul Beresford-Hill [ 45 ]",
+        "name": "Paul Beresford-Hill [ 42 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "Sovereign Military Order of Malta",
         "delegate_type": "observer_entity",
@@ -51375,77 +51263,11 @@
         "phone": null
       },
       {
-        "name": "Robin Geiss",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "United Nations Institute for Disarmament Research",
-        "delegate_type": "observer_entity",
-        "start_date": null,
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Sabine Becker-Thierry",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "United Nations University",
-        "delegate_type": "observer_entity",
-        "start_date": "2026-01-01",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "David Fernández Puyana",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "University for Peace",
-        "delegate_type": "observer_entity",
-        "start_date": "2018-06-18",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "David Fernández Puyana",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "University for Peace",
-        "delegate_type": "observer_entity",
-        "start_date": "2024-09-18",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "David Fernández Puyana",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "University for Peace",
-        "delegate_type": "observer_entity",
-        "start_date": "2019-11-07",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Narinder Kakar [ 40 ]",
+        "name": "Narinder Kakar [ 37 ]",
         "title": "Observateur permanent (OIG/ONG)",
         "country_source": "University for Peace",
         "delegate_type": "observer_entity",
         "start_date": "2009-03-16",
-        "end_date": null,
-        "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
-        "email": null,
-        "phone": null
-      },
-      {
-        "name": "Ousmane Kone",
-        "title": "Observateur permanent (OIG/ONG)",
-        "country_source": "West African Economic and Monetary Union",
-        "delegate_type": "observer_entity",
-        "start_date": "2024-01-08",
         "end_date": null,
         "source_url": "https://en.wikipedia.org/wiki/List_of_current_permanent_representatives_to_the_United_Nations",
         "email": null,
