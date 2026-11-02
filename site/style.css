@@ -124,3 +124,7 @@ footer { padding: 20px 24px 40px; color: var(--ink-soft); font-size: 12px; }
   .toolbar input[type=search] { min-width: 140px; flex: 1; }
   thead th { position: static; }
 }
+@media (max-width: 900px) {
+  nav.site-tabs { overflow-x: auto; }
+  nav.site-tabs a, nav.site-tabs button { white-space: nowrap; flex: none; }
+}

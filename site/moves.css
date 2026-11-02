@@ -1,0 +1,52 @@
+/* Page « Mouvements corporates » — complète style.css, mêmes variables. */
+.mv-banner {
+  margin: 12px 24px 0; padding: 10px 16px; border-left: 3px solid var(--navy);
+  background: #eaf0f6; border-radius: 4px; font-size: 13px; color: var(--ink);
+}
+.mv-filters { position: static; flex-wrap: wrap; gap: 6px; }
+.mv-filters .lbl { font-size: 12px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .08em; margin-right: 4px; }
+
+/* Pastilles de niveau */
+.tier {
+  display: inline-block; min-width: 62px; text-align: center; padding: 1px 8px; border-radius: 10px;
+  font-size: 11px; font-weight: 700; font-family: var(--mono); letter-spacing: .04em; color: #fff;
+}
+.tier-HOT { background: var(--red); }
+.tier-WARM { background: var(--amber); }
+.tier-WATCH { background: var(--navy); }
+.tier-FAIBLE { background: #8a98a6; }
+.tier-ARCHIVE { background: #b9c3cc; color: #3b4a58; }
+.tier-ÉCARTÉ { background: #d8dee5; color: #5a6b7c; }
+.bar i.b-HOT { background: var(--red); }
+.bar i.b-WARM { background: var(--amber); }
+.bar i.b-WATCH { background: var(--navy); }
+.bar i.b-FAIBLE, .bar i.b-ARCHIVE, .bar i.b-ÉCARTÉ { background: #8a98a6; }
+
+.mv-row { cursor: pointer; }
+.mv-row.open { background: #f7f9fb; }
+.mv-org { font-size: 12px; color: var(--ink-soft); display: block; }
+.mv-arrow { color: var(--ink-soft); margin: 0 4px; }
+.mv-sub { font-size: 12px; color: var(--ink-soft); display: block; }
+.mv-detail td { background: #f7f9fb; border-bottom: 1px solid var(--rule); padding: 12px 24px 16px; }
+.mv-detail dl { display: grid; grid-template-columns: 150px 1fr; gap: 4px 14px; margin: 0; font-size: 13px; }
+.mv-detail dt { color: var(--ink-soft); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; padding-top: 2px; }
+.mv-detail dd { margin: 0; }
+.pts { font-family: var(--mono); font-size: 12px; }
+.pts span { display: inline-block; margin-right: 12px; }
+.pts .neg { color: var(--red); }
+.grid-table { font-size: 12px; margin-top: 10px; width: auto; min-width: 360px; }
+.grid-table th { position: static; cursor: default; }
+.grid-cols { display: flex; flex-wrap: wrap; gap: 8px 36px; padding-top: 10px; }
+.conf-Haute { color: var(--green); } .conf-Moyenne { color: var(--amber); } .conf-Basse { color: var(--red); }
+
+@media (max-width: 900px) {
+  .mv-detail dl { grid-template-columns: 1fr; }
+  .mv-detail dt { padding-top: 6px; }
+}
+
+main { overflow-x: auto; }
+#mv-table td.date { white-space: normal; min-width: 130px; }
+@media (max-width: 900px) {
+  #mv-table td.date { font-size: 11px; min-width: 0; }
+  .mv-detail td { padding: 12px 14px 16px; }
+}

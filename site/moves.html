@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mouvements corporates — Tender Radar</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="moves.css">
+</head>
+<body>
+<header>
+  <h1>Mouvements corporates</h1>
+  <span class="meta">Collecte du <span id="generated"></span> &nbsp;·&nbsp; <span id="scope"></span></span>
+</header>
+<nav class="site-tabs">
+  <a href="index.html">📋 Tenders</a>
+  <a href="newsletter.html">📰 Business Newsletter</a>
+  <a href="prospection.html">🕸️ Prospection</a>
+  <a href="moves.html" class="active">💼 Mouvements corporates</a>
+</nav>
+
+<div class="mv-banner">
+  Dirigeants et diplomates qui changent de poste <b>et de pays</b> — chaque mouvement est un lead de relocation potentiel.
+  <span id="mv-note"></span>
+</div>
+
+<div class="toolbar" id="mv-toolbar">
+  <label for="q">Filtre</label>
+  <input id="q" type="search" placeholder="personne, entreprise, pays, poste…" autocomplete="off">
+  <label class="check"><input type="checkbox" id="upcoming-only"> Prise de poste à venir (2027)</label>
+  <span class="count" id="count"></span>
+  <button id="grid-toggle" type="button">Grille de scoring</button>
+</div>
+
+<div class="toolbar mv-filters" id="tier-filter"></div>
+<div class="toolbar mv-filters" id="region-filter"></div>
+<div class="toolbar mv-filters" id="type-filter"></div>
+
+<div id="grid-panel" class="health-panel" style="display:none"></div>
+
+<main>
+  <table id="mv-table">
+    <thead>
+      <tr>
+        <th data-key="score">Score</th>
+        <th data-key="person">Personne</th>
+        <th data-key="from" class="hide-sm">Depuis</th>
+        <th data-key="to">Vers</th>
+        <th data-key="zone" class="hide-sm">Zone</th>
+        <th data-key="date">Annonce / prise de poste</th>
+        <th data-key="confidence" class="hide-sm">Confiance</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <p class="empty" id="empty" style="display:none">Aucun mouvement ne correspond à ce filtre.</p>
+</main>
+
+<footer>
+  <b>Limites.</b> Échantillon collecté à la main sur le web (août–octobre 2026), non exhaustif et orienté
+  diplomatie française, Asie-Pacifique et Moyen-Orient. Les poids de la grille sont des hypothèses à calibrer
+  avec les résultats réels des branches. « ARCHIVE » = mouvement déjà effectif ou sans date : conservé pour
+  référence, masqué par défaut. Les données personnelles sont issues de communiqués publics ; à utiliser dans
+  le respect du RGPD / POPIA (intérêt légitime B2B, droit d'opposition).
+</footer>
+
+<script src="moves.js"></script>
+</body>
+</html>
