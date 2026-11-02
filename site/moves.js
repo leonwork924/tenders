@@ -123,7 +123,7 @@ function renderFilters() {
 
   const yf = document.getElementById('type-filter');
   yf.innerHTML = '<span class="lbl">Type</span>';
-  ['Diplomatie', 'Organisations internationales', 'Entreprises'].forEach(t => toggleBtn(yf, t, state.types, t, refresh));
+  ['Organisations internationales', 'Entreprises'].forEach(t => toggleBtn(yf, t, state.types, t, refresh));
 }
 
 function dateCell(m) {
