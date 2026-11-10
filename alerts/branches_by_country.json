@@ -1,0 +1,2099 @@
+{
+ "note": "Noms de branches uniquement (pas d'e-mails : repo public). Santa Fe / Sanelo exclues.",
+ "countries": {
+  "FR": [
+   {
+    "branch": "Mobilitas",
+    "code": "001",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Marseille",
+    "code": "002",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Paris",
+    "code": "007",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Bordeaux",
+    "code": "010",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SCI ROCHEGAL",
+    "code": "012",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Alsace",
+    "code": "016",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Poitou-Charentes - Poitiers",
+    "code": "021",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Troyes",
+    "code": "022",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Brest",
+    "code": "023",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Nantes",
+    "code": "025",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Le Mans",
+    "code": "026",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Tarbes",
+    "code": "027",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Rhône-Alpes-Auvergne",
+    "code": "028",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Lorraine - Luxembourg",
+    "code": "029",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Lille",
+    "code": "030",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Nice",
+    "code": "032",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Montpellier",
+    "code": "033",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Compagnie Mondiale de Transport (CMT)",
+    "code": "070",
+    "network": "Africa",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Toulouse",
+    "code": "091",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Executive Relocations France",
+    "code": "094",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "DEMENAGEURS BRETONS INTERNATIONAL",
+    "code": "296",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "MVD",
+    "code": "511",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Memorist France",
+    "code": "515",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Arkhenum Switzerland",
+    "code": "520",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "HOPHUNIEUX",
+    "code": "527",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Arkhenum ONU",
+    "code": "529",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Arkhenum International",
+    "code": "530",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Arkhenum BNF",
+    "code": "534",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGP",
+    "code": "535",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Charles 5",
+    "code": "536",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Records Management France",
+    "code": "545",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Office Conseil",
+    "code": "546",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Tribvn Imaging",
+    "code": "547",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Mobi test branch",
+    "code": "555",
+    "network": "",
+    "country": "France"
+   },
+   {
+    "branch": "La reliure du Limousin",
+    "code": "558",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Arkhenum BNF Partenariats",
+    "code": "580",
+    "network": "",
+    "country": "France"
+   },
+   {
+    "branch": "SARL ATELIER BENOIST",
+    "code": "585",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SARL ATELIER GUIONIE",
+    "code": "586",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "La reliure du Limousin (CFA)",
+    "code": "595",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "CASENAVE INVEST",
+    "code": "596",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Pallas Athena",
+    "code": "597",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Coordination French military",
+    "code": "607",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "VIGINTI BORGO",
+    "code": "649",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "LES VINGT ROSES",
+    "code": "650",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "GAY LUSSAC",
+    "code": "651",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "THOMAS EDISON",
+    "code": "652",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "GALLIENI",
+    "code": "653",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "EDEN GARDEN",
+    "code": "654",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "QUINDECIM",
+    "code": "655",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "DU BON NOEL",
+    "code": "656",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "CHAMPION",
+    "code": "657",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SAYOLA",
+    "code": "658",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Phocea",
+    "code": "672",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Architea",
+    "code": "673",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SOFDI MAE Canada",
+    "code": "807",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Vectracom",
+    "code": "836",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Echolive",
+    "code": "839",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SA de la Bongarde",
+    "code": "907",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SOCADEM",
+    "code": "911",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Demepool",
+    "code": "912",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "ELIF",
+    "code": "913",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Move In",
+    "code": "918",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Stocker Seul",
+    "code": "961",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SAI RICORD",
+    "code": "962",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SNGCA",
+    "code": "963",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "SCI Du Stadium",
+    "code": "964",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Cygest",
+    "code": "985",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Records Management Corse",
+    "code": "996",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Pelidem",
+    "code": "997",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "Pelichet Paris",
+    "code": "998",
+    "network": "France",
+    "country": "France"
+   },
+   {
+    "branch": "AGS Toulon",
+    "code": "TOU",
+    "network": "France",
+    "country": "France"
+   }
+  ],
+  "GP": [
+   {
+    "branch": "AGS Guadeloupe",
+    "code": "003",
+    "network": "French Overseas Territories",
+    "country": "Guadeloupe"
+   },
+   {
+    "branch": "AAG Guadeloupe",
+    "code": "531",
+    "network": "French Overseas Territories",
+    "country": "Guadeloupe"
+   }
+  ],
+  "MQ": [
+   {
+    "branch": "AGS Martinique",
+    "code": "004",
+    "network": "French Overseas Territories",
+    "country": "Martinique"
+   },
+   {
+    "branch": "AAG Martinique",
+    "code": "553",
+    "network": "French Overseas Territories",
+    "country": "Martinique"
+   }
+  ],
+  "RE": [
+   {
+    "branch": "AGS Reunion",
+    "code": "005",
+    "network": "French Overseas Territories",
+    "country": "Reunion"
+   },
+   {
+    "branch": "AGS Records Management La Reunion",
+    "code": "505",
+    "network": "French Overseas Territories",
+    "country": "Reunion"
+   }
+  ],
+  "YT": [
+   {
+    "branch": "AGS Mayotte",
+    "code": "006",
+    "network": "French Overseas Territories",
+    "country": "Mayotte"
+   }
+  ],
+  "PF": [
+   {
+    "branch": "AGS Tahiti",
+    "code": "008",
+    "network": "French Overseas Territories",
+    "country": "French Polynesia"
+   },
+   {
+    "branch": "AGS Records Management Tahiti",
+    "code": "508",
+    "network": "French Overseas Territories",
+    "country": "French Polynesia"
+   }
+  ],
+  "NC": [
+   {
+    "branch": "AGS Noumea",
+    "code": "013",
+    "network": "French Overseas Territories",
+    "country": "New Caledonia"
+   },
+   {
+    "branch": "Noumea Archives",
+    "code": "591",
+    "network": "French Overseas Territories",
+    "country": "New Caledonia"
+   },
+   {
+    "branch": "Noumea GED",
+    "code": "592",
+    "network": "French Overseas Territories",
+    "country": "New Caledonia"
+   },
+   {
+    "branch": "La Demat",
+    "code": "890",
+    "network": "French Overseas Territories",
+    "country": "New Caledonia"
+   }
+  ],
+  "CV": [
+   {
+    "branch": "AGS Cabo Verde",
+    "code": "014",
+    "network": "Africa",
+    "country": "Cape Verde"
+   }
+  ],
+  "DZ": [
+   {
+    "branch": "AGS Algeria",
+    "code": "018",
+    "network": "Africa",
+    "country": "Algeria"
+   }
+  ],
+  "GF": [
+   {
+    "branch": "AGS French Guiana",
+    "code": "019",
+    "network": "French Overseas Territories",
+    "country": "French Guiana"
+   },
+   {
+    "branch": "AAG Guyane",
+    "code": "532",
+    "network": "French Overseas Territories",
+    "country": "French Guiana"
+   }
+  ],
+  "GB": [
+   {
+    "branch": "AGS London",
+    "code": "031",
+    "network": "Western Europe",
+    "country": "United Kingdom"
+   },
+   {
+    "branch": "Contact 365 - World Bank",
+    "code": "864",
+    "network": "Western Europe",
+    "country": "United Kingdom"
+   },
+   {
+    "branch": "Executive Relocations Europe",
+    "code": "865",
+    "network": "Western Europe",
+    "country": "United Kingdom"
+   },
+   {
+    "branch": "Executive Relocations Asia",
+    "code": "866",
+    "network": "Asia",
+    "country": "United Kingdom"
+   },
+   {
+    "branch": "Contact 365 Limited t/a Executive Relocations Africa",
+    "code": "892",
+    "network": "Western Europe",
+    "country": "United Kingdom"
+   },
+   {
+    "branch": "Contact 365",
+    "code": "966",
+    "network": "Western Europe",
+    "country": "United Kingdom"
+   }
+  ],
+  "MA": [
+   {
+    "branch": "AGS Casablanca",
+    "code": "035",
+    "network": "Africa",
+    "country": "Morocco"
+   },
+   {
+    "branch": "Doc Archives Morocco",
+    "code": "626",
+    "network": "Africa",
+    "country": "Morocco"
+   },
+   {
+    "branch": "AGS Rabat",
+    "code": "835",
+    "network": "Africa",
+    "country": "Morocco"
+   }
+  ],
+  "CM": [
+   {
+    "branch": "Codem Yaounde",
+    "code": "036",
+    "network": "Africa",
+    "country": "Cameroon"
+   },
+   {
+    "branch": "AGS Cameroon",
+    "code": "065",
+    "network": "Africa",
+    "country": "Cameroon"
+   },
+   {
+    "branch": "AGS Records Management Cameroon",
+    "code": "565",
+    "network": "Africa",
+    "country": "Cameroon"
+   }
+  ],
+  "GM": [
+   {
+    "branch": "AGS Gambia",
+    "code": "037",
+    "network": "Africa",
+    "country": "Gambia"
+   }
+  ],
+  "RS": [
+   {
+    "branch": "AGS Belgrade",
+    "code": "038",
+    "network": "Eastern & Central Europe",
+    "country": "Serbia"
+   },
+   {
+    "branch": "AGS Pristina",
+    "code": "934",
+    "network": "Eastern & Central Europe",
+    "country": "Kosovo"
+   }
+  ],
+  "ES": [
+   {
+    "branch": "AGS Barcelona",
+    "code": "039",
+    "network": "Western Europe",
+    "country": "Spain"
+   },
+   {
+    "branch": "AGS Madrid",
+    "code": "054",
+    "network": "Western Europe",
+    "country": "Spain"
+   }
+  ],
+  "BG": [
+   {
+    "branch": "AGS Sofia",
+    "code": "041",
+    "network": "Eastern & Central Europe",
+    "country": "Bulgaria"
+   }
+  ],
+  "HR": [
+   {
+    "branch": "AGS Zagreb",
+    "code": "042",
+    "network": "Eastern & Central Europe",
+    "country": "Croatia"
+   },
+   {
+    "branch": "AGS Slovenia",
+    "code": "088",
+    "network": "Eastern & Central Europe",
+    "country": "Croatia"
+   }
+  ],
+  "SK": [
+   {
+    "branch": "AGS Bratislava",
+    "code": "043",
+    "network": "Eastern & Central Europe",
+    "country": "Slovakia (Slovak Republic)"
+   }
+  ],
+  "GQ": [
+   {
+    "branch": "AGS Equatorial Guinea",
+    "code": "044",
+    "network": "Africa",
+    "country": "Equatorial Guinea"
+   }
+  ],
+  "AL": [
+   {
+    "branch": "AGS Tirana",
+    "code": "045",
+    "network": "Eastern & Central Europe",
+    "country": "Albania"
+   }
+  ],
+  "TN": [
+   {
+    "branch": "AGS Tunisia Carthago",
+    "code": "046",
+    "network": "Africa",
+    "country": "Tunisia"
+   },
+   {
+    "branch": "Doc Archives Tunisia",
+    "code": "627",
+    "network": "Africa",
+    "country": "Tunisia"
+   },
+   {
+    "branch": "CDIE",
+    "code": "678",
+    "network": "Africa",
+    "country": "Tunisia"
+   }
+  ],
+  "MK": [
+   {
+    "branch": "AGS Skopje",
+    "code": "049",
+    "network": "Eastern & Central Europe",
+    "country": "North Macedonia"
+   }
+  ],
+  "BA": [
+   {
+    "branch": "AGS Sarajevo",
+    "code": "050",
+    "network": "Eastern & Central Europe",
+    "country": "Bosnia and Herzegovina"
+   },
+   {
+    "branch": "Arhiv Servis",
+    "code": "584",
+    "network": "Eastern & Central Europe",
+    "country": "Bosnia and Herzegovina"
+   }
+  ],
+  "CZ": [
+   {
+    "branch": "AGS Prague",
+    "code": "052",
+    "network": "Eastern & Central Europe",
+    "country": "Czech Republic"
+   }
+  ],
+  "PL": [
+   {
+    "branch": "AGS Warsaw",
+    "code": "053",
+    "network": "Eastern & Central Europe",
+    "country": "Poland"
+   }
+  ],
+  "BE": [
+   {
+    "branch": "AGS Brussels",
+    "code": "055",
+    "network": "Western Europe",
+    "country": "Belgium"
+   }
+  ],
+  "HU": [
+   {
+    "branch": "AGS Budapest",
+    "code": "056",
+    "network": "Eastern & Central Europe",
+    "country": "Hungary"
+   }
+  ],
+  "RO": [
+   {
+    "branch": "AGS Bucharest",
+    "code": "057",
+    "network": "Eastern & Central Europe",
+    "country": "Romania"
+   },
+   {
+    "branch": "AGS European Traffic Center (ETC)",
+    "code": "357",
+    "network": "Eastern & Central Europe",
+    "country": "Romania"
+   },
+   {
+    "branch": "Distristoc",
+    "code": "582",
+    "network": "Eastern & Central Europe",
+    "country": "Romania"
+   }
+  ],
+  "PT": [
+   {
+    "branch": "AGS Lisbon",
+    "code": "058",
+    "network": "Western Europe",
+    "country": "Portugal"
+   },
+   {
+    "branch": "Graf IT",
+    "code": "629",
+    "network": "Western Europe",
+    "country": "Portugal"
+   }
+  ],
+  "UA": [
+   {
+    "branch": "AGS Kiev",
+    "code": "059",
+    "network": "Eastern & Central Europe",
+    "country": "Ukraine"
+   }
+  ],
+  "CI": [
+   {
+    "branch": "AGS Ivory Coast",
+    "code": "060",
+    "network": "Africa",
+    "country": "Ivory Coast"
+   },
+   {
+    "branch": "AGS Records Management Ivory Coast",
+    "code": "560",
+    "network": "Africa",
+    "country": "Ivory Coast"
+   }
+  ],
+  "GA": [
+   {
+    "branch": "AGS Libreville",
+    "code": "061",
+    "network": "Africa",
+    "country": "Gabon"
+   },
+   {
+    "branch": "AGS Port Gentil",
+    "code": "861",
+    "network": "Africa",
+    "country": "Gabon"
+   },
+   {
+    "branch": "AAC Gabon",
+    "code": "981",
+    "network": "Africa",
+    "country": "Gabon"
+   }
+  ],
+  "BJ": [
+   {
+    "branch": "AGS Benin",
+    "code": "063",
+    "network": "Africa",
+    "country": "Benin"
+   },
+   {
+    "branch": "Ags Records Management Benin",
+    "code": "563",
+    "network": "Africa",
+    "country": "Benin"
+   }
+  ],
+  "TG": [
+   {
+    "branch": "AGS Togo",
+    "code": "064",
+    "network": "Africa",
+    "country": "Togo"
+   }
+  ],
+  "GH": [
+   {
+    "branch": "AGS Ghana",
+    "code": "066",
+    "network": "Africa",
+    "country": "Ghana"
+   }
+  ],
+  "CG": [
+   {
+    "branch": "AGS Congo Pointe-Noire",
+    "code": "067",
+    "network": "Africa",
+    "country": "Congo"
+   },
+   {
+    "branch": "AGS Congo Brazzaville",
+    "code": "867",
+    "network": "Africa",
+    "country": "Congo"
+   }
+  ],
+  "MG": [
+   {
+    "branch": "AGS Madagascar",
+    "code": "068",
+    "network": "Africa",
+    "country": "Madagascar"
+   },
+   {
+    "branch": "AGS Records Management Madagascar",
+    "code": "568",
+    "network": "Africa",
+    "country": "Madagascar"
+   }
+  ],
+  "MR": [
+   {
+    "branch": "AGS Mauritania",
+    "code": "069",
+    "network": "Africa",
+    "country": "Mauritania"
+   }
+  ],
+  "GN": [
+   {
+    "branch": "AGS Guinea",
+    "code": "071",
+    "network": "Africa",
+    "country": "Guinea"
+   }
+  ],
+  "ML": [
+   {
+    "branch": "AGS Mali",
+    "code": "072",
+    "network": "Africa",
+    "country": "Mali"
+   }
+  ],
+  "BF": [
+   {
+    "branch": "AGS Burkina Faso",
+    "code": "073",
+    "network": "Africa",
+    "country": "Burkina Faso"
+   }
+  ],
+  "TD": [
+   {
+    "branch": "AGS Chad",
+    "code": "074",
+    "network": "Africa",
+    "country": "Chad"
+   }
+  ],
+  "NG": [
+   {
+    "branch": "AGS Nigeria - Port Harcourt",
+    "code": "075",
+    "network": "Africa",
+    "country": "Nigeria"
+   },
+   {
+    "branch": "AGS Nigeria - Lagos",
+    "code": "089",
+    "network": "Africa",
+    "country": "Nigeria"
+   },
+   {
+    "branch": "AGS Nigeria - Abuja",
+    "code": "095",
+    "network": "Africa",
+    "country": "Nigeria"
+   }
+  ],
+  "SN": [
+   {
+    "branch": "AGS Senegal",
+    "code": "076",
+    "network": "Africa",
+    "country": "Senegal"
+   },
+   {
+    "branch": "Pro Archives Systèmes Senegal",
+    "code": "576",
+    "network": "Africa",
+    "country": "Senegal"
+   }
+  ],
+  "CD": [
+   {
+    "branch": "AGS DRC",
+    "code": "077",
+    "network": "Africa",
+    "country": "Congo, the Democratic Republic of the"
+   }
+  ],
+  "SL": [
+   {
+    "branch": "AGS Sierra Leone",
+    "code": "078",
+    "network": "Africa",
+    "country": "Sierra Leone"
+   }
+  ],
+  "EG": [
+   {
+    "branch": "AGS Egypt",
+    "code": "079",
+    "network": "Africa",
+    "country": "Egypt"
+   }
+  ],
+  "KE": [
+   {
+    "branch": "AGS Kenya",
+    "code": "080",
+    "network": "Africa",
+    "country": "Kenya"
+   },
+   {
+    "branch": "Emanage Kenya",
+    "code": "518",
+    "network": "Africa",
+    "country": "Kenya"
+   }
+  ],
+  "UG": [
+   {
+    "branch": "AGS Uganda",
+    "code": "081",
+    "network": "Africa",
+    "country": "Uganda"
+   }
+  ],
+  "TZ": [
+   {
+    "branch": "AGS Dar es Salaam",
+    "code": "082",
+    "network": "Africa",
+    "country": "Tanzania"
+   }
+  ],
+  "RW": [
+   {
+    "branch": "AGS Rwanda",
+    "code": "083",
+    "network": "Africa",
+    "country": "Rwanda"
+   }
+  ],
+  "MZ": [
+   {
+    "branch": "AGS Mozambique",
+    "code": "084",
+    "network": "Africa",
+    "country": "Mozambique"
+   },
+   {
+    "branch": "AGS Records Management Mozafiles",
+    "code": "517",
+    "network": "Africa",
+    "country": "Mozambique"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES Maputo",
+    "code": "945",
+    "network": "Africa",
+    "country": "Mozambique"
+   }
+  ],
+  "MW": [
+   {
+    "branch": "AGS Lilongwe",
+    "code": "085",
+    "network": "Africa",
+    "country": "Malawi"
+   }
+  ],
+  "ZM": [
+   {
+    "branch": "AGS Zambia",
+    "code": "086",
+    "network": "Africa",
+    "country": "Zambia"
+   },
+   {
+    "branch": "Flexifile",
+    "code": "628",
+    "network": "Africa",
+    "country": "Zambia"
+   }
+  ],
+  "BI": [
+   {
+    "branch": "AGS Burundi",
+    "code": "090",
+    "network": "Africa",
+    "country": "Burundi"
+   }
+  ],
+  "AO": [
+   {
+    "branch": "AGS Angola",
+    "code": "092",
+    "network": "Africa",
+    "country": "Angola"
+   }
+  ],
+  "SD": [
+   {
+    "branch": "AGS Sudan",
+    "code": "093",
+    "network": "Africa",
+    "country": "Sudan"
+   }
+  ],
+  "TH": [
+   {
+    "branch": "AGS Thailand",
+    "code": "096",
+    "network": "Asia",
+    "country": "Thailand"
+   }
+  ],
+  "SG": [
+   {
+    "branch": "AGS Singapore",
+    "code": "097",
+    "network": "Asia",
+    "country": "Singapore"
+   },
+   {
+    "branch": "Asia United Group Singapore",
+    "code": "853",
+    "network": "Asia",
+    "country": "Singapore"
+   }
+  ],
+  "TW": [
+   {
+    "branch": "AGS Taiwan Ltd.",
+    "code": "098",
+    "network": "Asia",
+    "country": "Taiwan"
+   }
+  ],
+  "HK": [
+   {
+    "branch": "AGS Hong Kong",
+    "code": "099",
+    "network": "Asia",
+    "country": "Hong Kong"
+   },
+   {
+    "branch": "Asia United Group Hong-Kong",
+    "code": "852",
+    "network": "Asia",
+    "country": "Hong Kong"
+   }
+  ],
+  "ZA": [
+   {
+    "branch": "LASER Head Office",
+    "code": "100",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "AGS JV SNGCA Dirco Business Unit",
+    "code": "109",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "Laser shuttle",
+    "code": "111",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "AGS Dirco Business Unit",
+    "code": "113",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "The Memorist South Africa",
+    "code": "115",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "Laser Clearing and Forwarding",
+    "code": "116",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "Laser Test Branch",
+    "code": "119",
+    "network": "",
+    "country": "South Africa"
+   },
+   {
+    "branch": "AGS Cape Town",
+    "code": "121",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "AGS Durban",
+    "code": "122",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "AGS Port Elizabeth",
+    "code": "123",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "AGS Johannesburg",
+    "code": "124",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "PICKFORDS BLOEMFONTEIN",
+    "code": "131",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "PICKFORDS CAPE TOWN",
+    "code": "132",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "PICKFORDS DURBAN",
+    "code": "133",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "PICKFORDS PORT ELIZABETH",
+    "code": "134",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "PICKFORDS JOHANNESBURG",
+    "code": "135",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "PICKFORDS PRETORIA",
+    "code": "136",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES BLOEMFONTEIN",
+    "code": "141",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES CAPE TOWN",
+    "code": "142",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES DURBAN",
+    "code": "143",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES PORT ELIZABETH",
+    "code": "144",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES GEORGE",
+    "code": "145",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES JOHANNESBURG",
+    "code": "146",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES EAST LONDON",
+    "code": "148",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "STUTTAFORD VAN LINES PRETORIA",
+    "code": "149",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SANDTON OFFICE REMOVALS",
+    "code": "151",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "MAGNA-THOMSON CAPE TOWN",
+    "code": "171",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "MAGNA-THOMSON DURBAN",
+    "code": "172",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "MAGNA-THOMSON JOHANNESBURG",
+    "code": "173",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "EXECUTIVE RELOCATIONS SOUTH AFRICA",
+    "code": "196",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "OMM - AGS Worldwide",
+    "code": "271",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "OMM RMC Division",
+    "code": "312",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "Laser Pricing Division",
+    "code": "317",
+    "network": "",
+    "country": "South Africa"
+   },
+   {
+    "branch": "Executive Relocations Africa Head Office",
+    "code": "364",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SNGCA South Africa (PTY) t/a AGS Records Management South Africa",
+    "code": "559",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SNGCA Properties",
+    "code": "564",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SNGCA Cape Town",
+    "code": "566",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SNGCA Johannesburg",
+    "code": "567",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SNGCA Durban",
+    "code": "569",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SNGCA Port Elizabeth",
+    "code": "570",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SNGCA Digital",
+    "code": "573",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "SNGCA Digital Johannesburg",
+    "code": "574",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "Memorist Siège",
+    "code": "577",
+    "network": "France",
+    "country": "South Africa"
+   },
+   {
+    "branch": "BPOS SA",
+    "code": "675",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "Meyer Caribbean 17",
+    "code": "830",
+    "network": "Caribbean",
+    "country": "South Africa"
+   },
+   {
+    "branch": "Overseas AM",
+    "code": "924",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "PICKFORDS GEORGE",
+    "code": "PG",
+    "network": "South Africa",
+    "country": "South Africa"
+   },
+   {
+    "branch": "PICKFORDS EAST LONDON",
+    "code": "PL",
+    "network": "South Africa",
+    "country": "South Africa"
+   }
+  ],
+  "BW": [
+   {
+    "branch": "AGS Botswana",
+    "code": "125",
+    "network": "South Africa",
+    "country": "Botswana"
+   },
+   {
+    "branch": "AGS Records Management Botswana",
+    "code": "552",
+    "network": "South Africa",
+    "country": "Botswana"
+   }
+  ],
+  "ZW": [
+   {
+    "branch": "Pickfords Zimbabwe",
+    "code": "137",
+    "network": "Africa",
+    "country": "Zimbabwe"
+   },
+   {
+    "branch": "AGS Zimbabwe",
+    "code": "948",
+    "network": "Africa",
+    "country": "Zimbabwe"
+   }
+  ],
+  "LS": [
+   {
+    "branch": "STUTTAFORD VAN LINES LESOTHO",
+    "code": "152",
+    "network": "South Africa",
+    "country": "Lesotho"
+   },
+   {
+    "branch": "AGS Lesotho",
+    "code": "FL",
+    "network": "Africa",
+    "country": "Lesotho"
+   }
+  ],
+  "NA": [
+   {
+    "branch": "STUTTAFORD VAN LINES WINDHOEK",
+    "code": "153",
+    "network": "South Africa",
+    "country": "Namibia"
+   },
+   {
+    "branch": "AGS Records Management Namibia",
+    "code": "551",
+    "network": "Africa",
+    "country": "Namibia"
+   }
+  ],
+  "SZ": [
+   {
+    "branch": "STUTTAFORD VAN LINES Eswatini",
+    "code": "154",
+    "network": "South Africa",
+    "country": "Eswatini"
+   },
+   {
+    "branch": "AGS Swaziland",
+    "code": "FS",
+    "network": "Africa",
+    "country": "Swaziland"
+   }
+  ],
+  "MU": [
+   {
+    "branch": "AGS Records Management Mauritius",
+    "code": "501",
+    "network": "Africa",
+    "country": "Mauritius"
+   },
+   {
+    "branch": "AGS Mauritius",
+    "code": "939",
+    "network": "Africa",
+    "country": "Mauritius"
+   }
+  ],
+  "SC": [
+   {
+    "branch": "AGS Records Management Seychelles",
+    "code": "516",
+    "network": "Africa",
+    "country": "Seychelles"
+   }
+  ],
+  "DJ": [
+   {
+    "branch": "Ags Records Management Djibouti",
+    "code": "557",
+    "network": "Africa",
+    "country": "Djibouti"
+   }
+  ],
+  "CH": [
+   {
+    "branch": "Pelichet Archivage SA",
+    "code": "590",
+    "network": "Western Europe",
+    "country": "Switzerland"
+   },
+   {
+    "branch": "Memorist Switzerland",
+    "code": "624",
+    "network": "Western Europe",
+    "country": "Switzerland"
+   },
+   {
+    "branch": "AIMS SARL",
+    "code": "665",
+    "network": "Western Europe",
+    "country": "Switzerland"
+   },
+   {
+    "branch": "AIMS - Division A",
+    "code": "671",
+    "network": "Western Europe",
+    "country": "Switzerland"
+   },
+   {
+    "branch": "AIMS - Division B",
+    "code": "674",
+    "network": "Western Europe",
+    "country": "Switzerland"
+   },
+   {
+    "branch": "Pelichet Vaud",
+    "code": "899",
+    "network": "Western Europe",
+    "country": "Switzerland"
+   },
+   {
+    "branch": "Pelichet NLC",
+    "code": "999",
+    "network": "Western Europe",
+    "country": "Switzerland"
+   }
+  ],
+  "DE": [
+   {
+    "branch": "AGS Pietsch Koblenz",
+    "code": "594",
+    "network": "Western Europe",
+    "country": "Germany"
+   },
+   {
+    "branch": "AGS Berlin - Fine Art",
+    "code": "598",
+    "network": "Western Europe",
+    "country": "Germany"
+   },
+   {
+    "branch": "Memorist Germany",
+    "code": "623",
+    "network": "Western Europe",
+    "country": "Germany"
+   },
+   {
+    "branch": "AGS Erlangen",
+    "code": "840",
+    "network": "Western Europe",
+    "country": "Germany"
+   },
+   {
+    "branch": "AGS Munich",
+    "code": "841",
+    "network": "Western Europe",
+    "country": "Germany"
+   },
+   {
+    "branch": "Winco",
+    "code": "916",
+    "network": "Western Europe",
+    "country": "Germany"
+   },
+   {
+    "branch": "AGS Koblenz",
+    "code": "991",
+    "network": "Western Europe",
+    "country": "Germany"
+   },
+   {
+    "branch": "AGS Berlin",
+    "code": "992",
+    "network": "Western Europe",
+    "country": "Germany"
+   },
+   {
+    "branch": "AGS Pietsch Berlin",
+    "code": "994",
+    "network": "Western Europe",
+    "country": "Germany"
+   }
+  ],
+  "US": [
+   {
+    "branch": "Memorist USA",
+    "code": "625",
+    "network": "North America",
+    "country": "United States"
+   }
+  ],
+  "AT": [
+   {
+    "branch": "AGS Austria GMBH",
+    "code": "630",
+    "network": "Eastern & Central Europe",
+    "country": "Austria"
+   }
+  ],
+  "MX": [
+   {
+    "branch": "Phocea Mexico",
+    "code": "676",
+    "network": "North America",
+    "country": "Mexico"
+   }
+  ],
+  "IN": [
+   {
+    "branch": "Mobilitas India",
+    "code": "680",
+    "network": "India",
+    "country": "India"
+   },
+   {
+    "branch": "AGS Delhi",
+    "code": "925",
+    "network": "India",
+    "country": "India"
+   },
+   {
+    "branch": "AGS Bangalore",
+    "code": "926",
+    "network": "India",
+    "country": "India"
+   },
+   {
+    "branch": "AGS Mumbai",
+    "code": "927",
+    "network": "India",
+    "country": "India"
+   },
+   {
+    "branch": "AGS Chennai",
+    "code": "946",
+    "network": "India",
+    "country": "India"
+   },
+   {
+    "branch": "AGS Hyderabad",
+    "code": "956",
+    "network": "India",
+    "country": "India"
+   }
+  ],
+  "ID": [
+   {
+    "branch": "PT Relokasi Jaya, Indonesia",
+    "code": "742",
+    "network": "Asia",
+    "country": "Indonesia"
+   },
+   {
+    "branch": "AGS Surabaya",
+    "code": "812",
+    "network": "Asia",
+    "country": "Indonesia"
+   },
+   {
+    "branch": "AGS Indonesia",
+    "code": "949",
+    "network": "Asia",
+    "country": "Indonesia"
+   }
+  ],
+  "AE": [
+   {
+    "branch": "Executive Relocations Dubai",
+    "code": "774",
+    "network": "Middle East",
+    "country": "United Arab Emirates"
+   },
+   {
+    "branch": "AGS UAE - Abu Dhabi",
+    "code": "969",
+    "network": "Middle East",
+    "country": "United Arab Emirates"
+   },
+   {
+    "branch": "AGS UAE - Dubai",
+    "code": "974",
+    "network": "Middle East",
+    "country": "United Arab Emirates"
+   }
+  ],
+  "MM": [
+   {
+    "branch": "AGS Myanmar",
+    "code": "810",
+    "network": "Asia",
+    "country": "Myanmar"
+   }
+  ],
+  "KH": [
+   {
+    "branch": "AGS Cambodia",
+    "code": "811",
+    "network": "Asia",
+    "country": "Cambodia"
+   }
+  ],
+  "ET": [
+   {
+    "branch": "SEGON MARILL Ethiopia",
+    "code": "813",
+    "network": "Africa",
+    "country": "Ethiopia"
+   }
+  ],
+  "NL": [
+   {
+    "branch": "AGS Netherlands",
+    "code": "820",
+    "network": "Western Europe",
+    "country": "Netherlands"
+   },
+   {
+    "branch": "AGS Meyer Curacao",
+    "code": "824",
+    "network": "Caribbean",
+    "country": "Curacao"
+   },
+   {
+    "branch": "AGS Sint Maarten (NL)",
+    "code": "825",
+    "network": "Caribbean",
+    "country": "Sint Maarten"
+   },
+   {
+    "branch": "Executive Relocations Netherlands",
+    "code": "826",
+    "network": "Western Europe",
+    "country": "Netherlands"
+   },
+   {
+    "branch": "De Gruijter & Co.",
+    "code": "827",
+    "network": "Western Europe",
+    "country": "Netherlands"
+   },
+   {
+    "branch": "XLPack",
+    "code": "828",
+    "network": "Western Europe",
+    "country": "Netherlands"
+   },
+   {
+    "branch": "Passies Verhuizers",
+    "code": "829",
+    "network": "Western Europe",
+    "country": "Netherlands"
+   },
+   {
+    "branch": "NEDVAN",
+    "code": "832",
+    "network": "Western Europe",
+    "country": "Netherlands"
+   },
+   {
+    "branch": "Noble Mobility BV",
+    "code": "833",
+    "network": "Western Europe",
+    "country": "Netherlands"
+   }
+  ],
+  "AW": [
+   {
+    "branch": "AGS Meyer Aruba",
+    "code": "821",
+    "network": "Caribbean",
+    "country": "Aruba"
+   }
+  ],
+  "BQ": [
+   {
+    "branch": "AGS Meyer Bonaire",
+    "code": "823",
+    "network": "Caribbean",
+    "country": "Bonaire"
+   }
+  ],
+  "MF": [
+   {
+    "branch": "AGS Saint Martin (FR)",
+    "code": "831",
+    "network": "Caribbean",
+    "country": "Saint Martin"
+   }
+  ],
+  "JP": [
+   {
+    "branch": "Asia United Group - Japan K.K.",
+    "code": "851",
+    "network": "Asia",
+    "country": "Japan"
+   },
+   {
+    "branch": "AGS Japan",
+    "code": "970",
+    "network": "Asia",
+    "country": "Japan"
+   }
+  ],
+  "CN": [
+   {
+    "branch": "Asia United Group Shanghai",
+    "code": "854",
+    "network": "Asia",
+    "country": "China (People's Republic)"
+   },
+   {
+    "branch": "Asia United Group Beijing",
+    "code": "855",
+    "network": "Asia",
+    "country": "China (People's Republic)"
+   },
+   {
+    "branch": "Asia United Group Chengdu",
+    "code": "856",
+    "network": "Asia",
+    "country": "China (People's Republic)"
+   },
+   {
+    "branch": "AGS Shanghai",
+    "code": "928",
+    "network": "Asia",
+    "country": "China (People's Republic)"
+   },
+   {
+    "branch": "AGS Beijing",
+    "code": "929",
+    "network": "Asia",
+    "country": "China (People's Republic)"
+   },
+   {
+    "branch": "AGS Guangzhou",
+    "code": "932",
+    "network": "Asia",
+    "country": "China (People's Republic)"
+   },
+   {
+    "branch": "AGS Chengdu",
+    "code": "955",
+    "network": "Asia",
+    "country": "China (People's Republic)"
+   }
+  ],
+  "BH": [
+   {
+    "branch": "AGS Bahrain",
+    "code": "858",
+    "network": "Middle East",
+    "country": "Bahrain"
+   }
+  ],
+  "OM": [
+   {
+    "branch": "AGS Oman",
+    "code": "859",
+    "network": "Middle East",
+    "country": "Oman"
+   }
+  ],
+  "KW": [
+   {
+    "branch": "Vectracom Kuwait",
+    "code": "862",
+    "network": "Middle East",
+    "country": "Kuwait"
+   },
+   {
+    "branch": "AGS Kuwait",
+    "code": "889",
+    "network": "Middle East",
+    "country": "Kuwait"
+   }
+  ],
+  "NE": [
+   {
+    "branch": "DAN Niger",
+    "code": "863",
+    "network": "Africa",
+    "country": "Niger"
+   }
+  ],
+  "VN": [
+   {
+    "branch": "AGS Hanoi",
+    "code": "883",
+    "network": "Asia",
+    "country": "Vietnam"
+   },
+   {
+    "branch": "AGS Ho Chi Minh City",
+    "code": "983",
+    "network": "Asia",
+    "country": "Vietnam"
+   }
+  ],
+  "CF": [
+   {
+    "branch": "Moving and Storage Bangui",
+    "code": "887",
+    "network": "Africa",
+    "country": "Central African Republic"
+   }
+  ],
+  "RU": [
+   {
+    "branch": "AGS Moscow",
+    "code": "919",
+    "network": "Eastern & Central Europe",
+    "country": "Russian Federation"
+   }
+  ],
+  "KR": [
+   {
+    "branch": "AGS Korea",
+    "code": "935",
+    "network": "Asia",
+    "country": "South Korea, Republic of"
+   }
+  ],
+  "PH": [
+   {
+    "branch": "AGS Manila",
+    "code": "938",
+    "network": "Asia",
+    "country": "Philippines"
+   },
+   {
+    "branch": "AGS Cebu",
+    "code": "947",
+    "network": "Asia",
+    "country": "Philippines"
+   }
+  ],
+  "LR": [
+   {
+    "branch": "AGS Liberia",
+    "code": "940",
+    "network": "Africa",
+    "country": "Liberia"
+   }
+  ],
+  "MO": [
+   {
+    "branch": "AGS Macau",
+    "code": "943",
+    "network": "Asia",
+    "country": "Macau"
+   }
+  ],
+  "LA": [
+   {
+    "branch": "AGS Laos",
+    "code": "950",
+    "network": "Asia",
+    "country": "Laos"
+   }
+  ],
+  "KM": [
+   {
+    "branch": "AGS Comoros",
+    "code": "953",
+    "network": "Africa",
+    "country": "Comoros"
+   }
+  ],
+  "ME": [
+   {
+    "branch": "AGS Podgorica",
+    "code": "958",
+    "network": "Eastern & Central Europe",
+    "country": "Montenegro"
+   }
+  ],
+  "HT": [
+   {
+    "branch": "AGS Meyer Haiti",
+    "code": "971",
+    "network": "French Overseas Territories",
+    "country": "Haiti"
+   }
+  ],
+  "GW": [
+   {
+    "branch": "AGS Guinea-Bissau",
+    "code": "977",
+    "network": "Africa",
+    "country": "Guinea-Bissau"
+   }
+  ],
+  "SS": [
+   {
+    "branch": "AGS South Sudan",
+    "code": "979",
+    "network": "Africa",
+    "country": "South Sudan"
+   }
+  ],
+  "MY": [
+   {
+    "branch": "AGS Malaysia",
+    "code": "982",
+    "network": "Asia",
+    "country": "Malaysia"
+   }
+  ],
+  "ST": [
+   {
+    "branch": "AGS Sao Tome",
+    "code": "984",
+    "network": "Africa",
+    "country": "Sao Tome and Principe"
+   }
+  ],
+  "QA": [
+   {
+    "branch": "AGS Qatar",
+    "code": "988",
+    "network": "Middle East",
+    "country": "Qatar"
+   }
+  ]
+ }
+}

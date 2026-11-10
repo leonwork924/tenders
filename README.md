@@ -425,3 +425,23 @@ the documented schemas rather than against the live services. Run
 endpoint has drifted, the verbose log shows you exactly what came back, and the
 mapping is one small function per source (`_to_tender` in `ted.py`,
 `release_to_tender` in `ocds.py`).
+
+---
+
+## Alertes e-mail (nouveaux tenders)
+
+Après chaque fetch quotidien, `alerts/notify.py` repère les tenders **jamais signalés** avec un score
+≥ 15 (réglable dans `alerts/config.json`), non expirés et non doublons. Il met **un e-mail par tender** dans
+`alerts/data/outbox.json` (au-delà de 10 d'un coup : un seul récapitulatif). Chaque e-mail contient le titre,
+l'acheteur, le pays, la date limite, le score, le lien et **les branches du pays**
+(`alerts/branches_by_country.json`, générée par `alerts/build_branches.py` — noms seulement, jamais d'adresses :
+le repo est public).
+
+- **Phase de test (actuelle) :** destinataire = toi seul. Les branches sont listées dans le mail pour voir à qui
+  ça irait. Santa Fe / Sanelo ne sont jamais alertées.
+- **Envoi :** rien ne part tout seul. Sur ton PC : `git pull`, puis
+  `powershell -ExecutionPolicy Bypass -File .\tools\create_tender_drafts.ps1` crée les brouillons Outlook.
+  La première fois, il te demande ton adresse (mémorisée dans `.alerts_to.txt`, ignoré par git).
+- **Premier lancement :** les tenders déjà en base sont marqués « vus » sans alerte (`alerts/data/notified.json`).
+- **Test :** `python alerts/tests/test_notify.py` ; aperçu sans rien écrire : `python alerts/notify.py --sample 3`.
+- **Mettre à jour les branches :** `python alerts/build_branches.py "chemin\Mobilitas_BranchesALL.csv"`.

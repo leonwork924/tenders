@@ -30,11 +30,17 @@ jobs:
           SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
         run: python run.py fetch
 
+      # Alertes e-mail (nouveaux tenders au-dessus du seuil -> file d'attente pour Outlook).
+      # continue-on-error : si l'alerte plante, le fetch du jour reste commité.
+      - name: Tender alerts
+        continue-on-error: true
+        run: python alerts/notify.py
+
       - name: Commit updated data
         run: |
           git config user.name "tender-radar-bot"
           git config user.email "tender-radar-bot@users.noreply.github.com"
-          git add data/tenders.sqlite3 site/data.json site/history.json
+          git add data/tenders.sqlite3 site/data.json site/history.json alerts/data
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
             exit 0

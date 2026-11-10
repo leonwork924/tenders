@@ -8,3 +8,10 @@ inbox/*
 .env
 node_modules/
 corporate_contacts.db
+
+# Alertes (fichiers locaux)
+.alerts_to.txt
+.drafted_ids.txt
+suivi_envois*.csv
+deja_envoyes.csv
+alerts/data/notifications_du_jour.html

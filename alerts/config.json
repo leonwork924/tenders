@@ -1,0 +1,5 @@
+{
+  "mode": "test",
+  "min_score": 15,
+  "note": "mode=test : alertes pour Leon seul (le script PowerShell met l'adresse). Santa Fe / Sanelo ne sont jamais alertées. Pas d'e-mails ici : le repo est public."
+}
