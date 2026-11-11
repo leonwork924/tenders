@@ -1,1 +1,77 @@
-[]
+[
+ {
+  "id": "TENDER:ted:785673-2026",
+  "created": "2026-11-11",
+  "to": [],
+  "subject": "[Tender Radar] France: Scanning services – NUMERISATION DE DOSSIERS - ACCORD CADRE MONO-ATTRIBUTAIRE A BONS DE CO (deadline 2026-12-14)",
+  "body": "New tender above the alert threshold (score 27.6).\n\nTitle:     France – Scanning services – NUMERISATION DE DOSSIERS - ACCORD CADRE MONO-ATTRIBUTAIRE A BONS DE COMMANDE\nBuyer:     OPH 13 HABITAT\nCountry:   France\nDeadline:  2026-12-14\nPublished: 2026-11-11\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/785673-2026\n\nWhy it scored:\n  digitisation(12.0): numerisation*T, scanning*T | heritage(5.6): patrimoine | cpv(+10.0): cpv:79999100\n\nDescription (start of the notice):\n  Le présent marché a pour objet la réalisation de prestations de numérisation de dossiers papier présentant des caractéristiques documentaires variées et spécifiques de l'activité des services producteurs (gestion locative, patrimoine, fonctions supports, etc.) Le présent marché a pour objet la réalisation de prestations de numérisation de dossiers papier présentant des caractéristiques documentaires variées et spécifiques de l'activité des services producteurs (gestion locative, patrimoine, fonctions supports, etc.)\n\nBranches in France (71):\n  - AGS Alsace\n  - AGS Bordeaux\n  - AGS Brest\n  - AGS Le Mans\n  - AGS Lille\n  - AGS Lorraine - Luxembourg\n  - AGS Marseille\n  - AGS Montpellier\n  - AGS Nantes\n  - AGS Nice\n  - AGS Paris\n  - AGS Poitou-Charentes - Poitiers\n  ... and 59 more\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:785673-2026",
+   "event": "tender",
+   "location": "France",
+   "branch": "AGS Alsace; AGS Bordeaux; AGS Brest; AGS Le Mans; AGS Lille",
+   "link": "https://ted.europa.eu/en/notice/-/detail/785673-2026",
+   "score": 27.6
+  }
+ },
+ {
+  "id": "TENDER:ted:784067-2026",
+  "created": "2026-11-11",
+  "to": [],
+  "subject": "[Tender Radar] France: Archive services – Prestation d'externalisation des archives pour les besoins de l'EPCI de (deadline 2026-12-14)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     France – Archive services – Prestation d'externalisation des archives pour les besoins de l'EPCI de Corse\nBuyer:     Etablissement Public du Commerce et de l'Industrie de Corse\nCountry:   France\nDeadline:  2026-12-14\nPublished: 2026-11-11\nValue:     240,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/784067-2026\n\nWhy it scored:\n  records_management(12.0): archive*T, archives*T | cpv(+12.0): cpv:79995100\n\nDescription (start of the notice):\n  Prestations d'externalisation des archives des services Corse-du-Sud<br/> Prestations d'externalisation des archives des services de Haute-Corse<br/> L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction\n\nBranches in France (71):\n  - AGS Alsace\n  - AGS Bordeaux\n  - AGS Brest\n  - AGS Le Mans\n  - AGS Lille\n  - AGS Lorraine - Luxembourg\n  - AGS Marseille\n  - AGS Montpellier\n  - AGS Nantes\n  - AGS Nice\n  - AGS Paris\n  - AGS Poitou-Charentes - Poitiers\n  ... and 59 more\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:784067-2026",
+   "event": "tender",
+   "location": "France",
+   "branch": "AGS Alsace; AGS Bordeaux; AGS Brest; AGS Le Mans; AGS Lille",
+   "link": "https://ted.europa.eu/en/notice/-/detail/784067-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:784413-2026",
+  "created": "2026-11-11",
+  "to": [],
+  "subject": "[Tender Radar] Denmark: Relocation services – Udbud af levering og afhentning af genbrugshjælpemidler for Vestegne",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Denmark – Relocation services – Udbud af levering og afhentning af genbrugshjælpemidler for Vestegnens Indkøbsforum (VIF)\nBuyer:     Rødovre Kommune\nCountry:   Denmark\nDeadline:  not stated\nPublished: 2026-11-11\nValue:     4,438,184 DKK\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/784413-2026\n\nWhy it scored:\n  mobility(12.0): relocation*T | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  Udbuddet vedrører levering og afhentning af genbrugshjælpemidler for Vestegnens Indkøbsforum (i det følgende kaldet VIF). Udbuddet vedrører levering og afhentning af genbrugshjælpemidler for Vestegnens Indkøbsforum (i det følgende kaldet VIF).\n\nNo branch listed in Denmark: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:784413-2026",
+   "event": "tender",
+   "location": "Denmark",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/784413-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:784522-2026",
+  "created": "2026-11-11",
+  "to": [],
+  "subject": "[Tender Radar] Norway: Facility related sanitation services – Clearance of damaged archive material (deadline 2026-12-14)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Norway – Facility related sanitation services – Clearance of damaged archive material\nBuyer:     Norges miljø- og biovitenskapelige universitet\nCountry:   Norway\nDeadline:  2026-12-14\nPublished: 2026-11-11\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/784522-2026\n\nWhy it scored:\n  records_management(12.0): archive*T | cpv(+12.0): cpv:79995100\n\nDescription (start of the notice):\n  The document centre at NMBU needs a framework agreement for the provision of services for controlling mould and other damage to archive material and in premises. The document centre at NMBU needs a framework agreement for the provision of services for controlling mould and other damage to archive material and in premises.\n\nNo branch listed in Norway: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:784522-2026",
+   "event": "tender",
+   "location": "Norway",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/784522-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:783690-2026",
+  "created": "2026-11-11",
+  "to": [],
+  "subject": "[Tender Radar] Germany: Cargo handling and storage services – Full-Service-Logistkdienstleistung für Dienst- und S (deadline 2026-12-10)",
+  "body": "New tender above the alert threshold (score 18.5).\n\nTitle:     Germany – Cargo handling and storage services – Full-Service-Logistkdienstleistung für Dienst- und Sonderbekleidung\nBuyer:     Präsidium der Bayer. Bereitschaftspolizei\nCountry:   Germany\nDeadline:  2026-12-10\nPublished: 2026-11-11\nValue:     1 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/783690-2026\n\nWhy it scored:\n  mobility(12.0): storage services*T | support(1.5): cargo handling*T~weak, storage*T~weak | cpv(+5.0): cpv:63120000\n\nDescription (start of the notice):\n  Hauptbestandteil des Auftrags ist die logistische Versorgung von ca. 35.000 Bedarfsträgern mit rund 4.000 Artikeln an Dienst- und Sonderbekleidung bei der Bayer. Polizei und Justiz. Die zu vergebende Full-Service-Logistikdienstleistung setzt sich im Wesentlichen zusammen aus: - Warenannahme - Wareneingangskontrolle - Lagerung und Bestandsführung - Kommissionierung, Verpackung und Versand - Bearbeitung von Retouren - Annahme von Reklamationen - Bereitstellung von Kennzahlen (Reporting) Full-Service-Logistikdienstleistung für Dienst- und Sonderbekleidung der Bayerischen Polizei und Justiz\n\nBranches in Germany (9):\n  - AGS Berlin\n  - AGS Berlin - Fine Art\n  - AGS Erlangen\n  - AGS Koblenz\n  - AGS Munich\n  - AGS Pietsch Berlin\n  - AGS Pietsch Koblenz\n  - Memorist Germany\n  - Winco\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:783690-2026",
+   "event": "tender",
+   "location": "Germany",
+   "branch": "AGS Berlin; AGS Berlin - Fine Art; AGS Erlangen; AGS Koblenz; AGS Munich",
+   "link": "https://ted.europa.eu/en/notice/-/detail/783690-2026",
+   "score": 18.5
+  }
+ }
+]
