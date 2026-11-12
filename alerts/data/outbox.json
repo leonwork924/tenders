@@ -73,5 +73,20 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/783690-2026",
    "score": 18.5
   }
+ },
+ {
+  "id": "TENDER:ted:786535-2026",
+  "created": "2026-11-12",
+  "to": [],
+  "subject": "[Tender Radar] Italy: Museum services – AFFIDAMENTO IN CONCESSIONE DELLA GESTIONE INTEGRATA DEL MUSEO DEL VINO E (deadline 2026-12-11)",
+  "body": "New tender above the alert threshold (score 20.0).\n\nTitle:     Italy – Museum services – AFFIDAMENTO IN CONCESSIONE DELLA GESTIONE INTEGRATA DEL MUSEO DEL VINO E DEL RELATIVO PUNTO DI SOMMINISTRAZIONE, COMPRENSIVA DELLE ATTIVITÀ DI VALORIZZAZIONE CULTURALE, TURISTICA ED ENOGASTRONOMICA, DELL'ORGANIZZAZIONE DI EVENTI, DELLE ATTIVITÀ DIDATTICHE E DELLA SOMMINISTRAZIONE DI ALIMENTI E BEVANDE – DURATA ANNI 5 (CINQUE NEL COMUNE DI MONTEPORZIO CATONE\nBuyer:     Comune di Monte Porzio Catone\nCountry:   Italy\nDeadline:  2026-12-11\nPublished: 2026-11-12\nValue:     444,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/786535-2026\n\nWhy it scored:\n  heritage(12.0): museo*T | cpv(+8.0): cpv:92521000\n\nDescription (start of the notice):\n  AFFIDAMENTO IN CONCESSIONE DELLA GESTIONE INTEGRATA DEL MUSEO DEL VINO E DEL RELATIVO PUNTO DI SOMMINISTRAZIONE, COMPRENSIVA DELLE ATTIVITÀ DI VALORIZZAZIONE CULTURALE, TURISTICA ED ENOGASTRONOMICA, DELL'ORGANIZZAZIONE DI EVENTI, DELLE ATTIVITÀ DIDATTICHE E DELLA SOMMINISTRAZIONE DI ALIMENTI E BEVANDE – DURATA ANNI 5 (CINQUE NEL COMUNE DI MONTEPORZIO CATONE AFFIDAMENTO IN CONCESSIONE DELLA GESTIONE INTEGRATA DEL MUSEO DEL VINO E DEL RELATIVO PUNTO DI SOMMINISTRAZIONE, COMPRENSIVA DELLE ATTIVITÀ DI VALORIZZAZIONE CULTURALE, TURISTICA ED ENOGASTRONOMICA, DELL'ORGANIZZAZIONE DI EVENTI, DELLE ATTI...\n\nNo branch listed in Italy: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:786535-2026",
+   "event": "tender",
+   "location": "Italy",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/786535-2026",
+   "score": 20.0
+  }
  }
 ]
