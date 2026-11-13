@@ -88,5 +88,110 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/786535-2026",
    "score": 20.0
   }
+ },
+ {
+  "id": "TENDER:ted:790426-2026",
+  "created": "2026-11-13",
+  "to": [],
+  "subject": "[Tender Radar] Spain: Scanning services – Digitalización del Archivo Fotográfico (deadline 2026-12-17)",
+  "body": "New tender above the alert threshold (score 36.0).\n\nTitle:     Spain – Scanning services – Digitalización del Archivo Fotográfico\nBuyer:     Compras de la Corporación de Radio y Televisión Española S.A.\nCountry:   Spain\nDeadline:  2026-12-17\nPublished: 2026-11-13\nValue:     1,120,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/790426-2026\n\nWhy it scored:\n  records_management(12.0): archivo*T | digitisation(12.0): digitalizacion*T, scanning*T | cpv(+12.0): cpv:79995100\n\nDescription (start of the notice):\n  Constituye el objeto del expediente el servicio de digitalización del archivo fotográfico de la revista Tele Radio y del diario Pueblo, conservados en el Archivo de RTVE, comprendiendo la captura óptica de los originales, la generación de los ficheros máster de preservación y de las copias de difusión, la captura de los metadatos existentes en los soportes y en sus envases de conservación, el control de calidad de los resultados y la entrega de los ficheros a RTVE, todo ello en los términos del pliego de condiciones técnicas. Constituye el objeto del expediente el servicio de digitalización de...\n\nBranches in Spain (2):\n  - AGS Barcelona\n  - AGS Madrid\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:790426-2026",
+   "event": "tender",
+   "location": "Spain",
+   "branch": "AGS Barcelona; AGS Madrid",
+   "link": "https://ted.europa.eu/en/notice/-/detail/790426-2026",
+   "score": 36.0
+  }
+ },
+ {
+  "id": "TENDER:ted:790105-2026",
+  "created": "2026-11-13",
+  "to": [],
+  "subject": "[Tender Radar] Germany: Relocation services – Rahmenvereinbarung Umzugs- und Transportleistungen (deadline 2026-12-14)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Germany – Relocation services – Rahmenvereinbarung Umzugs- und Transportleistungen\nBuyer:     Deutsche Rentenversicherung Rheinland\nCountry:   Germany\nDeadline:  2026-12-14\nPublished: 2026-11-13\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/790105-2026\n\nWhy it scored:\n  mobility(12.0): relocation*T | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  Neuvergabe der Umzugs- und Transportleistungen zum 01. Juni 2027 mit einer Laufzeit von 48 Monaten Abschluss einer Rahmenvereinbarung über Umzugs- und Transportleistungen für die Standorte der Deutsche Rentenversicherung Rheinland in Düsseldorf sowie in den Service-Zentren\n\nBranches in Germany (9):\n  - AGS Berlin\n  - AGS Berlin - Fine Art\n  - AGS Erlangen\n  - AGS Koblenz\n  - AGS Munich\n  - AGS Pietsch Berlin\n  - AGS Pietsch Koblenz\n  - Memorist Germany\n  - Winco\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:790105-2026",
+   "event": "tender",
+   "location": "Germany",
+   "branch": "AGS Berlin; AGS Berlin - Fine Art; AGS Erlangen; AGS Koblenz; AGS Munich",
+   "link": "https://ted.europa.eu/en/notice/-/detail/790105-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:792278-2026",
+  "created": "2026-11-13",
+  "to": [],
+  "subject": "[Tender Radar] Croatia: Archiving services – Usluga digitalizacije arhivskog sadržaja, papirna kulturna baština (deadline 2026-12-18)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Croatia – Archiving services – Usluga digitalizacije arhivskog sadržaja, papirna kulturna baština\nBuyer:     HRT\nCountry:   Croatia\nDeadline:  2026-12-18\nPublished: 2026-11-13\nValue:     500,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/792278-2026\n\nWhy it scored:\n  records_management(12.0): archiving*T, archiving services*T | cpv(+12.0): cpv:79995100\n\nDescription (start of the notice):\n  Usluga digitalizacije arhivskog sadržaja, papirna kulturna baština Usluga digitalizacije arhivskog sadržaja, papirna kulturna baština\n\nBranches in Croatia (2):\n  - AGS Slovenia\n  - AGS Zagreb\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:792278-2026",
+   "event": "tender",
+   "location": "Croatia",
+   "branch": "AGS Slovenia; AGS Zagreb",
+   "link": "https://ted.europa.eu/en/notice/-/detail/792278-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:792304-2026",
+  "created": "2026-11-13",
+  "to": [],
+  "subject": "[Tender Radar] Germany: Archive services – Rahmenvereinbarung für die Archiv- und Bibliothekbetreuung des DRK-Gene (deadline 2026-12-14)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Germany – Archive services – Rahmenvereinbarung für die Archiv- und Bibliothekbetreuung des DRK-Generalsekretariats\nBuyer:     Deutsches Rotes Kreuz e.V. Generalsekretariat\nCountry:   Germany\nDeadline:  2026-12-14\nPublished: 2026-11-13\nValue:     282,353 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/792304-2026\n\nWhy it scored:\n  records_management(12.0): archive*T | cpv(+12.0): cpv:79995100\n\nDescription (start of the notice):\n  Gegenstand sind operative archivische und bibliothekarische Leistungen sowie klar definierte fachliche Unterstützungs- und Vermittlungsleistungen. Eigenständige historische Forschung, umfassende inhaltliche Geschichtsaufarbeitung, redaktionelle Kampagnen oder strategische historische Kommunikation sind nicht Bestandteil des laufenden Regelbetriebs und bedürfen einer gesonderten Beauftragung beziehungsweise Vergabe. Ziel der Ausschreibung ist der Abschluss einer Rahmenvereinbarung über die kontinuierliche, fachgerechte und nachvollziehbar abrechenbare Betreuung des Archivs, der Sammlungen und d...\n\nBranches in Germany (9):\n  - AGS Berlin\n  - AGS Berlin - Fine Art\n  - AGS Erlangen\n  - AGS Koblenz\n  - AGS Munich\n  - AGS Pietsch Berlin\n  - AGS Pietsch Koblenz\n  - Memorist Germany\n  - Winco\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:792304-2026",
+   "event": "tender",
+   "location": "Germany",
+   "branch": "AGS Berlin; AGS Berlin - Fine Art; AGS Erlangen; AGS Koblenz; AGS Munich",
+   "link": "https://ted.europa.eu/en/notice/-/detail/792304-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:791546-2026",
+  "created": "2026-11-13",
+  "to": [],
+  "subject": "[Tender Radar] Ireland: Transport services (excl. Waste transport) – LI3983C UG RFT for the Provision of Specialis (deadline 2026-12-09)",
+  "body": "New tender above the alert threshold (score 20.5).\n\nTitle:     Ireland – Transport services (excl. Waste transport) – LI3983C UG RFT for the Provision of Specialist Removal Services\nBuyer:     Education Procurement Service (EPS)\nCountry:   Ireland\nDeadline:  2026-12-09\nPublished: 2026-11-13\nValue:     200,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/791546-2026\n\nWhy it scored:\n  records_management(6.2): archives | support(2.2): mobile shelving, moving~weak | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  Tenders are sought for the provision of specialist removal services to carry out the move of Library collections between the old and new libraries, both located on the main Galway city campus of the University of Galway. The majority of the Library’s book and journal collection, not including archives and rare books, will be moving from the current James Hardiman Library to the new Dr Karen Guinee Library during 2027, and we are seeking specialist removal services to carry out that move on our behalf. This work will involve three phases during 2027. There is also the potential for a 4th phase ...\n\nNo branch listed in Ireland: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:791546-2026",
+   "event": "tender",
+   "location": "Ireland",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/791546-2026",
+   "score": 20.5
+  }
+ },
+ {
+  "id": "TENDER:ted:792141-2026",
+  "created": "2026-11-13",
+  "to": [],
+  "subject": "[Tender Radar] France: Exhibition equipment – Marchés pour les équipements du Musée Historique de Villèle dans le (deadline 2026-12-17)",
+  "body": "New tender above the alert threshold (score 20.3).\n\nTitle:     France – Exhibition equipment – Marchés pour les équipements du Musée Historique de Villèle dans le cadre de la réhabilitation complète du site lots 17 à 26.\nBuyer:     DEPARTEMENT DE LA REUNION\nCountry:   France\nDeadline:  2026-12-17\nPublished: 2026-11-13\nValue:     1,410,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/792141-2026\n\nWhy it scored:\n  heritage(12.0): musee*T | support(0.3): installation~weak | cpv(+8.0): cpv:92521100\n\nDescription (start of the notice):\n  Travaux de fabrication et mise en œuvre de mobiliers Marchés à tranches : Tranche ferme : 620 000,00 € HT Tranche optionnelle 2 : 790 000,00 € HT Durée TF : 7 mois hors période de préparation de 4 mois, hors congés légaux des entreprises et hors délai relatif à la GPA Durée TO : 7 mois hors période de préparation de 4 mois, hors congés légaux des entreprises et hors délai relatif à la GPA Visite de site non obligatoire prévue le 26/11/2026 à 9h00 au Parking Visiteurs du Musée (Domaine Panon-Desbassyns 97435, Saint-Gilles les Hauts) Travaux d'équipements de cuisine Marchés à tranches : Tranche ...\n\nBranches in France (71):\n  - AGS Alsace\n  - AGS Bordeaux\n  - AGS Brest\n  - AGS Le Mans\n  - AGS Lille\n  - AGS Lorraine - Luxembourg\n  - AGS Marseille\n  - AGS Montpellier\n  - AGS Nantes\n  - AGS Nice\n  - AGS Paris\n  - AGS Poitou-Charentes - Poitiers\n  ... and 59 more\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:792141-2026",
+   "event": "tender",
+   "location": "France",
+   "branch": "AGS Alsace; AGS Bordeaux; AGS Brest; AGS Le Mans; AGS Lille",
+   "link": "https://ted.europa.eu/en/notice/-/detail/792141-2026",
+   "score": 20.3
+  }
+ },
+ {
+  "id": "TENDER:ted:790036-2026",
+  "created": "2026-11-13",
+  "to": [],
+  "subject": "[Tender Radar] Germany: Museum-exhibition services – Ausstellungskonzeption + Umsetzung (deadline 2026-12-11)",
+  "body": "New tender above the alert threshold (score 19.2).\n\nTitle:     Germany – Museum-exhibition services – Ausstellungskonzeption + Umsetzung\nBuyer:     Nationalparkverwaltung Harz\nCountry:   Germany\nDeadline:  2026-12-11\nPublished: 2026-11-13\nValue:     785,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/790036-2026\n\nWhy it scored:\n  heritage(11.2): museum exhibition**T | cpv(+8.0): cpv:92521100\n\nDescription (start of the notice):\n  Konzeption und Umsetzung des Ausstellungsprojekts \"Tiere - Pflanzen - Lebensräume\", Ausstellung im Brockenhaus zum Naturmonument Gründes Band Sachsen-Anhalt, mit dem Schwerpunkt auf den Zielgruppen U40 Konzeption und Umsetzung des Ausstellungsprojekts \"Tiere - Pflanzen - Lebensräume\", Ausstellung im Brockenhaus zum Naturmonument Gründes Band Sachsen-Anhalt, mit dem Schwerpunkt auf den Zielgruppen U40\n\nBranches in Germany (9):\n  - AGS Berlin\n  - AGS Berlin - Fine Art\n  - AGS Erlangen\n  - AGS Koblenz\n  - AGS Munich\n  - AGS Pietsch Berlin\n  - AGS Pietsch Koblenz\n  - Memorist Germany\n  - Winco\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:790036-2026",
+   "event": "tender",
+   "location": "Germany",
+   "branch": "AGS Berlin; AGS Berlin - Fine Art; AGS Erlangen; AGS Koblenz; AGS Munich",
+   "link": "https://ted.europa.eu/en/notice/-/detail/790036-2026",
+   "score": 19.2
+  }
  }
 ]
