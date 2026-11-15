@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-15",
   "regions": {
     "Europe": [
       {
@@ -29917,6 +29917,30 @@
         "url": "https://www.mae.gov.bi/",
         "diplomats": [
           {
+            "name": "Télésphore Irambona",
+            "title": " – PHILIPPINES : L’Ambassadeur",
+            "role": "ambassador",
+            "represented_country": "Philippines",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mae.gov.bi/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Télésphore Irambona",
+            "title": " – PHILIPPINES : L’Ambassadeur",
+            "role": "ambassador",
+            "represented_country": "Philippines",
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mae.gov.bi/",
+            "email": null,
+            "phone": null
+          },
+          {
             "name": "Sinunguruza, Therence",
             "title": "Ambassador|UNGA General Debate Speaker",
             "role": "org_delegate",
@@ -29961,6 +29985,18 @@
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Organisations Internationales",
+            "title": "Consulats Honoraires",
+            "role": "consul",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mae.gov.bi/",
             "email": null,
             "phone": null
           },
@@ -30097,6 +30133,30 @@
             "phone": null
           },
           {
+            "name": "Monsieur Sévérin MBARUBUKEYE",
+            "title": "es Affaires Etrangères et de la Coopération au Développement",
+            "role": "diplomatic_staff",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mae.gov.bi/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Monsieur Sophonie NITUNGA",
+            "title": "es Affaires Etrangères et de la Coopération au Développement",
+            "role": "diplomatic_staff",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mae.gov.bi/",
+            "email": null,
+            "phone": null
+          },
+          {
             "name": "Mikanagu, Patrice Abraham Haruna",
             "title": "Ambassador",
             "role": "org_delegate",
@@ -30133,6 +30193,30 @@
             "phone": null
           },
           {
+            "name": "Else NIZIGAMA NTAMAGIRO",
+            "title": "Ambassadeur",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mae.gov.bi/",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Edouard BIZIMANA",
+            "title": "Son Excellence l’Ambassadeur",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mae.gov.bi/",
+            "email": null,
+            "phone": null
+          },
+          {
             "name": "Bwakira, Melchior",
             "title": "Ambassador|UNGA General Debate Speaker",
             "role": "org_delegate",
@@ -30155,6 +30239,18 @@
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
             "email": null,
             "phone": null
+          },
+          {
+            "name": "Adolphe NAHAYO",
+            "title": "Ambassadeur",
+            "role": "ambassador",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.mae.gov.bi/",
+            "email": null,
+            "phone": null
           }
         ]
       },
@@ -30162,6 +30258,18 @@
         "country": "Cameroon",
         "url": "https://www.diplocam.cm/",
         "diplomats": [
+          {
+            "name": "Oumarou CHINMOUN Secrétaire Général",
+            "title": "Le jeudi 12 novembre 2026, M.",
+            "role": "other",
+            "represented_country": "Cameroon",
+            "start_date": "2026-11-12",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplocam.cm/",
+            "email": null,
+            "phone": null
+          },
           {
             "name": "Tommo Monthe, Michel",
             "title": "Ambassador|UNGA General Debate Speaker",
@@ -31667,30 +31775,6 @@
             "phone": null
           },
           {
-            "name": "Shuji NOGUCHI",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Seif KANDEEL",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Seif KANDEEL",
             "title": "S.E.M.",
             "role": "other",
@@ -31727,30 +31811,6 @@
             "phone": null
           },
           {
-            "name": "Saidou ZONGO",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Robert WHITEHEAD",
-            "title": "M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Robert WHITEHEAD",
             "title": "M.",
             "role": "other",
@@ -31775,44 +31835,8 @@
             "phone": null
           },
           {
-            "name": "Raymond Udoffe BROWN",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Queen Anne ZONDO",
             "title": "S.E.Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Queen Anne ZONDO",
-            "title": "S.E.Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Pascal Georg GOHFRIED RICHTER",
-            "title": "S.E.M.",
             "role": "other",
             "represented_country": null,
             "start_date": null,
@@ -31907,18 +31931,6 @@
             "phone": null
           },
           {
-            "name": "Nilüfer ERDEM KAYGISIZ",
-            "title": "S.E. Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Ndong Ella, Baudelaire",
             "title": "Ambassador",
             "role": "org_delegate",
@@ -31979,43 +31991,7 @@
             "phone": null
           },
           {
-            "name": "Marie-Edith TASSYLA-YE-DOUMBENENY",
-            "title": "Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Mame OUMAR THIAW",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mame OUMAR THIAW",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Llusif SADIN TASSE",
             "title": "S.E.M.",
             "role": "other",
             "represented_country": null,
@@ -32051,30 +32027,6 @@
             "phone": null
           },
           {
-            "name": "Lizeth NAWANGA SATUMBO PENA",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Kouadio Nicolas KOUAKOU",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Kouadio Nicolas KOUAKOU",
             "title": "S.E.M.",
             "role": "other",
@@ -32089,30 +32041,6 @@
           {
             "name": "José Marcos NOGUEIRA VIANA",
             "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "José Marcos NOGUEIRA VIANA",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Jean François Ollivier",
-            "title": "M.",
             "role": "other",
             "represented_country": null,
             "start_date": null,
@@ -32171,30 +32099,6 @@
             "phone": null
           },
           {
-            "name": "Ilias F.ISKANDAROV",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Grzegorz Piotr BIELASZKA",
-            "title": "M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Grzegorz Piotr BIELASZKA",
             "title": "M.",
             "role": "other",
@@ -32219,43 +32123,7 @@
             "phone": null
           },
           {
-            "name": "Gabriele DI MUZIO",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "François LUAMBO SIONGO",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "François LUAMBO SIONGO",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Fernado ALONSO NAVARIDAS",
             "title": "S.E.M.",
             "role": "other",
             "represented_country": null,
@@ -32292,30 +32160,6 @@
           },
           {
             "name": "Elisa PEREIRA AFONSO DE",
-            "title": "S.E.Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Elisa PEREIRA AFONSO DE",
-            "title": "S.E.Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Edith Félicite Noelle NGAETO",
             "title": "S.E.Mme",
             "role": "other",
             "represented_country": null,
@@ -32375,18 +32219,6 @@
             "phone": null
           },
           {
-            "name": "Changchun HU",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Chang Soo RYU",
             "title": "S.E.M.",
             "role": "other",
@@ -32399,8 +32231,8 @@
             "phone": null
           },
           {
-            "name": "Chang Soo RYU",
-            "title": "S.E.M.",
+            "name": "Brice Clotaire OLIGUI NGUEMA",
+            "title": "at, Chef du Gouvernement, S.E.",
             "role": "other",
             "represented_country": null,
             "start_date": null,
@@ -32459,44 +32291,8 @@
             "phone": null
           },
           {
-            "name": "Bento Pais MARIA DE",
-            "title": "S.E.Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Bashir A.M.GHUMBIG",
             "title": "M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Bashir A.M.GHUMBIG",
-            "title": "M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Asaad Abdelaziz ABDERREHMAN ALBAHAR",
-            "title": "S.E.M.",
             "role": "other",
             "represented_country": null,
             "start_date": null,
@@ -32531,43 +32327,7 @@
             "phone": null
           },
           {
-            "name": "Aline YOUNES",
-            "title": "S.E.Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Ali Alifei MOUSTAPHA",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ali Alifei MOUSTAPHA",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Alexis LAMEK",
             "title": "S.E.M.",
             "role": "other",
             "represented_country": null,
@@ -32603,30 +32363,6 @@
             "phone": null
           },
           {
-            "name": "Abina PADAZOU WE",
-            "title": "Mme",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Abdulraham Salam ALDAHAS",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Abdulraham Salam ALDAHAS",
             "title": "S.E.M.",
             "role": "other",
@@ -32651,43 +32387,7 @@
             "phone": null
           },
           {
-            "name": "Abdina NAPARE",
-            "title": "M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Abdellah SBIHI",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Abdellah SBIHI",
-            "title": "S.E.M.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.gouv.ga/annuaire-et-situation-geographique-du-corps-diplomatique-au-gabon/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Abdelhak AISSAOUI",
             "title": "S.E.M.",
             "role": "other",
             "represented_country": null,
@@ -32878,6 +32578,18 @@
         "country": "Ghana",
         "url": "https://mfa.gov.gh/",
         "diplomats": [
+          {
+            "name": "Rolf Olson",
+            "title": "d States Embassy in Accra, Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": "2026-11-01",
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://mfa.gov.gh/",
+            "email": null,
+            "phone": null
+          },
           {
             "name": "Wilmot, Jacob",
             "title": "Ambassador",
@@ -48662,7 +48374,7 @@
             "data_source": "web_scrape",
             "source_url": "https://diplomatie.ma/",
             "email": null,
-            "phone": "2770081251630"
+            "phone": "2770081251740"
           },
           {
             "name": "Mrani Zentar, Mehdi",
@@ -49447,6 +49159,18 @@
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Usta Kaitesi",
+            "title": "Remarks by Hon. Dr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.minaffet.gov.rw/",
             "email": null,
             "phone": null
           },
