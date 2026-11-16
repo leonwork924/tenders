@@ -193,5 +193,20 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/790036-2026",
    "score": 19.2
   }
+ },
+ {
+  "id": "TENDER:ted:795685-2026",
+  "created": "2026-11-16",
+  "to": [],
+  "subject": "[Tender Radar] Norway: Relocation services – Consultancy and relocation services for the health authorities in th (deadline 2026-12-15)",
+  "body": "New tender above the alert threshold (score 24.8).\n\nTitle:     Norway – Relocation services – Consultancy and relocation services for the health authorities in the South-East Health Authority.\nBuyer:     SYKEHUSINNKJØP HF\nCountry:   Norway\nDeadline:  2026-12-15\nPublished: 2026-11-16\nValue:     42,000,000 NOK\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/795685-2026\n\nWhy it scored:\n  mobility(12.0): relocation*T | support(0.8): moving~weak | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  The aim of the procurement is to ensure assistance with the execution of consultancy and moving in connection with various relocation assignments for the health authorities in the South-East Health Authority. Assistance is wanted with i.a. the following assignments: Mapping, project consultancy services prior to major moving assignments and moving into new buildings/areas, moving processes. The aim of the procurement is to ensure assistance with the execution of consultancy and moving in connection with various relocation assignments for the health authorities in the South-East Health Authorit...\n\nNo branch listed in Norway: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:795685-2026",
+   "event": "tender",
+   "location": "Norway",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/795685-2026",
+   "score": 24.8
+  }
  }
 ]
