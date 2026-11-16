@@ -208,5 +208,20 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/795685-2026",
    "score": 24.8
   }
+ },
+ {
+  "id": "TENDER:ted:798286-2026",
+  "created": "2026-11-16",
+  "to": [],
+  "subject": "[Tender Radar] Denmark: Relocation services – Offentligt udbud vedr. flytteydelser (deadline 2027-01-12)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Denmark – Relocation services – Offentligt udbud vedr. flytteydelser\nBuyer:     NEXT Uddannelse København\nCountry:   Denmark\nDeadline:  2027-01-12\nPublished: 2026-11-17\nValue:     4,400,000 DKK\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/798286-2026\n\nWhy it scored:\n  mobility(12.0): relocation*T | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  NEXT Uddannelse København udbyder rammeaftale på flytteydelser. NEXT Uddannelse København er ansvarlig for udbuddets gennemførelse og varetager således den løbende kommunikation med tilbudsgiverne. Rammeaftalen vedrører Ordregivers indkøb af Flytteydelser hos Leverandøren. Flytteydelser omfatter flytning af inventar indenfor eller mellem Ordregivers bygninger samt til Ordregivers forskellige lokationer i Storkøbenhavn. Flytteopgaven omfatter rådgivning, planlægning, vejledning, afhentning af flyttegodset, kørsel samt løs anbringelse af flyttegodset efter Ordregivers anvisning på den nye plads....\n\nNo branch listed in Denmark: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:798286-2026",
+   "event": "tender",
+   "location": "Denmark",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/798286-2026",
+   "score": 24.0
+  }
  }
 ]
