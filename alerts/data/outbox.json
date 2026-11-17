@@ -223,5 +223,20 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/798286-2026",
    "score": 24.0
   }
+ },
+ {
+  "id": "TENDER:sam_gov:783d49b807eb4424a9dfa8996f116abf",
+  "created": "2026-11-17",
+  "to": [],
+  "subject": "[Tender Radar] Tunisia: Packing and Crating Services at American Embassy Tunis (deadline 2026-12-28)",
+  "body": "New tender above the alert threshold (score 20.8).\n\nTitle:     Packing and Crating Services at American Embassy Tunis\nBuyer:     STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY TUNIS\nCountry:   Tunisia\nDeadline:  2026-12-28\nPublished: 2026-11-17\nValue:     not stated\nSource:    sam_gov\nLink:      https://sam.gov/workspace/contract/opp/783d49b807eb4424a9dfa8996f116abf/view\n\nWhy it scored:\n  fine_art(12.0): crating*T | support(0.8): packing*T~weak | buyer(+8.0): buyer:department of state\n\nDescription (start of the notice):\n  NAICS 488991 · Place of performance: TN-11\n\nBranches in Tunisia (3):\n  - AGS Tunisia Carthago\n  - CDIE\n  - Doc Archives Tunisia\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender sam_gov:783d49b807eb4424a9dfa8996f116abf",
+   "event": "tender",
+   "location": "Tunisia",
+   "branch": "AGS Tunisia Carthago; CDIE; Doc Archives Tunisia",
+   "link": "https://sam.gov/workspace/contract/opp/783d49b807eb4424a9dfa8996f116abf/view",
+   "score": 20.8
+  }
  }
 ]
