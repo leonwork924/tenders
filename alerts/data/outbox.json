@@ -238,5 +238,80 @@
    "link": "https://sam.gov/workspace/contract/opp/783d49b807eb4424a9dfa8996f116abf/view",
    "score": 20.8
   }
+ },
+ {
+  "id": "TENDER:ted:802551-2026",
+  "created": "2026-11-18",
+  "to": [],
+  "subject": "[Tender Radar] France: Preservation services of exhibits – ACCORD CADRE A MARCHES SUBSEQUENTS POUR LA CONSERVATIO (deadline 2026-12-16)",
+  "body": "New tender above the alert threshold (score 25.2).\n\nTitle:     France – Preservation services of exhibits – ACCORD CADRE A MARCHES SUBSEQUENTS POUR LA CONSERVATION-RESTAURATION D’OBJETS ET ŒUVRES D’ART CONSERVES A LA BIBLIOTHEQUE NATIONALE DE FRANCE\nBuyer:     BNF\nCountry:   France\nDeadline:  2026-12-16\nPublished: 2026-11-18\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/802551-2026\n\nWhy it scored:\n  digitisation(4.5): numerisation | heritage(12.0): conservation-restauration*T | support(0.8): preservation*T~weak | cpv(+8.0): cpv:92521210\n\nDescription (start of the notice):\n  Conservation-restauration d’objets ou œuvres d’art en textile ou dont le textile est le matériau principal textile (costume et accessoires de scènes, marionnettes…). Ce lot comprend les prestations de mannequinage pour exposition et/ou opération de numérisation. Conservation-restauration d’objets ou œuvres d’art identifiés comme issus des arts du feu dont le métal est le matériau principal : objets archéologiques, objets d’arts décoratifs, orfèvrerie, bijoux, émaux sur or et sur cuivre, plaques d’impression estampes, objets en plomb… Conservation-restauration d’objets ou œuvres d’art identifié...\n\nBranches in France (71):\n  - AGS Alsace\n  - AGS Bordeaux\n  - AGS Brest\n  - AGS Le Mans\n  - AGS Lille\n  - AGS Lorraine - Luxembourg\n  - AGS Marseille\n  - AGS Montpellier\n  - AGS Nantes\n  - AGS Nice\n  - AGS Paris\n  - AGS Poitou-Charentes - Poitiers\n  ... and 59 more\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:802551-2026",
+   "event": "tender",
+   "location": "France",
+   "branch": "AGS Alsace; AGS Bordeaux; AGS Brest; AGS Le Mans; AGS Lille",
+   "link": "https://ted.europa.eu/en/notice/-/detail/802551-2026",
+   "score": 25.2
+  }
+ },
+ {
+  "id": "TENDER:ted:801814-2026",
+  "created": "2026-11-18",
+  "to": [],
+  "subject": "[Tender Radar] Germany: Relocation services – Spedition (deadline 2026-12-18)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Germany – Relocation services – Spedition\nBuyer:     Klinikum Main-Spessart\nCountry:   Germany\nDeadline:  2026-12-18\nPublished: 2026-11-18\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/801814-2026\n\nWhy it scored:\n  mobility(12.0): relocation*T, umzug* | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  Gegenstand der Ausschreibung sind Dienstleistungen zur Planung, Koordination und Durchführung des Güterumzugs in den Klinikneubau. Die Leistungen umfassen insbesondere den Umzug von allgemeinem Inventar, IT-Ausstattung, Medizintechnik und Laboreinrichtungen einschließlich erforderlicher Transport-, Demontage- und Remontageleistungen. Ergänzend sind optionale Leistungen im Zusammenhang mit dem Umzug sowie der Räumung und Entsorgung vorgesehen. Gegenstand der Ausschreibung sind Dienstleistungen zur Planung, Koordination und Durchführung des Güterumzugs in den Klinikneubau. Die Leistungen umfasse...\n\nBranches in Germany (9):\n  - AGS Berlin\n  - AGS Berlin - Fine Art\n  - AGS Erlangen\n  - AGS Koblenz\n  - AGS Munich\n  - AGS Pietsch Berlin\n  - AGS Pietsch Koblenz\n  - Memorist Germany\n  - Winco\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:801814-2026",
+   "event": "tender",
+   "location": "Germany",
+   "branch": "AGS Berlin; AGS Berlin - Fine Art; AGS Erlangen; AGS Koblenz; AGS Munich",
+   "link": "https://ted.europa.eu/en/notice/-/detail/801814-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:sam_gov:0a3557f2449043889094906c15a2a724",
+  "created": "2026-11-18",
+  "to": [],
+  "subject": "[Tender Radar] Maldives: Supply, Installation, Testing, and Commissioning of Audiovisual Systems for the Multi-Purp (deadline 2026-12-28)",
+  "body": "New tender above the alert threshold (score 20.0).\n\nTitle:     Supply, Installation, Testing, and Commissioning of Audiovisual Systems for the Multi-Purpose Room and Executive Conference Room at the U.S. Embassy in Malé, Maldives\nBuyer:     STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY COLOMBO\nCountry:   Maldives\nDeadline:  2026-12-28\nPublished: 2026-11-18\nValue:     not stated\nSource:    sam_gov\nLink:      https://sam.gov/workspace/contract/opp/0a3557f2449043889094906c15a2a724/view\n\nWhy it scored:\n  av_media(11.2): audiovisual*T | support(0.8): installation*T~weak | buyer(+8.0): buyer:department of state\n\nDescription (start of the notice):\n  NAICS 238210 · Place of performance: MV-MLE\n\nNo branch listed in Maldives: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender sam_gov:0a3557f2449043889094906c15a2a724",
+   "event": "tender",
+   "location": "Maldives",
+   "branch": "",
+   "link": "https://sam.gov/workspace/contract/opp/0a3557f2449043889094906c15a2a724/view",
+   "score": 20.0
+  }
+ },
+ {
+  "id": "TENDER:chile_mercadopublico:ocds-70d2nz-229-122-LE26",
+  "created": "2026-11-18",
+  "to": [],
+  "subject": "[Tender Radar] CHI: ADQUISICIÓN YO CONTRATACIÓN DE PLATAFORMA WEB GESTIÓN DOCUMENTAL Y CONTROL DE FLUJO USO IN (deadline 2026-11-23)",
+  "body": "New tender above the alert threshold (score 16.5).\n\nTitle:     ADQUISICIÓN YO CONTRATACIÓN DE PLATAFORMA WEB GESTIÓN DOCUMENTAL Y CONTROL DE FLUJO USO INSTITUCIONAL MUNICIPALIDAD DE COIHUECO\nBuyer:     I MUNICIPALIDAD DE COIHUECO | Departamento de Administración y Finanzas\nCountry:   CHI\nDeadline:  2026-11-23\nPublished: 2026-11-05\nValue:     not stated\nSource:    chile_mercadopublico\nLink:      \n\nWhy it scored:\n  records_management(12.0): gestion documental*T | digitisation(4.5): digitalizacion\n\nDescription (start of the notice):\n  La presente licitación pública corresponde a la contratación del servicio de plataforma web gestión documental y control de flujo, para uso institucional de la Municipalidad, con la finalidad de mejorar la gestión interna y avanzar en la digitalización de la institución teniendo como marco de referencia la Ley N° 21.180 de Transformación Digital del Estado. Se requiere una plataforma en su ve.\n\nNo branch listed in CHI: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender chile_mercadopublico:ocds-70d2nz-229-122-LE26",
+   "event": "tender",
+   "location": "CHI",
+   "branch": "",
+   "link": "",
+   "score": 16.5
+  }
+ },
+ {
+  "id": "TENDER:chile_mercadopublico:ocds-70d2nz-3621-64-LE26",
+  "created": "2026-11-18",
+  "to": [],
+  "subject": "[Tender Radar] CHI: Implementacion museografia museo alicahue y equipa (deadline 2026-11-23)",
+  "body": "New tender above the alert threshold (score 16.5).\n\nTitle:     Implementacion museografia museo alicahue y equipa\nBuyer:     I MUNICIPALIDAD DE CABILDO | I MUNICIPALIDAD DE CABILDO\nCountry:   CHI\nDeadline:  2026-11-23\nPublished: 2026-11-05\nValue:     20,743,571 CLP\nSource:    chile_mercadopublico\nLink:      \n\nWhy it scored:\n  av_media(4.5): audiovisual | heritage(12.0): museo*T\n\nDescription (start of the notice):\n  Implementación Nueva Museografía Museo de Alicahue, Cabildo”. Proyecto FMIM 2024 “Diseño y Construcción Nueva Museografía Museo Alicahue” y equipamiento digital, audiovisual, sonoro.\n\nNo branch listed in CHI: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender chile_mercadopublico:ocds-70d2nz-3621-64-LE26",
+   "event": "tender",
+   "location": "CHI",
+   "branch": "",
+   "link": "",
+   "score": 16.5
+  }
  }
 ]

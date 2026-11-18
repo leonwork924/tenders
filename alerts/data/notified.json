@@ -2,6 +2,9 @@
  "created": "2026-11-10",
  "min_score": 15.0,
  "ids": [
+  "chile_mercadopublico:ocds-70d2nz-229-122-LE26",
+  "chile_mercadopublico:ocds-70d2nz-3621-64-LE26",
+  "sam_gov:0a3557f2449043889094906c15a2a724",
   "sam_gov:783d49b807eb4424a9dfa8996f116abf",
   "ted:587046-2026",
   "ted:591260-2026",
@@ -91,6 +94,8 @@
   "ted:792304-2026",
   "ted:795685-2026",
   "ted:798286-2026",
+  "ted:801814-2026",
+  "ted:802551-2026",
   "za_etenders:ocds-9t57fa-176415"
  ]
 }
