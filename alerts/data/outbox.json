@@ -313,5 +313,20 @@
    "link": "",
    "score": 16.5
   }
+ },
+ {
+  "id": "TENDER:ted:807173-2026",
+  "created": "2026-11-19",
+  "to": [],
+  "subject": "[Tender Radar] Italy: Museum services – Servizio biglietteria, accoglienza, custodia Parco Archeo Natura e Musei (deadline 2026-12-18)",
+  "body": "New tender above the alert threshold (score 15.9).\n\nTitle:     Italy – Museum services – Servizio biglietteria, accoglienza, custodia Parco Archeo Natura e Musei Fiavé e Sanzeno\nBuyer:     Provincia Autonoma di Trento\nCountry:   Italy\nDeadline:  2026-12-18\nPublished: 2026-11-19\nValue:     1,241,795 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/807173-2026\n\nWhy it scored:\n  heritage(7.9): museo | cpv(+8.0): cpv:92521000\n\nDescription (start of the notice):\n  Lotto 1 - Servizio di biglietteria, accoglienza del pubblico, vendita libri, custodia e altre attività ausiliarie presso il Parco Archeo Natura di Fiavé e il Museo delle Palafitte di Fiavé Lotto 2 - Servizio di biglietteria, accoglienza del pubblico, vendita libri, custodia e altre attività ausiliarie presso il Museo Retico di Sanzeno Gara europea a procedura aperta per l’appalto del servizio di biglietteria, accoglienza del pubblico, vendita libri, custodia e altre attività ausiliarie presso il Parco Archeo Natura di Fiavé e il Museo delle Palafitte di Fiavé (Lotto 1) e il Museo Retico di San...\n\nNo branch listed in Italy: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:807173-2026",
+   "event": "tender",
+   "location": "Italy",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/807173-2026",
+   "score": 15.9
+  }
  }
 ]
