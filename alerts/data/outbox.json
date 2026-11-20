@@ -328,5 +328,20 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/807173-2026",
    "score": 15.9
   }
+ },
+ {
+  "id": "TENDER:ted:807404-2026",
+  "created": "2026-11-20",
+  "to": [],
+  "subject": "[Tender Radar] Spain: Relocation services – Servicio de traslado de vehículos mediante grúa (deadline 2026-12-28)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Spain – Relocation services – Servicio de traslado de vehículos mediante grúa\nBuyer:     Gobierno Vasco - Seguridad\nCountry:   Spain\nDeadline:  2026-12-28\nPublished: 2026-11-20\nValue:     413,233 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/807404-2026\n\nWhy it scored:\n  mobility(12.0): relocation*T, traslado*T | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  Servicio de traslado de vehículos mediante grúa Servicio de traslado de vehículos mediante grúa Servicio de traslado de vehículos mediante grúa Servicio de traslado de vehículos mediante grúa\n\nBranches in Spain (2):\n  - AGS Barcelona\n  - AGS Madrid\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:807404-2026",
+   "event": "tender",
+   "location": "Spain",
+   "branch": "AGS Barcelona; AGS Madrid",
+   "link": "https://ted.europa.eu/en/notice/-/detail/807404-2026",
+   "score": 24.0
+  }
  }
 ]
