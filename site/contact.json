@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-22",
   "regions": {
     "Europe": [
       {
@@ -29917,30 +29917,6 @@
         "url": "https://www.mae.gov.bi/",
         "diplomats": [
           {
-            "name": "Télésphore Irambona",
-            "title": " – PHILIPPINES : L’Ambassadeur",
-            "role": "ambassador",
-            "represented_country": "Philippines",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.mae.gov.bi/",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Télésphore Irambona",
-            "title": " – PHILIPPINES : L’Ambassadeur",
-            "role": "ambassador",
-            "represented_country": "Philippines",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.mae.gov.bi/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Sinunguruza, Therence",
             "title": "Ambassador|UNGA General Debate Speaker",
             "role": "org_delegate",
@@ -30258,18 +30234,6 @@
         "country": "Cameroon",
         "url": "https://www.diplocam.cm/",
         "diplomats": [
-          {
-            "name": "Oumarou CHINMOUN Secrétaire Général",
-            "title": "Le jeudi 12 novembre 2026, M.",
-            "role": "other",
-            "represented_country": "Cameroon",
-            "start_date": "2026-11-12",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.diplocam.cm/",
-            "email": null,
-            "phone": null
-          },
           {
             "name": "Tommo Monthe, Michel",
             "title": "Ambassador|UNGA General Debate Speaker",
@@ -31433,6 +31397,18 @@
             "phone": null
           },
           {
+            "name": "Tesfai G.",
+            "title": "egation Statement – by H.E Mr.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.shabait.com/",
+            "email": null,
+            "phone": null
+          },
+          {
             "name": "Menkerios, Haile",
             "title": "Special Representative for the Sudan, UNMIS|Ambassador",
             "role": "org_delegate",
@@ -32232,7 +32208,7 @@
           },
           {
             "name": "Brice Clotaire OLIGUI NGUEMA",
-            "title": "at, Chef du Gouvernement, S.E.",
+            "title": "La visite d’État de S.E",
             "role": "other",
             "represented_country": null,
             "start_date": null,
@@ -32579,18 +32555,6 @@
         "url": "https://mfa.gov.gh/",
         "diplomats": [
           {
-            "name": "Rolf Olson",
-            "title": "d States Embassy in Accra, Mr.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": "2026-11-01",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://mfa.gov.gh/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Wilmot, Jacob",
             "title": "Ambassador",
             "role": "org_delegate",
@@ -32635,18 +32599,6 @@
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Our Missions",
-            "title": "AMBASSADOR KHADIJA IDDRISU",
-            "role": "ambassador",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://mfa.gov.gh/",
             "email": null,
             "phone": null
           },
@@ -47795,318 +47747,6 @@
         "url": "https://foreign.govmu.org/",
         "diplomats": [
           {
-            "name": "Port Louis",
-            "title": "Republic of Ghana Dr. Robert AFRIYIE Consul-General Building",
-            "role": "consul",
-            "represented_country": "Ghana",
-            "start_date": "2021-05-03",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Shuichiro KAWAGUCHI",
-            "title": "Japan H.E. Mr.",
-            "role": "other",
-            "represented_country": "Japan",
-            "start_date": "2020-12-03",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "03.12.2020"
-          },
-          {
-            "name": "K. Nandini SINGLA",
-            "title": "Republic of India H.E. Mrs.",
-            "role": "other",
-            "represented_country": "India",
-            "start_date": "2020-12-03",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "05.01.2021 6"
-          },
-          {
-            "name": "Florence Causse-Tissier",
-            "title": "Republic of France H.E. Ms.",
-            "role": "other",
-            "represented_country": "France",
-            "start_date": "2020-09-23",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "23.09.2020 14"
-          },
-          {
-            "name": "Alya’a Samir BORHAN",
-            "title": "rab Republic of Egypt H.E. Dr.",
-            "role": "other",
-            "represented_country": "Egypt",
-            "start_date": "2020-09-23",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "23.11.2020 6"
-          },
-          {
-            "name": "Kate Elizabeth",
-            "title": "onwealth of Australia H.E. Dr.",
-            "role": "ambassador",
-            "represented_country": "Australia",
-            "start_date": "2020-09-09",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "09.09.2020 2"
-          },
-          {
-            "name": "Dick ESPARON",
-            "title": "epublic of Seychelles H.E. Mr.",
-            "role": "other",
-            "represented_country": "Seychelles",
-            "start_date": "2020-03-16",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "16.03.2020"
-          },
-          {
-            "name": "Hlamalani Nelly MANZINI",
-            "title": "ublic of South Africa H.E. Dr.",
-            "role": "ambassador",
-            "represented_country": "South Africa",
-            "start_date": "2020-02-28",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "28.02.2020 4"
-          },
-          {
-            "name": "Albert Camille VITAL",
-            "title": "Republic of Madagascar H.E. Mr",
-            "role": "ambassador",
-            "represented_country": "Madagascar",
-            "start_date": "2020-02-12",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "12.02.2020"
-          },
-          {
-            "name": "Vincent DEGERT",
-            "title": "H.E. Mr.",
-            "role": "ambassador",
-            "represented_country": null,
-            "start_date": "2019-09-18",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "18.09.2019 8"
-          },
-          {
-            "name": "Port Louis",
-            "title": "of the European Ambassador & Head of the St James Court Bldg",
-            "role": "ambassador",
-            "represented_country": null,
-            "start_date": "2019-09-18",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "12.02.2020"
-          },
-          {
-            "name": "Wall Street",
-            "title": "Consul-General",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": "2019-01-26",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "26.01.2019 1"
-          },
-          {
-            "name": "Rose Hill",
-            "title": "Chargé d'Affaires a.i. Belle Rose",
-            "role": "ambassador",
-            "represented_country": "China",
-            "start_date": "2019-01-26",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "26.01.2019 1"
-          },
-          {
-            "name": "Robert AFRIYIE Consul-General Building",
-            "title": "Republic of Ghana Dr.",
-            "role": "consul",
-            "represented_country": "Ghana",
-            "start_date": "2019-01-26",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Ahmed Abdulaziz BIN",
-            "title": "Consulate-General of the Mr.",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": "2019-01-26",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "26.01.2019 1"
-          },
-          {
-            "name": "Coordinator Intendance Street",
-            "title": "High Commissioner Floreal",
-            "role": "ambassador",
-            "represented_country": "Mauritius",
-            "start_date": "2019-01-01",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Sayed Rizwan AHMED",
-            "title": "c Republic of Pakistan H.E. Dr",
-            "role": "ambassador",
-            "represented_country": "Pakistan",
-            "start_date": "2018-07-18",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "18.07.2018 9"
-          },
-          {
-            "name": "Rezina AHMED",
-            "title": "H. E. Ms",
-            "role": "ambassador",
-            "represented_country": "Bangladesh",
-            "start_date": "2018-07-18",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Port Louis",
-            "title": "High Commissioner",
-            "role": "ambassador",
-            "represented_country": null,
-            "start_date": "2018-07-18",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "18.07.2018 9"
-          },
-          {
-            "name": "Port Louis",
-            "title": "Plenipotentiary P. O. Box 544",
-            "role": "diplomatic_staff",
-            "represented_country": "United States",
-            "start_date": "2018-01-16",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "18.07.2018"
-          },
-          {
-            "name": "David Dale REIMER",
-            "title": "ted States of America H.E. Mr.",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": "2018-01-16",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "16.01.2018 4"
-          },
-          {
-            "name": "Port Louis",
-            "title": "High Commissioner P.O. Box 1063",
-            "role": "ambassador",
-            "represented_country": "Ireland",
-            "start_date": "2017-11-09",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "09.11.2017"
-          },
-          {
-            "name": "Plenipotentiary Floreal",
-            "title": "Ambassador Extraordinary and P.O. Box 10",
-            "role": "ambassador",
-            "represented_country": "Russian Federation",
-            "start_date": "2017-11-09",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "16.01.2018 4"
-          },
-          {
-            "name": "Konstantin KLIMOVSKIY",
-            "title": "Russian Federation H.E. Mr",
-            "role": "ambassador",
-            "represented_country": "Russian Federation",
-            "start_date": "2017-11-09",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "09.11.2017"
-          },
-          {
-            "name": "P.O. Box",
-            "title": "High Commissioner",
-            "role": "ambassador",
-            "represented_country": null,
-            "start_date": "2017-08-24",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": "09.11.2017"
-          },
-          {
-            "name": "Keith Rennie ALLAN",
-            "title": "H. E. Mr",
-            "role": "ambassador",
-            "represented_country": "United Kingdom",
-            "start_date": "2017-08-24",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Wan Chat Kwong, Taye Wah",
             "title": "Ambassador",
             "role": "org_delegate",
@@ -48167,30 +47807,6 @@
             "phone": null
           },
           {
-            "name": "Page Content",
-            "title": "​​HONORARY CONSULS GENERAL​",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Pages/Embassies%20and%20Consulates/Honorary%20Consuls%20of%20Mauritius%20Overseas/Honorary-Consul.aspx",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "P.O.Box No.4",
-            "title": "Chargé d'Affaires a.i. (Ex-Residence of Dr Malleck)",
-            "role": "ambassador",
-            "represented_country": "Libya",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Neewoor, Anund",
             "title": "Ambassador|Security Council Representative",
             "role": "org_delegate",
@@ -48199,18 +47815,6 @@
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Mustafa A.K. ABURKHIES John",
-            "title": "State of Libya Dr.",
-            "role": "ambassador",
-            "represented_country": "Libya",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
             "email": null,
             "phone": null
           },
@@ -48247,42 +47851,6 @@
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Key Staff",
-            "title": "Secretary For Foreign Affairs",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Pages/Embassies%20and%20Consulates/Honorary%20Consuls%20of%20Mauritius%20Overseas/Honorary-Consul.aspx",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Key Staff",
-            "title": "Secretary For Foreign Affairs",
-            "role": "diplomatic_staff",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Pages/Embassies%20and%20Consulates/Honorary%20Consuls%20of%20Mauritius%20Overseas/Honorary-Consul.aspx",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Gong Yufeng Royal Road",
-            "title": "People's Republic of China Mr.",
-            "role": "ambassador",
-            "represented_country": "China",
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://foreign.govmu.org/Documents/2021/Order%20of%20Precedence/List%20of%20foreign%20ambassador%20based%20in%20mauritius%20-%20Order%20of%20%20Precedence%20(03%20may%202021).pdf?csf=1&e=F6r2jg",
             "email": null,
             "phone": null
           },
@@ -48363,18 +47931,6 @@
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
             "email": null,
             "phone": null
-          },
-          {
-            "name": "Request Rejected",
-            "title": "ed URL was rejected. Please consult with your administrator.",
-            "role": "consul",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://diplomatie.ma/",
-            "email": null,
-            "phone": "2770081251740"
           },
           {
             "name": "Mrani Zentar, Mehdi",
@@ -49139,18 +48695,6 @@
         "url": "https://www.minaffet.gov.rw/",
         "diplomats": [
           {
-            "name": "El Houssein Ould Nagi",
-            "title": "the Letters of Credence of Mr.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": "2026-10-15",
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.minaffet.gov.rw/",
-            "email": null,
-            "phone": null
-          },
-          {
             "name": "Uzamugura, Martin",
             "title": "Ambassador",
             "role": "org_delegate",
@@ -49159,18 +48703,6 @@
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
-            "email": null,
-            "phone": null
-          },
-          {
-            "name": "Usta Kaitesi",
-            "title": "Remarks by Hon. Dr.",
-            "role": "other",
-            "represented_country": null,
-            "start_date": null,
-            "end_date": null,
-            "data_source": "web_scrape",
-            "source_url": "https://www.minaffet.gov.rw/",
             "email": null,
             "phone": null
           },
@@ -49543,6 +49075,18 @@
             "end_date": null,
             "data_source": "org_official",
             "source_url": "https://digitallibrary.un.org/record/4091498/files/2026_01_06_ambassadors.csv",
+            "email": null,
+            "phone": null
+          },
+          {
+            "name": "Monsieur Cheikh NIANG",
+            "title": "Visite de S.E.",
+            "role": "other",
+            "represented_country": null,
+            "start_date": null,
+            "end_date": null,
+            "data_source": "web_scrape",
+            "source_url": "https://www.diplomatie.gouv.sn/",
             "email": null,
             "phone": null
           },
@@ -111713,6 +111257,17 @@
         "country_source": "Kazakhstan",
         "delegate_type": "member_state",
         "start_date": "2023-08-25",
+        "end_date": null,
+        "source_url": "https://www.osce.org/node/108218",
+        "email": null,
+        "phone": null
+      },
+      {
+        "name": "Yermek Kosherbayev",
+        "title": "Ambassador and Permanent Representative to the OSCE",
+        "country_source": "Kazakhstan",
+        "delegate_type": "member_state",
+        "start_date": "2026-11-16",
         "end_date": null,
         "source_url": "https://www.osce.org/node/108218",
         "email": null,
