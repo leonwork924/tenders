@@ -343,5 +343,35 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/807404-2026",
    "score": 24.0
   }
+ },
+ {
+  "id": "TENDER:ted:812540-2026",
+  "created": "2026-11-23",
+  "to": [],
+  "subject": "[Tender Radar] France: Relocation services – Prestations de déménagement dans le cadre d'opérations de réhabilita (deadline 2026-12-22)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     France – Relocation services – Prestations de déménagement dans le cadre d'opérations de réhabilitation, de déconstruction et de gestion des sinistres Accord-cadre multi-attributaire à bons de commande | 3 lots\nBuyer:     France Loire\nCountry:   France\nDeadline:  2026-12-22\nPublished: 2026-11-23\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/812540-2026\n\nWhy it scored:\n  mobility(12.0): demenagement**T, relocation*T | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  Département du Cher (18) - France Loire Département du Loiret (45) - France Loire Département d'Eure-et-Loir (28) - HOMY Prestations de déménagement dans le cadre d'opérations de réhabilitation, de déconstruction et de gestion des sinistres Accord-cadre multi-attributaire à bons de commande | 3 lots\n\nBranches in France (71):\n  - AGS Alsace\n  - AGS Bordeaux\n  - AGS Brest\n  - AGS Le Mans\n  - AGS Lille\n  - AGS Lorraine - Luxembourg\n  - AGS Marseille\n  - AGS Montpellier\n  - AGS Nantes\n  - AGS Nice\n  - AGS Paris\n  - AGS Poitou-Charentes - Poitiers\n  ... and 59 more\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:812540-2026",
+   "event": "tender",
+   "location": "France",
+   "branch": "AGS Alsace; AGS Bordeaux; AGS Brest; AGS Le Mans; AGS Lille",
+   "link": "https://ted.europa.eu/en/notice/-/detail/812540-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:811637-2026",
+  "created": "2026-11-23",
+  "to": [],
+  "subject": "[Tender Radar] Germany: Museum-exhibition services – Rahmenvereinbarung Lernstationen und didaktische Beschilderun (deadline 2027-01-04)",
+  "body": "New tender above the alert threshold (score 19.2).\n\nTitle:     Germany – Museum-exhibition services – Rahmenvereinbarung Lernstationen und didaktische Beschilderungen\nBuyer:     Zoo Leipzig GmbH\nCountry:   Germany\nDeadline:  2027-01-04\nPublished: 2026-11-23\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/811637-2026\n\nWhy it scored:\n  heritage(11.2): museum exhibition**T | cpv(+8.0): cpv:92521100\n\nDescription (start of the notice):\n  Der Zoo Leipzig schreibt einen Rahmenvertrag mit vierjähriger Laufzeit aus für die Konzeption, Gestaltung, textliche und grafische Entwicklung sowie Umsetzung von Lernstationen, Erlebnisräumen und didaktischen Beschilderungen im gesamten Zoogelände, überwiegend Outdoor. Der Auftrag umfasst die gestalterische Konzeption (Entwurfs – und Ausführungsplanung inkl. Reinzeichnung), die baulich- und technische Realisierung (Abstimmung mit Architekten und Fachplanern), die Beratung (regelmäßige Teilnahme an Bauberatungen) und das Projektmanagement sowie die Produktionssteuerung bis zur Montage der Lern...\n\nBranches in Germany (9):\n  - AGS Berlin\n  - AGS Berlin - Fine Art\n  - AGS Erlangen\n  - AGS Koblenz\n  - AGS Munich\n  - AGS Pietsch Berlin\n  - AGS Pietsch Koblenz\n  - Memorist Germany\n  - Winco\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:811637-2026",
+   "event": "tender",
+   "location": "Germany",
+   "branch": "AGS Berlin; AGS Berlin - Fine Art; AGS Erlangen; AGS Koblenz; AGS Munich",
+   "link": "https://ted.europa.eu/en/notice/-/detail/811637-2026",
+   "score": 19.2
+  }
  }
 ]
