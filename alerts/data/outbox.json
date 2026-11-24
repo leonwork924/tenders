@@ -373,5 +373,65 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/811637-2026",
    "score": 19.2
   }
+ },
+ {
+  "id": "TENDER:ted:814277-2026",
+  "created": "2026-11-24",
+  "to": [],
+  "subject": "[Tender Radar] Netherlands: Archiving services – Marktconsultatie E-Depot",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Netherlands – Archiving services – Marktconsultatie E-Depot\nBuyer:     Provincie Limburg\nCountry:   Netherlands\nDeadline:  not stated\nPublished: 2026-11-24\nValue:     1 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/814277-2026\n\nWhy it scored:\n  records_management(12.0): archiving*T, archiving services*T | cpv(+12.0): cpv:79995100\n\nDescription (start of the notice):\n  Provincie Limburg onderzoekt de verwerving en inrichting van een E-depotvoorziening voor het duurzaam beheren en beschikbaar stellen van digitale archieven. De voorziening moet niet alleen techniek bieden, maar ook werkbare processen, beheer en een heldere verdeling van verantwoordelijkheden ondersteunen. De marktconsultatie wordt uitgevoerd voordat een definitieve oplossingsrichting, businesscase en aanbestedingsstrategie worden vastgesteld.\n\nBranches in Netherlands (9):\n  - AGS Meyer Curacao\n  - AGS Netherlands\n  - AGS Sint Maarten (NL)\n  - De Gruijter & Co.\n  - Executive Relocations Netherlands\n  - NEDVAN\n  - Noble Mobility BV\n  - Passies Verhuizers\n  - XLPack\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:814277-2026",
+   "event": "tender",
+   "location": "Netherlands",
+   "branch": "AGS Meyer Curacao; AGS Netherlands; AGS Sint Maarten (NL); De Gruijter & Co.; Executive Relocations Netherlands",
+   "link": "https://ted.europa.eu/en/notice/-/detail/814277-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:815456-2026",
+  "created": "2026-11-24",
+  "to": [],
+  "subject": "[Tender Radar] Italy: Relocation services – GARA EUROPEA A PROCEDURA APERTA PER LA CONCLUSIONE DI ACCORDO QUADRO",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Italy – Relocation services – GARA EUROPEA A PROCEDURA APERTA PER LA CONCLUSIONE DI ACCORDO QUADRO PER L’AFFIDAMENTO DEI SERVIZI LOGISTICI, TRASLOCHI E MOVIMENTAZIONE DI MATERIALI DA E PER GLI IMMOBILI DI PROPRIETÁ, DI COMPETENZA O IN USO ALLA CITTÁ METROPOLITANA DI GENOVA, PER UN PERIODO DI 48 MESI\nBuyer:     Città Metropolitana di Genova\nCountry:   Italy\nDeadline:  not stated\nPublished: 2026-11-24\nValue:     1,350,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/815456-2026\n\nWhy it scored:\n  mobility(12.0): relocation*T, traslochi*T | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  La procedura ha per oggetto l'affidamento dei servizi logistici, di traslochi e di movimentazione di materiali vari effettuati in tutti gli immobili di proprietà o di competenza o in uso alla Città Metropolitana di Genova\n\nNo branch listed in Italy: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:815456-2026",
+   "event": "tender",
+   "location": "Italy",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/815456-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:816251-2026",
+  "created": "2026-11-24",
+  "to": [],
+  "subject": "[Tender Radar] Italy: Relocation services – Procedura aperta n. 42/2026 - Accordo quadro per l'affidamento del S (deadline 2027-01-12)",
+  "body": "New tender above the alert threshold (score 24.0).\n\nTitle:     Italy – Relocation services – Procedura aperta n. 42/2026 - Accordo quadro per l'affidamento del Servizio di noleggio e posa di tabelloni metallici bifacciali per la propaganda elettorale (L. 212/1956) - Periodo: maggio 2027 - aprile 2031\nBuyer:     Città di Torino - Divisione Contratti e Appalti - Appalti di Servizi e Forniture\nCountry:   Italy\nDeadline:  2027-01-12\nPublished: 2026-11-24\nValue:     3,090,000 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/816251-2026\n\nWhy it scored:\n  mobility(12.0): relocation*T | cpv(+12.0): cpv:98392000\n\nDescription (start of the notice):\n  Procedura aperta n. 42/2026 - Accordo quadro per l'affidamento del Servizio di noleggio e posa di tabelloni metallici bifacciali per la propaganda elettorale (L. 212/1956) - Periodo: maggio 2027 - aprile 2031 Procedura aperta n. 42/2026 - Accordo quadro per l'affidamento del Servizio di noleggio e posa di tabelloni metallici bifacciali per la propaganda elettorale (L. 212/1956) - Periodo: maggio 2027 - aprile 2031\n\nNo branch listed in Italy: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:816251-2026",
+   "event": "tender",
+   "location": "Italy",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/816251-2026",
+   "score": 24.0
+  }
+ },
+ {
+  "id": "TENDER:ted:816292-2026",
+  "created": "2026-11-24",
+  "to": [],
+  "subject": "[Tender Radar] Spain: Office-support services – Servicio de gestión y ordenación documental (deadline 2026-12-28)",
+  "body": "New tender above the alert threshold (score 23.9).\n\nTitle:     Spain – Office-support services – Servicio de gestión y ordenación documental\nBuyer:     Comisionado para el Mercado de Tabacos\nCountry:   Spain\nDeadline:  2026-12-28\nPublished: 2026-11-24\nValue:     4,842,951 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/816292-2026\n\nWhy it scored:\n  records_management(6.2): archivo | digitisation(5.6): digitalizacion | cpv(+12.0): cpv:79995100\n\nDescription (start of the notice):\n  Consistirá en prestar apoyo material, instrumental y auxiliar en la recepción, identificación, preparación, tratamiento, clasificación, ordenación, digitalización, archivo, grabación, actualización material y envío de documentación y datos vinculados a los procedimientos y actuaciones gestionados por el organismo Consistirá en prestar apoyo material, instrumental y auxiliar en la recepción, identificación, preparación, tratamiento, clasificación, ordenación, digitalización, archivo, grabación, actualización material y envío de documentación y datos vinculados a los procedimientos y actuaciones...\n\nBranches in Spain (2):\n  - AGS Barcelona\n  - AGS Madrid\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:816292-2026",
+   "event": "tender",
+   "location": "Spain",
+   "branch": "AGS Barcelona; AGS Madrid",
+   "link": "https://ted.europa.eu/en/notice/-/detail/816292-2026",
+   "score": 23.9
+  }
  }
 ]
