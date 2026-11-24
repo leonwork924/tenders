@@ -433,5 +433,50 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/816292-2026",
    "score": 23.9
   }
+ },
+ {
+  "id": "TENDER:ted:820292-2026",
+  "created": "2026-11-24",
+  "to": [],
+  "subject": "[Tender Radar] France: Transport services (excl. Waste transport) – Prestations de logistique d’œuvres d’art et p (deadline 2026-12-28)",
+  "body": "New tender above the alert threshold (score 21.9).\n\nTitle:     France – Transport services (excl. Waste transport) – Prestations de logistique d’œuvres d’art et prestations associées dans le cadre de leur déménagement depuis les réserves externalisées vers le Centre Pompidou Francilien à Massy | Vague 3 [lots 6 et 6 bis]\nBuyer:     CENTRE POMPIDOU\nCountry:   France\nDeadline:  2026-12-28\nPublished: 2026-11-25\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/820292-2026\n\nWhy it scored:\n  mobility(12.0): demenagement**T | support(4.9): logistique*T | cpv(+5.0): cpv:63120000\n\nDescription (start of the notice):\n  Prestations de logistique d’œuvres d’art et prestations associées dans le cadre de leur déménagement depuis les réserves externalisées vers le Centre Pompidou Francilien à Massy | Bourget 2 (lot 6) Prestations de logistique d’œuvres d’art et prestations associées dans le cadre de leur déménagement depuis les réserves externalisées vers le Centre Pompidou Francilien à Massy | Bourget 1 (lot 6 bis) Prestations de logistique d’œuvres d’art et prestations associées dans le cadre de leur déménagement depuis les réserves externalisées vers le Centre Pompidou Francilien à Massy | Vague 3 [lots 6 et 6...\n\nBranches in France (71):\n  - AGS Alsace\n  - AGS Bordeaux\n  - AGS Brest\n  - AGS Le Mans\n  - AGS Lille\n  - AGS Lorraine - Luxembourg\n  - AGS Marseille\n  - AGS Montpellier\n  - AGS Nantes\n  - AGS Nice\n  - AGS Paris\n  - AGS Poitou-Charentes - Poitiers\n  ... and 59 more\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:820292-2026",
+   "event": "tender",
+   "location": "France",
+   "branch": "AGS Alsace; AGS Bordeaux; AGS Brest; AGS Le Mans; AGS Lille",
+   "link": "https://ted.europa.eu/en/notice/-/detail/820292-2026",
+   "score": 21.9
+  }
+ },
+ {
+  "id": "TENDER:ted:818833-2026",
+  "created": "2026-11-24",
+  "to": [],
+  "subject": "[Tender Radar] France: Museum services – ANIMATION ET CONCEPTION D’ACTIVITES DE MEDIATION CULTURELLE POUR LE MUSE (deadline 2027-01-04)",
+  "body": "New tender above the alert threshold (score 20.0).\n\nTitle:     France – Museum services – ANIMATION ET CONCEPTION D’ACTIVITES DE MEDIATION CULTURELLE POUR LE MUSEE DU LOUVRE\nBuyer:     Musée du Louvre\nCountry:   France\nDeadline:  2027-01-04\nPublished: 2026-11-25\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/818833-2026\n\nWhy it scored:\n  heritage(12.0): musee*T | cpv(+8.0): cpv:92521000\n\nDescription (start of the notice):\n  Il est attendu pour le présent lot : - La conception ou l’adaptation d’ateliers plastiques déjà existants, de format court en accès libre, programmés à l’occasion d’événements pour tous les publics, à la demande avec l’EPML-DMDP. Ces ateliers sont également animés par les équipes du titulaire. - L’animation en français uniquement d’ateliers de pratiques artistiques de différents formats in situ, sur le Domaine de l’EPML (musée du Louvre, Jardin des Tuileries, musée Eugène Delacroix). Il est attendu pour le présent lot : - l’animation en français uniquement de visites contées de différents form...\n\nBranches in France (71):\n  - AGS Alsace\n  - AGS Bordeaux\n  - AGS Brest\n  - AGS Le Mans\n  - AGS Lille\n  - AGS Lorraine - Luxembourg\n  - AGS Marseille\n  - AGS Montpellier\n  - AGS Nantes\n  - AGS Nice\n  - AGS Paris\n  - AGS Poitou-Charentes - Poitiers\n  ... and 59 more\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:818833-2026",
+   "event": "tender",
+   "location": "France",
+   "branch": "AGS Alsace; AGS Bordeaux; AGS Brest; AGS Le Mans; AGS Lille",
+   "link": "https://ted.europa.eu/en/notice/-/detail/818833-2026",
+   "score": 20.0
+  }
+ },
+ {
+  "id": "TENDER:ted:819265-2026",
+  "created": "2026-11-24",
+  "to": [],
+  "subject": "[Tender Radar] France: Museum services – Livraison, location et maintenance d’appareils d’audioguidage et intégra (deadline 2026-12-29)",
+  "body": "New tender above the alert threshold (score 20.0).\n\nTitle:     France – Museum services – Livraison, location et maintenance d’appareils d’audioguidage et intégration de contenus ainsi que la réalisation et la production de pistes pour les parcours audioguidés « adultes » pour les sites de Brest, de Toulon, Rochefort et Port Louis du musée national de la Marine\nBuyer:     musée national de la Marine\nCountry:   France\nDeadline:  2026-12-29\nPublished: 2026-11-25\nValue:     not stated\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/819265-2026\n\nWhy it scored:\n  heritage(12.0): musee*T | cpv(+8.0): cpv:92521000\n\nDescription (start of the notice):\n  Le lot n°1 a pour objet la livraison, la location et maintenance d’appareils d’audioguidage et l’intégration de contenus existants ainsi que du contenu réalisé dans le cadre du lot n°2 Le lot n°2 a pour objet la réalisation et la production de pistes pour les parcours audioguidés à destination des adultes des sites de Brest (29), Port-Louis (56), Rochefort (17) et Toulon (83) du musée national de la Marine. Ces prestations seront intégrées aux audioguides fournis dans le cadre du lot n°1. Le présent accord-cadre a pour objet la livraison, la location et maintenance d’appareils d’audioguidage e...\n\nBranches in France (71):\n  - AGS Alsace\n  - AGS Bordeaux\n  - AGS Brest\n  - AGS Le Mans\n  - AGS Lille\n  - AGS Lorraine - Luxembourg\n  - AGS Marseille\n  - AGS Montpellier\n  - AGS Nantes\n  - AGS Nice\n  - AGS Paris\n  - AGS Poitou-Charentes - Poitiers\n  ... and 59 more\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:819265-2026",
+   "event": "tender",
+   "location": "France",
+   "branch": "AGS Alsace; AGS Bordeaux; AGS Brest; AGS Le Mans; AGS Lille",
+   "link": "https://ted.europa.eu/en/notice/-/detail/819265-2026",
+   "score": 20.0
+  }
  }
 ]
