@@ -478,5 +478,35 @@
    "link": "https://ted.europa.eu/en/notice/-/detail/819265-2026",
    "score": 20.0
   }
+ },
+ {
+  "id": "TENDER:ted:822766-2026",
+  "created": "2026-11-26",
+  "to": [],
+  "subject": "[Tender Radar] Italy: Archive services – Procedura aperta, ai sensi dell'art. 71 del D.lgs. 36/2023, per l'affid (deadline 2027-01-21)",
+  "body": "New tender above the alert threshold (score 34.0).\n\nTitle:     Italy – Archive services – Procedura aperta, ai sensi dell'art. 71 del D.lgs. 36/2023, per l'affidamento del Servizio di gestione integrata dell'Archivio Generale della Giunta Regionale, informatizzazione e digitalizzazione documentale\nBuyer:     AREA - AREA BILANCIO, RISORSE FINANZIARIE, ICT, AFFARI GENERALI E SEMPLIFICAZIONE - DIREZIONE - ACQUISTI, AA.GG. E SOS AFFIDAMENTO SERVIZI E FORNITURE\nCountry:   Italy\nDeadline:  2027-01-21\nPublished: 2026-11-26\nValue:     808,933 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/822766-2026\n\nWhy it scored:\n  records_management(12.0): archive*T, archivio*T | digitisation(12.0): digitalizzazione*T | cpv(+10.0): cpv:92512000\n\nDescription (start of the notice):\n  Procedura aperta, ai sensi dell'art. 71 del D.lgs. 36/2023, per l'affidamento del Servizio di gestione integrata dell'Archivio Generale della Giunta Regionale, informatizzazione e digitalizzazione documentale Procedura aperta, ai sensi dell'art. 71 del D.lgs. 36/2023, per l'affidamento del Servizio di gestione integrata dell'Archivio Generale della Giunta Regionale, informatizzazione e digitalizzazione documentale\n\nNo branch listed in Italy: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:822766-2026",
+   "event": "tender",
+   "location": "Italy",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/822766-2026",
+   "score": 34.0
+  }
+ },
+ {
+  "id": "TENDER:ted:822073-2026",
+  "created": "2026-11-26",
+  "to": [],
+  "subject": "[Tender Radar] Italy: Library management services – SERVIZIO DI ARCHIVIAZIONE, GESTIONE DOCUMENTALE E DIGITALIZZ (deadline 2027-01-12)",
+  "body": "New tender above the alert threshold (score 30.0).\n\nTitle:     Italy – Library management services – SERVIZIO DI ARCHIVIAZIONE, GESTIONE DOCUMENTALE E DIGITALIZZAZIONE DELLE CARTELLE CLINICHE E DI ALTRA DOCUMENTAZIONE AMMINISTRATIVA E SANITARIA PER L’AZIENDA ULSS 3 SERENISSIMA\nBuyer:     AZIENDA ULSS N. 3 SERENISSIMA\nCountry:   Italy\nDeadline:  2027-01-12\nPublished: 2026-11-26\nValue:     4,669,560 EUR\nSource:    ted\nLink:      https://ted.europa.eu/en/notice/-/detail/822073-2026\n\nWhy it scored:\n  records_management(12.0): archiviazione*T, gestione documentale*T | digitisation(12.0): digitalizzazione*T | cpv(+6.0): cpv:79995000\n\nDescription (start of the notice):\n  SERVIZIO DI ARCHIVIAZIONE, GESTIONE DOCUMENTALE E DIGITALIZZAZIONE DELLE CARTELLE CLINICHE E DI ALTRA DOCUMENTAZIONE AMMINISTRATIVA E SANITARIA PER L’AZIENDA ULSS 3 SERENISSIMA SERVIZIO DI ARCHIVIAZIONE, GESTIONE DOCUMENTALE E DIGITALIZZAZIONE DELLE CARTELLE CLINICHE E DI ALTRA DOCUMENTAZIONE AMMINISTRATIVA E SANITARIA PER L’AZIENDA ULSS 3 SERENISSIMA\n\nNo branch listed in Italy: tender to be handled centrally.\n\nTEST MODE: this alert goes to Leon only. The branches above are the ones that WOULD be notified.\nAutomatic alert from Tender Radar: please check the notice before acting.",
+  "meta": {
+   "name": "Tender ted:822073-2026",
+   "event": "tender",
+   "location": "Italy",
+   "branch": "",
+   "link": "https://ted.europa.eu/en/notice/-/detail/822073-2026",
+   "score": 30.0
+  }
  }
 ]
